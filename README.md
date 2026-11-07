@@ -289,7 +289,8 @@ experiments/    LOG.md (central experiment log of every decision, run and interr
 ```
 
 📄 **Full report:** [`reports/stage5_models.md`](reports/stage5_models.md). It covers the methodology, every table,
-the ablations, the statistical caveats and the final comparative analysis (§7).
+the ablations, the statistical caveats and the final comparative analysis (§7). you can also view doc formate of the report.
+
 📓 **Decision log:** [`experiments/LOG.md`](experiments/LOG.md).
 
 ---
