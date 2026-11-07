@@ -1,0 +1,59 @@
+{
+ "dataset": "CREMA-D",
+ "control": "training labels permuted (seed 1000+fold), selected concat_HMP config, seed 0",
+ "folds": [
+  {
+   "fold": 0,
+   "layer": 7,
+   "test_macro_f1": 0.15984363437160773,
+   "test_UA": 0.16644620811287478,
+   "test_accuracy": 0.16937669376693767,
+   "val_macro_f1": 0.16827727121506766,
+   "best_epoch": 5,
+   "share_train_labels_unchanged": 0.16705336426914152
+  },
+  {
+   "fold": 1,
+   "layer": 6,
+   "test_macro_f1": 0.17754384713373597,
+   "test_UA": 0.1843972945427592,
+   "test_accuracy": 0.1836734693877551,
+   "val_macro_f1": 0.17080264416150956,
+   "best_epoch": 16,
+   "share_train_labels_unchanged": 0.17014547754585704
+  },
+  {
+   "fold": 2,
+   "layer": 12,
+   "test_macro_f1": 0.19127635236576154,
+   "test_UA": 0.21857067852620524,
+   "test_accuracy": 0.22380952380952382,
+   "val_macro_f1": 0.16949252168892348,
+   "best_epoch": 5,
+   "share_train_labels_unchanged": 0.16677208517815728
+  },
+  {
+   "fold": 3,
+   "layer": 11,
+   "test_macro_f1": 0.18251827646565263,
+   "test_UA": 0.19047221964853764,
+   "test_accuracy": 0.19251700680272107,
+   "val_macro_f1": 0.1806475555261431,
+   "best_epoch": 5,
+   "share_train_labels_unchanged": 0.15446817333609786
+  },
+  {
+   "fold": 4,
+   "layer": 5,
+   "test_macro_f1": 0.158468738887812,
+   "test_UA": 0.16112360965864317,
+   "test_accuracy": 0.16012861736334405,
+   "val_macro_f1": 0.17261622009097713,
+   "best_epoch": 18,
+   "share_train_labels_unchanged": 0.16758125791473197
+  }
+ ],
+ "test_macro_f1_mean": 0.173930169844914,
+ "test_macro_f1_std": 0.014363065618152586,
+ "chance_level": 0.16666666666666666
+}

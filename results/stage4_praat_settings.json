@@ -1,0 +1,2078 @@
+{
+  "settings": {
+    "ac_60_350": {
+      "fmin": 60,
+      "fmax": 350,
+      "max_candidates": 15,
+      "very_accurate": false,
+      "silence_threshold": 0.03,
+      "voicing_threshold": 0.45,
+      "octave_cost": 0.01,
+      "octave_jump_cost": 0.35,
+      "voiced_unvoiced_cost": 0.14
+    },
+    "ac_60_500": {
+      "fmin": 60,
+      "fmax": 500,
+      "max_candidates": 15,
+      "very_accurate": false,
+      "silence_threshold": 0.03,
+      "voicing_threshold": 0.45,
+      "octave_cost": 0.01,
+      "octave_jump_cost": 0.35,
+      "voiced_unvoiced_cost": 0.14
+    },
+    "ac_60_600": {
+      "fmin": 60,
+      "fmax": 600,
+      "max_candidates": 15,
+      "very_accurate": false,
+      "silence_threshold": 0.03,
+      "voicing_threshold": 0.45,
+      "octave_cost": 0.01,
+      "octave_jump_cost": 0.35,
+      "voiced_unvoiced_cost": 0.14
+    },
+    "ac_60_700": {
+      "fmin": 60,
+      "fmax": 700,
+      "max_candidates": 15,
+      "very_accurate": false,
+      "silence_threshold": 0.03,
+      "voicing_threshold": 0.45,
+      "octave_cost": 0.01,
+      "octave_jump_cost": 0.35,
+      "voiced_unvoiced_cost": 0.14
+    },
+    "ac_60_800": {
+      "fmin": 60,
+      "fmax": 800,
+      "max_candidates": 15,
+      "very_accurate": false,
+      "silence_threshold": 0.03,
+      "voicing_threshold": 0.45,
+      "octave_cost": 0.01,
+      "octave_jump_cost": 0.35,
+      "voiced_unvoiced_cost": 0.14
+    },
+    "ac_60_1000": {
+      "fmin": 60,
+      "fmax": 1000,
+      "max_candidates": 15,
+      "very_accurate": false,
+      "silence_threshold": 0.03,
+      "voicing_threshold": 0.45,
+      "octave_cost": 0.01,
+      "octave_jump_cost": 0.35,
+      "voiced_unvoiced_cost": 0.14
+    },
+    "ac_50_800": {
+      "fmin": 50,
+      "fmax": 800,
+      "max_candidates": 15,
+      "very_accurate": false,
+      "silence_threshold": 0.03,
+      "voicing_threshold": 0.45,
+      "octave_cost": 0.01,
+      "octave_jump_cost": 0.35,
+      "voiced_unvoiced_cost": 0.14
+    },
+    "ac_75_800": {
+      "fmin": 75,
+      "fmax": 800,
+      "max_candidates": 15,
+      "very_accurate": false,
+      "silence_threshold": 0.03,
+      "voicing_threshold": 0.45,
+      "octave_cost": 0.01,
+      "octave_jump_cost": 0.35,
+      "voiced_unvoiced_cost": 0.14
+    },
+    "ac_60_800_accurate": {
+      "fmin": 60,
+      "fmax": 800,
+      "max_candidates": 15,
+      "very_accurate": true,
+      "silence_threshold": 0.03,
+      "voicing_threshold": 0.45,
+      "octave_cost": 0.01,
+      "octave_jump_cost": 0.35,
+      "voiced_unvoiced_cost": 0.14
+    },
+    "ac_60_800_vthr0.35": {
+      "fmin": 60,
+      "fmax": 800,
+      "max_candidates": 15,
+      "very_accurate": false,
+      "silence_threshold": 0.03,
+      "voicing_threshold": 0.35,
+      "octave_cost": 0.01,
+      "octave_jump_cost": 0.35,
+      "voiced_unvoiced_cost": 0.14
+    },
+    "ac_60_800_vthr0.55": {
+      "fmin": 60,
+      "fmax": 800,
+      "max_candidates": 15,
+      "very_accurate": false,
+      "silence_threshold": 0.03,
+      "voicing_threshold": 0.55,
+      "octave_cost": 0.01,
+      "octave_jump_cost": 0.35,
+      "voiced_unvoiced_cost": 0.14
+    },
+    "ac_60_800_ojc0.5": {
+      "fmin": 60,
+      "fmax": 800,
+      "max_candidates": 15,
+      "very_accurate": false,
+      "silence_threshold": 0.03,
+      "voicing_threshold": 0.45,
+      "octave_cost": 0.01,
+      "octave_jump_cost": 0.5,
+      "voiced_unvoiced_cost": 0.14
+    },
+    "ac_60_800_ojc0.7": {
+      "fmin": 60,
+      "fmax": 800,
+      "max_candidates": 15,
+      "very_accurate": false,
+      "silence_threshold": 0.03,
+      "voicing_threshold": 0.45,
+      "octave_cost": 0.01,
+      "octave_jump_cost": 0.7,
+      "voiced_unvoiced_cost": 0.14
+    },
+    "ac_60_800_ojc1.0": {
+      "fmin": 60,
+      "fmax": 800,
+      "max_candidates": 15,
+      "very_accurate": false,
+      "silence_threshold": 0.03,
+      "voicing_threshold": 0.45,
+      "octave_cost": 0.01,
+      "octave_jump_cost": 1.0,
+      "voiced_unvoiced_cost": 0.14
+    }
+  },
+  "synthetic_median_f0": {
+    "70": {
+      "ac_60_350": 70.0,
+      "ac_60_500": 70.0,
+      "ac_60_600": 70.0,
+      "ac_60_700": 70.0,
+      "ac_60_800": 70.0,
+      "ac_60_1000": 70.0,
+      "ac_50_800": 70.0,
+      "ac_75_800": 0.0,
+      "ac_60_800_accurate": 70.0,
+      "ac_60_800_vthr0.35": 70.0,
+      "ac_60_800_vthr0.55": 70.0,
+      "ac_60_800_ojc0.5": 70.0,
+      "ac_60_800_ojc0.7": 70.0,
+      "ac_60_800_ojc1.0": 70.0
+    },
+    "100": {
+      "ac_60_350": 100.0,
+      "ac_60_500": 100.0,
+      "ac_60_600": 100.0,
+      "ac_60_700": 100.0,
+      "ac_60_800": 100.0,
+      "ac_60_1000": 100.0,
+      "ac_50_800": 100.0,
+      "ac_75_800": 100.0,
+      "ac_60_800_accurate": 100.0,
+      "ac_60_800_vthr0.35": 100.0,
+      "ac_60_800_vthr0.55": 100.0,
+      "ac_60_800_ojc0.5": 100.0,
+      "ac_60_800_ojc0.7": 100.0,
+      "ac_60_800_ojc1.0": 100.0
+    },
+    "200": {
+      "ac_60_350": 200.0,
+      "ac_60_500": 200.0,
+      "ac_60_600": 200.0,
+      "ac_60_700": 200.0,
+      "ac_60_800": 200.0,
+      "ac_60_1000": 200.0,
+      "ac_50_800": 200.0,
+      "ac_75_800": 200.0,
+      "ac_60_800_accurate": 200.0,
+      "ac_60_800_vthr0.35": 200.0,
+      "ac_60_800_vthr0.55": 200.0,
+      "ac_60_800_ojc0.5": 200.0,
+      "ac_60_800_ojc0.7": 200.0,
+      "ac_60_800_ojc1.0": 200.0
+    },
+    "300": {
+      "ac_60_350": 300.0,
+      "ac_60_500": 300.0,
+      "ac_60_600": 300.0,
+      "ac_60_700": 300.0,
+      "ac_60_800": 300.0,
+      "ac_60_1000": 300.0,
+      "ac_50_800": 300.0,
+      "ac_75_800": 300.0,
+      "ac_60_800_accurate": 300.0,
+      "ac_60_800_vthr0.35": 300.0,
+      "ac_60_800_vthr0.55": 300.0,
+      "ac_60_800_ojc0.5": 300.0,
+      "ac_60_800_ojc0.7": 300.0,
+      "ac_60_800_ojc1.0": 300.0
+    },
+    "450": {
+      "ac_60_350": 225.0,
+      "ac_60_500": 450.0,
+      "ac_60_600": 450.0,
+      "ac_60_700": 450.0,
+      "ac_60_800": 450.0,
+      "ac_60_1000": 450.0,
+      "ac_50_800": 450.0,
+      "ac_75_800": 450.0,
+      "ac_60_800_accurate": 450.0,
+      "ac_60_800_vthr0.35": 450.0,
+      "ac_60_800_vthr0.55": 450.0,
+      "ac_60_800_ojc0.5": 450.0,
+      "ac_60_800_ojc0.7": 450.0,
+      "ac_60_800_ojc1.0": 450.0
+    },
+    "600": {
+      "ac_60_350": 300.0,
+      "ac_60_500": 300.0,
+      "ac_60_600": 300.0,
+      "ac_60_700": 600.0,
+      "ac_60_800": 600.0,
+      "ac_60_1000": 600.0,
+      "ac_50_800": 600.0,
+      "ac_75_800": 600.0,
+      "ac_60_800_accurate": 600.0,
+      "ac_60_800_vthr0.35": 600.0,
+      "ac_60_800_vthr0.55": 600.0,
+      "ac_60_800_ojc0.5": 600.0,
+      "ac_60_800_ojc0.7": 600.0,
+      "ac_60_800_ojc1.0": 600.0
+    },
+    "750": {
+      "ac_60_350": 250.0,
+      "ac_60_500": 375.0,
+      "ac_60_600": 375.0,
+      "ac_60_700": 375.0,
+      "ac_60_800": 750.0,
+      "ac_60_1000": 750.0,
+      "ac_50_800": 750.0,
+      "ac_75_800": 750.0,
+      "ac_60_800_accurate": 750.0,
+      "ac_60_800_vthr0.35": 750.0,
+      "ac_60_800_vthr0.55": 750.0,
+      "ac_60_800_ojc0.5": 750.0,
+      "ac_60_800_ojc0.7": 750.0,
+      "ac_60_800_ojc1.0": 750.0
+    },
+    "900": {
+      "ac_60_350": 300.0,
+      "ac_60_500": 450.0,
+      "ac_60_600": 450.0,
+      "ac_60_700": 450.0,
+      "ac_60_800": 450.0,
+      "ac_60_1000": 900.0,
+      "ac_50_800": 450.0,
+      "ac_75_800": 450.0,
+      "ac_60_800_accurate": 450.0,
+      "ac_60_800_vthr0.35": 450.0,
+      "ac_60_800_vthr0.55": 450.0,
+      "ac_60_800_ojc0.5": 450.0,
+      "ac_60_800_ojc0.7": 450.0,
+      "ac_60_800_ojc1.0": 450.0
+    }
+  },
+  "synthetic_glides": {
+    "150-300Hz_in_100ms": {
+      "ac_60_350": {
+        "voiced": 1.0,
+        "err_gt_1st": 0.0
+      },
+      "ac_60_500": {
+        "voiced": 1.0,
+        "err_gt_1st": 0.0
+      },
+      "ac_60_600": {
+        "voiced": 1.0,
+        "err_gt_1st": 0.0
+      },
+      "ac_60_700": {
+        "voiced": 1.0,
+        "err_gt_1st": 0.0
+      },
+      "ac_60_800": {
+        "voiced": 1.0,
+        "err_gt_1st": 0.0
+      },
+      "ac_60_1000": {
+        "voiced": 1.0,
+        "err_gt_1st": 0.0
+      },
+      "ac_50_800": {
+        "voiced": 1.0,
+        "err_gt_1st": 0.0
+      },
+      "ac_75_800": {
+        "voiced": 1.0,
+        "err_gt_1st": 0.0
+      },
+      "ac_60_800_accurate": {
+        "voiced": 1.0,
+        "err_gt_1st": 0.0
+      },
+      "ac_60_800_vthr0.35": {
+        "voiced": 1.0,
+        "err_gt_1st": 0.0
+      },
+      "ac_60_800_vthr0.55": {
+        "voiced": 1.0,
+        "err_gt_1st": 0.0
+      },
+      "ac_60_800_ojc0.5": {
+        "voiced": 1.0,
+        "err_gt_1st": 0.0
+      },
+      "ac_60_800_ojc0.7": {
+        "voiced": 1.0,
+        "err_gt_1st": 0.0
+      },
+      "ac_60_800_ojc1.0": {
+        "voiced": 1.0,
+        "err_gt_1st": 0.0
+      }
+    },
+    "250-500Hz_in_100ms": {
+      "ac_60_350": {
+        "voiced": 1.0,
+        "err_gt_1st": 0.3377
+      },
+      "ac_60_500": {
+        "voiced": 1.0,
+        "err_gt_1st": 0.2252
+      },
+      "ac_60_600": {
+        "voiced": 1.0,
+        "err_gt_1st": 0.0
+      },
+      "ac_60_700": {
+        "voiced": 1.0,
+        "err_gt_1st": 0.0
+      },
+      "ac_60_800": {
+        "voiced": 1.0,
+        "err_gt_1st": 0.0
+      },
+      "ac_60_1000": {
+        "voiced": 1.0,
+        "err_gt_1st": 0.0
+      },
+      "ac_50_800": {
+        "voiced": 1.0,
+        "err_gt_1st": 0.0
+      },
+      "ac_75_800": {
+        "voiced": 1.0,
+        "err_gt_1st": 0.0
+      },
+      "ac_60_800_accurate": {
+        "voiced": 1.0,
+        "err_gt_1st": 0.0
+      },
+      "ac_60_800_vthr0.35": {
+        "voiced": 1.0,
+        "err_gt_1st": 0.0
+      },
+      "ac_60_800_vthr0.55": {
+        "voiced": 1.0,
+        "err_gt_1st": 0.0
+      },
+      "ac_60_800_ojc0.5": {
+        "voiced": 1.0,
+        "err_gt_1st": 0.0
+      },
+      "ac_60_800_ojc0.7": {
+        "voiced": 1.0,
+        "err_gt_1st": 0.0
+      },
+      "ac_60_800_ojc1.0": {
+        "voiced": 1.0,
+        "err_gt_1st": 0.0
+      }
+    },
+    "150-300Hz_in_50ms": {
+      "ac_60_350": {
+        "voiced": 1.0,
+        "err_gt_1st": 0.0
+      },
+      "ac_60_500": {
+        "voiced": 1.0,
+        "err_gt_1st": 0.0
+      },
+      "ac_60_600": {
+        "voiced": 1.0,
+        "err_gt_1st": 0.0
+      },
+      "ac_60_700": {
+        "voiced": 1.0,
+        "err_gt_1st": 0.0
+      },
+      "ac_60_800": {
+        "voiced": 1.0,
+        "err_gt_1st": 0.0
+      },
+      "ac_60_1000": {
+        "voiced": 1.0,
+        "err_gt_1st": 0.0
+      },
+      "ac_50_800": {
+        "voiced": 1.0,
+        "err_gt_1st": 0.0
+      },
+      "ac_75_800": {
+        "voiced": 1.0,
+        "err_gt_1st": 0.0
+      },
+      "ac_60_800_accurate": {
+        "voiced": 1.0,
+        "err_gt_1st": 0.0
+      },
+      "ac_60_800_vthr0.35": {
+        "voiced": 1.0,
+        "err_gt_1st": 0.0
+      },
+      "ac_60_800_vthr0.55": {
+        "voiced": 1.0,
+        "err_gt_1st": 0.0
+      },
+      "ac_60_800_ojc0.5": {
+        "voiced": 1.0,
+        "err_gt_1st": 0.0
+      },
+      "ac_60_800_ojc0.7": {
+        "voiced": 1.0,
+        "err_gt_1st": 0.0
+      },
+      "ac_60_800_ojc1.0": {
+        "voiced": 1.0,
+        "err_gt_1st": 0.0
+      }
+    },
+    "250-500Hz_in_50ms": {
+      "ac_60_350": {
+        "voiced": 0.974,
+        "err_gt_1st": 0.3129
+      },
+      "ac_60_500": {
+        "voiced": 1.0,
+        "err_gt_1st": 0.2583
+      },
+      "ac_60_600": {
+        "voiced": 1.0,
+        "err_gt_1st": 0.0
+      },
+      "ac_60_700": {
+        "voiced": 1.0,
+        "err_gt_1st": 0.0
+      },
+      "ac_60_800": {
+        "voiced": 1.0,
+        "err_gt_1st": 0.0
+      },
+      "ac_60_1000": {
+        "voiced": 1.0,
+        "err_gt_1st": 0.0
+      },
+      "ac_50_800": {
+        "voiced": 1.0,
+        "err_gt_1st": 0.0
+      },
+      "ac_75_800": {
+        "voiced": 1.0,
+        "err_gt_1st": 0.0
+      },
+      "ac_60_800_accurate": {
+        "voiced": 1.0,
+        "err_gt_1st": 0.0
+      },
+      "ac_60_800_vthr0.35": {
+        "voiced": 1.0,
+        "err_gt_1st": 0.0
+      },
+      "ac_60_800_vthr0.55": {
+        "voiced": 1.0,
+        "err_gt_1st": 0.0
+      },
+      "ac_60_800_ojc0.5": {
+        "voiced": 1.0,
+        "err_gt_1st": 0.0
+      },
+      "ac_60_800_ojc0.7": {
+        "voiced": 1.0,
+        "err_gt_1st": 0.0
+      },
+      "ac_60_800_ojc1.0": {
+        "voiced": 1.0,
+        "err_gt_1st": 0.0
+      }
+    }
+  },
+  "RAVDESS": {
+    "ac_60_350": {
+      "voiced_frac_mean": 0.6553,
+      "recordings_without_voicing": 0,
+      "octave_jump_rate": 0.00462,
+      "recordings_with_jump": 80,
+      "low_energy_voiced_share": 0.0,
+      "f0_quantiles_hz": {
+        "M": {
+          "1": 76.7,
+          "5": 89.3,
+          "50": 154.7,
+          "95": 303.5,
+          "99": 339.6
+        },
+        "F": {
+          "1": 104.9,
+          "5": 162.6,
+          "50": 226.8,
+          "95": 322.5,
+          "99": 342.7
+        }
+      },
+      "f0_p95_female_by_label": {
+        "angry": 326.5,
+        "disgust": 314.4,
+        "fearful": 335.3,
+        "happy": 318.7,
+        "neutral": 272.1,
+        "sad": 312.4
+      },
+      "voiced_frac_by_label": {
+        "angry": 0.641,
+        "disgust": 0.6,
+        "fearful": 0.646,
+        "happy": 0.729,
+        "neutral": 0.712,
+        "sad": 0.649
+      },
+      "no_voicing_by_label": {
+        "angry": 0,
+        "disgust": 0,
+        "fearful": 0,
+        "happy": 0,
+        "neutral": 0,
+        "sad": 0
+      },
+      "near_ceiling_share": 0.05387,
+      "near_floor_share": 0.00114,
+      "gross_pitch_error_vs_pyin": 0.11994,
+      "periodicity_mean_voiced": 0.852,
+      "periodicity_mean_unvoiced": 0.56
+    },
+    "ac_60_500": {
+      "voiced_frac_mean": 0.6616,
+      "recordings_without_voicing": 0,
+      "octave_jump_rate": 0.00216,
+      "recordings_with_jump": 41,
+      "low_energy_voiced_share": 0.0,
+      "f0_quantiles_hz": {
+        "M": {
+          "1": 77.2,
+          "5": 89.5,
+          "50": 155.8,
+          "95": 343.5,
+          "99": 420.4
+        },
+        "F": {
+          "1": 112.9,
+          "5": 164.1,
+          "50": 245.0,
+          "95": 411.7,
+          "99": 476.7
+        }
+      },
+      "f0_p95_female_by_label": {
+        "angry": 443.1,
+        "disgust": 346.0,
+        "fearful": 454.9,
+        "happy": 390.1,
+        "neutral": 278.3,
+        "sad": 413.8
+      },
+      "voiced_frac_by_label": {
+        "angry": 0.653,
+        "disgust": 0.6,
+        "fearful": 0.661,
+        "happy": 0.733,
+        "neutral": 0.712,
+        "sad": 0.654
+      },
+      "no_voicing_by_label": {
+        "angry": 0,
+        "disgust": 0,
+        "fearful": 0,
+        "happy": 0,
+        "neutral": 0,
+        "sad": 0
+      },
+      "near_ceiling_share": 0.01626,
+      "near_floor_share": 0.00097,
+      "gross_pitch_error_vs_pyin": 0.03358,
+      "periodicity_mean_voiced": 0.851,
+      "periodicity_mean_unvoiced": 0.558
+    },
+    "ac_60_600": {
+      "voiced_frac_mean": 0.6649,
+      "recordings_without_voicing": 0,
+      "octave_jump_rate": 0.00182,
+      "recordings_with_jump": 39,
+      "low_energy_voiced_share": 0.0,
+      "f0_quantiles_hz": {
+        "M": {
+          "1": 77.7,
+          "5": 89.7,
+          "50": 157.0,
+          "95": 366.2,
+          "99": 554.8
+        },
+        "F": {
+          "1": 116.0,
+          "5": 164.4,
+          "50": 246.0,
+          "95": 472.4,
+          "99": 560.4
+        }
+      },
+      "f0_p95_female_by_label": {
+        "angry": 494.1,
+        "disgust": 350.8,
+        "fearful": 536.6,
+        "happy": 437.4,
+        "neutral": 279.1,
+        "sad": 450.4
+      },
+      "voiced_frac_by_label": {
+        "angry": 0.658,
+        "disgust": 0.601,
+        "fearful": 0.666,
+        "happy": 0.736,
+        "neutral": 0.712,
+        "sad": 0.658
+      },
+      "no_voicing_by_label": {
+        "angry": 0,
+        "disgust": 0,
+        "fearful": 0,
+        "happy": 0,
+        "neutral": 0,
+        "sad": 0
+      },
+      "near_ceiling_share": 0.01339,
+      "near_floor_share": 0.00089,
+      "gross_pitch_error_vs_pyin": 0.01309,
+      "periodicity_mean_voiced": 0.85,
+      "periodicity_mean_unvoiced": 0.557
+    },
+    "ac_60_700": {
+      "voiced_frac_mean": 0.6685,
+      "recordings_without_voicing": 0,
+      "octave_jump_rate": 0.00149,
+      "recordings_with_jump": 40,
+      "low_energy_voiced_share": 0.0,
+      "f0_quantiles_hz": {
+        "M": {
+          "1": 78.1,
+          "5": 89.9,
+          "50": 157.9,
+          "95": 387.1,
+          "99": 600.7
+        },
+        "F": {
+          "1": 117.2,
+          "5": 164.6,
+          "50": 246.8,
+          "95": 503.5,
+          "99": 626.8
+        }
+      },
+      "f0_p95_female_by_label": {
+        "angry": 505.9,
+        "disgust": 364.5,
+        "fearful": 585.3,
+        "happy": 503.8,
+        "neutral": 284.6,
+        "sad": 455.9
+      },
+      "voiced_frac_by_label": {
+        "angry": 0.665,
+        "disgust": 0.605,
+        "fearful": 0.667,
+        "happy": 0.74,
+        "neutral": 0.714,
+        "sad": 0.659
+      },
+      "no_voicing_by_label": {
+        "angry": 0,
+        "disgust": 0,
+        "fearful": 0,
+        "happy": 0,
+        "neutral": 0,
+        "sad": 0
+      },
+      "near_ceiling_share": 0.00764,
+      "near_floor_share": 0.0008,
+      "gross_pitch_error_vs_pyin": 0.00673,
+      "periodicity_mean_voiced": 0.848,
+      "periodicity_mean_unvoiced": 0.557
+    },
+    "ac_60_800": {
+      "voiced_frac_mean": 0.6693,
+      "recordings_without_voicing": 0,
+      "octave_jump_rate": 0.00143,
+      "recordings_with_jump": 38,
+      "low_energy_voiced_share": 0.0,
+      "f0_quantiles_hz": {
+        "M": {
+          "1": 78.2,
+          "5": 90.0,
+          "50": 158.1,
+          "95": 390.5,
+          "99": 613.1
+        },
+        "F": {
+          "1": 121.8,
+          "5": 165.0,
+          "50": 247.2,
+          "95": 517.9,
+          "99": 676.8
+        }
+      },
+      "f0_p95_female_by_label": {
+        "angry": 525.0,
+        "disgust": 377.7,
+        "fearful": 594.8,
+        "happy": 521.6,
+        "neutral": 285.1,
+        "sad": 463.4
+      },
+      "voiced_frac_by_label": {
+        "angry": 0.667,
+        "disgust": 0.607,
+        "fearful": 0.668,
+        "happy": 0.739,
+        "neutral": 0.714,
+        "sad": 0.66
+      },
+      "no_voicing_by_label": {
+        "angry": 0,
+        "disgust": 0,
+        "fearful": 0,
+        "happy": 0,
+        "neutral": 0,
+        "sad": 0
+      },
+      "near_ceiling_share": 0.00313,
+      "near_floor_share": 0.00065,
+      "gross_pitch_error_vs_pyin": 0.00673,
+      "periodicity_mean_voiced": 0.848,
+      "periodicity_mean_unvoiced": 0.556
+    },
+    "ac_60_1000": {
+      "voiced_frac_mean": 0.6684,
+      "recordings_without_voicing": 0,
+      "octave_jump_rate": 0.00149,
+      "recordings_with_jump": 38,
+      "low_energy_voiced_share": 0.0,
+      "f0_quantiles_hz": {
+        "M": {
+          "1": 78.3,
+          "5": 90.0,
+          "50": 158.2,
+          "95": 391.2,
+          "99": 620.9
+        },
+        "F": {
+          "1": 118.6,
+          "5": 164.9,
+          "50": 247.2,
+          "95": 519.0,
+          "99": 685.4
+        }
+      },
+      "f0_p95_female_by_label": {
+        "angry": 530.1,
+        "disgust": 377.7,
+        "fearful": 596.7,
+        "happy": 521.7,
+        "neutral": 284.3,
+        "sad": 466.9
+      },
+      "voiced_frac_by_label": {
+        "angry": 0.667,
+        "disgust": 0.606,
+        "fearful": 0.666,
+        "happy": 0.738,
+        "neutral": 0.713,
+        "sad": 0.658
+      },
+      "no_voicing_by_label": {
+        "angry": 0,
+        "disgust": 0,
+        "fearful": 0,
+        "happy": 0,
+        "neutral": 0,
+        "sad": 0
+      },
+      "near_ceiling_share": 0.00075,
+      "near_floor_share": 0.00065,
+      "gross_pitch_error_vs_pyin": 0.00714,
+      "periodicity_mean_voiced": 0.848,
+      "periodicity_mean_unvoiced": 0.557
+    },
+    "ac_50_800": {
+      "voiced_frac_mean": 0.6726,
+      "recordings_without_voicing": 0,
+      "octave_jump_rate": 0.0014,
+      "recordings_with_jump": 41,
+      "low_energy_voiced_share": 0.0,
+      "f0_quantiles_hz": {
+        "M": {
+          "1": 72.9,
+          "5": 89.5,
+          "50": 158.7,
+          "95": 393.2,
+          "99": 617.4
+        },
+        "F": {
+          "1": 127.8,
+          "5": 165.8,
+          "50": 248.2,
+          "95": 520.8,
+          "99": 683.5
+        }
+      },
+      "f0_p95_female_by_label": {
+        "angry": 540.1,
+        "disgust": 383.1,
+        "fearful": 596.2,
+        "happy": 522.2,
+        "neutral": 285.1,
+        "sad": 468.2
+      },
+      "voiced_frac_by_label": {
+        "angry": 0.667,
+        "disgust": 0.607,
+        "fearful": 0.675,
+        "happy": 0.744,
+        "neutral": 0.714,
+        "sad": 0.667
+      },
+      "no_voicing_by_label": {
+        "angry": 0,
+        "disgust": 0,
+        "fearful": 0,
+        "happy": 0,
+        "neutral": 0,
+        "sad": 0
+      },
+      "near_ceiling_share": 0.00358,
+      "near_floor_share": 0.00072,
+      "gross_pitch_error_vs_pyin": 0.00597,
+      "periodicity_mean_voiced": 0.84,
+      "periodicity_mean_unvoiced": 0.555
+    },
+    "ac_75_800": {
+      "voiced_frac_mean": 0.667,
+      "recordings_without_voicing": 0,
+      "octave_jump_rate": 0.00144,
+      "recordings_with_jump": 37,
+      "low_energy_voiced_share": 0.0,
+      "f0_quantiles_hz": {
+        "M": {
+          "1": 80.3,
+          "5": 90.2,
+          "50": 156.9,
+          "95": 381.7,
+          "99": 608.0
+        },
+        "F": {
+          "1": 109.2,
+          "5": 163.6,
+          "50": 246.4,
+          "95": 511.8,
+          "99": 668.6
+        }
+      },
+      "f0_p95_female_by_label": {
+        "angry": 520.7,
+        "disgust": 366.2,
+        "fearful": 592.3,
+        "happy": 519.5,
+        "neutral": 284.9,
+        "sad": 462.0
+      },
+      "voiced_frac_by_label": {
+        "angry": 0.666,
+        "disgust": 0.606,
+        "fearful": 0.665,
+        "happy": 0.737,
+        "neutral": 0.71,
+        "sad": 0.655
+      },
+      "no_voicing_by_label": {
+        "angry": 0,
+        "disgust": 0,
+        "fearful": 0,
+        "happy": 0,
+        "neutral": 0,
+        "sad": 0
+      },
+      "near_ceiling_share": 0.00278,
+      "near_floor_share": 0.00773,
+      "gross_pitch_error_vs_pyin": 0.00871,
+      "periodicity_mean_voiced": 0.857,
+      "periodicity_mean_unvoiced": 0.56
+    },
+    "ac_60_800_accurate": {
+      "voiced_frac_mean": 0.6697,
+      "recordings_without_voicing": 0,
+      "octave_jump_rate": 0.0014,
+      "recordings_with_jump": 39,
+      "low_energy_voiced_share": 0.0,
+      "f0_quantiles_hz": {
+        "M": {
+          "1": 78.6,
+          "5": 90.2,
+          "50": 158.5,
+          "95": 392.8,
+          "99": 617.3
+        },
+        "F": {
+          "1": 122.8,
+          "5": 165.2,
+          "50": 247.4,
+          "95": 519.0,
+          "99": 678.3
+        }
+      },
+      "f0_p95_female_by_label": {
+        "angry": 528.2,
+        "disgust": 384.7,
+        "fearful": 595.1,
+        "happy": 521.5,
+        "neutral": 285.3,
+        "sad": 464.0
+      },
+      "voiced_frac_by_label": {
+        "angry": 0.666,
+        "disgust": 0.606,
+        "fearful": 0.669,
+        "happy": 0.74,
+        "neutral": 0.716,
+        "sad": 0.661
+      },
+      "no_voicing_by_label": {
+        "angry": 0,
+        "disgust": 0,
+        "fearful": 0,
+        "happy": 0,
+        "neutral": 0,
+        "sad": 0
+      },
+      "near_ceiling_share": 0.00331,
+      "near_floor_share": 0.00044,
+      "gross_pitch_error_vs_pyin": 0.00601,
+      "periodicity_mean_voiced": 0.846,
+      "periodicity_mean_unvoiced": 0.557
+    },
+    "ac_60_800_vthr0.35": {
+      "voiced_frac_mean": 0.7048,
+      "recordings_without_voicing": 0,
+      "octave_jump_rate": 0.00263,
+      "recordings_with_jump": 64,
+      "low_energy_voiced_share": 0.0,
+      "f0_quantiles_hz": {
+        "M": {
+          "1": 77.2,
+          "5": 89.4,
+          "50": 158.1,
+          "95": 414.9,
+          "99": 637.8
+        },
+        "F": {
+          "1": 110.1,
+          "5": 164.5,
+          "50": 248.0,
+          "95": 530.1,
+          "99": 692.5
+        }
+      },
+      "f0_p95_female_by_label": {
+        "angry": 573.7,
+        "disgust": 395.2,
+        "fearful": 595.1,
+        "happy": 520.2,
+        "neutral": 285.8,
+        "sad": 480.1
+      },
+      "voiced_frac_by_label": {
+        "angry": 0.707,
+        "disgust": 0.648,
+        "fearful": 0.7,
+        "happy": 0.77,
+        "neutral": 0.747,
+        "sad": 0.692
+      },
+      "no_voicing_by_label": {
+        "angry": 0,
+        "disgust": 0,
+        "fearful": 0,
+        "happy": 0,
+        "neutral": 0,
+        "sad": 0
+      },
+      "near_ceiling_share": 0.00483,
+      "near_floor_share": 0.00083,
+      "gross_pitch_error_vs_pyin": 0.00784,
+      "periodicity_mean_voiced": 0.834,
+      "periodicity_mean_unvoiced": 0.56
+    },
+    "ac_60_800_vthr0.55": {
+      "voiced_frac_mean": 0.6251,
+      "recordings_without_voicing": 0,
+      "octave_jump_rate": 0.00067,
+      "recordings_with_jump": 19,
+      "low_energy_voiced_share": 0.0,
+      "f0_quantiles_hz": {
+        "M": {
+          "1": 78.4,
+          "5": 90.3,
+          "50": 158.0,
+          "95": 365.6,
+          "99": 566.0
+        },
+        "F": {
+          "1": 134.4,
+          "5": 166.0,
+          "50": 246.6,
+          "95": 502.4,
+          "99": 641.5
+        }
+      },
+      "f0_p95_female_by_label": {
+        "angry": 515.2,
+        "disgust": 358.8,
+        "fearful": 590.9,
+        "happy": 518.5,
+        "neutral": 278.6,
+        "sad": 446.3
+      },
+      "voiced_frac_by_label": {
+        "angry": 0.608,
+        "disgust": 0.557,
+        "fearful": 0.631,
+        "happy": 0.703,
+        "neutral": 0.674,
+        "sad": 0.621
+      },
+      "no_voicing_by_label": {
+        "angry": 0,
+        "disgust": 0,
+        "fearful": 0,
+        "happy": 0,
+        "neutral": 0,
+        "sad": 0
+      },
+      "near_ceiling_share": 0.00189,
+      "near_floor_share": 0.00042,
+      "gross_pitch_error_vs_pyin": 0.00517,
+      "periodicity_mean_voiced": 0.865,
+      "periodicity_mean_unvoiced": 0.55
+    },
+    "ac_60_800_ojc0.5": {
+      "voiced_frac_mean": 0.6655,
+      "recordings_without_voicing": 0,
+      "octave_jump_rate": 0.00041,
+      "recordings_with_jump": 14,
+      "low_energy_voiced_share": 0.0,
+      "f0_quantiles_hz": {
+        "M": {
+          "1": 77.9,
+          "5": 89.9,
+          "50": 157.9,
+          "95": 389.5,
+          "99": 614.3
+        },
+        "F": {
+          "1": 118.5,
+          "5": 165.0,
+          "50": 247.3,
+          "95": 516.7,
+          "99": 674.1
+        }
+      },
+      "f0_p95_female_by_label": {
+        "angry": 522.8,
+        "disgust": 377.7,
+        "fearful": 595.1,
+        "happy": 520.8,
+        "neutral": 284.8,
+        "sad": 463.5
+      },
+      "voiced_frac_by_label": {
+        "angry": 0.663,
+        "disgust": 0.603,
+        "fearful": 0.663,
+        "happy": 0.737,
+        "neutral": 0.711,
+        "sad": 0.655
+      },
+      "no_voicing_by_label": {
+        "angry": 0,
+        "disgust": 0,
+        "fearful": 0,
+        "happy": 0,
+        "neutral": 0,
+        "sad": 0
+      },
+      "near_ceiling_share": 0.00312,
+      "near_floor_share": 0.00062,
+      "gross_pitch_error_vs_pyin": 0.00575,
+      "periodicity_mean_voiced": 0.849,
+      "periodicity_mean_unvoiced": 0.557
+    },
+    "ac_60_800_ojc0.7": {
+      "voiced_frac_mean": 0.6612,
+      "recordings_without_voicing": 0,
+      "octave_jump_rate": 8e-05,
+      "recordings_with_jump": 3,
+      "low_energy_voiced_share": 0.0,
+      "f0_quantiles_hz": {
+        "M": {
+          "1": 78.0,
+          "5": 89.8,
+          "50": 157.9,
+          "95": 388.6,
+          "99": 612.7
+        },
+        "F": {
+          "1": 119.3,
+          "5": 165.2,
+          "50": 247.1,
+          "95": 515.3,
+          "99": 669.0
+        }
+      },
+      "f0_p95_female_by_label": {
+        "angry": 523.5,
+        "disgust": 375.2,
+        "fearful": 592.5,
+        "happy": 521.5,
+        "neutral": 283.3,
+        "sad": 463.5
+      },
+      "voiced_frac_by_label": {
+        "angry": 0.657,
+        "disgust": 0.599,
+        "fearful": 0.659,
+        "happy": 0.733,
+        "neutral": 0.708,
+        "sad": 0.652
+      },
+      "no_voicing_by_label": {
+        "angry": 0,
+        "disgust": 0,
+        "fearful": 0,
+        "happy": 0,
+        "neutral": 0,
+        "sad": 0
+      },
+      "near_ceiling_share": 0.00291,
+      "near_floor_share": 0.00055,
+      "gross_pitch_error_vs_pyin": 0.00517,
+      "periodicity_mean_voiced": 0.851,
+      "periodicity_mean_unvoiced": 0.557
+    },
+    "ac_60_800_ojc1.0": {
+      "voiced_frac_mean": 0.6563,
+      "recordings_without_voicing": 0,
+      "octave_jump_rate": 0.0,
+      "recordings_with_jump": 0,
+      "low_energy_voiced_share": 0.0,
+      "f0_quantiles_hz": {
+        "M": {
+          "1": 77.9,
+          "5": 89.8,
+          "50": 158.0,
+          "95": 387.3,
+          "99": 612.0
+        },
+        "F": {
+          "1": 113.2,
+          "5": 164.9,
+          "50": 247.0,
+          "95": 515.4,
+          "99": 666.5
+        }
+      },
+      "f0_p95_female_by_label": {
+        "angry": 523.0,
+        "disgust": 375.6,
+        "fearful": 589.3,
+        "happy": 522.2,
+        "neutral": 283.2,
+        "sad": 465.5
+      },
+      "voiced_frac_by_label": {
+        "angry": 0.651,
+        "disgust": 0.593,
+        "fearful": 0.654,
+        "happy": 0.729,
+        "neutral": 0.704,
+        "sad": 0.647
+      },
+      "no_voicing_by_label": {
+        "angry": 0,
+        "disgust": 0,
+        "fearful": 0,
+        "happy": 0,
+        "neutral": 0,
+        "sad": 0
+      },
+      "near_ceiling_share": 0.00269,
+      "near_floor_share": 0.0005,
+      "gross_pitch_error_vs_pyin": 0.00566,
+      "periodicity_mean_voiced": 0.853,
+      "periodicity_mean_unvoiced": 0.558
+    },
+    "pyin_60_700": {
+      "voiced_frac_mean": 0.7229,
+      "recordings_without_voicing": 2,
+      "octave_jump_rate": 0.0,
+      "recordings_with_jump": 0,
+      "low_energy_voiced_share": 0.01974,
+      "f0_quantiles_hz": {
+        "M": {
+          "1": 75.6,
+          "5": 89.9,
+          "50": 157.4,
+          "95": 361.7,
+          "99": 557.8
+        },
+        "F": {
+          "1": 147.7,
+          "5": 167.8,
+          "50": 248.5,
+          "95": 494.1,
+          "99": 608.3
+        }
+      },
+      "f0_p95_female_by_label": {
+        "angry": 499.8,
+        "disgust": 353.4,
+        "fearful": 590.9,
+        "happy": 496.9,
+        "neutral": 278.9,
+        "sad": 450.5
+      },
+      "voiced_frac_by_label": {
+        "angry": 0.684,
+        "disgust": 0.643,
+        "fearful": 0.744,
+        "happy": 0.797,
+        "neutral": 0.81,
+        "sad": 0.724
+      },
+      "no_voicing_by_label": {
+        "angry": 0,
+        "disgust": 1,
+        "fearful": 0,
+        "happy": 0,
+        "neutral": 0,
+        "sad": 1
+      }
+    },
+    "_audio_source": "C:\\SER_data\\features\\RAVDESS\\v1_36607e8614"
+  },
+  "CREMA-D": {
+    "ac_60_350": {
+      "voiced_frac_mean": 0.4839,
+      "recordings_without_voicing": 0,
+      "octave_jump_rate": 0.00497,
+      "recordings_with_jump": 108,
+      "low_energy_voiced_share": 0.0,
+      "f0_quantiles_hz": {
+        "M": {
+          "1": 67.6,
+          "5": 81.6,
+          "50": 136.6,
+          "95": 273.5,
+          "99": 324.5
+        },
+        "F": {
+          "1": 70.0,
+          "5": 103.4,
+          "50": 210.4,
+          "95": 302.5,
+          "99": 336.8
+        }
+      },
+      "f0_p95_female_by_label": {
+        "angry": 325.6,
+        "disgust": 293.9,
+        "fearful": 310.1,
+        "happy": 321.2,
+        "neutral": 246.6,
+        "sad": 272.7
+      },
+      "voiced_frac_by_label": {
+        "angry": 0.59,
+        "disgust": 0.41,
+        "fearful": 0.508,
+        "happy": 0.517,
+        "neutral": 0.468,
+        "sad": 0.416
+      },
+      "no_voicing_by_label": {
+        "angry": 0,
+        "disgust": 0,
+        "fearful": 0,
+        "happy": 0,
+        "neutral": 0,
+        "sad": 0
+      },
+      "near_ceiling_share": 0.02504,
+      "near_floor_share": 0.00673,
+      "gross_pitch_error_vs_pyin": 0.06256,
+      "periodicity_mean_voiced": 0.756,
+      "periodicity_mean_unvoiced": 0.451
+    },
+    "ac_60_500": {
+      "voiced_frac_mean": 0.4806,
+      "recordings_without_voicing": 0,
+      "octave_jump_rate": 0.0038,
+      "recordings_with_jump": 86,
+      "low_energy_voiced_share": 0.0,
+      "f0_quantiles_hz": {
+        "M": {
+          "1": 68.2,
+          "5": 82.0,
+          "50": 137.4,
+          "95": 287.0,
+          "99": 378.3
+        },
+        "F": {
+          "1": 70.6,
+          "5": 106.2,
+          "50": 217.0,
+          "95": 363.8,
+          "99": 445.6
+        }
+      },
+      "f0_p95_female_by_label": {
+        "angry": 390.1,
+        "disgust": 300.8,
+        "fearful": 378.1,
+        "happy": 413.0,
+        "neutral": 247.9,
+        "sad": 291.8
+      },
+      "voiced_frac_by_label": {
+        "angry": 0.594,
+        "disgust": 0.404,
+        "fearful": 0.507,
+        "happy": 0.52,
+        "neutral": 0.461,
+        "sad": 0.404
+      },
+      "no_voicing_by_label": {
+        "angry": 0,
+        "disgust": 0,
+        "fearful": 0,
+        "happy": 0,
+        "neutral": 0,
+        "sad": 0
+      },
+      "near_ceiling_share": 0.00586,
+      "near_floor_share": 0.00613,
+      "gross_pitch_error_vs_pyin": 0.02061,
+      "periodicity_mean_voiced": 0.757,
+      "periodicity_mean_unvoiced": 0.451
+    },
+    "ac_60_600": {
+      "voiced_frac_mean": 0.4792,
+      "recordings_without_voicing": 0,
+      "octave_jump_rate": 0.00336,
+      "recordings_with_jump": 78,
+      "low_energy_voiced_share": 0.0,
+      "f0_quantiles_hz": {
+        "M": {
+          "1": 68.9,
+          "5": 82.4,
+          "50": 138.2,
+          "95": 302.4,
+          "99": 496.2
+        },
+        "F": {
+          "1": 70.9,
+          "5": 107.5,
+          "50": 218.0,
+          "95": 392.3,
+          "99": 534.8
+        }
+      },
+      "f0_p95_female_by_label": {
+        "angry": 418.5,
+        "disgust": 321.9,
+        "fearful": 465.6,
+        "happy": 460.8,
+        "neutral": 247.9,
+        "sad": 291.4
+      },
+      "voiced_frac_by_label": {
+        "angry": 0.598,
+        "disgust": 0.401,
+        "fearful": 0.507,
+        "happy": 0.52,
+        "neutral": 0.457,
+        "sad": 0.399
+      },
+      "no_voicing_by_label": {
+        "angry": 0,
+        "disgust": 0,
+        "fearful": 0,
+        "happy": 0,
+        "neutral": 0,
+        "sad": 0
+      },
+      "near_ceiling_share": 0.00737,
+      "near_floor_share": 0.00582,
+      "gross_pitch_error_vs_pyin": 0.01321,
+      "periodicity_mean_voiced": 0.758,
+      "periodicity_mean_unvoiced": 0.451
+    },
+    "ac_60_700": {
+      "voiced_frac_mean": 0.4786,
+      "recordings_without_voicing": 0,
+      "octave_jump_rate": 0.00327,
+      "recordings_with_jump": 79,
+      "low_energy_voiced_share": 0.0,
+      "f0_quantiles_hz": {
+        "M": {
+          "1": 69.4,
+          "5": 82.8,
+          "50": 139.1,
+          "95": 317.9,
+          "99": 572.0
+        },
+        "F": {
+          "1": 70.9,
+          "5": 107.9,
+          "50": 218.1,
+          "95": 403.6,
+          "99": 564.3
+        }
+      },
+      "f0_p95_female_by_label": {
+        "angry": 430.9,
+        "disgust": 326.5,
+        "fearful": 499.0,
+        "happy": 477.1,
+        "neutral": 247.9,
+        "sad": 291.8
+      },
+      "voiced_frac_by_label": {
+        "angry": 0.601,
+        "disgust": 0.401,
+        "fearful": 0.507,
+        "happy": 0.518,
+        "neutral": 0.456,
+        "sad": 0.396
+      },
+      "no_voicing_by_label": {
+        "angry": 0,
+        "disgust": 0,
+        "fearful": 0,
+        "happy": 0,
+        "neutral": 0,
+        "sad": 0
+      },
+      "near_ceiling_share": 0.00374,
+      "near_floor_share": 0.00553,
+      "gross_pitch_error_vs_pyin": 0.00953,
+      "periodicity_mean_voiced": 0.759,
+      "periodicity_mean_unvoiced": 0.451
+    },
+    "ac_60_800": {
+      "voiced_frac_mean": 0.4774,
+      "recordings_without_voicing": 0,
+      "octave_jump_rate": 0.00321,
+      "recordings_with_jump": 77,
+      "low_energy_voiced_share": 0.0,
+      "f0_quantiles_hz": {
+        "M": {
+          "1": 69.5,
+          "5": 82.9,
+          "50": 139.4,
+          "95": 326.6,
+          "99": 603.2
+        },
+        "F": {
+          "1": 71.0,
+          "5": 108.2,
+          "50": 218.4,
+          "95": 409.2,
+          "99": 582.3
+        }
+      },
+      "f0_p95_female_by_label": {
+        "angry": 440.3,
+        "disgust": 332.4,
+        "fearful": 513.0,
+        "happy": 477.3,
+        "neutral": 247.9,
+        "sad": 291.9
+      },
+      "voiced_frac_by_label": {
+        "angry": 0.602,
+        "disgust": 0.398,
+        "fearful": 0.506,
+        "happy": 0.516,
+        "neutral": 0.456,
+        "sad": 0.394
+      },
+      "no_voicing_by_label": {
+        "angry": 0,
+        "disgust": 0,
+        "fearful": 0,
+        "happy": 0,
+        "neutral": 0,
+        "sad": 0
+      },
+      "near_ceiling_share": 0.00158,
+      "near_floor_share": 0.00543,
+      "gross_pitch_error_vs_pyin": 0.00958,
+      "periodicity_mean_voiced": 0.759,
+      "periodicity_mean_unvoiced": 0.451
+    },
+    "ac_60_1000": {
+      "voiced_frac_mean": 0.4754,
+      "recordings_without_voicing": 0,
+      "octave_jump_rate": 0.00313,
+      "recordings_with_jump": 74,
+      "low_energy_voiced_share": 0.0,
+      "f0_quantiles_hz": {
+        "M": {
+          "1": 69.8,
+          "5": 83.0,
+          "50": 139.6,
+          "95": 330.3,
+          "99": 618.0
+        },
+        "F": {
+          "1": 70.9,
+          "5": 108.7,
+          "50": 218.6,
+          "95": 412.7,
+          "99": 606.8
+        }
+      },
+      "f0_p95_female_by_label": {
+        "angry": 439.1,
+        "disgust": 346.6,
+        "fearful": 512.1,
+        "happy": 485.9,
+        "neutral": 247.9,
+        "sad": 291.8
+      },
+      "voiced_frac_by_label": {
+        "angry": 0.601,
+        "disgust": 0.397,
+        "fearful": 0.504,
+        "happy": 0.516,
+        "neutral": 0.454,
+        "sad": 0.389
+      },
+      "no_voicing_by_label": {
+        "angry": 0,
+        "disgust": 0,
+        "fearful": 0,
+        "happy": 0,
+        "neutral": 0,
+        "sad": 0
+      },
+      "near_ceiling_share": 0.00031,
+      "near_floor_share": 0.00536,
+      "gross_pitch_error_vs_pyin": 0.00968,
+      "periodicity_mean_voiced": 0.76,
+      "periodicity_mean_unvoiced": 0.451
+    },
+    "ac_50_800": {
+      "voiced_frac_mean": 0.4837,
+      "recordings_without_voicing": 0,
+      "octave_jump_rate": 0.00264,
+      "recordings_with_jump": 62,
+      "low_energy_voiced_share": 0.0,
+      "f0_quantiles_hz": {
+        "M": {
+          "1": 55.3,
+          "5": 71.0,
+          "50": 139.2,
+          "95": 330.2,
+          "99": 604.8
+        },
+        "F": {
+          "1": 55.6,
+          "5": 80.3,
+          "50": 218.7,
+          "95": 409.9,
+          "99": 584.1
+        }
+      },
+      "f0_p95_female_by_label": {
+        "angry": 452.3,
+        "disgust": 330.1,
+        "fearful": 513.2,
+        "happy": 476.0,
+        "neutral": 248.0,
+        "sad": 291.7
+      },
+      "voiced_frac_by_label": {
+        "angry": 0.603,
+        "disgust": 0.409,
+        "fearful": 0.517,
+        "happy": 0.523,
+        "neutral": 0.462,
+        "sad": 0.398
+      },
+      "no_voicing_by_label": {
+        "angry": 0,
+        "disgust": 0,
+        "fearful": 0,
+        "happy": 0,
+        "neutral": 0,
+        "sad": 0
+      },
+      "near_ceiling_share": 0.00171,
+      "near_floor_share": 0.00646,
+      "gross_pitch_error_vs_pyin": 0.00875,
+      "periodicity_mean_voiced": 0.753,
+      "periodicity_mean_unvoiced": 0.455
+    },
+    "ac_75_800": {
+      "voiced_frac_mean": 0.478,
+      "recordings_without_voicing": 0,
+      "octave_jump_rate": 0.00314,
+      "recordings_with_jump": 74,
+      "low_energy_voiced_share": 0.0,
+      "f0_quantiles_hz": {
+        "M": {
+          "1": 77.6,
+          "5": 88.7,
+          "50": 138.2,
+          "95": 316.8,
+          "99": 584.8
+        },
+        "F": {
+          "1": 79.9,
+          "5": 110.3,
+          "50": 217.6,
+          "95": 405.7,
+          "99": 576.6
+        }
+      },
+      "f0_p95_female_by_label": {
+        "angry": 437.6,
+        "disgust": 328.8,
+        "fearful": 511.1,
+        "happy": 479.7,
+        "neutral": 247.5,
+        "sad": 291.2
+      },
+      "voiced_frac_by_label": {
+        "angry": 0.601,
+        "disgust": 0.393,
+        "fearful": 0.504,
+        "happy": 0.516,
+        "neutral": 0.46,
+        "sad": 0.399
+      },
+      "no_voicing_by_label": {
+        "angry": 0,
+        "disgust": 0,
+        "fearful": 0,
+        "happy": 0,
+        "neutral": 0,
+        "sad": 0
+      },
+      "near_ceiling_share": 0.00134,
+      "near_floor_share": 0.02087,
+      "gross_pitch_error_vs_pyin": 0.01167,
+      "periodicity_mean_voiced": 0.767,
+      "periodicity_mean_unvoiced": 0.45
+    },
+    "ac_60_800_accurate": {
+      "voiced_frac_mean": 0.4742,
+      "recordings_without_voicing": 0,
+      "octave_jump_rate": 0.0029,
+      "recordings_with_jump": 71,
+      "low_energy_voiced_share": 0.0,
+      "f0_quantiles_hz": {
+        "M": {
+          "1": 71.5,
+          "5": 84.8,
+          "50": 140.3,
+          "95": 326.4,
+          "99": 600.8
+        },
+        "F": {
+          "1": 72.9,
+          "5": 110.2,
+          "50": 218.8,
+          "95": 410.1,
+          "99": 584.1
+        }
+      },
+      "f0_p95_female_by_label": {
+        "angry": 442.4,
+        "disgust": 331.0,
+        "fearful": 513.9,
+        "happy": 477.6,
+        "neutral": 247.8,
+        "sad": 292.7
+      },
+      "voiced_frac_by_label": {
+        "angry": 0.6,
+        "disgust": 0.395,
+        "fearful": 0.505,
+        "happy": 0.514,
+        "neutral": 0.451,
+        "sad": 0.389
+      },
+      "no_voicing_by_label": {
+        "angry": 0,
+        "disgust": 0,
+        "fearful": 0,
+        "happy": 0,
+        "neutral": 0,
+        "sad": 0
+      },
+      "near_ceiling_share": 0.00163,
+      "near_floor_share": 0.00393,
+      "gross_pitch_error_vs_pyin": 0.00889,
+      "periodicity_mean_voiced": 0.758,
+      "periodicity_mean_unvoiced": 0.445
+    },
+    "ac_60_800_vthr0.35": {
+      "voiced_frac_mean": 0.5974,
+      "recordings_without_voicing": 0,
+      "octave_jump_rate": 0.00712,
+      "recordings_with_jump": 156,
+      "low_energy_voiced_share": 0.0,
+      "f0_quantiles_hz": {
+        "M": {
+          "1": 65.2,
+          "5": 77.2,
+          "50": 133.7,
+          "95": 316.7,
+          "99": 621.1
+        },
+        "F": {
+          "1": 67.1,
+          "5": 78.6,
+          "50": 210.9,
+          "95": 397.5,
+          "99": 599.4
+        }
+      },
+      "f0_p95_female_by_label": {
+        "angry": 478.9,
+        "disgust": 335.8,
+        "fearful": 482.6,
+        "happy": 469.4,
+        "neutral": 246.2,
+        "sad": 282.7
+      },
+      "voiced_frac_by_label": {
+        "angry": 0.664,
+        "disgust": 0.532,
+        "fearful": 0.616,
+        "happy": 0.605,
+        "neutral": 0.583,
+        "sad": 0.579
+      },
+      "no_voicing_by_label": {
+        "angry": 0,
+        "disgust": 0,
+        "fearful": 0,
+        "happy": 0,
+        "neutral": 0,
+        "sad": 0
+      },
+      "near_ceiling_share": 0.00198,
+      "near_floor_share": 0.00965,
+      "gross_pitch_error_vs_pyin": 0.01279,
+      "periodicity_mean_voiced": 0.715,
+      "periodicity_mean_unvoiced": 0.434
+    },
+    "ac_60_800_vthr0.55": {
+      "voiced_frac_mean": 0.3849,
+      "recordings_without_voicing": 1,
+      "octave_jump_rate": 0.00099,
+      "recordings_with_jump": 23,
+      "low_energy_voiced_share": 0.0,
+      "f0_quantiles_hz": {
+        "M": {
+          "1": 74.4,
+          "5": 89.4,
+          "50": 145.2,
+          "95": 319.7,
+          "99": 570.0
+        },
+        "F": {
+          "1": 75.6,
+          "5": 143.0,
+          "50": 223.2,
+          "95": 412.8,
+          "99": 572.8
+        }
+      },
+      "f0_p95_female_by_label": {
+        "angry": 409.1,
+        "disgust": 326.5,
+        "fearful": 519.3,
+        "happy": 473.1,
+        "neutral": 249.5,
+        "sad": 322.8
+      },
+      "voiced_frac_by_label": {
+        "angry": 0.527,
+        "disgust": 0.309,
+        "fearful": 0.424,
+        "happy": 0.439,
+        "neutral": 0.352,
+        "sad": 0.274
+      },
+      "no_voicing_by_label": {
+        "angry": 0,
+        "disgust": 1,
+        "fearful": 0,
+        "happy": 0,
+        "neutral": 0,
+        "sad": 0
+      },
+      "near_ceiling_share": 0.00112,
+      "near_floor_share": 0.00173,
+      "gross_pitch_error_vs_pyin": 0.00418,
+      "periodicity_mean_voiced": 0.8,
+      "periodicity_mean_unvoiced": 0.46
+    },
+    "ac_60_800_ojc0.5": {
+      "voiced_frac_mean": 0.471,
+      "recordings_without_voicing": 0,
+      "octave_jump_rate": 0.00047,
+      "recordings_with_jump": 13,
+      "low_energy_voiced_share": 0.0,
+      "f0_quantiles_hz": {
+        "M": {
+          "1": 70.0,
+          "5": 84.2,
+          "50": 139.6,
+          "95": 327.0,
+          "99": 596.9
+        },
+        "F": {
+          "1": 71.6,
+          "5": 109.5,
+          "50": 218.7,
+          "95": 408.7,
+          "99": 578.4
+        }
+      },
+      "f0_p95_female_by_label": {
+        "angry": 422.0,
+        "disgust": 331.1,
+        "fearful": 513.9,
+        "happy": 478.5,
+        "neutral": 247.9,
+        "sad": 292.8
+      },
+      "voiced_frac_by_label": {
+        "angry": 0.598,
+        "disgust": 0.391,
+        "fearful": 0.502,
+        "happy": 0.511,
+        "neutral": 0.449,
+        "sad": 0.384
+      },
+      "no_voicing_by_label": {
+        "angry": 0,
+        "disgust": 0,
+        "fearful": 0,
+        "happy": 0,
+        "neutral": 0,
+        "sad": 0
+      },
+      "near_ceiling_share": 0.00155,
+      "near_floor_share": 0.00507,
+      "gross_pitch_error_vs_pyin": 0.00777,
+      "periodicity_mean_voiced": 0.762,
+      "periodicity_mean_unvoiced": 0.452
+    },
+    "ac_60_800_ojc0.7": {
+      "voiced_frac_mean": 0.4637,
+      "recordings_without_voicing": 0,
+      "octave_jump_rate": 0.0,
+      "recordings_with_jump": 0,
+      "low_energy_voiced_share": 0.0,
+      "f0_quantiles_hz": {
+        "M": {
+          "1": 71.3,
+          "5": 84.8,
+          "50": 140.0,
+          "95": 325.3,
+          "99": 590.7
+        },
+        "F": {
+          "1": 72.3,
+          "5": 110.5,
+          "50": 219.3,
+          "95": 409.3,
+          "99": 575.5
+        }
+      },
+      "f0_p95_female_by_label": {
+        "angry": 421.5,
+        "disgust": 332.2,
+        "fearful": 513.6,
+        "happy": 475.4,
+        "neutral": 247.9,
+        "sad": 295.4
+      },
+      "voiced_frac_by_label": {
+        "angry": 0.592,
+        "disgust": 0.384,
+        "fearful": 0.496,
+        "happy": 0.507,
+        "neutral": 0.44,
+        "sad": 0.374
+      },
+      "no_voicing_by_label": {
+        "angry": 0,
+        "disgust": 0,
+        "fearful": 0,
+        "happy": 0,
+        "neutral": 0,
+        "sad": 0
+      },
+      "near_ceiling_share": 0.00157,
+      "near_floor_share": 0.00456,
+      "gross_pitch_error_vs_pyin": 0.00668,
+      "periodicity_mean_voiced": 0.765,
+      "periodicity_mean_unvoiced": 0.454
+    },
+    "ac_60_800_ojc1.0": {
+      "voiced_frac_mean": 0.4551,
+      "recordings_without_voicing": 0,
+      "octave_jump_rate": 0.0,
+      "recordings_with_jump": 0,
+      "low_energy_voiced_share": 0.0,
+      "f0_quantiles_hz": {
+        "M": {
+          "1": 70.9,
+          "5": 84.8,
+          "50": 139.9,
+          "95": 325.4,
+          "99": 595.8
+        },
+        "F": {
+          "1": 72.6,
+          "5": 110.8,
+          "50": 219.6,
+          "95": 409.5,
+          "99": 575.2
+        }
+      },
+      "f0_p95_female_by_label": {
+        "angry": 420.3,
+        "disgust": 332.3,
+        "fearful": 513.9,
+        "happy": 476.5,
+        "neutral": 247.9,
+        "sad": 297.0
+      },
+      "voiced_frac_by_label": {
+        "angry": 0.584,
+        "disgust": 0.377,
+        "fearful": 0.489,
+        "happy": 0.497,
+        "neutral": 0.432,
+        "sad": 0.362
+      },
+      "no_voicing_by_label": {
+        "angry": 0,
+        "disgust": 0,
+        "fearful": 0,
+        "happy": 0,
+        "neutral": 0,
+        "sad": 0
+      },
+      "near_ceiling_share": 0.00157,
+      "near_floor_share": 0.00452,
+      "gross_pitch_error_vs_pyin": 0.00635,
+      "periodicity_mean_voiced": 0.768,
+      "periodicity_mean_unvoiced": 0.456
+    },
+    "pyin_60_700": {
+      "voiced_frac_mean": 0.4105,
+      "recordings_without_voicing": 24,
+      "octave_jump_rate": 0.0,
+      "recordings_with_jump": 0,
+      "low_energy_voiced_share": 0.00036,
+      "f0_quantiles_hz": {
+        "M": {
+          "1": 60.0,
+          "5": 82.4,
+          "50": 139.4,
+          "95": 293.8,
+          "99": 392.1
+        },
+        "F": {
+          "1": 72.7,
+          "5": 145.2,
+          "50": 222.6,
+          "95": 396.7,
+          "99": 551.4
+        }
+      },
+      "f0_p95_female_by_label": {
+        "angry": 394.4,
+        "disgust": 314.9,
+        "fearful": 514.5,
+        "happy": 462.4,
+        "neutral": 248.5,
+        "sad": 337.5
+      },
+      "voiced_frac_by_label": {
+        "angry": 0.565,
+        "disgust": 0.316,
+        "fearful": 0.452,
+        "happy": 0.467,
+        "neutral": 0.398,
+        "sad": 0.285
+      },
+      "no_voicing_by_label": {
+        "angry": 2,
+        "disgust": 7,
+        "fearful": 1,
+        "happy": 0,
+        "neutral": 2,
+        "sad": 12
+      }
+    },
+    "_audio_source": "C:\\SER_data\\features\\CREMA-D\\v1_36607e8614"
+  }
+}

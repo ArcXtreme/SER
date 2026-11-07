@@ -1,0 +1,69 @@
+  [stage] loading HuBERT layer 6
+    loaded HuBERT layer 6: (101892, 768) fp16 in 2s, RAM {'current': 890.1, 'peak': 1137.2}
+  fold 0 audited: all pass
+  [stage] loading HuBERT layer 10
+    loaded HuBERT layer 10: (101892, 768) fp16 in 1s, RAM {'current': 1367.6, 'peak': 1714.4}
+  fold 1 audited: all pass
+  [stage] loading HuBERT layer 5
+    loaded HuBERT layer 5: (101892, 768) fp16 in 1s, RAM {'current': 1370.0, 'peak': 1716.7}
+  fold 2 audited: all pass
+  fold 3 audited: all pass
+  fold 4 audited: all pass
+  fold 5 audited: all pass
+PASS RAVDESS: every fold complete (32 S + selection + 21 D files + checkpoints)
+PASS RAVDESS: one run hash per fold across S, selection and D
+PASS RAVDESS: S (selection) files contain validation metrics only
+PASS RAVDESS: selected hyper-parameters re-derivable from S validation F1 alone
+PASS RAVDESS: all S files and selection.json older than every D file and checkpoint
+PASS RAVDESS: D test rows == the fold's test rows
+PASS RAVDESS: HuBERT layer == rule on the fold's own E2 phase-A file (SHA-256 unchanged)
+PASS RAVDESS: D hyper-parameters == selection (ablations use xattn_HMP's)
+PASS RAVDESS: seed-0 finals reproduce the selection validation F1
+PASS RAVDESS: class weights == recomputed from training labels
+PASS RAVDESS: checkpoint metadata matches D files
+PASS RAVDESS: standardiser statistics == TRAIN-row statistics (all streams, all checkpoints)
+PASS RAVDESS: every reloaded checkpoint re-predicts its saved test predictions exactly
+PASS RAVDESS: E3-comparable S cells (concat/control x lr {1e-3,3e-4}) reproduce E3 exactly in every fold
+PASS RAVDESS: where a re-searched model selected E3's setting, its D test predictions equal E3's
+PASS RAVDESS: fold-0 S runs are the pilot's (same run hash, not rewritten after the pilot)
+PASS RAVDESS: E4 has 769,286 parameters; control within 5 %
+PASS RAVDESS: Stage 3 split file unchanged (SHA-256)
+PASS RAVDESS: Stage 4 audio/manifest/HuBERT/pooled/MFCC unchanged since adoption (SHA-256)
+PASS RAVDESS: prosody arrays unchanged since the E2 audit (SHA-256)
+  [stage] loading HuBERT layer 7
+    loaded HuBERT layer 7: (879279, 768) fp16 in 14s, RAM {'current': 2641.8, 'peak': 2851.2}
+  fold 0 audited: all pass
+  [stage] loading HuBERT layer 6
+    loaded HuBERT layer 6: (879279, 768) fp16 in 13s, RAM {'current': 2647.8, 'peak': 2857.1}
+  fold 1 audited: all pass
+  [stage] loading HuBERT layer 12
+    loaded HuBERT layer 12: (879279, 768) fp16 in 13s, RAM {'current': 2648.6, 'peak': 2858.0}
+  fold 2 audited: all pass
+  [stage] loading HuBERT layer 11
+    loaded HuBERT layer 11: (879279, 768) fp16 in 14s, RAM {'current': 2648.6, 'peak': 2858.0}
+  fold 3 audited: all pass
+  [stage] loading HuBERT layer 5
+    loaded HuBERT layer 5: (879279, 768) fp16 in 13s, RAM {'current': 2648.9, 'peak': 2858.2}
+  fold 4 audited: all pass
+PASS CREMA-D: every fold complete (32 S + selection + 21 D files + checkpoints)
+PASS CREMA-D: one run hash per fold across S, selection and D
+PASS CREMA-D: S (selection) files contain validation metrics only
+PASS CREMA-D: selected hyper-parameters re-derivable from S validation F1 alone
+PASS CREMA-D: all S files and selection.json older than every D file and checkpoint
+PASS CREMA-D: D test rows == the fold's test rows
+PASS CREMA-D: HuBERT layer == rule on the fold's own E2 phase-A file (SHA-256 unchanged)
+PASS CREMA-D: D hyper-parameters == selection (ablations use xattn_HMP's)
+PASS CREMA-D: seed-0 finals reproduce the selection validation F1
+PASS CREMA-D: class weights == recomputed from training labels
+PASS CREMA-D: checkpoint metadata matches D files
+PASS CREMA-D: standardiser statistics == TRAIN-row statistics (all streams, all checkpoints)
+PASS CREMA-D: every reloaded checkpoint re-predicts its saved test predictions exactly
+PASS CREMA-D: E3-comparable S cells (concat/control x lr {1e-3,3e-4}) reproduce E3 exactly in every fold
+PASS CREMA-D: where a re-searched model selected E3's setting, its D test predictions equal E3's
+PASS CREMA-D: fold-0 S runs are the pilot's (same run hash, not rewritten after the pilot)
+PASS CREMA-D: E4 has 769,286 parameters; control within 5 %
+PASS CREMA-D: Stage 3 split file unchanged (SHA-256)
+PASS CREMA-D: Stage 4 audio/manifest/HuBERT/pooled/MFCC unchanged since adoption (SHA-256)
+PASS CREMA-D: prosody arrays unchanged since the E2 audit (SHA-256)
+PASS E1-E3 results/checkpoints/configs/splits unchanged (1432-file snapshot)
+ALL CHECKS PASSED

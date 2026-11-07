@@ -1,0 +1,84 @@
+{
+ "dataset": "CREMA-D",
+ "control": "training labels permuted (seed 1000+fold), selected xattn_HMP config, seed 0",
+ "folds": [
+  {
+   "fold": 0,
+   "layer": 7,
+   "hp": {
+    "dropout": 0.2,
+    "lr": 0.0003
+   },
+   "test_macro_f1": 0.170217721305887,
+   "test_UA": 0.17096560846560846,
+   "test_accuracy": 0.17073170731707318,
+   "val_macro_f1": 0.17616775513372498,
+   "best_epoch": 16,
+   "epochs_run": 27,
+   "share_train_labels_unchanged": 0.16705336426914152
+  },
+  {
+   "fold": 1,
+   "layer": 6,
+   "hp": {
+    "dropout": 0.2,
+    "lr": 0.0001
+   },
+   "test_macro_f1": 0.1682545121794028,
+   "test_UA": 0.17777263040859814,
+   "test_accuracy": 0.17346938775510204,
+   "val_macro_f1": 0.16693279178421785,
+   "best_epoch": 6,
+   "epochs_run": 17,
+   "share_train_labels_unchanged": 0.17014547754585704
+  },
+  {
+   "fold": 2,
+   "layer": 12,
+   "hp": {
+    "dropout": 0.2,
+    "lr": 0.0001
+   },
+   "test_macro_f1": 0.18320019770400778,
+   "test_UA": 0.19025294172148613,
+   "test_accuracy": 0.19183673469387755,
+   "val_macro_f1": 0.18297471237222632,
+   "best_epoch": 10,
+   "epochs_run": 21,
+   "share_train_labels_unchanged": 0.16677208517815728
+  },
+  {
+   "fold": 3,
+   "layer": 11,
+   "hp": {
+    "dropout": 0.2,
+    "lr": 3e-05
+   },
+   "test_macro_f1": 0.17607170753998871,
+   "test_UA": 0.1801846876061645,
+   "test_accuracy": 0.18095238095238095,
+   "val_macro_f1": 0.1608617222178645,
+   "best_epoch": 11,
+   "epochs_run": 22,
+   "share_train_labels_unchanged": 0.15446817333609786
+  },
+  {
+   "fold": 4,
+   "layer": 5,
+   "hp": {
+    "dropout": 0.2,
+    "lr": 0.0003
+   },
+   "test_macro_f1": 0.1675236197374204,
+   "test_UA": 0.17026777580116595,
+   "test_accuracy": 0.17234726688102894,
+   "val_macro_f1": 0.18665344151350383,
+   "best_epoch": 17,
+   "epochs_run": 28,
+   "share_train_labels_unchanged": 0.16758125791473197
+  }
+ ],
+ "test_macro_f1_mean": 0.1730535516933413,
+ "test_macro_f1_std": 0.006590078748776329,
+ "chance_level": 0.16666666666666666
+}

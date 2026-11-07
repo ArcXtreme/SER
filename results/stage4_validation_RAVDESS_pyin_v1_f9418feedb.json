@@ -1,0 +1,564 @@
+{
+  "dataset": "RAVDESS",
+  "cache_dir": "C:\\SER_data\\features\\RAVDESS\\v1_f9418feedb",
+  "cache_id": "v1_f9418feedb",
+  "checks": {
+    "1 all 1056 usable recordings in manifest (same order)": true,
+    "1 progress_cpu: every recording processed": true,
+    "1 progress_hubert: every recording processed": true,
+    "2 wav16k: all values finite": true,
+    "2 mfcc: all values finite": true,
+    "2 prosody_frames: all values finite": true,
+    "2 hubert_pooled: all values finite": true,
+    "2 prosody103_disvoice: all values finite": true,
+    "2 prosody103_wide: all values finite": true,
+    "2 hubert: all values finite": true,
+    "3 n_frames == 1 + (N-400)//320 for every recording": true,
+    "3 frame-offset table contiguous and complete": true,
+    "3 wav-offset table contiguous": true,
+    "4 prosody energy_db == affine(MFCC logE) on every frame (same samples)": true,
+    "5 HuBERT layer 0 -> MFCC energy: correlation peaks at lag 0 (r=0.981, r(+-1)=0.853/0.854)": true,
+    "5 HuBERT layer 9 -> MFCC energy: correlation peaks at lag 0 (r=0.949, r(+-1)=0.821/0.842)": true,
+    "6 padding masks identical across HuBERT/MFCC/prosody": true,
+    "6 mask sums equal recording frame counts": true,
+    "6 padded positions are zero": true,
+    "7 re-extraction of 20 recordings: audio, MFCC, prosody bit-identical": true,
+    "7 re-extraction: HuBERT within fp16 storage tolerance (max rel 4.6e-04)": true,
+    "8 resume after wiping 25 recordings restores the same features (HuBERT max diff 0.0e+00)": true,
+    "9 DisVoice-103 equals original DisVoice code on 30 real recordings (same F0 input)": true,
+    "10 trimming removes < 1 % of signal energy for 99 % of recordings": true
+  },
+  "n_recordings": 1056,
+  "n_frames_total": 101892,
+  "hubert_abs_max": 9.8203125,
+  "shapes": {
+    "wav16k": [
+      32866393
+    ],
+    "mfcc": [
+      101892,
+      39
+    ],
+    "prosody_frames": [
+      101892,
+      4
+    ],
+    "hubert": [
+      101892,
+      13,
+      768
+    ],
+    "hubert_pooled": [
+      1056,
+      13,
+      1536
+    ],
+    "prosody103_disvoice": [
+      1056,
+      103
+    ],
+    "prosody103_wide": [
+      1056,
+      103
+    ]
+  },
+  "dtypes": {
+    "wav16k": "float32",
+    "mfcc": "float32",
+    "prosody_frames": "float32",
+    "hubert": "float16",
+    "hubert_pooled": "float32",
+    "prosody103_disvoice": "float32",
+    "prosody103_wide": "float32"
+  },
+  "energy_identity_max_abs_err_db": 5.812546547190323e-06,
+  "hubert_mfcc_energy_lag_correlation": {
+    "layer0": {
+      "-5": 0.12825548624181204,
+      "-4": 0.22401639846253935,
+      "-3": 0.36961442818606327,
+      "-2": 0.5918814027651321,
+      "-1": 0.8537713566960252,
+      "0": 0.9809835446261652,
+      "1": 0.8534189000320977,
+      "2": 0.5926115466818908,
+      "3": 0.37611133635860083,
+      "4": 0.2291151683879977,
+      "5": 0.12863983227889994
+    },
+    "layer9": {
+      "-5": 0.12285286978733813,
+      "-4": 0.21539093217556673,
+      "-3": 0.3613541335100177,
+      "-2": 0.5936737822499442,
+      "-1": 0.8423114053079597,
+      "0": 0.9485814308551356,
+      "1": 0.8206443864447182,
+      "2": 0.5747595097968037,
+      "3": 0.3597475825624221,
+      "4": 0.2120327862979153,
+      "5": 0.11372525474263351
+    }
+  },
+  "reextraction_max_abs_diff": {
+    "wav": 0.0,
+    "mfcc": 0.0,
+    "prosody_frames": 0.0,
+    "p103_disvoice": 0.0,
+    "hubert_rel": 0.0004626715381164104
+  },
+  "resume_test": {
+    "n_wiped": 25,
+    "cpu_bit_identical": true,
+    "hubert_max_abs_diff": 0.0,
+    "p103_identical": true
+  },
+  "disvoice_oracle_real": {
+    "n": 30,
+    "mismatches": []
+  },
+  "trimming": {
+    "duration_s_before": {
+      "mean": 3.722,
+      "std": 0.337,
+      "min": 3.07,
+      "25%": 3.504,
+      "50%": 3.67,
+      "75%": 3.904,
+      "max": 5.272
+    },
+    "duration_s_after": {
+      "mean": 1.945,
+      "std": 0.431,
+      "min": 1.236,
+      "25%": 1.652,
+      "50%": 1.848,
+      "75%": 2.156,
+      "max": 4.322
+    },
+    "energy_removed_frac_median": 5.3242502447203854e-05,
+    "energy_removed_frac_p99": 0.0007301729093622978,
+    "energy_removed_frac_max": 0.0014287611108153575,
+    "files_removing_more_than_1pct": []
+  },
+  "prosody103_disvoice": {
+    "recordings_with_any_imputation": 401,
+    "imputed_values_total": 1814,
+    "most_imputed_features": {
+      "skwtiltEunvoiced": 256,
+      "kurtosistiltEunvoiced": 256,
+      "kurtosismseEunvoiced": 256,
+      "skwmseEunvoiced": 256,
+      "kurtosislastEunvoiced": 103,
+      "skwlastEunvoiced": 103,
+      "kurtosis1Eunvoiced": 64,
+      "skw1Eunvoiced": 64
+    },
+    "abs_max_value": 1676.621826171875,
+    "abs_max_feature": "avgtiltEunvoiced"
+  },
+  "prosody103_wide": {
+    "recordings_with_any_imputation": 384,
+    "imputed_values_total": 1706,
+    "most_imputed_features": {
+      "kurtosismseEunvoiced": 230,
+      "skwmseEunvoiced": 230,
+      "skwtiltEunvoiced": 229,
+      "kurtosistiltEunvoiced": 229,
+      "kurtosislastEunvoiced": 148,
+      "skwlastEunvoiced": 148,
+      "kurtosis1Eunvoiced": 65,
+      "skw1Eunvoiced": 65
+    },
+    "abs_max_value": 4739.09814453125,
+    "abs_max_feature": "F0msemax"
+  },
+  "voiced_frames_above_350Hz": {
+    "F/angry": 0.2569,
+    "F/disgust": 0.0683,
+    "F/fearful": 0.4358,
+    "F/happy": 0.2872,
+    "F/neutral": 0.0103,
+    "F/sad": 0.1885,
+    "M/angry": 0.0815,
+    "M/disgust": 0.0227,
+    "M/fearful": 0.061,
+    "M/happy": 0.0118,
+    "M/neutral": 0.0,
+    "M/sad": 0.0246
+  },
+  "voiced_frames_above_350Hz_overall": 0.13589184594079498,
+  "voiced_fraction_overall": 0.7157873042044518,
+  "f0_all_unvoiced": {
+    "frame_level": [
+      "RAVDESS/Actor_03/03-01-06-02-01-01-03.wav",
+      "RAVDESS/Actor_05/03-01-04-02-01-01-05.wav",
+      "RAVDESS/Actor_07/03-01-05-02-01-01-07.wav",
+      "RAVDESS/Actor_09/03-01-04-02-01-02-09.wav",
+      "RAVDESS/Actor_09/03-01-05-02-01-02-09.wav",
+      "RAVDESS/Actor_19/03-01-05-02-01-01-19.wav"
+    ],
+    "prosody103_disvoice": [
+      "RAVDESS/Actor_09/03-01-04-02-01-02-09.wav",
+      "RAVDESS/Actor_21/03-01-07-02-01-01-21.wav"
+    ],
+    "prosody103_wide": [
+      "RAVDESS/Actor_03/03-01-06-02-01-01-03.wav",
+      "RAVDESS/Actor_09/03-01-04-02-01-02-09.wav",
+      "RAVDESS/Actor_09/03-01-05-02-01-02-09.wav",
+      "RAVDESS/Actor_21/03-01-07-02-01-01-21.wav"
+    ]
+  },
+  "hubert_layer_frame_norm_mean": [
+    5.96999979019165,
+    5.298999786376953,
+    7.0329999923706055,
+    7.321000099182129,
+    7.513999938964844,
+    7.710000038146973,
+    7.7729997634887695,
+    7.7779998779296875,
+    7.757999897003174,
+    7.940000057220459,
+    8.119000434875488,
+    8.192999839782715,
+    11.850000381469727
+  ],
+  "hubert_cka": [
+    [
+      1.0,
+      0.8824,
+      0.8486,
+      0.8025,
+      0.7697,
+      0.725,
+      0.6856,
+      0.6402,
+      0.6154,
+      0.6168,
+      0.6263,
+      0.6441,
+      0.628
+    ],
+    [
+      0.8824,
+      1.0,
+      0.9597,
+      0.9221,
+      0.884,
+      0.8347,
+      0.7913,
+      0.742,
+      0.711,
+      0.7126,
+      0.7229,
+      0.7404,
+      0.7094
+    ],
+    [
+      0.8486,
+      0.9597,
+      1.0,
+      0.9677,
+      0.9332,
+      0.8854,
+      0.8408,
+      0.7896,
+      0.7554,
+      0.7567,
+      0.767,
+      0.7825,
+      0.7472
+    ],
+    [
+      0.8025,
+      0.9221,
+      0.9677,
+      1.0,
+      0.97,
+      0.9285,
+      0.8851,
+      0.8363,
+      0.8001,
+      0.8012,
+      0.8111,
+      0.8251,
+      0.7822
+    ],
+    [
+      0.7697,
+      0.884,
+      0.9332,
+      0.97,
+      1.0,
+      0.9626,
+      0.9217,
+      0.8745,
+      0.8377,
+      0.8371,
+      0.8462,
+      0.8557,
+      0.8106
+    ],
+    [
+      0.725,
+      0.8347,
+      0.8854,
+      0.9285,
+      0.9626,
+      1.0,
+      0.9609,
+      0.9194,
+      0.8816,
+      0.8793,
+      0.8865,
+      0.8901,
+      0.8351
+    ],
+    [
+      0.6856,
+      0.7913,
+      0.8408,
+      0.8851,
+      0.9217,
+      0.9609,
+      1.0,
+      0.9618,
+      0.9275,
+      0.9225,
+      0.9258,
+      0.9211,
+      0.8649
+    ],
+    [
+      0.6402,
+      0.742,
+      0.7896,
+      0.8363,
+      0.8745,
+      0.9194,
+      0.9618,
+      1.0,
+      0.964,
+      0.9551,
+      0.9529,
+      0.9341,
+      0.8731
+    ],
+    [
+      0.6154,
+      0.711,
+      0.7554,
+      0.8001,
+      0.8377,
+      0.8816,
+      0.9275,
+      0.964,
+      1.0,
+      0.9797,
+      0.9676,
+      0.924,
+      0.8663
+    ],
+    [
+      0.6168,
+      0.7126,
+      0.7567,
+      0.8012,
+      0.8371,
+      0.8793,
+      0.9225,
+      0.9551,
+      0.9797,
+      1.0,
+      0.9803,
+      0.9335,
+      0.8685
+    ],
+    [
+      0.6263,
+      0.7229,
+      0.7669,
+      0.8111,
+      0.8462,
+      0.8865,
+      0.9258,
+      0.9529,
+      0.9676,
+      0.9803,
+      1.0,
+      0.9553,
+      0.8859
+    ],
+    [
+      0.6441,
+      0.7404,
+      0.7825,
+      0.8251,
+      0.8557,
+      0.8901,
+      0.9211,
+      0.9341,
+      0.924,
+      0.9335,
+      0.9553,
+      1.0,
+      0.9336
+    ],
+    [
+      0.628,
+      0.7094,
+      0.7472,
+      0.7822,
+      0.8106,
+      0.8351,
+      0.8649,
+      0.8731,
+      0.8663,
+      0.8685,
+      0.8859,
+      0.9336,
+      1.0
+    ]
+  ],
+  "hubert_cka_layer1_vs_layer9": 0.712565004825592,
+  "storage_MB": {
+    "hubert.npy": 1940.3,
+    "hubert_pooled.npy": 80.4,
+    "mfcc.npy": 15.2,
+    "progress_cpu.npy": 0.0,
+    "progress_hubert.npy": 0.0,
+    "prosody103_disvoice.npy": 0.4,
+    "prosody103_disvoice_imputed.npy": 0.1,
+    "prosody103_wide.npy": 0.4,
+    "prosody103_wide_imputed.npy": 0.1,
+    "prosody_frames.npy": 1.6,
+    "wav16k.npy": 125.4
+  },
+  "storage_total_MB": 2163.9,
+  "stages": {
+    "prepare": {
+      "complete": true,
+      "seconds": 9.0
+    },
+    "cpu": {
+      "complete": true,
+      "runs": [
+        {
+          "finished": "2026-11-05 20:04:19",
+          "n_processed": 1056,
+          "seconds": 56.2,
+          "workers": 8
+        },
+        {
+          "finished": "2026-11-05 20:06:17",
+          "n_processed": 25,
+          "seconds": 38.3,
+          "workers": 8
+        },
+        {
+          "finished": "2026-11-05 20:22:36",
+          "n_processed": 25,
+          "seconds": 20.4,
+          "workers": 8
+        }
+      ]
+    },
+    "hubert": {
+      "complete": true,
+      "runs": [
+        {
+          "finished": "2026-11-05 20:04:44",
+          "n_processed": 1056,
+          "seconds": 19.3,
+          "sec_per_recording": 0.0183,
+          "peak_gpu_mib": 446.4,
+          "device": "cuda",
+          "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+          "inference_dtype": "float32",
+          "hf_cache_snapshots": [
+            {
+              "commit": "dba3bb02fda4248b6e082697eee756de8fe8aa8a",
+              "refs": [
+                "main"
+              ],
+              "files": [
+                "config.json",
+                "preprocessor_config.json",
+                "pytorch_model.bin"
+              ]
+            },
+            {
+              "commit": "af46f65f540dc3ca7aa59f46c6c3d5dbb4374fa8",
+              "refs": [
+                "refs/pr/2"
+              ],
+              "files": [
+                "model.safetensors"
+              ]
+            }
+          ]
+        },
+        {
+          "finished": "2026-11-05 20:06:20",
+          "n_processed": 25,
+          "seconds": 1.0,
+          "sec_per_recording": 0.0394,
+          "peak_gpu_mib": 446.2,
+          "device": "cuda",
+          "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+          "inference_dtype": "float32",
+          "hf_cache_snapshots": [
+            {
+              "commit": "af46f65f540dc3ca7aa59f46c6c3d5dbb4374fa8",
+              "refs": [
+                "refs/pr/2"
+              ],
+              "files": [
+                "model.safetensors"
+              ]
+            },
+            {
+              "commit": "dba3bb02fda4248b6e082697eee756de8fe8aa8a",
+              "refs": [],
+              "files": [
+                "config.json",
+                "pytorch_model.bin"
+              ]
+            }
+          ]
+        },
+        {
+          "finished": "2026-11-05 20:22:38",
+          "n_processed": 25,
+          "seconds": 0.8,
+          "sec_per_recording": 0.0326,
+          "peak_gpu_mib": 427.2,
+          "device": "cuda",
+          "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+          "inference_dtype": "float32",
+          "hf_cache_snapshots": [
+            {
+              "commit": "dba3bb02fda4248b6e082697eee756de8fe8aa8a",
+              "refs": [],
+              "files": [
+                "config.json",
+                "pytorch_model.bin"
+              ]
+            },
+            {
+              "commit": "af46f65f540dc3ca7aa59f46c6c3d5dbb4374fa8",
+              "refs": [
+                "refs/pr/2"
+              ],
+              "files": [
+                "model.safetensors"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "all_checks_passed": true
+}

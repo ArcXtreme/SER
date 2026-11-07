@@ -1,0 +1,38 @@
+{
+ "grid_dropout": [
+  0.2,
+  0.4
+ ],
+ "grid_lr": [
+  0.001,
+  0.0003,
+  0.0001,
+  3e-05
+ ],
+ "head_hidden": 256,
+ "b32_hidden": [
+  256,
+  512
+ ],
+ "b32_class_weighted": [
+  true,
+  false
+ ],
+ "weight_decay": 0.0001,
+ "batch_size": 32,
+ "max_epochs": 150,
+ "patience": 10,
+ "grad_clip": 1.0,
+ "bucket": 20,
+ "selection_seed": 0,
+ "final_seeds": [
+  0,
+  1,
+  2
+ ],
+ "pooling": "mean_std",
+ "zw_datasets": [
+  "CREMA-D"
+ ],
+ "b0_input_tolerance": 0.001
+}

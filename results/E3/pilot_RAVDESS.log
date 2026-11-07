@@ -1,0 +1,96 @@
+﻿[E3] RAVDESS: device cuda, n_sa_blocks 4, RAM {'current': 622.8, 'peak': 622.8}
+python.exe : C:\Users\prana\OneDrive\persona\!SER\src\training\sequence_data.py:59: UserWarning: The given NumPy array 
+is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in 
+undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a 
+tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at 
+C:\actions-runner\_work\pytorch\pytorch\torch\csrc\utils\tensor_numpy.cpp:219.)
+At line:1 char:302
++ ... tch {} } }; & C:\SER_data\.venv\Scripts\python.exe -u scripts/stage5_ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\prana\...numpy.cpp:219.):String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  self.X = {s: torch.from_numpy(a).to(dev) for s, a in self._np.items()}     # hubert stays fp16
+    loaded HuBERT layer 6: (101892, 768) fp16 in 6s, RAM {'current': 888.9, 'peak': 1320.1}
+{
+ "layer_info": {
+  "layer": 6,
+  "val_macro_f1_per_layer": {
+   "0": 0.6861909151372491,
+   "1": 0.7298344374666738,
+   "2": 0.7413345152975092,
+   "3": 0.7763221615556867,
+   "4": 0.7679535249972593,
+   "5": 0.78652557037422,
+   "6": 0.7938711530667043,
+   "7": 0.7895732234106744,
+   "8": 0.7381000204970617,
+   "9": 0.7295549729434665,
+   "10": 0.7420112283809565,
+   "11": 0.7157981441681941,
+   "12": 0.7094443459766041
+  },
+  "source": "results/E2/RAVDESS/fold0/selection.json",
+  "source_sha256": "810fb5603a650f0d9170247c379c18cab3f1fb65e35089f8620dc43ce1be835a"
+ },
+ "selected": {
+  "concat_HMP": {
+   "dropout": 0.2,
+   "lr": 0.0003
+  },
+  "sa_HMP": {
+   "dropout": 0.4,
+   "lr": 0.0003
+  }
+ },
+ "selected_val_macro_f1": {
+  "concat_HMP": 0.8261560366053513,
+  "sa_HMP": 0.8040316873345738
+ },
+ "n_params": {
+  "concat_HMP": 221574,
+  "sa_HMP": 751750
+ },
+ "alignment": {
+  "rows_checked": 24,
+  "max_abs_diff_vs_cache": {
+   "hubert": 0.0,
+   "mfcc": 0.0,
+   "prosody": 0.0
+  },
+  "padding_zero": true,
+  "mfcc_mean_vs_train_frames_max_abs_diff": 1.3877787807814457e-17,
+  "prosody_passthrough": {
+   "mean": [
+    0.0,
+    0.0
+   ],
+   "std": [
+    1.0,
+    1.0
+   ]
+  }
+ },
+ "estimate": {
+  "train_seconds_per_run": {
+   "concat_HMP": 5.670734350016573,
+   "sa_HMP": 15.993655650003348
+  },
+  "runs_per_fold": 38,
+  "est_minutes_per_fold_upper": 4.7958059066756205,
+  "est_hours_all_folds": 0.47958059066756203,
+  "note": "ablations without HuBERT are cheaper than concat_HMP: upper bound"
+ },
+ "hubert_layer_load_seconds": {
+  "6": 5.589347400004044
+ }
+}
+{'variant': 'concat_HMP', 'hp': {'dropout': 0.2, 'lr': 0.001}, 'val_macro_f1': 0.8213668430335098, 'best_epoch': 22, 'epochs_run': 33, 'train_seconds': 5.6079500000341795, 'sec_per_epoch': 0.16993787878891453, 'loss_first_last': [1.656630900773135, 0.0010079745102302695], 'grad_norm_max': 7.399932861328125, 'frac_steps_clipped': 0.3457300275482094, 'gpu_peak_mib': 301.1, 'ram_peak_mib': 1777.2}
+{'variant': 'concat_HMP', 'hp': {'dropout': 0.2, 'lr': 0.0003}, 'val_macro_f1': 0.8261560366053513, 'best_epoch': 30, 'epochs_run': 41, 'train_seconds': 6.495678499981295, 'sec_per_epoch': 0.15843118292637307, 'loss_first_last': [1.7634990757161921, 0.0008293039797784083], 'grad_norm_max': 5.642673969268799, 'frac_steps_clipped': 0.2627494456762749, 'gpu_peak_mib': 305.3, 'ram_peak_mib': 1777.7}
+{'variant': 'concat_HMP', 'hp': {'dropout': 0.4, 'lr': 0.001}, 'val_macro_f1': 0.7979510100828473, 'best_epoch': 19, 'epochs_run': 30, 'train_seconds': 4.436868900025729, 'sec_per_epoch': 0.14789563000085765, 'loss_first_last': [1.7009684443473816, 0.05005283114587655], 'grad_norm_max': 6.834007263183594, 'frac_steps_clipped': 0.4863636363636364, 'gpu_peak_mib': 301.1, 'ram_peak_mib': 1777.8}
+{'variant': 'concat_HMP', 'hp': {'dropout': 0.4, 'lr': 0.0003}, 'val_macro_f1': 0.8245626411240101, 'best_epoch': 29, 'epochs_run': 40, 'train_seconds': 6.14244000002509, 'sec_per_epoch': 0.15356100000062725, 'loss_first_last': [1.7673538381403142, 0.001090074995193969], 'grad_norm_max': 5.963451862335205, 'frac_steps_clipped': 0.3931818181818182, 'gpu_peak_mib': 302.5, 'ram_peak_mib': 1777.8}
+{'variant': 'sa_HMP', 'hp': {'dropout': 0.2, 'lr': 0.001}, 'val_macro_f1': 0.7522318608231355, 'best_epoch': 6, 'epochs_run': 17, 'train_seconds': 10.460639700002503, 'sec_per_epoch': 0.6153317470589708, 'loss_first_last': [1.6599711233919316, 0.046740130658938804], 'grad_norm_max': 7.593502044677734, 'frac_steps_clipped': 0.8475935828877006, 'gpu_peak_mib': 694.1, 'ram_peak_mib': 1788.2}
+{'variant': 'sa_HMP', 'hp': {'dropout': 0.2, 'lr': 0.0003}, 'val_macro_f1': 0.7932478643831654, 'best_epoch': 6, 'epochs_run': 17, 'train_seconds': 10.31688729999587, 'sec_per_epoch': 0.6068757235291687, 'loss_first_last': [1.6802051229910417, 0.025235248168676415], 'grad_norm_max': 31.40506362915039, 'frac_steps_clipped': 0.7914438502673797, 'gpu_peak_mib': 694.1, 'ram_peak_mib': 1788.2}
+{'variant': 'sa_HMP', 'hp': {'dropout': 0.4, 'lr': 0.001}, 'val_macro_f1': 0.7826576064111702, 'best_epoch': 16, 'epochs_run': 27, 'train_seconds': 16.723758000007365, 'sec_per_epoch': 0.6193984444447173, 'loss_first_last': [1.7078340541232715, 0.04646493927628564], 'grad_norm_max': 10.154183387756348, 'frac_steps_clipped': 0.7861952861952862, 'gpu_peak_mib': 694.1, 'ram_peak_mib': 1788.2}
+{'variant': 'sa_HMP', 'hp': {'dropout': 0.4, 'lr': 0.0003}, 'val_macro_f1': 0.8040316873345738, 'best_epoch': 32, 'epochs_run': 43, 'train_seconds': 26.473337600007653, 'sec_per_epoch': 0.6156590139536664, 'loss_first_last': [1.7383931983600964, 0.002168135150978659], 'grad_norm_max': 20.94322395324707, 'frac_steps_clipped': 0.6363636363636364, 'gpu_peak_mib': 694.1, 'ram_peak_mib': 1788.5}
+[E3] RAVDESS: done. GPU peak 694.1 MiB, RAM {'current': 1816.4, 'peak': 1836.9}

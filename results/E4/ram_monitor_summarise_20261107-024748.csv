@@ -1,0 +1,8 @@
+﻿time,worker_ws_gb,system_free_gb,stage,last_line
+2026-11-07T02:47:51.980,0.067,6.775,"starting",""
+2026-11-07T02:47:53.191,0.492,6.477,"starting",""
+2026-11-07T02:47:54.442,0.527,6.369,"starting",""
+2026-11-07T02:47:55.663,0.540,6.393,"starting",""
+2026-11-07T02:47:56.841,0.560,6.366,"starting",""
+2026-11-07T02:47:58.050,0.577,6.354,"starting",""
+2026-11-07T02:47:59.286,0.000,6.961,"starting","DECISION E4 - HuBERT-only: no consistent improvement  RAVDESS -0.0132 (1/6, p 0.188, Holm 0.562); CREMA-D -0.0135 (1/5, p 0.188, Holm 0.375)"

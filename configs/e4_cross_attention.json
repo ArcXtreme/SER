@@ -1,0 +1,48 @@
+{
+ "d_model": 128,
+ "n_heads": 4,
+ "d_ffn": 256,
+ "head_hidden": 256,
+ "n_sa_blocks": 4,
+ "grid_dropout": [
+  0.2,
+  0.4
+ ],
+ "grid_lr": [
+  0.001,
+  0.0003,
+  0.0001,
+  3e-05
+ ],
+ "weight_decay": 0.0001,
+ "batch_size": 32,
+ "max_epochs": 150,
+ "patience": 10,
+ "grad_clip": 1.0,
+ "bucket": 20,
+ "class_weighted": true,
+ "selection_seed": 0,
+ "final_seeds": [
+  0,
+  1,
+  2
+ ],
+ "tuned": [
+  "xattn_HMP",
+  "sa_HMP",
+  "concat_HMP",
+  "concat_H"
+ ],
+ "ablations": [
+  "xattn_HM",
+  "xattn_HP",
+  "xattn_H_MPcat"
+ ],
+ "e3_reproduction_lrs": [
+  0.001,
+  0.0003
+ ],
+ "layer_rule": "best single hidden state of the fold's own E2 phase-A validation macro-F1 (max over poolings; ties -> lower layer)  [identical to E3]",
+ "selection_metric": "validation macro-F1 (ties -> earlier candidate; dropout outer, lr descending inner)",
+ "positional_encoding": "none (as in the E3 control): cross-attention is content-based and does not encode the shared frame positions; the model is invariant to joint time permutation"
+}

@@ -1,0 +1,94 @@
+{
+ "status": "CURRENT (Praat) - used by all Stage 5 experiments",
+ "RAVDESS": {
+  "cache_id": "v1_efe9081789",
+  "config_hash": "efe90817898b980c1e5508089aedba6c8972d92df7b06d8f1ae4e744a6ecc0cd",
+  "index_sha256": "b875a4f2e51caac96727cde5a8c36ffccb60bf6486829452f54193e0c75d5331",
+  "versions": {
+   "numpy": "2.5.4",
+   "pandas": "3.1.1",
+   "scipy": "1.18.1",
+   "sklearn": "1.9.1",
+   "librosa": "1.0.0",
+   "soundfile": "0.14.0",
+   "torch": "2.14.1+cu126",
+   "transformers": "5.22.1",
+   "parselmouth": "0.4.7",
+   "praat": "6.1.38"
+  },
+  "adopted_from": "v1_f9418feedb"
+ },
+ "config": {
+  "version": 1,
+  "audio": {
+   "sample_rate": 16000,
+   "resample_type": "soxr_hq",
+   "mono": "mean",
+   "trim_top_db": 30.0,
+   "trim_frame": 512,
+   "trim_hop": 128,
+   "trim_margin_s": 0.05,
+   "normalise": "dc_remove+peak"
+  },
+  "frames": {
+   "win_length": 400,
+   "hop_length": 320
+  },
+  "mfcc": {
+   "n_fft": 512,
+   "window": "hamming",
+   "n_mels": 40,
+   "fmin": 0.0,
+   "fmax": 8000.0,
+   "mel_scale": "htk",
+   "n_ceps": 12,
+   "log_floor": 1e-10,
+   "delta_width": 2
+  },
+  "prosody": {
+   "f0_tracker": "praat_ac",
+   "praat": {
+    "max_candidates": 15,
+    "very_accurate": false,
+    "silence_threshold": 0.03,
+    "voicing_threshold": 0.45,
+    "octave_cost": 0.01,
+    "octave_jump_cost": 0.7,
+    "voiced_unvoiced_cost": 0.14
+   },
+   "f0_min": 60.0,
+   "f0_max_wide": 800.0,
+   "f0_ref_hz": 100.0,
+   "disvoice_step_s": 0.01,
+   "disvoice_frame_s": 0.02,
+   "disvoice_f0_max": 350.0,
+   "disvoice_pause_s": 0.14
+  },
+  "hubert": {
+   "model_id": "facebook/hubert-base-ls960",
+   "revision": "dba3bb02fda4248b6e082697eee756de8fe8aa8a",
+   "input_normalise": true,
+   "inference_dtype": "float32",
+   "storage_dtype": "float16",
+   "n_hidden_states": 13
+  }
+ },
+ "CREMA-D": {
+  "cache_id": "v1_efe9081789",
+  "config_hash": "efe90817898b980c1e5508089aedba6c8972d92df7b06d8f1ae4e744a6ecc0cd",
+  "index_sha256": "2620332a6dcf9592ff17a4e380d5589e810210c883b03c9d1dee796d96a68962",
+  "versions": {
+   "numpy": "2.5.4",
+   "pandas": "3.1.1",
+   "scipy": "1.18.1",
+   "sklearn": "1.9.1",
+   "librosa": "1.0.0",
+   "soundfile": "0.14.0",
+   "torch": "2.14.1+cu126",
+   "transformers": "5.22.1",
+   "parselmouth": "0.4.7",
+   "praat": "6.1.38"
+  },
+  "adopted_from": "v1_f9418feedb"
+ }
+}

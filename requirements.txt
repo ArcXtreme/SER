@@ -1,0 +1,36 @@
+# Speech Emotion Recognition course project - Python 3.12
+# Direct dependencies only, pinned to the versions verified on 2026-11-05
+# (scripts/check_env.py and scripts/check_hubert.py passed with exactly these).
+#
+# Install (Windows, NVIDIA GPU):
+#   python -m venv C:\SER_data\.venv
+#   C:\SER_data\.venv\Scripts\python.exe -m pip install -r requirements.txt
+#
+# PyTorch with CUDA comes from PyTorch's own wheel index (cu126 works with any
+# NVIDIA driver >= 560). For CPU-only machines, delete the --extra-index-url line;
+# pip will then install the CPU build of the same torch version.
+--extra-index-url https://download.pytorch.org/whl/cu126
+torch==2.14.1
+
+# Pretrained HuBERT (model definitions + weight download)
+transformers==5.22.1
+
+# Audio I/O and signal processing (no ffmpeg/torchaudio dependency)
+soundfile==0.14.0
+librosa==1.0.0
+
+# F0 tracking: Praat autocorrelation pitch (bundles Praat 6.1.38; wheels for Windows,
+# Linux/Colab and macOS). Added 2026-11-06 when F0 tracking switched from pYIN to Praat.
+praat-parselmouth==0.4.7
+
+# Numerics, data handling, classical ML, plotting
+numpy==2.5.4
+scipy==1.18.1
+pandas==3.1.1
+scikit-learn==1.9.1
+matplotlib==3.11.2
+
+# Utilities and tests
+pyyaml==6.0.3
+tqdm==4.70.1
+pytest==9.2.0

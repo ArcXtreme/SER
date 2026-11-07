@@ -1,0 +1,401 @@
+  [stage] CREMA-D: opening feature store
+[E4] CREMA-D: full run; device cuda, n_sa_blocks 4, RAM {'current': 626.7, 'peak': 626.7}
+  [stage] loading HuBERT layer 7
+    loaded HuBERT layer 7: (879279, 768) fp16 in 15s, RAM {'current': 2159.7, 'peak': 2277.1}
+  [stage] CREMA-D fold 0: phase S (search; saved runs with run hash 6c711ebab212 are reused)
+  [stage] CREMA-D fold 0: guard - E3 reproduction check
+  [stage] CREMA-D fold 0: phase D xattn_HMP seed 0 (training)
+    D xattn_HMP      seed 0 hp {'dropout': 0.2, 'lr': 0.0003}  best ep   1 run  12    55.8s  GPU 2098 MiB  RAM {'current': 3044.3, 'peak': 3049.9}
+  [stage] CREMA-D fold 0: phase D xattn_HMP seed 1 (training)
+    D xattn_HMP      seed 1 hp {'dropout': 0.2, 'lr': 0.0003}  best ep   8 run  19    88.8s  GPU 2098 MiB  RAM {'current': 3048.0, 'peak': 3052.9}
+  [stage] CREMA-D fold 0: phase D xattn_HMP seed 2 (training)
+    D xattn_HMP      seed 2 hp {'dropout': 0.2, 'lr': 0.0003}  best ep   4 run  15    69.6s  GPU 2098 MiB  RAM {'current': 3048.9, 'peak': 3053.2}
+  fold0 L7 xattn_HMP      hp {'dropout': 0.2, 'lr': 0.0003}  test F1 seeds [0.666, 0.635, 0.672]
+  [stage] CREMA-D fold 0: phase D sa_HMP seed 0 (training)
+    D sa_HMP         seed 0 hp {'dropout': 0.2, 'lr': 3e-05}  best ep  28 run  39   174.9s  GPU 2074 MiB  RAM {'current': 2926.2, 'peak': 3053.4}
+  [stage] CREMA-D fold 0: phase D sa_HMP seed 1 (training)
+    D sa_HMP         seed 1 hp {'dropout': 0.2, 'lr': 3e-05}  best ep  33 run  44   197.1s  GPU 2074 MiB  RAM {'current': 2922.4, 'peak': 3053.4}
+  [stage] CREMA-D fold 0: phase D sa_HMP seed 2 (training)
+    D sa_HMP         seed 2 hp {'dropout': 0.2, 'lr': 3e-05}  best ep  23 run  34   153.1s  GPU 2074 MiB  RAM {'current': 2927.1, 'peak': 3053.4}
+  fold0 L7 sa_HMP         hp {'dropout': 0.2, 'lr': 3e-05}  test F1 seeds [0.693, 0.688, 0.673]
+  [stage] CREMA-D fold 0: phase D concat_HMP seed 0 (training)
+    D concat_HMP     seed 0 hp {'dropout': 0.4, 'lr': 0.0003}  best ep  16 run  27    27.0s  GPU 1599 MiB  RAM {'current': 2918.8, 'peak': 3053.4}
+  [stage] CREMA-D fold 0: phase D concat_HMP seed 1 (training)
+    D concat_HMP     seed 1 hp {'dropout': 0.4, 'lr': 0.0003}  best ep  16 run  27    27.1s  GPU 1604 MiB  RAM {'current': 2920.1, 'peak': 3053.4}
+  [stage] CREMA-D fold 0: phase D concat_HMP seed 2 (training)
+    D concat_HMP     seed 2 hp {'dropout': 0.4, 'lr': 0.0003}  best ep   9 run  20    20.2s  GPU 1604 MiB  RAM {'current': 2920.2, 'peak': 3053.4}
+  fold0 L7 concat_HMP     hp {'dropout': 0.4, 'lr': 0.0003}  test F1 seeds [0.689, 0.685, 0.7]
+  [stage] CREMA-D fold 0: phase D concat_H seed 0 (training)
+    D concat_H       seed 0 hp {'dropout': 0.2, 'lr': 3e-05}  best ep  38 run  49    39.8s  GPU 1604 MiB  RAM {'current': 2917.7, 'peak': 3053.4}
+  [stage] CREMA-D fold 0: phase D concat_H seed 1 (training)
+    D concat_H       seed 1 hp {'dropout': 0.2, 'lr': 3e-05}  best ep  33 run  44    34.9s  GPU 1603 MiB  RAM {'current': 2918.5, 'peak': 3053.4}
+  [stage] CREMA-D fold 0: phase D concat_H seed 2 (training)
+    D concat_H       seed 2 hp {'dropout': 0.2, 'lr': 3e-05}  best ep  46 run  57    44.7s  GPU 1603 MiB  RAM {'current': 2918.4, 'peak': 3053.4}
+  fold0 L7 concat_H       hp {'dropout': 0.2, 'lr': 3e-05}  test F1 seeds [0.689, 0.683, 0.693]
+  [stage] CREMA-D fold 0: phase D xattn_HM seed 0 (training)
+    D xattn_HM       seed 0 hp {'dropout': 0.2, 'lr': 0.0003}  best ep   1 run  12    32.4s  GPU 1826 MiB  RAM {'current': 2922.0, 'peak': 3053.4}
+  [stage] CREMA-D fold 0: phase D xattn_HM seed 1 (training)
+    D xattn_HM       seed 1 hp {'dropout': 0.2, 'lr': 0.0003}  best ep   6 run  17    46.2s  GPU 1826 MiB  RAM {'current': 2922.7, 'peak': 3053.4}
+  [stage] CREMA-D fold 0: phase D xattn_HM seed 2 (training)
+    D xattn_HM       seed 2 hp {'dropout': 0.2, 'lr': 0.0003}  best ep   2 run  13    35.3s  GPU 1826 MiB  RAM {'current': 2922.4, 'peak': 3053.4}
+  fold0 L7 xattn_HM       hp {'dropout': 0.2, 'lr': 0.0003}  test F1 seeds [0.667, 0.647, 0.666]
+  [stage] CREMA-D fold 0: phase D xattn_HP seed 0 (training)
+    D xattn_HP       seed 0 hp {'dropout': 0.2, 'lr': 0.0003}  best ep   4 run  15    40.9s  GPU 1826 MiB  RAM {'current': 2922.7, 'peak': 3053.4}
+  [stage] CREMA-D fold 0: phase D xattn_HP seed 1 (training)
+    D xattn_HP       seed 1 hp {'dropout': 0.2, 'lr': 0.0003}  best ep   8 run  19    51.7s  GPU 1826 MiB  RAM {'current': 2921.5, 'peak': 3053.4}
+  [stage] CREMA-D fold 0: phase D xattn_HP seed 2 (training)
+    D xattn_HP       seed 2 hp {'dropout': 0.2, 'lr': 0.0003}  best ep   2 run  13    35.0s  GPU 1826 MiB  RAM {'current': 2919.4, 'peak': 3053.4}
+  fold0 L7 xattn_HP       hp {'dropout': 0.2, 'lr': 0.0003}  test F1 seeds [0.672, 0.651, 0.676]
+  [stage] CREMA-D fold 0: phase D xattn_H_MPcat seed 0 (training)
+    D xattn_H_MPcat  seed 0 hp {'dropout': 0.2, 'lr': 0.0003}  best ep   1 run  12    34.3s  GPU 1846 MiB  RAM {'current': 2917.9, 'peak': 3053.4}
+  [stage] CREMA-D fold 0: phase D xattn_H_MPcat seed 1 (training)
+    D xattn_H_MPcat  seed 1 hp {'dropout': 0.2, 'lr': 0.0003}  best ep   8 run  19    55.0s  GPU 1846 MiB  RAM {'current': 2922.3, 'peak': 3053.4}
+  [stage] CREMA-D fold 0: phase D xattn_H_MPcat seed 2 (training)
+    D xattn_H_MPcat  seed 2 hp {'dropout': 0.2, 'lr': 0.0003}  best ep  12 run  23    66.6s  GPU 1846 MiB  RAM {'current': 2921.9, 'peak': 3053.4}
+  fold0 L7 xattn_H_MPcat  hp {'dropout': 0.2, 'lr': 0.0003}  test F1 seeds [0.67, 0.658, 0.636]
+  fold0 done in 22.7 min, RAM {'current': 2917.9, 'peak': 3053.4}
+  [stage] loading HuBERT layer 6
+    loaded HuBERT layer 6: (879279, 768) fp16 in 14s, RAM {'current': 2923.0, 'peak': 3132.3}
+  [stage] CREMA-D fold 1: phase S (search; saved runs with run hash 7aad2b0827b6 are reused)
+    S concat_HMP d0.2 lr0.001   val F1 0.7129  best ep  11 run  22    21.1s  GPU 1603 MiB  RAM {'current': 2924.8, 'peak': 3132.3}
+    S concat_HMP d0.2 lr0.0003  val F1 0.7208  best ep  14 run  25    23.6s  GPU 1603 MiB  RAM {'current': 2924.8, 'peak': 3132.3}
+    S concat_HMP d0.4 lr0.001   val F1 0.7160  best ep  13 run  24    22.8s  GPU 1603 MiB  RAM {'current': 2924.8, 'peak': 3132.3}
+    S concat_HMP d0.4 lr0.0003  val F1 0.7130  best ep  14 run  25    23.8s  GPU 1603 MiB  RAM {'current': 2924.8, 'peak': 3132.3}
+    S sa_HMP     d0.2 lr0.001   val F1 0.6912  best ep  15 run  26   117.7s  GPU 2072 MiB  RAM {'current': 2929.9, 'peak': 3132.3}
+    S sa_HMP     d0.2 lr0.0003  val F1 0.7111  best ep  15 run  26   117.5s  GPU 2072 MiB  RAM {'current': 2932.2, 'peak': 3132.3}
+    S sa_HMP     d0.4 lr0.001   val F1 0.6867  best ep  19 run  30   135.7s  GPU 2072 MiB  RAM {'current': 2924.5, 'peak': 3132.3}
+    S sa_HMP     d0.4 lr0.0003  val F1 0.6985  best ep  13 run  24   108.8s  GPU 2072 MiB  RAM {'current': 2931.9, 'peak': 3132.3}
+    S xattn_HMP  d0.2 lr0.001   val F1 0.6877  best ep   5 run  16    76.5s  GPU 2097 MiB  RAM {'current': 2931.7, 'peak': 3132.3}
+    S xattn_HMP  d0.2 lr0.0003  val F1 0.7021  best ep   3 run  14    66.9s  GPU 2097 MiB  RAM {'current': 2931.1, 'peak': 3132.3}
+    S xattn_HMP  d0.2 lr0.0001  val F1 0.7024  best ep   7 run  18    85.3s  GPU 2097 MiB  RAM {'current': 2923.8, 'peak': 3132.3}
+    S xattn_HMP  d0.2 lr3e-05   val F1 0.6989  best ep  21 run  32   152.9s  GPU 2097 MiB  RAM {'current': 2929.5, 'peak': 3132.3}
+    S xattn_HMP  d0.4 lr0.001   val F1 0.6885  best ep  11 run  22   104.3s  GPU 2097 MiB  RAM {'current': 2923.9, 'peak': 3132.3}
+    S xattn_HMP  d0.4 lr0.0003  val F1 0.6729  best ep   6 run  17    80.8s  GPU 2097 MiB  RAM {'current': 2931.6, 'peak': 3132.3}
+    S xattn_HMP  d0.4 lr0.0001  val F1 0.6685  best ep   7 run  18    85.8s  GPU 2097 MiB  RAM {'current': 2930.6, 'peak': 3132.3}
+    S xattn_HMP  d0.4 lr3e-05   val F1 0.6763  best ep  21 run  32   152.2s  GPU 2097 MiB  RAM {'current': 2930.6, 'peak': 3132.3}
+    S sa_HMP     d0.2 lr0.0001  val F1 0.6985  best ep   3 run  14    63.7s  GPU 2072 MiB  RAM {'current': 2931.5, 'peak': 3132.3}
+    S sa_HMP     d0.2 lr3e-05   val F1 0.7195  best ep  32 run  43   195.0s  GPU 2072 MiB  RAM {'current': 2931.4, 'peak': 3132.3}
+    S sa_HMP     d0.4 lr0.0001  val F1 0.6829  best ep   7 run  18    81.6s  GPU 2072 MiB  RAM {'current': 2931.1, 'peak': 3132.3}
+    S sa_HMP     d0.4 lr3e-05   val F1 0.6898  best ep  32 run  43   195.5s  GPU 2072 MiB  RAM {'current': 2931.5, 'peak': 3132.3}
+    S concat_HMP d0.2 lr0.0001  val F1 0.7198  best ep  19 run  30    29.1s  GPU 1603 MiB  RAM {'current': 2925.7, 'peak': 3132.3}
+    S concat_HMP d0.2 lr3e-05   val F1 0.7163  best ep  67 run  78    77.1s  GPU 1604 MiB  RAM {'current': 2923.9, 'peak': 3132.3}
+    S concat_HMP d0.4 lr0.0001  val F1 0.7119  best ep  22 run  33    33.7s  GPU 1603 MiB  RAM {'current': 2922.5, 'peak': 3132.3}
+    S concat_HMP d0.4 lr3e-05   val F1 0.7107  best ep  63 run  74    75.1s  GPU 1604 MiB  RAM {'current': 2922.8, 'peak': 3132.3}
+    S concat_H   d0.2 lr0.001   val F1 0.7120  best ep   8 run  19    15.0s  GPU 1603 MiB  RAM {'current': 2922.5, 'peak': 3132.3}
+    S concat_H   d0.2 lr0.0003  val F1 0.7126  best ep  10 run  21    16.7s  GPU 1603 MiB  RAM {'current': 2922.5, 'peak': 3132.3}
+    S concat_H   d0.2 lr0.0001  val F1 0.7149  best ep  30 run  41    32.0s  GPU 1603 MiB  RAM {'current': 2922.5, 'peak': 3132.3}
+    S concat_H   d0.2 lr3e-05   val F1 0.7100  best ep  60 run  71    55.8s  GPU 1603 MiB  RAM {'current': 2922.5, 'peak': 3132.3}
+    S concat_H   d0.4 lr0.001   val F1 0.7088  best ep  11 run  22    17.8s  GPU 1603 MiB  RAM {'current': 2922.5, 'peak': 3132.3}
+    S concat_H   d0.4 lr0.0003  val F1 0.7049  best ep   9 run  20    16.3s  GPU 1603 MiB  RAM {'current': 2923.0, 'peak': 3132.3}
+    S concat_H   d0.4 lr0.0001  val F1 0.7097  best ep  18 run  29    23.5s  GPU 1603 MiB  RAM {'current': 2923.1, 'peak': 3132.3}
+    S concat_H   d0.4 lr3e-05   val F1 0.7038  best ep  60 run  71    57.5s  GPU 1603 MiB  RAM {'current': 2923.1, 'peak': 3132.3}
+  [stage] CREMA-D fold 1: guard - E3 reproduction check
+  [stage] CREMA-D fold 1: phase D xattn_HMP seed 0 (training)
+    D xattn_HMP      seed 0 hp {'dropout': 0.2, 'lr': 0.0001}  best ep   7 run  18    85.3s  GPU 2097 MiB  RAM {'current': 2927.2, 'peak': 3132.3}
+  [stage] CREMA-D fold 1: phase D xattn_HMP seed 1 (training)
+    D xattn_HMP      seed 1 hp {'dropout': 0.2, 'lr': 0.0001}  best ep  12 run  23   109.0s  GPU 2097 MiB  RAM {'current': 2932.1, 'peak': 3132.3}
+  [stage] CREMA-D fold 1: phase D xattn_HMP seed 2 (training)
+    D xattn_HMP      seed 2 hp {'dropout': 0.2, 'lr': 0.0001}  best ep  11 run  22   104.6s  GPU 2097 MiB  RAM {'current': 2931.9, 'peak': 3132.3}
+  fold1 L6 xattn_HMP      hp {'dropout': 0.2, 'lr': 0.0001}  test F1 seeds [0.717, 0.702, 0.699]
+  [stage] CREMA-D fold 1: phase D sa_HMP seed 0 (training)
+    D sa_HMP         seed 0 hp {'dropout': 0.2, 'lr': 3e-05}  best ep  32 run  43   195.3s  GPU 2072 MiB  RAM {'current': 2931.5, 'peak': 3132.3}
+  [stage] CREMA-D fold 1: phase D sa_HMP seed 1 (training)
+    D sa_HMP         seed 1 hp {'dropout': 0.2, 'lr': 3e-05}  best ep  43 run  54   244.4s  GPU 2074 MiB  RAM {'current': 2930.5, 'peak': 3132.3}
+  [stage] CREMA-D fold 1: phase D sa_HMP seed 2 (training)
+    D sa_HMP         seed 2 hp {'dropout': 0.2, 'lr': 3e-05}  best ep  30 run  41   186.7s  GPU 2074 MiB  RAM {'current': 2931.8, 'peak': 3132.3}
+  fold1 L6 sa_HMP         hp {'dropout': 0.2, 'lr': 3e-05}  test F1 seeds [0.709, 0.715, 0.722]
+  [stage] CREMA-D fold 1: phase D concat_HMP seed 0 (training)
+    D concat_HMP     seed 0 hp {'dropout': 0.2, 'lr': 0.0003}  best ep  14 run  25    25.3s  GPU 1603 MiB  RAM {'current': 2922.3, 'peak': 3132.3}
+  [stage] CREMA-D fold 1: phase D concat_HMP seed 1 (training)
+    D concat_HMP     seed 1 hp {'dropout': 0.2, 'lr': 0.0003}  best ep  12 run  23    22.9s  GPU 1594 MiB  RAM {'current': 2923.3, 'peak': 3132.3}
+  [stage] CREMA-D fold 1: phase D concat_HMP seed 2 (training)
+    D concat_HMP     seed 2 hp {'dropout': 0.2, 'lr': 0.0003}  best ep   8 run  19    19.8s  GPU 1598 MiB  RAM {'current': 2922.3, 'peak': 3132.3}
+  fold1 L6 concat_HMP     hp {'dropout': 0.2, 'lr': 0.0003}  test F1 seeds [0.738, 0.726, 0.736]
+  [stage] CREMA-D fold 1: phase D concat_H seed 0 (training)
+    D concat_H       seed 0 hp {'dropout': 0.2, 'lr': 0.0001}  best ep  30 run  41    32.5s  GPU 1603 MiB  RAM {'current': 2922.9, 'peak': 3132.3}
+  [stage] CREMA-D fold 1: phase D concat_H seed 1 (training)
+    D concat_H       seed 1 hp {'dropout': 0.2, 'lr': 0.0001}  best ep  18 run  29    22.9s  GPU 1594 MiB  RAM {'current': 2922.8, 'peak': 3132.3}
+  [stage] CREMA-D fold 1: phase D concat_H seed 2 (training)
+    D concat_H       seed 2 hp {'dropout': 0.2, 'lr': 0.0001}  best ep  14 run  25    19.6s  GPU 1597 MiB  RAM {'current': 2922.8, 'peak': 3132.3}
+  fold1 L6 concat_H       hp {'dropout': 0.2, 'lr': 0.0001}  test F1 seeds [0.712, 0.728, 0.73]
+  [stage] CREMA-D fold 1: phase D xattn_HM seed 0 (training)
+    D xattn_HM       seed 0 hp {'dropout': 0.2, 'lr': 0.0001}  best ep  10 run  21    57.8s  GPU 1825 MiB  RAM {'current': 2927.6, 'peak': 3132.3}
+  [stage] CREMA-D fold 1: phase D xattn_HM seed 1 (training)
+    D xattn_HM       seed 1 hp {'dropout': 0.2, 'lr': 0.0001}  best ep  12 run  23    63.5s  GPU 1826 MiB  RAM {'current': 2927.6, 'peak': 3132.3}
+  [stage] CREMA-D fold 1: phase D xattn_HM seed 2 (training)
+    D xattn_HM       seed 2 hp {'dropout': 0.2, 'lr': 0.0001}  best ep   9 run  20    54.7s  GPU 1825 MiB  RAM {'current': 2925.2, 'peak': 3132.3}
+  fold1 L6 xattn_HM       hp {'dropout': 0.2, 'lr': 0.0001}  test F1 seeds [0.709, 0.731, 0.732]
+  [stage] CREMA-D fold 1: phase D xattn_HP seed 0 (training)
+    D xattn_HP       seed 0 hp {'dropout': 0.2, 'lr': 0.0001}  best ep   5 run  16    43.7s  GPU 1825 MiB  RAM {'current': 2926.5, 'peak': 3132.3}
+  [stage] CREMA-D fold 1: phase D xattn_HP seed 1 (training)
+    D xattn_HP       seed 1 hp {'dropout': 0.2, 'lr': 0.0001}  best ep  13 run  24    65.9s  GPU 1826 MiB  RAM {'current': 2926.9, 'peak': 3132.3}
+  [stage] CREMA-D fold 1: phase D xattn_HP seed 2 (training)
+    D xattn_HP       seed 2 hp {'dropout': 0.2, 'lr': 0.0001}  best ep   7 run  18    49.7s  GPU 1825 MiB  RAM {'current': 2926.8, 'peak': 3132.3}
+  fold1 L6 xattn_HP       hp {'dropout': 0.2, 'lr': 0.0001}  test F1 seeds [0.706, 0.706, 0.717]
+  [stage] CREMA-D fold 1: phase D xattn_H_MPcat seed 0 (training)
+    D xattn_H_MPcat  seed 0 hp {'dropout': 0.2, 'lr': 0.0001}  best ep   9 run  20    58.4s  GPU 1845 MiB  RAM {'current': 2928.0, 'peak': 3132.3}
+  [stage] CREMA-D fold 1: phase D xattn_H_MPcat seed 1 (training)
+    D xattn_H_MPcat  seed 1 hp {'dropout': 0.2, 'lr': 0.0001}  best ep   4 run  15    43.5s  GPU 1845 MiB  RAM {'current': 2927.5, 'peak': 3132.3}
+  [stage] CREMA-D fold 1: phase D xattn_H_MPcat seed 2 (training)
+    D xattn_H_MPcat  seed 2 hp {'dropout': 0.2, 'lr': 0.0001}  best ep   7 run  18    52.2s  GPU 1845 MiB  RAM {'current': 2925.3, 'peak': 3132.3}
+  fold1 L6 xattn_H_MPcat  hp {'dropout': 0.2, 'lr': 0.0001}  test F1 seeds [0.705, 0.708, 0.723]
+  fold1 done in 65.9 min, RAM {'current': 2923.5, 'peak': 3132.3}
+  [stage] loading HuBERT layer 12
+    loaded HuBERT layer 12: (879279, 768) fp16 in 14s, RAM {'current': 2924.7, 'peak': 3134.1}
+  [stage] CREMA-D fold 2: phase S (search; saved runs with run hash 8ddfb6f33b96 are reused)
+    S concat_HMP d0.2 lr0.001   val F1 0.6851  best ep   8 run  19    19.0s  GPU 1596 MiB  RAM {'current': 2925.9, 'peak': 3134.1}
+    S concat_HMP d0.2 lr0.0003  val F1 0.6968  best ep   4 run  15    15.0s  GPU 1596 MiB  RAM {'current': 2925.7, 'peak': 3134.1}
+    S concat_HMP d0.4 lr0.001   val F1 0.6970  best ep  16 run  27    27.0s  GPU 1596 MiB  RAM {'current': 2925.0, 'peak': 3134.1}
+    S concat_HMP d0.4 lr0.0003  val F1 0.6957  best ep  29 run  40    39.5s  GPU 1596 MiB  RAM {'current': 2924.8, 'peak': 3134.1}
+    S sa_HMP     d0.2 lr0.001   val F1 0.6835  best ep   7 run  18    81.9s  GPU 2072 MiB  RAM {'current': 2932.6, 'peak': 3134.1}
+    S sa_HMP     d0.2 lr0.0003  val F1 0.6991  best ep   9 run  20    91.3s  GPU 2072 MiB  RAM {'current': 2932.7, 'peak': 3134.1}
+    S sa_HMP     d0.4 lr0.001   val F1 0.6726  best ep   9 run  20    91.6s  GPU 2072 MiB  RAM {'current': 2931.3, 'peak': 3134.1}
+    S sa_HMP     d0.4 lr0.0003  val F1 0.6738  best ep  13 run  24   109.9s  GPU 2072 MiB  RAM {'current': 2932.0, 'peak': 3134.1}
+    S xattn_HMP  d0.2 lr0.001   val F1 0.6864  best ep   5 run  16    76.8s  GPU 2094 MiB  RAM {'current': 2924.8, 'peak': 3134.1}
+    S xattn_HMP  d0.2 lr0.0003  val F1 0.6811  best ep   8 run  19    91.1s  GPU 2094 MiB  RAM {'current': 2932.7, 'peak': 3134.1}
+    S xattn_HMP  d0.2 lr0.0001  val F1 0.6867  best ep   8 run  19    91.1s  GPU 2094 MiB  RAM {'current': 2932.4, 'peak': 3134.1}
+    S xattn_HMP  d0.2 lr3e-05   val F1 0.6774  best ep  21 run  32   153.6s  GPU 2094 MiB  RAM {'current': 2932.5, 'peak': 3134.1}
+    S xattn_HMP  d0.4 lr0.001   val F1 0.6835  best ep   5 run  16    76.6s  GPU 2094 MiB  RAM {'current': 2930.4, 'peak': 3134.1}
+    S xattn_HMP  d0.4 lr0.0003  val F1 0.6645  best ep   8 run  19    92.1s  GPU 2094 MiB  RAM {'current': 2924.7, 'peak': 3134.1}
+    S xattn_HMP  d0.4 lr0.0001  val F1 0.6740  best ep   8 run  19    91.3s  GPU 2094 MiB  RAM {'current': 2932.9, 'peak': 3134.1}
+    S xattn_HMP  d0.4 lr3e-05   val F1 0.6541  best ep  32 run  43   206.3s  GPU 2094 MiB  RAM {'current': 2930.4, 'peak': 3134.1}
+    S sa_HMP     d0.2 lr0.0001  val F1 0.6901  best ep  14 run  25   114.4s  GPU 2072 MiB  RAM {'current': 2932.1, 'peak': 3134.1}
+    S sa_HMP     d0.2 lr3e-05   val F1 0.6962  best ep  27 run  38   174.2s  GPU 2072 MiB  RAM {'current': 2932.0, 'peak': 3134.1}
+    S sa_HMP     d0.4 lr0.0001  val F1 0.6926  best ep  18 run  29   133.4s  GPU 2072 MiB  RAM {'current': 2932.1, 'peak': 3134.1}
+    S sa_HMP     d0.4 lr3e-05   val F1 0.6727  best ep  41 run  52   238.8s  GPU 2072 MiB  RAM {'current': 2931.9, 'peak': 3134.1}
+    S concat_HMP d0.2 lr0.0001  val F1 0.6967  best ep  33 run  44    43.0s  GPU 1596 MiB  RAM {'current': 2927.6, 'peak': 3134.1}
+    S concat_HMP d0.2 lr3e-05   val F1 0.6783  best ep  46 run  57    57.0s  GPU 1596 MiB  RAM {'current': 2924.7, 'peak': 3134.1}
+    S concat_HMP d0.4 lr0.0001  val F1 0.6975  best ep  27 run  38    37.4s  GPU 1596 MiB  RAM {'current': 2924.3, 'peak': 3134.1}
+    S concat_HMP d0.4 lr3e-05   val F1 0.6821  best ep  63 run  74    74.7s  GPU 1596 MiB  RAM {'current': 2923.8, 'peak': 3134.1}
+    S concat_H   d0.2 lr0.001   val F1 0.7115  best ep  16 run  27    21.6s  GPU 1595 MiB  RAM {'current': 2923.6, 'peak': 3134.1}
+    S concat_H   d0.2 lr0.0003  val F1 0.6987  best ep  14 run  25    19.7s  GPU 1595 MiB  RAM {'current': 2923.4, 'peak': 3134.1}
+    S concat_H   d0.2 lr0.0001  val F1 0.6960  best ep  18 run  29    22.6s  GPU 1595 MiB  RAM {'current': 2923.4, 'peak': 3134.1}
+    S concat_H   d0.2 lr3e-05   val F1 0.6963  best ep  80 run  91    70.0s  GPU 1595 MiB  RAM {'current': 2923.1, 'peak': 3134.1}
+    S concat_H   d0.4 lr0.001   val F1 0.7138  best ep  16 run  27    21.2s  GPU 1595 MiB  RAM {'current': 2923.1, 'peak': 3134.1}
+    S concat_H   d0.4 lr0.0003  val F1 0.6958  best ep  18 run  29    23.4s  GPU 1595 MiB  RAM {'current': 2923.1, 'peak': 3134.1}
+    S concat_H   d0.4 lr0.0001  val F1 0.7014  best ep  26 run  37    29.8s  GPU 1595 MiB  RAM {'current': 2923.1, 'peak': 3134.1}
+    S concat_H   d0.4 lr3e-05   val F1 0.6944  best ep  74 run  85    68.1s  GPU 1595 MiB  RAM {'current': 2923.1, 'peak': 3134.1}
+  [stage] CREMA-D fold 2: guard - E3 reproduction check
+  [stage] CREMA-D fold 2: phase D xattn_HMP seed 0 (training)
+    D xattn_HMP      seed 0 hp {'dropout': 0.2, 'lr': 0.0001}  best ep   8 run  19    91.0s  GPU 2094 MiB  RAM {'current': 2931.4, 'peak': 3134.1}
+  [stage] CREMA-D fold 2: phase D xattn_HMP seed 1 (training)
+    D xattn_HMP      seed 1 hp {'dropout': 0.2, 'lr': 0.0001}  best ep  10 run  21   100.3s  GPU 2095 MiB  RAM {'current': 2928.3, 'peak': 3134.1}
+  [stage] CREMA-D fold 2: phase D xattn_HMP seed 2 (training)
+    D xattn_HMP      seed 2 hp {'dropout': 0.2, 'lr': 0.0001}  best ep  11 run  22   105.5s  GPU 2095 MiB  RAM {'current': 2933.0, 'peak': 3134.1}
+  fold2 L12 xattn_HMP      hp {'dropout': 0.2, 'lr': 0.0001}  test F1 seeds [0.634, 0.657, 0.655]
+  [stage] CREMA-D fold 2: phase D sa_HMP seed 0 (training)
+    D sa_HMP         seed 0 hp {'dropout': 0.2, 'lr': 0.0003}  best ep   9 run  20    91.3s  GPU 2072 MiB  RAM {'current': 2932.2, 'peak': 3134.1}
+  [stage] CREMA-D fold 2: phase D sa_HMP seed 1 (training)
+    D sa_HMP         seed 1 hp {'dropout': 0.2, 'lr': 0.0003}  best ep   5 run  16    73.5s  GPU 2073 MiB  RAM {'current': 2932.4, 'peak': 3134.1}
+  [stage] CREMA-D fold 2: phase D sa_HMP seed 2 (training)
+    D sa_HMP         seed 2 hp {'dropout': 0.2, 'lr': 0.0003}  best ep  11 run  22   101.0s  GPU 2073 MiB  RAM {'current': 2932.1, 'peak': 3134.1}
+  fold2 L12 sa_HMP         hp {'dropout': 0.2, 'lr': 0.0003}  test F1 seeds [0.647, 0.638, 0.645]
+  [stage] CREMA-D fold 2: phase D concat_HMP seed 0 (training)
+    D concat_HMP     seed 0 hp {'dropout': 0.4, 'lr': 0.0001}  best ep  27 run  38    38.1s  GPU 1596 MiB  RAM {'current': 2923.2, 'peak': 3134.1}
+  [stage] CREMA-D fold 2: phase D concat_HMP seed 1 (training)
+    D concat_HMP     seed 1 hp {'dropout': 0.4, 'lr': 0.0001}  best ep  32 run  43    43.3s  GPU 1596 MiB  RAM {'current': 2924.0, 'peak': 3134.1}
+  [stage] CREMA-D fold 2: phase D concat_HMP seed 2 (training)
+    D concat_HMP     seed 2 hp {'dropout': 0.4, 'lr': 0.0001}  best ep  20 run  31    31.6s  GPU 1595 MiB  RAM {'current': 2924.0, 'peak': 3134.1}
+  fold2 L12 concat_HMP     hp {'dropout': 0.4, 'lr': 0.0001}  test F1 seeds [0.667, 0.656, 0.661]
+  [stage] CREMA-D fold 2: phase D concat_H seed 0 (training)
+    D concat_H       seed 0 hp {'dropout': 0.4, 'lr': 0.001}  best ep  16 run  27    22.0s  GPU 1595 MiB  RAM {'current': 2923.8, 'peak': 3134.1}
+  [stage] CREMA-D fold 2: phase D concat_H seed 1 (training)
+    D concat_H       seed 1 hp {'dropout': 0.4, 'lr': 0.001}  best ep   5 run  16    12.5s  GPU 1590 MiB  RAM {'current': 2923.1, 'peak': 3134.1}
+  [stage] CREMA-D fold 2: phase D concat_H seed 2 (training)
+    D concat_H       seed 2 hp {'dropout': 0.4, 'lr': 0.001}  best ep   6 run  17    13.4s  GPU 1590 MiB  RAM {'current': 2923.9, 'peak': 3134.1}
+  fold2 L12 concat_H       hp {'dropout': 0.4, 'lr': 0.001}  test F1 seeds [0.651, 0.627, 0.658]
+  [stage] CREMA-D fold 2: phase D xattn_HM seed 0 (training)
+    D xattn_HM       seed 0 hp {'dropout': 0.2, 'lr': 0.0001}  best ep   8 run  19    52.5s  GPU 1824 MiB  RAM {'current': 2928.4, 'peak': 3134.1}
+  [stage] CREMA-D fold 2: phase D xattn_HM seed 1 (training)
+    D xattn_HM       seed 1 hp {'dropout': 0.2, 'lr': 0.0001}  best ep  10 run  21    57.9s  GPU 1826 MiB  RAM {'current': 2928.4, 'peak': 3134.1}
+  [stage] CREMA-D fold 2: phase D xattn_HM seed 2 (training)
+    D xattn_HM       seed 2 hp {'dropout': 0.2, 'lr': 0.0001}  best ep  10 run  21    58.5s  GPU 1826 MiB  RAM {'current': 2925.3, 'peak': 3134.1}
+  fold2 L12 xattn_HM       hp {'dropout': 0.2, 'lr': 0.0001}  test F1 seeds [0.65, 0.649, 0.658]
+  [stage] CREMA-D fold 2: phase D xattn_HP seed 0 (training)
+    D xattn_HP       seed 0 hp {'dropout': 0.2, 'lr': 0.0001}  best ep   8 run  19    52.5s  GPU 1824 MiB  RAM {'current': 2925.4, 'peak': 3134.1}
+  [stage] CREMA-D fold 2: phase D xattn_HP seed 1 (training)
+    D xattn_HP       seed 1 hp {'dropout': 0.2, 'lr': 0.0001}  best ep   6 run  17    46.9s  GPU 1825 MiB  RAM {'current': 2927.9, 'peak': 3134.1}
+  [stage] CREMA-D fold 2: phase D xattn_HP seed 2 (training)
+    D xattn_HP       seed 2 hp {'dropout': 0.2, 'lr': 0.0001}  best ep   9 run  20    55.3s  GPU 1825 MiB  RAM {'current': 2927.9, 'peak': 3134.1}
+  fold2 L12 xattn_HP       hp {'dropout': 0.2, 'lr': 0.0001}  test F1 seeds [0.649, 0.641, 0.643]
+  [stage] CREMA-D fold 2: phase D xattn_H_MPcat seed 0 (training)
+    D xattn_H_MPcat  seed 0 hp {'dropout': 0.2, 'lr': 0.0001}  best ep   8 run  19    55.9s  GPU 1845 MiB  RAM {'current': 2928.8, 'peak': 3134.1}
+  [stage] CREMA-D fold 2: phase D xattn_H_MPcat seed 1 (training)
+    D xattn_H_MPcat  seed 1 hp {'dropout': 0.2, 'lr': 0.0001}  best ep   5 run  16    47.0s  GPU 1846 MiB  RAM {'current': 2928.1, 'peak': 3134.1}
+  [stage] CREMA-D fold 2: phase D xattn_H_MPcat seed 2 (training)
+    D xattn_H_MPcat  seed 2 hp {'dropout': 0.2, 'lr': 0.0001}  best ep  10 run  21    61.5s  GPU 1846 MiB  RAM {'current': 2928.8, 'peak': 3134.1}
+  fold2 L12 xattn_H_MPcat  hp {'dropout': 0.2, 'lr': 0.0001}  test F1 seeds [0.651, 0.648, 0.661]
+  fold2 done in 62.5 min, RAM {'current': 2924.3, 'peak': 3134.1}
+  [stage] loading HuBERT layer 11
+    loaded HuBERT layer 11: (879279, 768) fp16 in 14s, RAM {'current': 2925.2, 'peak': 3134.6}
+  [stage] CREMA-D fold 3: phase S (search; saved runs with run hash dfa4cfb5d0ee are reused)
+    S concat_HMP d0.2 lr0.001   val F1 0.6919  best ep   6 run  17    16.0s  GPU 1603 MiB  RAM {'current': 2926.8, 'peak': 3134.6}
+    S concat_HMP d0.2 lr0.0003  val F1 0.7050  best ep  16 run  27    26.1s  GPU 1605 MiB  RAM {'current': 2925.5, 'peak': 3134.6}
+    S concat_HMP d0.4 lr0.001   val F1 0.6942  best ep  13 run  24    22.9s  GPU 1605 MiB  RAM {'current': 2925.7, 'peak': 3134.6}
+    S concat_HMP d0.4 lr0.0003  val F1 0.6971  best ep  16 run  27    27.3s  GPU 1605 MiB  RAM {'current': 2925.7, 'peak': 3134.6}
+    S sa_HMP     d0.2 lr0.001   val F1 0.6746  best ep  11 run  22   101.3s  GPU 2072 MiB  RAM {'current': 2934.1, 'peak': 3134.6}
+    S sa_HMP     d0.2 lr0.0003  val F1 0.6917  best ep  11 run  22   101.1s  GPU 2072 MiB  RAM {'current': 2933.2, 'peak': 3134.6}
+    S sa_HMP     d0.4 lr0.001   val F1 0.6799  best ep  12 run  23   105.8s  GPU 2072 MiB  RAM {'current': 2932.0, 'peak': 3134.6}
+    S sa_HMP     d0.4 lr0.0003  val F1 0.6945  best ep  27 run  38   175.2s  GPU 2072 MiB  RAM {'current': 2933.7, 'peak': 3134.6}
+    S xattn_HMP  d0.2 lr0.001   val F1 0.6832  best ep   3 run  14    67.8s  GPU 2095 MiB  RAM {'current': 2926.3, 'peak': 3134.6}
+    S xattn_HMP  d0.2 lr0.0003  val F1 0.6905  best ep   6 run  17    82.8s  GPU 2095 MiB  RAM {'current': 2933.7, 'peak': 3134.6}
+    S xattn_HMP  d0.2 lr0.0001  val F1 0.6931  best ep  11 run  22   106.4s  GPU 2095 MiB  RAM {'current': 2933.6, 'peak': 3134.6}
+    S xattn_HMP  d0.2 lr3e-05   val F1 0.7026  best ep  25 run  36   174.9s  GPU 2095 MiB  RAM {'current': 2925.9, 'peak': 3134.6}
+    S xattn_HMP  d0.4 lr0.001   val F1 0.6753  best ep   3 run  14    68.0s  GPU 2095 MiB  RAM {'current': 2932.4, 'peak': 3134.6}
+    S xattn_HMP  d0.4 lr0.0003  val F1 0.6807  best ep   6 run  17    82.4s  GPU 2095 MiB  RAM {'current': 2925.8, 'peak': 3134.6}
+    S xattn_HMP  d0.4 lr0.0001  val F1 0.6896  best ep  13 run  24   115.6s  GPU 2095 MiB  RAM {'current': 2925.9, 'peak': 3134.6}
+    S xattn_HMP  d0.4 lr3e-05   val F1 0.6932  best ep  25 run  36   173.9s  GPU 2095 MiB  RAM {'current': 2932.5, 'peak': 3134.6}
+    S sa_HMP     d0.2 lr0.0001  val F1 0.6910  best ep  17 run  28   128.9s  GPU 2072 MiB  RAM {'current': 2933.5, 'peak': 3134.6}
+    S sa_HMP     d0.2 lr3e-05   val F1 0.6963  best ep  30 run  41   188.9s  GPU 2072 MiB  RAM {'current': 2933.4, 'peak': 3134.6}
+    S sa_HMP     d0.4 lr0.0001  val F1 0.6965  best ep  38 run  49   225.9s  GPU 2072 MiB  RAM {'current': 2932.7, 'peak': 3134.6}
+    S sa_HMP     d0.4 lr3e-05   val F1 0.6808  best ep  20 run  31   143.4s  GPU 2072 MiB  RAM {'current': 2933.2, 'peak': 3134.6}
+    S concat_HMP d0.2 lr0.0001  val F1 0.6956  best ep  18 run  29    28.9s  GPU 1605 MiB  RAM {'current': 2927.7, 'peak': 3134.6}
+    S concat_HMP d0.2 lr3e-05   val F1 0.6904  best ep  44 run  55    53.9s  GPU 1606 MiB  RAM {'current': 2926.0, 'peak': 3134.6}
+    S concat_HMP d0.4 lr0.0001  val F1 0.7003  best ep  17 run  28    28.2s  GPU 1605 MiB  RAM {'current': 2925.5, 'peak': 3134.6}
+    S concat_HMP d0.4 lr3e-05   val F1 0.6905  best ep  67 run  78    79.3s  GPU 1606 MiB  RAM {'current': 2925.3, 'peak': 3134.6}
+    S concat_H   d0.2 lr0.001   val F1 0.6985  best ep  16 run  27    21.5s  GPU 1604 MiB  RAM {'current': 2924.7, 'peak': 3134.6}
+    S concat_H   d0.2 lr0.0003  val F1 0.6928  best ep  13 run  24    18.6s  GPU 1604 MiB  RAM {'current': 2924.7, 'peak': 3134.6}
+    S concat_H   d0.2 lr0.0001  val F1 0.6967  best ep  17 run  28    22.3s  GPU 1604 MiB  RAM {'current': 2924.7, 'peak': 3134.6}
+    S concat_H   d0.2 lr3e-05   val F1 0.7041  best ep  69 run  80    62.5s  GPU 1605 MiB  RAM {'current': 2924.9, 'peak': 3134.6}
+    S concat_H   d0.4 lr0.001   val F1 0.6935  best ep  16 run  27    21.1s  GPU 1604 MiB  RAM {'current': 2924.4, 'peak': 3134.6}
+    S concat_H   d0.4 lr0.0003  val F1 0.6988  best ep  13 run  24    19.6s  GPU 1604 MiB  RAM {'current': 2924.4, 'peak': 3134.6}
+    S concat_H   d0.4 lr0.0001  val F1 0.7082  best ep  33 run  44    35.8s  GPU 1605 MiB  RAM {'current': 2924.4, 'peak': 3134.6}
+    S concat_H   d0.4 lr3e-05   val F1 0.6845  best ep  44 run  55    44.5s  GPU 1605 MiB  RAM {'current': 2924.4, 'peak': 3134.6}
+  [stage] CREMA-D fold 3: guard - E3 reproduction check
+  [stage] CREMA-D fold 3: phase D xattn_HMP seed 0 (training)
+    D xattn_HMP      seed 0 hp {'dropout': 0.2, 'lr': 3e-05}  best ep  25 run  36   174.3s  GPU 2095 MiB  RAM {'current': 2929.4, 'peak': 3134.6}
+  [stage] CREMA-D fold 3: phase D xattn_HMP seed 1 (training)
+    D xattn_HMP      seed 1 hp {'dropout': 0.2, 'lr': 3e-05}  best ep  28 run  39   188.3s  GPU 2095 MiB  RAM {'current': 2932.2, 'peak': 3134.6}
+  [stage] CREMA-D fold 3: phase D xattn_HMP seed 2 (training)
+    D xattn_HMP      seed 2 hp {'dropout': 0.2, 'lr': 3e-05}  best ep  17 run  28   135.5s  GPU 2095 MiB  RAM {'current': 2933.9, 'peak': 3134.6}
+  fold3 L11 xattn_HMP      hp {'dropout': 0.2, 'lr': 3e-05}  test F1 seeds [0.694, 0.684, 0.687]
+  [stage] CREMA-D fold 3: phase D sa_HMP seed 0 (training)
+    D sa_HMP         seed 0 hp {'dropout': 0.4, 'lr': 0.0001}  best ep  38 run  49   225.6s  GPU 2072 MiB  RAM {'current': 2933.3, 'peak': 3134.6}
+  [stage] CREMA-D fold 3: phase D sa_HMP seed 1 (training)
+    D sa_HMP         seed 1 hp {'dropout': 0.4, 'lr': 0.0001}  best ep   7 run  18    83.1s  GPU 2070 MiB  RAM {'current': 2929.7, 'peak': 3134.6}
+  [stage] CREMA-D fold 3: phase D sa_HMP seed 2 (training)
+    D sa_HMP         seed 2 hp {'dropout': 0.4, 'lr': 0.0001}  best ep  17 run  28   129.5s  GPU 2072 MiB  RAM {'current': 2929.0, 'peak': 3134.6}
+  fold3 L11 sa_HMP         hp {'dropout': 0.4, 'lr': 0.0001}  test F1 seeds [0.694, 0.683, 0.691]
+  [stage] CREMA-D fold 3: phase D concat_HMP seed 0 (training)
+    D concat_HMP     seed 0 hp {'dropout': 0.2, 'lr': 0.0003}  best ep  16 run  27    27.0s  GPU 1605 MiB  RAM {'current': 2926.5, 'peak': 3134.6}
+  [stage] CREMA-D fold 3: phase D concat_HMP seed 1 (training)
+    D concat_HMP     seed 1 hp {'dropout': 0.2, 'lr': 0.0003}  best ep  14 run  25    24.3s  GPU 1614 MiB  RAM {'current': 2927.0, 'peak': 3134.6}
+  [stage] CREMA-D fold 3: phase D concat_HMP seed 2 (training)
+    D concat_HMP     seed 2 hp {'dropout': 0.2, 'lr': 0.0003}  best ep  15 run  26    25.3s  GPU 1614 MiB  RAM {'current': 2927.0, 'peak': 3134.6}
+  fold3 L11 concat_HMP     hp {'dropout': 0.2, 'lr': 0.0003}  test F1 seeds [0.702, 0.708, 0.712]
+  [stage] CREMA-D fold 3: phase D concat_H seed 0 (training)
+    D concat_H       seed 0 hp {'dropout': 0.4, 'lr': 0.0001}  best ep  33 run  44    34.8s  GPU 1605 MiB  RAM {'current': 2925.8, 'peak': 3134.6}
+  [stage] CREMA-D fold 3: phase D concat_H seed 1 (training)
+    D concat_H       seed 1 hp {'dropout': 0.4, 'lr': 0.0001}  best ep  28 run  39    30.3s  GPU 1613 MiB  RAM {'current': 2925.8, 'peak': 3134.6}
+  [stage] CREMA-D fold 3: phase D concat_H seed 2 (training)
+    D concat_H       seed 2 hp {'dropout': 0.4, 'lr': 0.0001}  best ep  24 run  35    28.4s  GPU 1613 MiB  RAM {'current': 2925.2, 'peak': 3134.6}
+  fold3 L11 concat_H       hp {'dropout': 0.4, 'lr': 0.0001}  test F1 seeds [0.685, 0.699, 0.681]
+  [stage] CREMA-D fold 3: phase D xattn_HM seed 0 (training)
+    D xattn_HM       seed 0 hp {'dropout': 0.2, 'lr': 3e-05}  best ep  62 run  73   203.8s  GPU 1825 MiB  RAM {'current': 2926.6, 'peak': 3134.6}
+  [stage] CREMA-D fold 3: phase D xattn_HM seed 1 (training)
+    D xattn_HM       seed 1 hp {'dropout': 0.2, 'lr': 3e-05}  best ep  42 run  53   148.4s  GPU 1825 MiB  RAM {'current': 2929.4, 'peak': 3134.6}
+  [stage] CREMA-D fold 3: phase D xattn_HM seed 2 (training)
+    D xattn_HM       seed 2 hp {'dropout': 0.2, 'lr': 3e-05}  best ep  20 run  31    86.4s  GPU 1825 MiB  RAM {'current': 2929.6, 'peak': 3134.6}
+  fold3 L11 xattn_HM       hp {'dropout': 0.2, 'lr': 3e-05}  test F1 seeds [0.696, 0.704, 0.683]
+  [stage] CREMA-D fold 3: phase D xattn_HP seed 0 (training)
+    D xattn_HP       seed 0 hp {'dropout': 0.2, 'lr': 3e-05}  best ep  41 run  52   145.8s  GPU 1825 MiB  RAM {'current': 2927.1, 'peak': 3134.6}
+  [stage] CREMA-D fold 3: phase D xattn_HP seed 1 (training)
+    D xattn_HP       seed 1 hp {'dropout': 0.2, 'lr': 3e-05}  best ep  39 run  50   139.8s  GPU 1825 MiB  RAM {'current': 2929.9, 'peak': 3134.6}
+  [stage] CREMA-D fold 3: phase D xattn_HP seed 2 (training)
+    D xattn_HP       seed 2 hp {'dropout': 0.2, 'lr': 3e-05}  best ep  33 run  44   123.1s  GPU 1825 MiB  RAM {'current': 2929.5, 'peak': 3134.6}
+  fold3 L11 xattn_HP       hp {'dropout': 0.2, 'lr': 3e-05}  test F1 seeds [0.689, 0.679, 0.669]
+  [stage] CREMA-D fold 3: phase D xattn_H_MPcat seed 0 (training)
+    D xattn_H_MPcat  seed 0 hp {'dropout': 0.2, 'lr': 3e-05}  best ep  20 run  31    92.0s  GPU 1845 MiB  RAM {'current': 2930.1, 'peak': 3134.6}
+  [stage] CREMA-D fold 3: phase D xattn_H_MPcat seed 1 (training)
+    D xattn_H_MPcat  seed 1 hp {'dropout': 0.2, 'lr': 3e-05}  best ep  39 run  50   150.0s  GPU 1845 MiB  RAM {'current': 2930.1, 'peak': 3134.6}
+  [stage] CREMA-D fold 3: phase D xattn_H_MPcat seed 2 (training)
+    D xattn_H_MPcat  seed 2 hp {'dropout': 0.2, 'lr': 3e-05}  best ep  31 run  42   124.3s  GPU 1845 MiB  RAM {'current': 2930.5, 'peak': 3134.6}
+  fold3 L11 xattn_H_MPcat  hp {'dropout': 0.2, 'lr': 3e-05}  test F1 seeds [0.679, 0.683, 0.688]
+  fold3 done in 82.1 min, RAM {'current': 2925.5, 'peak': 3134.6}
+  [stage] loading HuBERT layer 5
+    loaded HuBERT layer 5: (879279, 768) fp16 in 14s, RAM {'current': 2926.2, 'peak': 3135.5}
+  [stage] CREMA-D fold 4: phase S (search; saved runs with run hash 376383fd95b8 are reused)
+    S concat_HMP d0.2 lr0.001   val F1 0.7470  best ep   4 run  15    14.3s  GPU 1614 MiB  RAM {'current': 2928.9, 'peak': 3135.5}
+    S concat_HMP d0.2 lr0.0003  val F1 0.7544  best ep  11 run  22    21.5s  GPU 1614 MiB  RAM {'current': 2928.9, 'peak': 3135.5}
+    S concat_HMP d0.4 lr0.001   val F1 0.7383  best ep  11 run  22    21.2s  GPU 1614 MiB  RAM {'current': 2926.1, 'peak': 3135.5}
+    S concat_HMP d0.4 lr0.0003  val F1 0.7564  best ep  11 run  22    21.8s  GPU 1614 MiB  RAM {'current': 2928.2, 'peak': 3135.5}
+    S sa_HMP     d0.2 lr0.001   val F1 0.7038  best ep  11 run  22   100.2s  GPU 2045 MiB  RAM {'current': 2936.0, 'peak': 3135.5}
+    S sa_HMP     d0.2 lr0.0003  val F1 0.7182  best ep  11 run  22   100.2s  GPU 2044 MiB  RAM {'current': 2935.3, 'peak': 3135.5}
+    S sa_HMP     d0.4 lr0.001   val F1 0.7126  best ep  11 run  22   100.0s  GPU 2044 MiB  RAM {'current': 2928.4, 'peak': 3135.5}
+    S sa_HMP     d0.4 lr0.0003  val F1 0.7129  best ep   6 run  17    77.5s  GPU 2044 MiB  RAM {'current': 2935.4, 'peak': 3135.5}
+    S xattn_HMP  d0.2 lr0.001   val F1 0.7275  best ep   2 run  13    62.3s  GPU 2067 MiB  RAM {'current': 2935.4, 'peak': 3135.5}
+    S xattn_HMP  d0.2 lr0.0003  val F1 0.7336  best ep   2 run  13    62.3s  GPU 2067 MiB  RAM {'current': 2928.7, 'peak': 3135.5}
+    S xattn_HMP  d0.2 lr0.0001  val F1 0.7207  best ep  11 run  22   105.1s  GPU 2067 MiB  RAM {'current': 2928.9, 'peak': 3135.5}
+    S xattn_HMP  d0.2 lr3e-05   val F1 0.7110  best ep  10 run  21   100.8s  GPU 2067 MiB  RAM {'current': 2935.5, 'peak': 3135.5}
+    S xattn_HMP  d0.4 lr0.001   val F1 0.7036  best ep   8 run  19    90.6s  GPU 2067 MiB  RAM {'current': 2933.2, 'peak': 3135.5}
+    S xattn_HMP  d0.4 lr0.0003  val F1 0.7078  best ep   2 run  13    62.1s  GPU 2067 MiB  RAM {'current': 2934.7, 'peak': 3135.5}
+    S xattn_HMP  d0.4 lr0.0001  val F1 0.7005  best ep   4 run  15    71.9s  GPU 2067 MiB  RAM {'current': 2935.2, 'peak': 3135.5}
+    S xattn_HMP  d0.4 lr3e-05   val F1 0.6949  best ep  13 run  24   115.1s  GPU 2067 MiB  RAM {'current': 2934.2, 'peak': 3135.5}
+    S sa_HMP     d0.2 lr0.0001  val F1 0.7488  best ep  11 run  22   100.4s  GPU 2044 MiB  RAM {'current': 2935.1, 'peak': 3135.5}
+    S sa_HMP     d0.2 lr3e-05   val F1 0.7395  best ep  24 run  35   160.1s  GPU 2044 MiB  RAM {'current': 2935.0, 'peak': 3135.5}
+    S sa_HMP     d0.4 lr0.0001  val F1 0.7264  best ep  20 run  31   142.2s  GPU 2044 MiB  RAM {'current': 2935.4, 'peak': 3135.5}
+    S sa_HMP     d0.4 lr3e-05   val F1 0.7438  best ep  42 run  53   242.7s  GPU 2044 MiB  RAM {'current': 2935.0, 'peak': 3135.5}
+    S concat_HMP d0.2 lr0.0001  val F1 0.7567  best ep  20 run  31    30.0s  GPU 1614 MiB  RAM {'current': 2930.5, 'peak': 3135.5}
+    S concat_HMP d0.2 lr3e-05   val F1 0.7451  best ep  53 run  64    62.9s  GPU 1614 MiB  RAM {'current': 2927.5, 'peak': 3135.5}
+    S concat_HMP d0.4 lr0.0001  val F1 0.7537  best ep  24 run  35    35.4s  GPU 1614 MiB  RAM {'current': 2927.3, 'peak': 3135.5}
+    S concat_HMP d0.4 lr3e-05   val F1 0.7399  best ep  44 run  55    55.2s  GPU 1614 MiB  RAM {'current': 2927.0, 'peak': 3135.5}
+    S concat_H   d0.2 lr0.001   val F1 0.7462  best ep   8 run  19    15.0s  GPU 1613 MiB  RAM {'current': 2926.6, 'peak': 3135.5}
+    S concat_H   d0.2 lr0.0003  val F1 0.7431  best ep   8 run  19    15.4s  GPU 1613 MiB  RAM {'current': 2926.5, 'peak': 3135.5}
+    S concat_H   d0.2 lr0.0001  val F1 0.7455  best ep  24 run  35    27.4s  GPU 1613 MiB  RAM {'current': 2926.5, 'peak': 3135.5}
+    S concat_H   d0.2 lr3e-05   val F1 0.7437  best ep  57 run  68    53.4s  GPU 1613 MiB  RAM {'current': 2926.5, 'peak': 3135.5}
+    S concat_H   d0.4 lr0.001   val F1 0.7414  best ep   8 run  19    14.7s  GPU 1613 MiB  RAM {'current': 2926.5, 'peak': 3135.5}
+    S concat_H   d0.4 lr0.0003  val F1 0.7413  best ep  11 run  22    17.4s  GPU 1613 MiB  RAM {'current': 2926.5, 'peak': 3135.5}
+    S concat_H   d0.4 lr0.0001  val F1 0.7460  best ep  20 run  31    25.5s  GPU 1613 MiB  RAM {'current': 2926.1, 'peak': 3135.5}
+    S concat_H   d0.4 lr3e-05   val F1 0.7416  best ep  71 run  82    66.2s  GPU 1613 MiB  RAM {'current': 2926.1, 'peak': 3135.5}
+  [stage] CREMA-D fold 4: guard - E3 reproduction check
+  [stage] CREMA-D fold 4: phase D xattn_HMP seed 0 (training)
+    D xattn_HMP      seed 0 hp {'dropout': 0.2, 'lr': 0.0003}  best ep   2 run  13    62.5s  GPU 2067 MiB  RAM {'current': 2934.3, 'peak': 3135.5}
+  [stage] CREMA-D fold 4: phase D xattn_HMP seed 1 (training)
+    D xattn_HMP      seed 1 hp {'dropout': 0.2, 'lr': 0.0003}  best ep   5 run  16    76.4s  GPU 2067 MiB  RAM {'current': 2930.0, 'peak': 3135.5}
+  [stage] CREMA-D fold 4: phase D xattn_HMP seed 2 (training)
+    D xattn_HMP      seed 2 hp {'dropout': 0.2, 'lr': 0.0003}  best ep   6 run  17    81.6s  GPU 2067 MiB  RAM {'current': 2931.2, 'peak': 3135.5}
+  fold4 L5 xattn_HMP      hp {'dropout': 0.2, 'lr': 0.0003}  test F1 seeds [0.686, 0.659, 0.665]
+  [stage] CREMA-D fold 4: phase D sa_HMP seed 0 (training)
+    D sa_HMP         seed 0 hp {'dropout': 0.2, 'lr': 0.0001}  best ep  11 run  22   100.7s  GPU 2044 MiB  RAM {'current': 2935.2, 'peak': 3135.5}
+  [stage] CREMA-D fold 4: phase D sa_HMP seed 1 (training)
+    D sa_HMP         seed 1 hp {'dropout': 0.2, 'lr': 0.0001}  best ep   8 run  19    86.9s  GPU 2044 MiB  RAM {'current': 2935.3, 'peak': 3135.5}
+  [stage] CREMA-D fold 4: phase D sa_HMP seed 2 (training)
+    D sa_HMP         seed 2 hp {'dropout': 0.2, 'lr': 0.0001}  best ep   9 run  20    91.8s  GPU 2044 MiB  RAM {'current': 2935.4, 'peak': 3135.5}
+  fold4 L5 sa_HMP         hp {'dropout': 0.2, 'lr': 0.0001}  test F1 seeds [0.691, 0.689, 0.705]
+  [stage] CREMA-D fold 4: phase D concat_HMP seed 0 (training)
+    D concat_HMP     seed 0 hp {'dropout': 0.2, 'lr': 0.0001}  best ep  20 run  31    30.2s  GPU 1614 MiB  RAM {'current': 2928.0, 'peak': 3135.5}
+  [stage] CREMA-D fold 4: phase D concat_HMP seed 1 (training)
+    D concat_HMP     seed 1 hp {'dropout': 0.2, 'lr': 0.0001}  best ep  13 run  24    23.5s  GPU 1605 MiB  RAM {'current': 2928.2, 'peak': 3135.5}
+  [stage] CREMA-D fold 4: phase D concat_HMP seed 2 (training)
+    D concat_HMP     seed 2 hp {'dropout': 0.2, 'lr': 0.0001}  best ep  19 run  30    28.9s  GPU 1614 MiB  RAM {'current': 2928.2, 'peak': 3135.5}
+  fold4 L5 concat_HMP     hp {'dropout': 0.2, 'lr': 0.0001}  test F1 seeds [0.671, 0.679, 0.676]
+  [stage] CREMA-D fold 4: phase D concat_H seed 0 (training)
+    D concat_H       seed 0 hp {'dropout': 0.2, 'lr': 0.001}  best ep   8 run  19    14.6s  GPU 1613 MiB  RAM {'current': 2927.5, 'peak': 3135.5}
+  [stage] CREMA-D fold 4: phase D concat_H seed 1 (training)
+    D concat_H       seed 1 hp {'dropout': 0.2, 'lr': 0.001}  best ep  10 run  21    16.2s  GPU 1604 MiB  RAM {'current': 2927.5, 'peak': 3135.5}
+  [stage] CREMA-D fold 4: phase D concat_H seed 2 (training)
+    D concat_H       seed 2 hp {'dropout': 0.2, 'lr': 0.001}  best ep  14 run  25    19.6s  GPU 1613 MiB  RAM {'current': 2927.5, 'peak': 3135.5}
+  fold4 L5 concat_H       hp {'dropout': 0.2, 'lr': 0.001}  test F1 seeds [0.698, 0.686, 0.696]
+  [stage] CREMA-D fold 4: phase D xattn_HM seed 0 (training)
+    D xattn_HM       seed 0 hp {'dropout': 0.2, 'lr': 0.0003}  best ep   2 run  13    36.2s  GPU 1810 MiB  RAM {'current': 2928.3, 'peak': 3135.5}
+  [stage] CREMA-D fold 4: phase D xattn_HM seed 1 (training)
+    D xattn_HM       seed 1 hp {'dropout': 0.2, 'lr': 0.0003}  best ep   5 run  16    44.1s  GPU 1810 MiB  RAM {'current': 2930.9, 'peak': 3135.5}
+  [stage] CREMA-D fold 4: phase D xattn_HM seed 2 (training)
+    D xattn_HM       seed 2 hp {'dropout': 0.2, 'lr': 0.0003}  best ep   4 run  15    41.6s  GPU 1810 MiB  RAM {'current': 2928.2, 'peak': 3135.5}
+  fold4 L5 xattn_HM       hp {'dropout': 0.2, 'lr': 0.0003}  test F1 seeds [0.668, 0.672, 0.675]
+  [stage] CREMA-D fold 4: phase D xattn_HP seed 0 (training)
+    D xattn_HP       seed 0 hp {'dropout': 0.2, 'lr': 0.0003}  best ep   2 run  13    35.8s  GPU 1810 MiB  RAM {'current': 2930.7, 'peak': 3135.5}
+  [stage] CREMA-D fold 4: phase D xattn_HP seed 1 (training)
+    D xattn_HP       seed 1 hp {'dropout': 0.2, 'lr': 0.0003}  best ep   2 run  13    35.8s  GPU 1810 MiB  RAM {'current': 2928.6, 'peak': 3135.5}
+  [stage] CREMA-D fold 4: phase D xattn_HP seed 2 (training)
+    D xattn_HP       seed 2 hp {'dropout': 0.2, 'lr': 0.0003}  best ep   2 run  13    35.9s  GPU 1810 MiB  RAM {'current': 2930.4, 'peak': 3135.5}
+  fold4 L5 xattn_HP       hp {'dropout': 0.2, 'lr': 0.0003}  test F1 seeds [0.677, 0.684, 0.656]
+  [stage] CREMA-D fold 4: phase D xattn_H_MPcat seed 0 (training)
+    D xattn_H_MPcat  seed 0 hp {'dropout': 0.2, 'lr': 0.0003}  best ep   7 run  18    52.8s  GPU 1829 MiB  RAM {'current': 2931.1, 'peak': 3135.5}
+  [stage] CREMA-D fold 4: phase D xattn_H_MPcat seed 1 (training)
+    D xattn_H_MPcat  seed 1 hp {'dropout': 0.2, 'lr': 0.0003}  best ep   2 run  13    38.2s  GPU 1829 MiB  RAM {'current': 2931.4, 'peak': 3135.5}
+  [stage] CREMA-D fold 4: phase D xattn_H_MPcat seed 2 (training)
+    D xattn_H_MPcat  seed 2 hp {'dropout': 0.2, 'lr': 0.0003}  best ep   6 run  17    50.3s  GPU 1829 MiB  RAM {'current': 2931.8, 'peak': 3135.5}
+  fold4 L5 xattn_H_MPcat  hp {'dropout': 0.2, 'lr': 0.0003}  test F1 seeds [0.647, 0.683, 0.645]
+  fold4 done in 53.8 min, RAM {'current': 2927.2, 'peak': 3135.5}
+[E4] CREMA-D: done. GPU peak 1829.4 MiB, RAM {'current': 1495.0, 'peak': 3135.5}

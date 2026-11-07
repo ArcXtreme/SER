@@ -1,0 +1,24 @@
+  [stage] RAVDESS fold 0 frameL: opening feature store
+  [stage] RAVDESS fold 0 frameL: loading HuBERT layer 6
+    data on cuda, RAM {'current': 890.2, 'peak': 1137.8}
+  [stage] RAVDESS fold 0 frameL: phase S Z {'hidden': 256, 'class_weighted': True, 'dropout': 0.2, 'lr': 0.001} (training)
+    S Z         {'hidden': 256, 'class_weighted': True, 'dropout': 0.2, 'lr': 0.001}  val F1 0.8274  best ep   9 run  20     3.2s  GPU 299.8 MiB  RAM {'current': 1775.8, 'peak': 1775.8}
+  [stage] RAVDESS fold 0 frameL: phase S Z {'hidden': 256, 'class_weighted': True, 'dropout': 0.2, 'lr': 0.0003} (training)
+    S Z         {'hidden': 256, 'class_weighted': True, 'dropout': 0.2, 'lr': 0.0003}  val F1 0.8180  best ep  30 run  41     5.8s  GPU 304.7 MiB  RAM {'current': 1776.4, 'peak': 1776.4}
+  [stage] RAVDESS fold 0 frameL: phase S Z {'hidden': 256, 'class_weighted': True, 'dropout': 0.2, 'lr': 0.0001} (training)
+    S Z         {'hidden': 256, 'class_weighted': True, 'dropout': 0.2, 'lr': 0.0001}  val F1 0.8120  best ep  37 run  48     6.7s  GPU 309.3 MiB  RAM {'current': 1776.4, 'peak': 1776.4}
+  [stage] RAVDESS fold 0 frameL: phase S Z {'hidden': 256, 'class_weighted': True, 'dropout': 0.2, 'lr': 3e-05} (training)
+    S Z         {'hidden': 256, 'class_weighted': True, 'dropout': 0.2, 'lr': 3e-05}  val F1 0.7982  best ep  63 run  74    10.4s  GPU 309.3 MiB  RAM {'current': 1776.5, 'peak': 1776.5}
+  [stage] RAVDESS fold 0 frameL: phase S Z {'hidden': 256, 'class_weighted': True, 'dropout': 0.4, 'lr': 0.001} (training)
+    S Z         {'hidden': 256, 'class_weighted': True, 'dropout': 0.4, 'lr': 0.001}  val F1 0.8123  best ep   9 run  20     2.6s  GPU 299.8 MiB  RAM {'current': 1776.5, 'peak': 1776.5}
+  [stage] RAVDESS fold 0 frameL: phase S Z {'hidden': 256, 'class_weighted': True, 'dropout': 0.4, 'lr': 0.0003} (training)
+    S Z         {'hidden': 256, 'class_weighted': True, 'dropout': 0.4, 'lr': 0.0003}  val F1 0.8113  best ep  21 run  32     4.2s  GPU 299.8 MiB  RAM {'current': 1776.6, 'peak': 1776.6}
+  [stage] RAVDESS fold 0 frameL: phase S Z {'hidden': 256, 'class_weighted': True, 'dropout': 0.4, 'lr': 0.0001} (training)
+    S Z         {'hidden': 256, 'class_weighted': True, 'dropout': 0.4, 'lr': 0.0001}  val F1 0.8167  best ep  34 run  45     5.3s  GPU 309.3 MiB  RAM {'current': 1776.6, 'peak': 1776.6}
+  [stage] RAVDESS fold 0 frameL: phase S Z {'hidden': 256, 'class_weighted': True, 'dropout': 0.4, 'lr': 3e-05} (training)
+    S Z         {'hidden': 256, 'class_weighted': True, 'dropout': 0.4, 'lr': 3e-05}  val F1 0.7917  best ep  77 run  88     9.8s  GPU 309.3 MiB  RAM {'current': 1776.7, 'peak': 1776.7}
+  [stage] RAVDESS fold 0 frameL: implementation gate R6 (Z == E4 concat_H)
+  [stage] RAVDESS fold 0 frameL: determinism probe (Z cell re-run)
+  [stage] RAVDESS fold 0 frameL: B0 input check
+    B0 input max |diff| vs E2 standardised pooled input: 2.96e-03 (tolerance 0.001)
+  [stage] RAVDESS fold 0 frameL: done in 0.9 min

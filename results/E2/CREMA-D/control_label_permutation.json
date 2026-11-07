@@ -1,0 +1,49 @@
+{
+ "dataset": "CREMA-D",
+ "control": "training labels permuted (seed 1000+fold), selected E2 config, seed 0",
+ "folds": [
+  {
+   "fold": 0,
+   "test_macro_f1": 0.18790714670647501,
+   "test_UA": 0.18794091710758376,
+   "test_accuracy": 0.18631436314363142,
+   "val_macro_f1": 0.20238247397802897,
+   "share_train_labels_unchanged": 0.16705336426914152
+  },
+  {
+   "fold": 1,
+   "test_macro_f1": 0.2090084240387163,
+   "test_UA": 0.21981531239383553,
+   "test_accuracy": 0.21904761904761905,
+   "val_macro_f1": 0.20605456509931155,
+   "share_train_labels_unchanged": 0.17014547754585704
+  },
+  {
+   "fold": 2,
+   "test_macro_f1": 0.1717010014015029,
+   "test_UA": 0.1816208036072763,
+   "test_accuracy": 0.18299319727891156,
+   "val_macro_f1": 0.18589042076509035,
+   "share_train_labels_unchanged": 0.16677208517815728
+  },
+  {
+   "fold": 3,
+   "test_macro_f1": 0.17860545556227733,
+   "test_UA": 0.1791902158806634,
+   "test_accuracy": 0.17959183673469387,
+   "val_macro_f1": 0.19011186598556884,
+   "share_train_labels_unchanged": 0.15446817333609786
+  },
+  {
+   "fold": 4,
+   "test_macro_f1": 0.18385067337078642,
+   "test_UA": 0.18873818793100636,
+   "test_accuracy": 0.19228295819935692,
+   "val_macro_f1": 0.1985468023738912,
+   "share_train_labels_unchanged": 0.16758125791473197
+  }
+ ],
+ "test_macro_f1_mean": 0.1862145402159516,
+ "test_macro_f1_std": 0.014111652110086347,
+ "chance_level": 0.16666666666666666
+}

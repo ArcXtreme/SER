@@ -1,0 +1,22 @@
+  [stage] CREMA-D fold 0 pooled: opening feature store
+  [stage] CREMA-D fold 0 pooled: phase S P0 {'hidden': 256, 'class_weighted': True, 'dropout': 0.2, 'lr': 0.001} (training)
+    S P0        {'hidden': 256, 'class_weighted': True, 'dropout': 0.2, 'lr': 0.001}  val F1 0.6933  best ep   8 run  19     3.7s  GPU 106.8 MiB  RAM {'current': 1551.9, 'peak': 1996.4}
+  [stage] CREMA-D fold 0 pooled: phase S P0 {'hidden': 256, 'class_weighted': True, 'dropout': 0.2, 'lr': 0.0003} (training)
+    S P0        {'hidden': 256, 'class_weighted': True, 'dropout': 0.2, 'lr': 0.0003}  val F1 0.7001  best ep   7 run  18     3.3s  GPU 106.8 MiB  RAM {'current': 1552.2, 'peak': 2363.0}
+  [stage] CREMA-D fold 0 pooled: phase S P0 {'hidden': 256, 'class_weighted': True, 'dropout': 0.2, 'lr': 0.0001} (training)
+    S P0        {'hidden': 256, 'class_weighted': True, 'dropout': 0.2, 'lr': 0.0001}  val F1 0.7037  best ep  15 run  26     4.9s  GPU 106.8 MiB  RAM {'current': 1552.3, 'peak': 2363.3}
+  [stage] CREMA-D fold 0 pooled: phase S P0 {'hidden': 256, 'class_weighted': True, 'dropout': 0.2, 'lr': 3e-05} (training)
+    S P0        {'hidden': 256, 'class_weighted': True, 'dropout': 0.2, 'lr': 3e-05}  val F1 0.7092  best ep  39 run  50     9.1s  GPU 106.8 MiB  RAM {'current': 1552.3, 'peak': 2363.3}
+  [stage] CREMA-D fold 0 pooled: phase S P0 {'hidden': 256, 'class_weighted': True, 'dropout': 0.4, 'lr': 0.001} (training)
+    S P0        {'hidden': 256, 'class_weighted': True, 'dropout': 0.4, 'lr': 0.001}  val F1 0.6921  best ep  18 run  29     5.4s  GPU 106.8 MiB  RAM {'current': 1552.4, 'peak': 2363.3}
+  [stage] CREMA-D fold 0 pooled: phase S P0 {'hidden': 256, 'class_weighted': True, 'dropout': 0.4, 'lr': 0.0003} (training)
+    S P0        {'hidden': 256, 'class_weighted': True, 'dropout': 0.4, 'lr': 0.0003}  val F1 0.6983  best ep   5 run  16     3.1s  GPU 106.8 MiB  RAM {'current': 1552.4, 'peak': 2363.4}
+  [stage] CREMA-D fold 0 pooled: phase S P0 {'hidden': 256, 'class_weighted': True, 'dropout': 0.4, 'lr': 0.0001} (training)
+    S P0        {'hidden': 256, 'class_weighted': True, 'dropout': 0.4, 'lr': 0.0001}  val F1 0.7095  best ep  18 run  29     6.0s  GPU 106.8 MiB  RAM {'current': 1552.4, 'peak': 2363.4}
+  [stage] CREMA-D fold 0 pooled: phase S P0 {'hidden': 256, 'class_weighted': True, 'dropout': 0.4, 'lr': 3e-05} (training)
+    S P0        {'hidden': 256, 'class_weighted': True, 'dropout': 0.4, 'lr': 3e-05}  val F1 0.7075  best ep  39 run  50    12.3s  GPU 106.8 MiB  RAM {'current': 1552.5, 'peak': 2363.4}
+  [stage] CREMA-D fold 0 pooled: phase S P0W {'hidden': 256, 'class_weighted': True, 'dropout': 0.2, 'lr': 0.001} (training)
+    S P0W       {'hidden': 256, 'class_weighted': True, 'dropout': 0.2, 'lr': 0.001}  val F1 0.7013  best ep   9 run  20     6.4s  GPU 548.0 MiB  RAM {'current': 1596.3, 'peak': 3354.0}
+  [stage] CREMA-D fold 0 pooled: implementation gates R1-R5
+  [stage] CREMA-D fold 0 pooled: determinism probe (P0 cell re-run)
+  [stage] CREMA-D fold 0 pooled: done in 1.1 min

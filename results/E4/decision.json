@@ -1,0 +1,95 @@
+{
+ "E4 - concat (primary)": {
+  "per_dataset": {
+   "RAVDESS": {
+    "mean_delta": -0.002851555306342198,
+    "n_better": 3,
+    "n": 6,
+    "p": 0.75,
+    "p_holm": 1.0,
+    "e4_seed_std": 0.03361737927306538,
+    "criteria": {
+     "mean_positive": false,
+     "enough_folds_better": false,
+     "exceeds_seed_std": false
+    }
+   },
+   "CREMA-D": {
+    "mean_delta": -0.01959418451455206,
+    "n_better": 0,
+    "n": 5,
+    "p": 0.0625,
+    "p_holm": 0.1875,
+    "e4_seed_std": 0.012240874704096561,
+    "criteria": {
+     "mean_positive": false,
+     "enough_folds_better": false,
+     "exceeds_seed_std": false
+    }
+   }
+  },
+  "verdict": "no consistent improvement"
+ },
+ "E4 - control": {
+  "per_dataset": {
+   "RAVDESS": {
+    "mean_delta": -0.00710788239110179,
+    "n_better": 1,
+    "n": 6,
+    "p": 0.625,
+    "p_holm": 1.0,
+    "e4_seed_std": 0.03361737927306538,
+    "criteria": {
+     "mean_positive": false,
+     "enough_folds_better": false,
+     "exceeds_seed_std": false
+    }
+   },
+   "CREMA-D": {
+    "mean_delta": -0.011455234335768982,
+    "n_better": 1,
+    "n": 5,
+    "p": 0.1875,
+    "p_holm": 0.375,
+    "e4_seed_std": 0.012240874704096561,
+    "criteria": {
+     "mean_positive": false,
+     "enough_folds_better": false,
+     "exceeds_seed_std": false
+    }
+   }
+  },
+  "verdict": "no consistent improvement"
+ },
+ "E4 - HuBERT-only": {
+  "per_dataset": {
+   "RAVDESS": {
+    "mean_delta": -0.013247011736418549,
+    "n_better": 1,
+    "n": 6,
+    "p": 0.1875,
+    "p_holm": 0.5625,
+    "e4_seed_std": 0.03361737927306538,
+    "criteria": {
+     "mean_positive": false,
+     "enough_folds_better": false,
+     "exceeds_seed_std": false
+    }
+   },
+   "CREMA-D": {
+    "mean_delta": -0.013463929458745949,
+    "n_better": 1,
+    "n": 5,
+    "p": 0.1875,
+    "p_holm": 0.375,
+    "e4_seed_std": 0.012240874704096561,
+    "criteria": {
+     "mean_positive": false,
+     "enough_folds_better": false,
+     "exceeds_seed_std": false
+    }
+   }
+  },
+  "verdict": "no consistent improvement"
+ }
+}

@@ -1,0 +1,81 @@
+{
+ "status": "SUPERSEDED (pYIN) - kept on disk as the documented 'before' state; NOT used by any Stage 5 experiment",
+ "RAVDESS": {
+  "cache_id": "v1_f9418feedb",
+  "config_hash": "f9418feedb733da3251eac8efb91cb6fc8a52eb92fbfec408057ba552bf569ab",
+  "index_sha256": "b875a4f2e51caac96727cde5a8c36ffccb60bf6486829452f54193e0c75d5331",
+  "versions": {
+   "numpy": "2.5.4",
+   "pandas": "3.1.1",
+   "scipy": "1.18.1",
+   "sklearn": "1.9.1",
+   "librosa": "1.0.0",
+   "soundfile": "0.14.0",
+   "torch": "2.14.1+cu126",
+   "transformers": "5.22.1"
+  },
+  "adopted_from": null
+ },
+ "config": {
+  "version": 1,
+  "audio": {
+   "sample_rate": 16000,
+   "resample_type": "soxr_hq",
+   "mono": "mean",
+   "trim_top_db": 30.0,
+   "trim_frame": 512,
+   "trim_hop": 128,
+   "trim_margin_s": 0.05,
+   "normalise": "dc_remove+peak"
+  },
+  "frames": {
+   "win_length": 400,
+   "hop_length": 320
+  },
+  "mfcc": {
+   "n_fft": 512,
+   "window": "hamming",
+   "n_mels": 40,
+   "fmin": 0.0,
+   "fmax": 8000.0,
+   "mel_scale": "htk",
+   "n_ceps": 12,
+   "log_floor": 1e-10,
+   "delta_width": 2
+  },
+  "prosody": {
+   "f0_min": 60.0,
+   "f0_max_wide": 700.0,
+   "pyin_frame_length": 1024,
+   "f0_ref_hz": 100.0,
+   "disvoice_step_s": 0.01,
+   "disvoice_frame_s": 0.02,
+   "disvoice_f0_max": 350.0,
+   "disvoice_pause_s": 0.14
+  },
+  "hubert": {
+   "model_id": "facebook/hubert-base-ls960",
+   "revision": "dba3bb02fda4248b6e082697eee756de8fe8aa8a",
+   "input_normalise": true,
+   "inference_dtype": "float32",
+   "storage_dtype": "float16",
+   "n_hidden_states": 13
+  }
+ },
+ "CREMA-D": {
+  "cache_id": "v1_f9418feedb",
+  "config_hash": "f9418feedb733da3251eac8efb91cb6fc8a52eb92fbfec408057ba552bf569ab",
+  "index_sha256": "2620332a6dcf9592ff17a4e380d5589e810210c883b03c9d1dee796d96a68962",
+  "versions": {
+   "numpy": "2.5.4",
+   "pandas": "3.1.1",
+   "scipy": "1.18.1",
+   "sklearn": "1.9.1",
+   "librosa": "1.0.0",
+   "soundfile": "0.14.0",
+   "torch": "2.14.1+cu126",
+   "transformers": "5.22.1"
+  },
+  "adopted_from": null
+ }
+}

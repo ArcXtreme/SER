@@ -1,0 +1,49 @@
+{
+ "representations": [
+  "layer0",
+  "layer1",
+  "layer2",
+  "layer3",
+  "layer4",
+  "layer5",
+  "layer6",
+  "layer7",
+  "layer8",
+  "layer9",
+  "layer10",
+  "layer11",
+  "layer12",
+  "concat_1_9",
+  "weighted_all"
+ ],
+ "poolings": [
+  "mean",
+  "mean_std"
+ ],
+ "default_hidden": 256,
+ "default_dropout": 0.2,
+ "default_lr": 0.001,
+ "grid_hidden": [
+  256,
+  512
+ ],
+ "grid_dropout": [
+  0.2,
+  0.4
+ ],
+ "grid_lr": [
+  0.001,
+  0.0003
+ ],
+ "weight_decay": 0.0001,
+ "batch_size": 32,
+ "max_epochs": 50,
+ "patience": 10,
+ "selection_seed": 0,
+ "final_seeds": [
+  0,
+  1,
+  2
+ ],
+ "selection_metric": "validation macro-F1 (ties -> earlier candidate)"
+}

@@ -1,0 +1,14 @@
+Dear Students,
+As part of the upcoming project evaluation, all teams are requested to fill out the Google sheet and select their preferred time slot for the project presentation. 
+Please note the following instructions:
+ Each team will be allotted 15 minutes in total:
+10 minutes for the project presentation.
+5 minutes for Questions and Answers (Q&A)
+
+Dear all,
+
+As discussed during the class, your course project should be more research oriented, with a focus on understanding the problem, data, challenges; you should also relate the project to the topics covered in the course. You are also expected to have an understanding of the implementation code. The project should be done in groups of 2. 
+
+For submission:
+1) The code and a report with the project details should be submitted as a zip file per team.
+ Prepare a presentation for 10 minutes.

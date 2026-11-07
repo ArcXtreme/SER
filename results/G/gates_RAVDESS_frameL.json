@@ -1,0 +1,442 @@
+{
+ "group": "frameL",
+ "dataset": "RAVDESS",
+ "fold": 0,
+ "layer": 6,
+ "layer_info": {
+  "layer": 6,
+  "val_macro_f1_per_layer": {
+   "0": 0.6861909151372491,
+   "1": 0.7298344374666738,
+   "2": 0.7413345152975092,
+   "3": 0.7763221615556867,
+   "4": 0.7679535249972593,
+   "5": 0.78652557037422,
+   "6": 0.7938711530667043,
+   "7": 0.7895732234106744,
+   "8": 0.7381000204970617,
+   "9": 0.7295549729434665,
+   "10": 0.7420112283809565,
+   "11": 0.7157981441681941,
+   "12": 0.7094443459766041
+  },
+  "source": "results/E2/RAVDESS/fold0/selection.json",
+  "source_sha256": "810fb5603a650f0d9170247c379c18cab3f1fb65e35089f8620dc43ce1be835a"
+ },
+ "test_predictions_made": false,
+ "versions": {
+  "torch": "2.14.1+cu126",
+  "cuda": "12.6",
+  "cudnn": 91002,
+  "numpy": "2.5.4",
+  "python": "3.12.10",
+  "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU"
+ },
+ "deterministic_algorithms": true,
+ "gates": [
+  {
+   "gate": "R6",
+   "cell": {
+    "hidden": 256,
+    "class_weighted": true,
+    "dropout": 0.2,
+    "lr": 0.001
+   },
+   "ref": "S_concat_H_d0.2_lr0.001",
+   "val_macro_f1": [
+    0.8273785752088548,
+    0.8273785752088548
+   ],
+   "best_epoch": [
+    9,
+    9
+   ],
+   "epochs_run": [
+    20,
+    20
+   ],
+   "history_val_f1_identical": true,
+   "history_train_loss_identical": true,
+   "val_confusion_identical": true,
+   "exact": true
+  },
+  {
+   "gate": "R6",
+   "cell": {
+    "hidden": 256,
+    "class_weighted": true,
+    "dropout": 0.2,
+    "lr": 0.0003
+   },
+   "ref": "S_concat_H_d0.2_lr0.0003",
+   "val_macro_f1": [
+    0.8179679852364518,
+    0.8179679852364518
+   ],
+   "best_epoch": [
+    30,
+    30
+   ],
+   "epochs_run": [
+    41,
+    41
+   ],
+   "history_val_f1_identical": true,
+   "history_train_loss_identical": true,
+   "val_confusion_identical": true,
+   "exact": true
+  },
+  {
+   "gate": "R6",
+   "cell": {
+    "hidden": 256,
+    "class_weighted": true,
+    "dropout": 0.2,
+    "lr": 0.0001
+   },
+   "ref": "S_concat_H_d0.2_lr0.0001",
+   "val_macro_f1": [
+    0.8120133526563912,
+    0.8120133526563912
+   ],
+   "best_epoch": [
+    37,
+    37
+   ],
+   "epochs_run": [
+    48,
+    48
+   ],
+   "history_val_f1_identical": true,
+   "history_train_loss_identical": true,
+   "val_confusion_identical": true,
+   "exact": true
+  },
+  {
+   "gate": "R6",
+   "cell": {
+    "hidden": 256,
+    "class_weighted": true,
+    "dropout": 0.2,
+    "lr": 3e-05
+   },
+   "ref": "S_concat_H_d0.2_lr3e-05",
+   "val_macro_f1": [
+    0.7982313982313981,
+    0.7982313982313981
+   ],
+   "best_epoch": [
+    63,
+    63
+   ],
+   "epochs_run": [
+    74,
+    74
+   ],
+   "history_val_f1_identical": true,
+   "history_train_loss_identical": true,
+   "val_confusion_identical": true,
+   "exact": true
+  },
+  {
+   "gate": "R6",
+   "cell": {
+    "hidden": 256,
+    "class_weighted": true,
+    "dropout": 0.4,
+    "lr": 0.001
+   },
+   "ref": "S_concat_H_d0.4_lr0.001",
+   "val_macro_f1": [
+    0.8123021847958641,
+    0.8123021847958641
+   ],
+   "best_epoch": [
+    9,
+    9
+   ],
+   "epochs_run": [
+    20,
+    20
+   ],
+   "history_val_f1_identical": true,
+   "history_train_loss_identical": true,
+   "val_confusion_identical": true,
+   "exact": true
+  },
+  {
+   "gate": "R6",
+   "cell": {
+    "hidden": 256,
+    "class_weighted": true,
+    "dropout": 0.4,
+    "lr": 0.0003
+   },
+   "ref": "S_concat_H_d0.4_lr0.0003",
+   "val_macro_f1": [
+    0.8112757534800545,
+    0.8112757534800545
+   ],
+   "best_epoch": [
+    21,
+    21
+   ],
+   "epochs_run": [
+    32,
+    32
+   ],
+   "history_val_f1_identical": true,
+   "history_train_loss_identical": true,
+   "val_confusion_identical": true,
+   "exact": true
+  },
+  {
+   "gate": "R6",
+   "cell": {
+    "hidden": 256,
+    "class_weighted": true,
+    "dropout": 0.4,
+    "lr": 0.0001
+   },
+   "ref": "S_concat_H_d0.4_lr0.0001",
+   "val_macro_f1": [
+    0.8167274581170672,
+    0.8167274581170672
+   ],
+   "best_epoch": [
+    34,
+    34
+   ],
+   "epochs_run": [
+    45,
+    45
+   ],
+   "history_val_f1_identical": true,
+   "history_train_loss_identical": true,
+   "val_confusion_identical": true,
+   "exact": true
+  },
+  {
+   "gate": "R6",
+   "cell": {
+    "hidden": 256,
+    "class_weighted": true,
+    "dropout": 0.4,
+    "lr": 3e-05
+   },
+   "ref": "S_concat_H_d0.4_lr3e-05",
+   "val_macro_f1": [
+    0.7916553140309133,
+    0.7916553140309133
+   ],
+   "best_epoch": [
+    77,
+    77
+   ],
+   "epochs_run": [
+    88,
+    88
+   ],
+   "history_val_f1_identical": true,
+   "history_train_loss_identical": true,
+   "val_confusion_identical": true,
+   "exact": true
+  }
+ ],
+ "checks": {
+  "determinism_probe_Z": {
+   "val_macro_f1": [
+    0.8273785752088548,
+    0.8273785752088548
+   ],
+   "best_epoch": [
+    9,
+    9
+   ],
+   "epochs_run": [
+    20,
+    20
+   ],
+   "history_val_f1_identical": true,
+   "history_train_loss_identical": true,
+   "val_confusion_identical": true,
+   "exact": true
+  },
+  "B0_input_max_abs_diff": 0.002964882832726834,
+  "B0_input_share_above_tol": 0.003681344696969697,
+  "B0_input_pass": false
+ },
+ "t0": 1794028810.7437716,
+ "note": "gates-only mode: the B0 input check is recorded, not acted on; no other frame arm is run",
+ "runs": {
+  "Z": [
+   {
+    "hp": {
+     "hidden": 256,
+     "class_weighted": true,
+     "dropout": 0.2,
+     "lr": 0.001
+    },
+    "val_macro_f1": 0.8273785752088548,
+    "best_epoch": 9,
+    "epochs_run": 20,
+    "hit_max_epochs": false,
+    "train_seconds": 3.1978345999959856,
+    "n_params": 182534,
+    "gpu_peak_mib": 299.8,
+    "process_ram_mib": {
+     "current": 1775.8,
+     "peak": 1775.8
+    }
+   },
+   {
+    "hp": {
+     "hidden": 256,
+     "class_weighted": true,
+     "dropout": 0.2,
+     "lr": 0.0003
+    },
+    "val_macro_f1": 0.8179679852364518,
+    "best_epoch": 30,
+    "epochs_run": 41,
+    "hit_max_epochs": false,
+    "train_seconds": 5.776133400038816,
+    "n_params": 182534,
+    "gpu_peak_mib": 304.7,
+    "process_ram_mib": {
+     "current": 1776.4,
+     "peak": 1776.4
+    }
+   },
+   {
+    "hp": {
+     "hidden": 256,
+     "class_weighted": true,
+     "dropout": 0.2,
+     "lr": 0.0001
+    },
+    "val_macro_f1": 0.8120133526563912,
+    "best_epoch": 37,
+    "epochs_run": 48,
+    "hit_max_epochs": false,
+    "train_seconds": 6.68671609996818,
+    "n_params": 182534,
+    "gpu_peak_mib": 309.3,
+    "process_ram_mib": {
+     "current": 1776.4,
+     "peak": 1776.4
+    }
+   },
+   {
+    "hp": {
+     "hidden": 256,
+     "class_weighted": true,
+     "dropout": 0.2,
+     "lr": 3e-05
+    },
+    "val_macro_f1": 0.7982313982313981,
+    "best_epoch": 63,
+    "epochs_run": 74,
+    "hit_max_epochs": false,
+    "train_seconds": 10.423192100017332,
+    "n_params": 182534,
+    "gpu_peak_mib": 309.3,
+    "process_ram_mib": {
+     "current": 1776.5,
+     "peak": 1776.5
+    }
+   },
+   {
+    "hp": {
+     "hidden": 256,
+     "class_weighted": true,
+     "dropout": 0.4,
+     "lr": 0.001
+    },
+    "val_macro_f1": 0.8123021847958641,
+    "best_epoch": 9,
+    "epochs_run": 20,
+    "hit_max_epochs": false,
+    "train_seconds": 2.5655607000226155,
+    "n_params": 182534,
+    "gpu_peak_mib": 299.8,
+    "process_ram_mib": {
+     "current": 1776.5,
+     "peak": 1776.5
+    }
+   },
+   {
+    "hp": {
+     "hidden": 256,
+     "class_weighted": true,
+     "dropout": 0.4,
+     "lr": 0.0003
+    },
+    "val_macro_f1": 0.8112757534800545,
+    "best_epoch": 21,
+    "epochs_run": 32,
+    "hit_max_epochs": false,
+    "train_seconds": 4.209101000102237,
+    "n_params": 182534,
+    "gpu_peak_mib": 299.8,
+    "process_ram_mib": {
+     "current": 1776.6,
+     "peak": 1776.6
+    }
+   },
+   {
+    "hp": {
+     "hidden": 256,
+     "class_weighted": true,
+     "dropout": 0.4,
+     "lr": 0.0001
+    },
+    "val_macro_f1": 0.8167274581170672,
+    "best_epoch": 34,
+    "epochs_run": 45,
+    "hit_max_epochs": false,
+    "train_seconds": 5.295284199994057,
+    "n_params": 182534,
+    "gpu_peak_mib": 309.3,
+    "process_ram_mib": {
+     "current": 1776.6,
+     "peak": 1776.6
+    }
+   },
+   {
+    "hp": {
+     "hidden": 256,
+     "class_weighted": true,
+     "dropout": 0.4,
+     "lr": 3e-05
+    },
+    "val_macro_f1": 0.7916553140309133,
+    "best_epoch": 77,
+    "epochs_run": 88,
+    "hit_max_epochs": false,
+    "train_seconds": 9.784863900044002,
+    "n_params": 182534,
+    "gpu_peak_mib": 309.3,
+    "process_ram_mib": {
+     "current": 1776.7,
+     "peak": 1776.7
+    }
+   }
+  ]
+ },
+ "selected_validation_only": {
+  "Z": {
+   "hidden": 256,
+   "class_weighted": true,
+   "dropout": 0.2,
+   "lr": 0.001
+  }
+ },
+ "group_seconds": 54.65328149998095,
+ "gpu_peak_mib_process": 360.2,
+ "process_ram_mib": {
+  "current": 1876.9,
+  "peak": 1989.0
+ },
+ "mode": "gates-only"
+}

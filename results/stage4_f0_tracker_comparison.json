@@ -1,0 +1,160 @@
+{
+  "pyin": "librosa.pyin 60-700 Hz, frame 1024, hop 320, centred on the HuBERT grid (previous pipeline)",
+  "praat": "Praat ac 60-800 Hz, defaults, current cache v1_efe9081789",
+  "RAVDESS": {
+    "n": 300,
+    "pyin_recomputation_matches_previous_cache": "300/300",
+    "voiced_fraction_mean": {
+      "pyin": 0.742628268898806,
+      "praat": 0.6682282451146724
+    },
+    "recordings_without_voicing": {
+      "pyin": 1,
+      "praat": 0
+    },
+    "recordings_with_lt_10pct_voiced": {
+      "pyin": 1,
+      "praat": 0
+    },
+    "voicing_agreement_mean": 0.8158998120655948,
+    "f0_median_abs_semitone_diff_on_frames_voiced_in_both": 0.1452906063088097,
+    "share_of_both_voiced_frames_differing_gt_20pct_mean": 0.009045623061469468,
+    "share_of_both_voiced_frames_differing_gt_half_octave_mean": 0.0058292952562573564,
+    "share_voiced_frames_above_350Hz_mean": {
+      "pyin": 0.12331144228630225,
+      "praat": 0.13145164402817544
+    },
+    "voiced_fraction_by_label": {
+      "vfrac_pyin": {
+        "angry": 0.707,
+        "disgust": 0.66,
+        "fearful": 0.76,
+        "happy": 0.828,
+        "neutral": 0.833,
+        "sad": 0.736
+      },
+      "vfrac_praat": {
+        "angry": 0.659,
+        "disgust": 0.606,
+        "fearful": 0.669,
+        "happy": 0.74,
+        "neutral": 0.716,
+        "sad": 0.66
+      }
+    },
+    "voiced_fraction_by_gender": {
+      "vfrac_pyin": {
+        "F": 0.783,
+        "M": 0.699
+      },
+      "vfrac_praat": {
+        "F": 0.702,
+        "M": 0.632
+      }
+    },
+    "no_voicing_by_label": {
+      "zero_pyin": {
+        "angry": 0,
+        "disgust": 0,
+        "fearful": 0,
+        "happy": 0,
+        "neutral": 0,
+        "sad": 1
+      },
+      "zero_praat": {
+        "angry": 0,
+        "disgust": 0,
+        "fearful": 0,
+        "happy": 0,
+        "neutral": 0,
+        "sad": 0
+      }
+    },
+    "channel2_pyin_vprob_vs_praat_periodicity": {
+      "pearson_r": 0.5672219735048099,
+      "mean_abs_diff": 0.580701006679891,
+      "mean": {
+        "pyin_vprob": 0.16781103635817227,
+        "praat_periodicity": 0.7482519149780273
+      }
+    }
+  },
+  "CREMA-D": {
+    "n": 300,
+    "pyin_recomputation_matches_previous_cache": "300/300",
+    "voiced_fraction_mean": {
+      "pyin": 0.3974599320083561,
+      "praat": 0.4790384270235013
+    },
+    "recordings_without_voicing": {
+      "pyin": 34,
+      "praat": 0
+    },
+    "recordings_with_lt_10pct_voiced": {
+      "pyin": 40,
+      "praat": 1
+    },
+    "voicing_agreement_mean": 0.7911816418287523,
+    "f0_median_abs_semitone_diff_on_frames_voiced_in_both": 0.11183550984390883,
+    "share_of_both_voiced_frames_differing_gt_20pct_mean": 0.0101661305811331,
+    "share_of_both_voiced_frames_differing_gt_half_octave_mean": 0.008459199103422648,
+    "share_voiced_frames_above_350Hz_mean": {
+      "pyin": 0.06622090294663682,
+      "praat": 0.06333678909686152
+    },
+    "voiced_fraction_by_label": {
+      "vfrac_pyin": {
+        "angry": 0.549,
+        "disgust": 0.305,
+        "fearful": 0.429,
+        "happy": 0.46,
+        "neutral": 0.367,
+        "sad": 0.286
+      },
+      "vfrac_praat": {
+        "angry": 0.598,
+        "disgust": 0.401,
+        "fearful": 0.509,
+        "happy": 0.517,
+        "neutral": 0.46,
+        "sad": 0.397
+      }
+    },
+    "voiced_fraction_by_gender": {
+      "vfrac_pyin": {
+        "F": 0.447,
+        "M": 0.352
+      },
+      "vfrac_praat": {
+        "F": 0.498,
+        "M": 0.462
+      }
+    },
+    "no_voicing_by_label": {
+      "zero_pyin": {
+        "angry": 3,
+        "disgust": 10,
+        "fearful": 3,
+        "happy": 2,
+        "neutral": 5,
+        "sad": 11
+      },
+      "zero_praat": {
+        "angry": 0,
+        "disgust": 0,
+        "fearful": 0,
+        "happy": 0,
+        "neutral": 0,
+        "sad": 0
+      }
+    },
+    "channel2_pyin_vprob_vs_praat_periodicity": {
+      "pearson_r": 0.5067495893061514,
+      "mean_abs_diff": 0.5308562652951484,
+      "mean": {
+        "pyin_vprob": 0.06264733986308299,
+        "praat_periodicity": 0.5928950309753418
+      }
+    }
+  }
+}

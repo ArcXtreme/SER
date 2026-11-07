@@ -1,0 +1,99 @@
+{
+ "dataset": "RAVDESS",
+ "control": "training labels permuted (seed 1000+fold), selected xattn_HMP config, seed 0",
+ "folds": [
+  {
+   "fold": 0,
+   "layer": 6,
+   "hp": {
+    "dropout": 0.2,
+    "lr": 0.0001
+   },
+   "test_macro_f1": 0.1301521053027077,
+   "test_UA": 0.17708333333333334,
+   "test_accuracy": 0.18181818181818182,
+   "val_macro_f1": 0.14679851825787785,
+   "best_epoch": 5,
+   "epochs_run": 16,
+   "share_train_labels_unchanged": 0.19318181818181818
+  },
+  {
+   "fold": 1,
+   "layer": 10,
+   "hp": {
+    "dropout": 0.4,
+    "lr": 0.001
+   },
+   "test_macro_f1": 0.16111538669090877,
+   "test_UA": 0.15625,
+   "test_accuracy": 0.17045454545454544,
+   "val_macro_f1": 0.18536687305452174,
+   "best_epoch": 24,
+   "epochs_run": 35,
+   "share_train_labels_unchanged": 0.203125
+  },
+  {
+   "fold": 2,
+   "layer": 5,
+   "hp": {
+    "dropout": 0.2,
+    "lr": 3e-05
+   },
+   "test_macro_f1": 0.14091882477504603,
+   "test_UA": 0.15625,
+   "test_accuracy": 0.1534090909090909,
+   "val_macro_f1": 0.1790550805117003,
+   "best_epoch": 2,
+   "epochs_run": 13,
+   "share_train_labels_unchanged": 0.1875
+  },
+  {
+   "fold": 3,
+   "layer": 5,
+   "hp": {
+    "dropout": 0.2,
+    "lr": 0.001
+   },
+   "test_macro_f1": 0.12020493956910143,
+   "test_UA": 0.19270833333333334,
+   "test_accuracy": 0.21022727272727273,
+   "val_macro_f1": 0.12629095116307393,
+   "best_epoch": 0,
+   "epochs_run": 11,
+   "share_train_labels_unchanged": 0.17613636363636365
+  },
+  {
+   "fold": 4,
+   "layer": 5,
+   "hp": {
+    "dropout": 0.2,
+    "lr": 0.0003
+   },
+   "test_macro_f1": 0.1466792297842526,
+   "test_UA": 0.15104166666666666,
+   "test_accuracy": 0.1534090909090909,
+   "val_macro_f1": 0.2356798335627973,
+   "best_epoch": 11,
+   "epochs_run": 22,
+   "share_train_labels_unchanged": 0.18607954545454544
+  },
+  {
+   "fold": 5,
+   "layer": 5,
+   "hp": {
+    "dropout": 0.2,
+    "lr": 0.001
+   },
+   "test_macro_f1": 0.14245346386719762,
+   "test_UA": 0.15625,
+   "test_accuracy": 0.17045454545454544,
+   "val_macro_f1": 0.16401494312088308,
+   "best_epoch": 19,
+   "epochs_run": 30,
+   "share_train_labels_unchanged": 0.16619318181818182
+  }
+ ],
+ "test_macro_f1_mean": 0.14025399166486902,
+ "test_macro_f1_std": 0.014041180622506665,
+ "chance_level": 0.16666666666666666
+}

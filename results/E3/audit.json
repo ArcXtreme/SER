@@ -1,0 +1,125 @@
+{
+ "RAVDESS": {
+  "checks": {
+   "RAVDESS: every fold complete (8 S + selection + 30 D files + checkpoints)": true,
+   "RAVDESS: one run hash per fold across S, selection and D": true,
+   "RAVDESS: S (selection) files contain validation metrics only": true,
+   "RAVDESS: selected hyper-parameters re-derivable from S validation F1 alone": true,
+   "RAVDESS: all S files and selection.json older than every D file and checkpoint": true,
+   "RAVDESS: D test rows == the fold's test rows": true,
+   "RAVDESS: HuBERT layer == rule on the fold's own E2 phase-A file (SHA-256 unchanged)": true,
+   "RAVDESS: D hyper-parameters == selection (ablations use concat_HMP's)": true,
+   "RAVDESS: seed-0 finals reproduce the selection validation F1": true,
+   "RAVDESS: class weights == recomputed from training labels": true,
+   "RAVDESS: checkpoint metadata matches D files": true,
+   "RAVDESS: standardiser statistics == TRAIN-row statistics (all streams, all checkpoints)": true,
+   "RAVDESS: DisVoice fill values == training medians": true,
+   "RAVDESS: every reloaded checkpoint re-predicts its saved test predictions exactly": true,
+   "RAVDESS: control parameters within 5 % of the E4 reference": true,
+   "RAVDESS: Stage 3 split file unchanged (SHA-256)": true,
+   "RAVDESS: Stage 4 audio/manifest/HuBERT/pooled/MFCC unchanged since adoption (SHA-256)": true,
+   "RAVDESS: prosody arrays unchanged since the E2 audit (SHA-256)": true
+  },
+  "details": {
+   "RAVDESS: all S files and selection.json older than every D file and checkpoint": {
+    "0": {
+     "last_selection_artifact": 1793955100.0156028,
+     "first_test_artifact": 1793955752.0090747
+    },
+    "1": {
+     "last_selection_artifact": 1793956033.8709412,
+     "first_test_artifact": 1793956037.4503732
+    },
+    "2": {
+     "last_selection_artifact": 1793956267.653649,
+     "first_test_artifact": 1793956274.6535454
+    },
+    "3": {
+     "last_selection_artifact": 1793956482.7503428,
+     "first_test_artifact": 1793956489.635922
+    },
+    "4": {
+     "last_selection_artifact": 1793956727.3481607,
+     "first_test_artifact": 1793956734.1938527
+    },
+    "5": {
+     "last_selection_artifact": 1793957009.9414866,
+     "first_test_artifact": 1793957012.063189
+    }
+   },
+   "RAVDESS: standardiser statistics == TRAIN-row statistics (all streams, all checkpoints)": {
+    "hubert": 0.0,
+    "mfcc": 0.0,
+    "prosody": 0.0
+   },
+   "RAVDESS: every reloaded checkpoint re-predicts its saved test predictions exactly": [],
+   "RAVDESS: control parameters within 5 % of the E4 reference": {
+    "concat_HMP": 221574,
+    "sa_HMP": 751750,
+    "e4_reference_total": 769286,
+    "rel_diff": -0.02279516330727454
+   },
+   "RAVDESS: Stage 3 split file unchanged (SHA-256)": "DDCFFCCF0AA9E23BF969FBB6757ACDEB68A2C5AD0884B70E044C5DDB8EA99BA5"
+  }
+ },
+ "CREMA-D": {
+  "checks": {
+   "CREMA-D: every fold complete (8 S + selection + 30 D files + checkpoints)": true,
+   "CREMA-D: one run hash per fold across S, selection and D": true,
+   "CREMA-D: S (selection) files contain validation metrics only": true,
+   "CREMA-D: selected hyper-parameters re-derivable from S validation F1 alone": true,
+   "CREMA-D: all S files and selection.json older than every D file and checkpoint": true,
+   "CREMA-D: D test rows == the fold's test rows": true,
+   "CREMA-D: HuBERT layer == rule on the fold's own E2 phase-A file (SHA-256 unchanged)": true,
+   "CREMA-D: D hyper-parameters == selection (ablations use concat_HMP's)": true,
+   "CREMA-D: seed-0 finals reproduce the selection validation F1": true,
+   "CREMA-D: class weights == recomputed from training labels": true,
+   "CREMA-D: checkpoint metadata matches D files": true,
+   "CREMA-D: standardiser statistics == TRAIN-row statistics (all streams, all checkpoints)": true,
+   "CREMA-D: DisVoice fill values == training medians": true,
+   "CREMA-D: every reloaded checkpoint re-predicts its saved test predictions exactly": true,
+   "CREMA-D: control parameters within 5 % of the E4 reference": true,
+   "CREMA-D: Stage 3 split file unchanged (SHA-256)": true,
+   "CREMA-D: Stage 4 audio/manifest/HuBERT/pooled/MFCC unchanged since adoption (SHA-256)": true,
+   "CREMA-D: prosody arrays unchanged since the E2 audit (SHA-256)": true
+  },
+  "details": {
+   "CREMA-D: all S files and selection.json older than every D file and checkpoint": {
+    "0": {
+     "last_selection_artifact": 1793955685.886089,
+     "first_test_artifact": 1793957768.574304
+    },
+    "1": {
+     "last_selection_artifact": 1793959494.7109277,
+     "first_test_artifact": 1793959521.4790516
+    },
+    "2": {
+     "last_selection_artifact": 1793961035.6744137,
+     "first_test_artifact": 1793961063.8743677
+    },
+    "3": {
+     "last_selection_artifact": 1793962582.4265845,
+     "first_test_artifact": 1793962611.5422647
+    },
+    "4": {
+     "last_selection_artifact": 1793964316.015419,
+     "first_test_artifact": 1793964338.970952
+    }
+   },
+   "CREMA-D: standardiser statistics == TRAIN-row statistics (all streams, all checkpoints)": {
+    "hubert": 0.0,
+    "mfcc": 0.0,
+    "prosody": 0.0
+   },
+   "CREMA-D: every reloaded checkpoint re-predicts its saved test predictions exactly": [],
+   "CREMA-D: control parameters within 5 % of the E4 reference": {
+    "concat_HMP": 221574,
+    "sa_HMP": 751750,
+    "e4_reference_total": 769286,
+    "rel_diff": -0.02279516330727454
+   },
+   "CREMA-D: Stage 3 split file unchanged (SHA-256)": "A64882199275F58C1C34322E5B1A797609C261D183ACC216C8C3FF7510868EDC"
+  }
+ },
+ "all_checks_passed": true
+}

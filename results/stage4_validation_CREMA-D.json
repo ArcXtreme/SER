@@ -1,0 +1,642 @@
+{
+  "dataset": "CREMA-D",
+  "cache_dir": "C:\\SER_data\\features\\CREMA-D\\v1_efe9081789",
+  "cache_id": "v1_efe9081789",
+  "checks": {
+    "1 all 7441 usable recordings in manifest (same order)": true,
+    "1 progress_cpu: every recording processed": true,
+    "1 progress_hubert: every recording processed": true,
+    "2 wav16k: all values finite": true,
+    "2 mfcc: all values finite": true,
+    "2 prosody_frames: all values finite": true,
+    "2 hubert_pooled: all values finite": true,
+    "2 prosody103_disvoice: all values finite": true,
+    "2 prosody103_wide: all values finite": true,
+    "2 hubert: all values finite": true,
+    "3 n_frames == 1 + (N-400)//320 for every recording": true,
+    "3 frame-offset table contiguous and complete": true,
+    "3 wav-offset table contiguous": true,
+    "4 prosody energy_db == affine(MFCC logE) on every frame (same samples)": true,
+    "5 HuBERT layer 0 -> MFCC energy: correlation peaks at lag 0 (r=0.978, r(+-1)=0.891/0.891)": true,
+    "5 HuBERT layer 9 -> MFCC energy: correlation peaks at lag 0 (r=0.926, r(+-1)=0.865/0.857)": true,
+    "6 padding masks identical across HuBERT/MFCC/prosody": true,
+    "6 mask sums equal recording frame counts": true,
+    "6 padded positions are zero": true,
+    "7 re-extraction of 20 recordings: audio, MFCC, prosody bit-identical": true,
+    "7 re-extraction: HuBERT within fp16 storage tolerance (max rel 3.4e-04)": true,
+    "8 resume after wiping 25 recordings restores the same features (HuBERT max diff 0.0e+00)": true,
+    "9 DisVoice-103 equals original DisVoice code on 30 real recordings (same F0 input)": true,
+    "10 trimming removes < 1 % of signal energy for 99 % of recordings": true,
+    "13 periodicity channel within [0, 1]": true,
+    "13 voiced channel is binary": true,
+    "13 voiced F0 within the configured range 60-800 Hz (observed 59.8-799.8)": true,
+    "14 audio, manifest, HuBERT, pooled HuBERT and MFCC byte-identical (SHA-256) to source cache v1_f9418feedb": true
+  },
+  "n_recordings": 7441,
+  "n_frames_total": 879279,
+  "hubert_abs_max": 9.09375,
+  "shapes": {
+    "wav16k": [
+      283256764
+    ],
+    "mfcc": [
+      879279,
+      39
+    ],
+    "prosody_frames": [
+      879279,
+      4
+    ],
+    "hubert": [
+      879279,
+      13,
+      768
+    ],
+    "hubert_pooled": [
+      7441,
+      13,
+      1536
+    ],
+    "prosody103_disvoice": [
+      7441,
+      103
+    ],
+    "prosody103_wide": [
+      7441,
+      103
+    ]
+  },
+  "dtypes": {
+    "wav16k": "float32",
+    "mfcc": "float32",
+    "prosody_frames": "float32",
+    "hubert": "float16",
+    "hubert_pooled": "float32",
+    "prosody103_disvoice": "float32",
+    "prosody103_wide": "float32"
+  },
+  "energy_identity_max_abs_err_db": 5.49872135024998e-06,
+  "hubert_mfcc_energy_lag_correlation": {
+    "layer0": {
+      "-5": 0.4802105683447049,
+      "-4": 0.5548020595857488,
+      "-3": 0.6519673123699448,
+      "-2": 0.7676001149062176,
+      "-1": 0.8909835344412651,
+      "0": 0.9775822080353989,
+      "1": 0.8908323265853936,
+      "2": 0.766193859967971,
+      "3": 0.6506812866507624,
+      "4": 0.5542764119161373,
+      "5": 0.4796824774629205
+    },
+    "layer9": {
+      "-5": 0.468682862540855,
+      "-4": 0.5421978288051994,
+      "-3": 0.6370347342738705,
+      "-2": 0.7484864488809219,
+      "-1": 0.8573775099638471,
+      "0": 0.9258572887467424,
+      "1": 0.8651404991076087,
+      "2": 0.7460227513176744,
+      "3": 0.6322472426224169,
+      "4": 0.5382477084346479,
+      "5": 0.46671960970524906
+    }
+  },
+  "reextraction_max_abs_diff": {
+    "wav": 0.0,
+    "mfcc": 0.0,
+    "prosody_frames": 0.0,
+    "p103_disvoice": 0.0,
+    "hubert_rel": 0.00034332892391830683
+  },
+  "resume_test": {
+    "n_wiped": 25,
+    "cpu_bit_identical": true,
+    "hubert_max_abs_diff": 0.0,
+    "p103_identical": true
+  },
+  "disvoice_oracle_real": {
+    "n": 30,
+    "mismatches": []
+  },
+  "trimming": {
+    "duration_s_before": {
+      "mean": 2.543,
+      "std": 0.506,
+      "min": 0.662,
+      "25%": 2.202,
+      "50%": 2.502,
+      "75%": 2.836,
+      "max": 5.005
+    },
+    "duration_s_after": {
+      "mean": 2.379,
+      "std": 0.597,
+      "min": 0.662,
+      "25%": 2.002,
+      "50%": 2.369,
+      "75%": 2.736,
+      "max": 5.005
+    },
+    "energy_removed_frac_median": 0.0,
+    "energy_removed_frac_p99": 0.002811423189039179,
+    "energy_removed_frac_max": 0.007496834987049228,
+    "files_removing_more_than_1pct": []
+  },
+  "prosody103_disvoice": {
+    "recordings_with_any_imputation": 4043,
+    "imputed_values_total": 14046,
+    "most_imputed_features": {
+      "skw1Evoiced": 1520,
+      "kurtosis1Evoiced": 1520,
+      "kurtosislastEvoiced": 1371,
+      "skwlastEvoiced": 1371,
+      "kurtosislastEunvoiced": 915,
+      "skwlastEunvoiced": 915,
+      "kurtosis1Eunvoiced": 783,
+      "skw1Eunvoiced": 783
+    },
+    "abs_max_value": 6638.6865234375,
+    "abs_max_feature": "F0msemax"
+  },
+  "prosody103_wide": {
+    "recordings_with_any_imputation": 3939,
+    "imputed_values_total": 14108,
+    "most_imputed_features": {
+      "skw1Evoiced": 1474,
+      "kurtosis1Evoiced": 1474,
+      "kurtosislastEvoiced": 1259,
+      "skwlastEvoiced": 1259,
+      "kurtosislastEunvoiced": 895,
+      "skwlastEunvoiced": 895,
+      "kurtosismseEunvoiced": 777,
+      "skwmseEunvoiced": 777
+    },
+    "abs_max_value": 11476.619140625,
+    "abs_max_feature": "F0msemax"
+  },
+  "voiced_frames_above_350Hz": {
+    "F/angry": 0.1689,
+    "F/disgust": 0.0324,
+    "F/fearful": 0.1435,
+    "F/happy": 0.1719,
+    "F/neutral": 0.0056,
+    "F/sad": 0.0104,
+    "M/angry": 0.0505,
+    "M/disgust": 0.0318,
+    "M/fearful": 0.0212,
+    "M/happy": 0.0509,
+    "M/neutral": 0.0225,
+    "M/sad": 0.0119
+  },
+  "voiced_frames_above_350Hz_overall": 0.06224582890707992,
+  "voiced_fraction_overall": 0.455003474437579,
+  "f0_all_unvoiced": {
+    "frame_level": [],
+    "prosody103_disvoice": [],
+    "prosody103_wide": []
+  },
+  "voicing": {
+    "tracker": "praat_ac 60-800 Hz",
+    "voiced_frame_fraction_overall": 0.455,
+    "voiced_fraction_per_recording": {
+      "mean": 0.471,
+      "std": 0.1577,
+      "min": 0.0531,
+      "25%": 0.3577,
+      "50%": 0.4545,
+      "75%": 0.5702,
+      "max": 0.9333
+    },
+    "recordings_without_voicing": 0,
+    "recordings_with_lt_10pct_voiced": 12,
+    "voiced_fraction_by_label": {
+      "angry": 0.5825,
+      "disgust": 0.4053,
+      "fearful": 0.4768,
+      "happy": 0.495,
+      "neutral": 0.4594,
+      "sad": 0.4055
+    },
+    "no_voicing_by_label": {
+      "angry": 0,
+      "disgust": 0,
+      "fearful": 0,
+      "happy": 0,
+      "neutral": 0,
+      "sad": 0
+    },
+    "voiced_fraction_by_gender": {
+      "F": 0.4944,
+      "M": 0.4501
+    },
+    "voiced_fraction_by_gender_label": {
+      "F/angry": 0.5863,
+      "F/disgust": 0.4275,
+      "F/fearful": 0.5032,
+      "F/happy": 0.522,
+      "F/neutral": 0.4904,
+      "F/sad": 0.4368,
+      "M/angry": 0.5791,
+      "M/disgust": 0.3855,
+      "M/fearful": 0.4532,
+      "M/happy": 0.4708,
+      "M/neutral": 0.4318,
+      "M/sad": 0.3776
+    },
+    "f0_hz_quantiles_by_gender": {
+      "M": {
+        "1": 66.1,
+        "5": 79.0,
+        "25": 110.6,
+        "50": 141.0,
+        "75": 199.6,
+        "95": 296.0,
+        "99": 591.9
+      },
+      "F": {
+        "1": 70.2,
+        "5": 103.3,
+        "25": 178.4,
+        "50": 216.1,
+        "75": 261.4,
+        "95": 407.3,
+        "99": 569.0
+      }
+    },
+    "voiced_frames_near_ceiling_share": 0.00173,
+    "periodicity_voiced_quantiles": {
+      "5": 0.536,
+      "50": 0.785,
+      "95": 0.965
+    },
+    "periodicity_unvoiced_quantiles": {
+      "5": 0.0,
+      "50": 0.434,
+      "95": 0.815
+    },
+    "periodicity_range": [
+      0.0,
+      0.9999890327453613
+    ]
+  },
+  "unchanged_vs_source_cache": {
+    "source": "v1_f9418feedb",
+    "mfcc_identical_to_source": true,
+    "manifest.csv_unchanged": true,
+    "wav16k.npy_unchanged": true,
+    "hubert.npy_unchanged": true,
+    "hubert_pooled.npy_unchanged": true,
+    "progress_hubert.npy_unchanged": true
+  },
+  "hubert_layer_frame_norm_mean": [
+    5.86899995803833,
+    5.543000221252441,
+    6.63100004196167,
+    7.25,
+    7.65500020980835,
+    7.7820000648498535,
+    7.6620001792907715,
+    7.830999851226807,
+    7.752999782562256,
+    7.784999847412109,
+    7.938000202178955,
+    8.097999572753906,
+    11.66100025177002
+  ],
+  "hubert_cka": [
+    [
+      1.0,
+      0.8864,
+      0.8646,
+      0.8186,
+      0.7762,
+      0.7236,
+      0.6902,
+      0.6714,
+      0.6499,
+      0.6461,
+      0.6648,
+      0.6786,
+      0.6831
+    ],
+    [
+      0.8864,
+      1.0,
+      0.964,
+      0.9335,
+      0.8917,
+      0.8382,
+      0.8015,
+      0.779,
+      0.7587,
+      0.7543,
+      0.7731,
+      0.7823,
+      0.7712
+    ],
+    [
+      0.8646,
+      0.964,
+      1.0,
+      0.9706,
+      0.9324,
+      0.8811,
+      0.8445,
+      0.8233,
+      0.8018,
+      0.7974,
+      0.8152,
+      0.8236,
+      0.8169
+    ],
+    [
+      0.8186,
+      0.9335,
+      0.9706,
+      1.0,
+      0.9744,
+      0.9335,
+      0.8977,
+      0.8756,
+      0.8562,
+      0.8507,
+      0.8642,
+      0.8703,
+      0.8544
+    ],
+    [
+      0.7762,
+      0.8917,
+      0.9324,
+      0.9744,
+      1.0,
+      0.9672,
+      0.9354,
+      0.9136,
+      0.897,
+      0.8893,
+      0.8985,
+      0.8999,
+      0.8794
+    ],
+    [
+      0.7236,
+      0.8382,
+      0.8811,
+      0.9335,
+      0.9672,
+      1.0,
+      0.9738,
+      0.9526,
+      0.9364,
+      0.9289,
+      0.9321,
+      0.927,
+      0.8974
+    ],
+    [
+      0.6902,
+      0.8015,
+      0.8445,
+      0.8977,
+      0.9354,
+      0.9738,
+      1.0,
+      0.9769,
+      0.9599,
+      0.9513,
+      0.9502,
+      0.9389,
+      0.9085
+    ],
+    [
+      0.6714,
+      0.779,
+      0.8233,
+      0.8756,
+      0.9136,
+      0.9526,
+      0.9769,
+      1.0,
+      0.9784,
+      0.9676,
+      0.9638,
+      0.9492,
+      0.9204
+    ],
+    [
+      0.6499,
+      0.7587,
+      0.8018,
+      0.8562,
+      0.897,
+      0.9364,
+      0.9599,
+      0.9784,
+      1.0,
+      0.9831,
+      0.9713,
+      0.9492,
+      0.9202
+    ],
+    [
+      0.6461,
+      0.7543,
+      0.7974,
+      0.8507,
+      0.8893,
+      0.9288,
+      0.9513,
+      0.9676,
+      0.9831,
+      1.0,
+      0.981,
+      0.9505,
+      0.918
+    ],
+    [
+      0.6648,
+      0.7731,
+      0.8152,
+      0.8642,
+      0.8985,
+      0.9321,
+      0.9502,
+      0.9638,
+      0.9713,
+      0.981,
+      1.0,
+      0.9692,
+      0.9363
+    ],
+    [
+      0.6786,
+      0.7823,
+      0.8236,
+      0.8703,
+      0.8999,
+      0.927,
+      0.9389,
+      0.9492,
+      0.9492,
+      0.9505,
+      0.9692,
+      1.0,
+      0.9695
+    ],
+    [
+      0.6831,
+      0.7712,
+      0.8169,
+      0.8544,
+      0.8794,
+      0.8974,
+      0.9084,
+      0.9204,
+      0.9202,
+      0.918,
+      0.9363,
+      0.9695,
+      1.0
+    ]
+  ],
+  "hubert_cka_layer1_vs_layer9": 0.7542856335639954,
+  "storage_MB": {
+    "hubert.npy": 16744.1,
+    "hubert_pooled.npy": 566.8,
+    "mfcc.npy": 130.8,
+    "progress_cpu.npy": 0.0,
+    "progress_hubert.npy": 0.0,
+    "prosody103_disvoice.npy": 2.9,
+    "prosody103_disvoice_imputed.npy": 0.7,
+    "prosody103_wide.npy": 2.9,
+    "prosody103_wide_imputed.npy": 0.7,
+    "prosody_frames.npy": 13.4,
+    "wav16k.npy": 1080.5
+  },
+  "storage_total_MB": 18542.8,
+  "stages": {
+    "prepare": {
+      "complete": true,
+      "seconds": 12.5,
+      "adopted_from": "v1_f9418feedb"
+    },
+    "hubert": {
+      "complete": true,
+      "runs": [
+        {
+          "finished": "2026-11-05 20:17:51",
+          "n_processed": 7441,
+          "seconds": 191.8,
+          "sec_per_recording": 0.0258,
+          "peak_gpu_mib": 458.4,
+          "device": "cuda",
+          "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+          "inference_dtype": "float32",
+          "hf_cache_snapshots": [
+            {
+              "commit": "dba3bb02fda4248b6e082697eee756de8fe8aa8a",
+              "refs": [
+                "main"
+              ],
+              "files": [
+                "config.json",
+                "preprocessor_config.json",
+                "pytorch_model.bin"
+              ]
+            },
+            {
+              "commit": "af46f65f540dc3ca7aa59f46c6c3d5dbb4374fa8",
+              "refs": [
+                "refs/pr/2"
+              ],
+              "files": [
+                "model.safetensors"
+              ]
+            }
+          ]
+        },
+        {
+          "finished": "2026-11-05 20:20:06",
+          "n_processed": 25,
+          "seconds": 0.8,
+          "sec_per_recording": 0.0327,
+          "peak_gpu_mib": 446.5,
+          "device": "cuda",
+          "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+          "inference_dtype": "float32",
+          "hf_cache_snapshots": [
+            {
+              "commit": "af46f65f540dc3ca7aa59f46c6c3d5dbb4374fa8",
+              "refs": [
+                "refs/pr/2"
+              ],
+              "files": [
+                "model.safetensors"
+              ]
+            },
+            {
+              "commit": "dba3bb02fda4248b6e082697eee756de8fe8aa8a",
+              "refs": [],
+              "files": [
+                "config.json",
+                "pytorch_model.bin"
+              ]
+            }
+          ]
+        },
+        {
+          "finished": "2026-11-06 10:55:53",
+          "n_processed": 25,
+          "seconds": 0.9,
+          "sec_per_recording": 0.0362,
+          "peak_gpu_mib": 465.5,
+          "device": "cuda",
+          "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+          "inference_dtype": "float32",
+          "hf_cache_snapshots": [
+            {
+              "commit": "dba3bb02fda4248b6e082697eee756de8fe8aa8a",
+              "refs": [],
+              "files": [
+                "config.json",
+                "pytorch_model.bin"
+              ]
+            },
+            {
+              "commit": "af46f65f540dc3ca7aa59f46c6c3d5dbb4374fa8",
+              "refs": [
+                "refs/pr/2"
+              ],
+              "files": [
+                "model.safetensors"
+              ]
+            }
+          ]
+        }
+      ],
+      "adopted_from": "v1_f9418feedb"
+    },
+    "cpu": {
+      "complete": true,
+      "runs": [
+        {
+          "finished": "2026-11-06 10:53:26",
+          "n_processed": 7441,
+          "seconds": 103.8,
+          "workers": 8
+        },
+        {
+          "finished": "2026-11-06 10:55:50",
+          "n_processed": 25,
+          "seconds": 28.4,
+          "workers": 8
+        }
+      ]
+    }
+  },
+  "all_checks_passed": true
+}

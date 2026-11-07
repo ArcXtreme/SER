@@ -1,0 +1,35 @@
+{
+ "aggregations": [
+  "mean",
+  "mean_std",
+  "functionals"
+ ],
+ "svm_C": [
+  0.1,
+  1.0,
+  10.0,
+  100.0
+ ],
+ "svm_gamma_mult": [
+  0.1,
+  1.0,
+  10.0
+ ],
+ "rf_n_estimators": 300,
+ "rf_max_features": [
+  "sqrt",
+  0.2
+ ],
+ "rf_min_samples_leaf": [
+  1,
+  5
+ ],
+ "rf_seeds": [
+  0,
+  1,
+  2
+ ],
+ "class_weight": "balanced",
+ "selection_metric": "macro_f1",
+ "scaler": "StandardScaler (fit on train fold)"
+}

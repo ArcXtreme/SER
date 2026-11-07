@@ -1,0 +1,21 @@
+﻿    loaded HuBERT layer 6: (101892, 768) fp16 in 2s, RAM {'current': 887.0, 'peak': 1134.6}
+RAVDESS {'fold': 0, 'layer': 6, 'test_macro_f1': 0.14368357045778657, 'test_UA': 0.171875, 'test_accuracy': 0.1875, 'val_macro_f1': 0.1914749095685637, 'best_epoch': 6, 'share_train_labels_unchanged': 0.19318181818181818}
+    loaded HuBERT layer 10: (101892, 768) fp16 in 1s, RAM {'current': 1926.8, 'peak': 2273.5}
+RAVDESS {'fold': 1, 'layer': 10, 'test_macro_f1': 0.1917272526988323, 'test_UA': 0.20833333333333334, 'test_accuracy': 0.19886363636363635, 'val_macro_f1': 0.20370099052222126, 'best_epoch': 7, 'share_train_labels_unchanged': 0.203125}
+    loaded HuBERT layer 5: (101892, 768) fp16 in 1s, RAM {'current': 1928.6, 'peak': 2275.3}
+RAVDESS {'fold': 2, 'layer': 5, 'test_macro_f1': 0.13159063159063158, 'test_UA': 0.19270833333333334, 'test_accuracy': 0.16477272727272727, 'val_macro_f1': 0.15762658780478608, 'best_epoch': 3, 'share_train_labels_unchanged': 0.1875}
+RAVDESS {'fold': 3, 'layer': 5, 'test_macro_f1': 0.10659041394335511, 'test_UA': 0.11979166666666667, 'test_accuracy': 0.13068181818181818, 'val_macro_f1': 0.10458857872650977, 'best_epoch': 1, 'share_train_labels_unchanged': 0.17613636363636365}
+RAVDESS {'fold': 4, 'layer': 5, 'test_macro_f1': 0.1991671100006962, 'test_UA': 0.19270833333333334, 'test_accuracy': 0.21022727272727273, 'val_macro_f1': 0.22850577737499414, 'best_epoch': 16, 'share_train_labels_unchanged': 0.18607954545454544}
+RAVDESS {'fold': 5, 'layer': 5, 'test_macro_f1': 0.17419937972933364, 'test_UA': 0.22916666666666666, 'test_accuracy': 0.22727272727272727, 'val_macro_f1': 0.16168280288110617, 'best_epoch': 4, 'share_train_labels_unchanged': 0.16619318181818182}
+RAVDESS permuted-label test macro-F1 0.158 ± 0.036
+    loaded HuBERT layer 7: (879279, 768) fp16 in 15s, RAM {'current': 3199.1, 'peak': 3408.5}
+CREMA-D {'fold': 0, 'layer': 7, 'test_macro_f1': 0.15984363437160773, 'test_UA': 0.16644620811287478, 'test_accuracy': 0.16937669376693767, 'val_macro_f1': 0.16827727121506766, 'best_epoch': 5, 'share_train_labels_unchanged': 0.16705336426914152}
+    loaded HuBERT layer 6: (879279, 768) fp16 in 15s, RAM {'current': 4475.1, 'peak': 4684.4}
+CREMA-D {'fold': 1, 'layer': 6, 'test_macro_f1': 0.17754384713373597, 'test_UA': 0.1843972945427592, 'test_accuracy': 0.1836734693877551, 'val_macro_f1': 0.17080264416150956, 'best_epoch': 16, 'share_train_labels_unchanged': 0.17014547754585704}
+    loaded HuBERT layer 12: (879279, 768) fp16 in 15s, RAM {'current': 4475.7, 'peak': 4685.0}
+CREMA-D {'fold': 2, 'layer': 12, 'test_macro_f1': 0.19127635236576154, 'test_UA': 0.21857067852620524, 'test_accuracy': 0.22380952380952382, 'val_macro_f1': 0.16949252168892348, 'best_epoch': 5, 'share_train_labels_unchanged': 0.16677208517815728}
+    loaded HuBERT layer 11: (879279, 768) fp16 in 15s, RAM {'current': 4476.3, 'peak': 4685.6}
+CREMA-D {'fold': 3, 'layer': 11, 'test_macro_f1': 0.18251827646565263, 'test_UA': 0.19047221964853764, 'test_accuracy': 0.19251700680272107, 'val_macro_f1': 0.1806475555261431, 'best_epoch': 5, 'share_train_labels_unchanged': 0.15446817333609786}
+    loaded HuBERT layer 5: (879279, 768) fp16 in 15s, RAM {'current': 4476.0, 'peak': 4685.7}
+CREMA-D {'fold': 4, 'layer': 5, 'test_macro_f1': 0.158468738887812, 'test_UA': 0.16112360965864317, 'test_accuracy': 0.16012861736334405, 'val_macro_f1': 0.17261622009097713, 'best_epoch': 18, 'share_train_labels_unchanged': 0.16758125791473197}
+CREMA-D permuted-label test macro-F1 0.174 ± 0.014

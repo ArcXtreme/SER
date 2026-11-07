@@ -1,0 +1,96 @@
+﻿[E3] CREMA-D: device cuda, n_sa_blocks 4, RAM {'current': 626.2, 'peak': 626.2}
+python.exe : C:\Users\prana\OneDrive\persona\!SER\src\training\sequence_data.py:59: UserWarning: The given NumPy array 
+is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in 
+undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a 
+tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at 
+C:\actions-runner\_work\pytorch\pytorch\torch\csrc\utils\tensor_numpy.cpp:219.)
+At line:1 char:302
++ ... tch {} } }; & C:\SER_data\.venv\Scripts\python.exe -u scripts/stage5_ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\prana\...numpy.cpp:219.):String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  self.X = {s: torch.from_numpy(a).to(dev) for s, a in self._np.items()}     # hubert stays fp16
+    loaded HuBERT layer 7: (879279, 768) fp16 in 48s, RAM {'current': 2157.4, 'peak': 6641.1}
+{
+ "layer_info": {
+  "layer": 7,
+  "val_macro_f1_per_layer": {
+   "0": 0.6231432215390756,
+   "1": 0.6503231115784656,
+   "2": 0.646828239286136,
+   "3": 0.6619629615214092,
+   "4": 0.6712400092869467,
+   "5": 0.6734345835314048,
+   "6": 0.6978369322459635,
+   "7": 0.7017072177856657,
+   "8": 0.6877424030999043,
+   "9": 0.6808698148032786,
+   "10": 0.69385117230672,
+   "11": 0.6849252906333841,
+   "12": 0.6745752795455432
+  },
+  "source": "results/E2/CREMA-D/fold0/selection.json",
+  "source_sha256": "f697bb21d74928e2b0c8561030e50bbb47d1a37fb8e61d3a8ea2e2d5547cf906"
+ },
+ "selected": {
+  "concat_HMP": {
+   "dropout": 0.4,
+   "lr": 0.0003
+  },
+  "sa_HMP": {
+   "dropout": 0.2,
+   "lr": 0.0003
+  }
+ },
+ "selected_val_macro_f1": {
+  "concat_HMP": 0.705411892477566,
+  "sa_HMP": 0.6943705138198576
+ },
+ "n_params": {
+  "concat_HMP": 221574,
+  "sa_HMP": 751750
+ },
+ "alignment": {
+  "rows_checked": 24,
+  "max_abs_diff_vs_cache": {
+   "hubert": 0.0,
+   "mfcc": 0.0,
+   "prosody": 0.0
+  },
+  "padding_zero": true,
+  "mfcc_mean_vs_train_frames_max_abs_diff": 8.881784197001252e-16,
+  "prosody_passthrough": {
+   "mean": [
+    0.0,
+    0.0
+   ],
+   "std": [
+    1.0,
+    1.0
+   ]
+  }
+ },
+ "estimate": {
+  "train_seconds_per_run": {
+   "concat_HMP": 23.65414379996946,
+   "sa_HMP": 104.3823924499884
+  },
+  "runs_per_fold": 38,
+  "est_minutes_per_fold_upper": 24.3992534158162,
+  "est_hours_all_folds": 2.0332711179846834,
+  "note": "ablations without HuBERT are cheaper than concat_HMP: upper bound"
+ },
+ "hubert_layer_load_seconds": {
+  "7": 47.78290410002228
+ }
+}
+{'variant': 'concat_HMP', 'hp': {'dropout': 0.2, 'lr': 0.001}, 'val_macro_f1': 0.6924643609419238, 'best_epoch': 10, 'epochs_run': 21, 'train_seconds': 22.373160499962978, 'sec_per_epoch': 1.0653885952363322, 'loss_first_last': [1.2309051476068944, 0.14122930140040765], 'grad_norm_max': 9.901670455932617, 'frac_steps_clipped': 0.9600511345477786, 'gpu_peak_mib': 1595.5, 'ram_peak_mib': 6641.1}
+{'variant': 'concat_HMP', 'hp': {'dropout': 0.2, 'lr': 0.0003}, 'val_macro_f1': 0.6960085143368077, 'best_epoch': 4, 'epochs_run': 15, 'train_seconds': 15.561088699963875, 'sec_per_epoch': 1.037405913330925, 'loss_first_last': [1.3945939436854933, 0.36888912150123776], 'grad_norm_max': 13.923565864562988, 'frac_steps_clipped': 0.9843400447427293, 'gpu_peak_mib': 1595.5, 'ram_peak_mib': 6641.1}
+{'variant': 'concat_HMP', 'hp': {'dropout': 0.4, 'lr': 0.001}, 'val_macro_f1': 0.6950181610404186, 'best_epoch': 17, 'epochs_run': 28, 'train_seconds': 29.186013699974865, 'sec_per_epoch': 1.0423576321419594, 'loss_first_last': [1.2854877714342718, 0.1594720886513941], 'grad_norm_max': 10.170391082763672, 'frac_steps_clipped': 0.9712368168744009, 'gpu_peak_mib': 1599.3, 'ram_peak_mib': 6641.1}
+{'variant': 'concat_HMP', 'hp': {'dropout': 0.4, 'lr': 0.0003}, 'val_macro_f1': 0.705411892477566, 'best_epoch': 16, 'epochs_run': 27, 'train_seconds': 27.496312299976125, 'sec_per_epoch': 1.0183819370361529, 'loss_first_last': [1.4466521087908906, 0.2456811872754721], 'grad_norm_max': 15.565852165222168, 'frac_steps_clipped': 0.9935371613223963, 'gpu_peak_mib': 1599.3, 'ram_peak_mib': 6641.1}
+{'variant': 'sa_HMP', 'hp': {'dropout': 0.2, 'lr': 0.001}, 'val_macro_f1': 0.6735354541803488, 'best_epoch': 3, 'epochs_run': 14, 'train_seconds': 64.16210120002506, 'sec_per_epoch': 4.583007228573218, 'loss_first_last': [1.317080756561868, 0.3608274305576846], 'grad_norm_max': 7.43764066696167, 'frac_steps_clipped': 0.9956855225311602, 'gpu_peak_mib': 2071.9, 'ram_peak_mib': 6641.1}
+{'variant': 'sa_HMP', 'hp': {'dropout': 0.2, 'lr': 0.0003}, 'val_macro_f1': 0.6943705138198576, 'best_epoch': 25, 'epochs_run': 36, 'train_seconds': 164.99028009996982, 'sec_per_epoch': 4.583063336110273, 'loss_first_last': [1.2912061218447333, 0.12439293345520835], 'grad_norm_max': 31.698970794677734, 'frac_steps_clipped': 0.9688665175242358, 'gpu_peak_mib': 2073.0, 'ram_peak_mib': 6641.1}
+{'variant': 'sa_HMP', 'hp': {'dropout': 0.4, 'lr': 0.001}, 'val_macro_f1': 0.6659141927931073, 'best_epoch': 9, 'epochs_run': 20, 'train_seconds': 91.13325199997053, 'sec_per_epoch': 4.556662599998527, 'loss_first_last': [1.3434657782516224, 0.38687098523814406], 'grad_norm_max': 7.749628067016602, 'frac_steps_clipped': 0.9966442953020135, 'gpu_peak_mib': 2071.9, 'ram_peak_mib': 6641.1}
+{'variant': 'sa_HMP', 'hp': {'dropout': 0.4, 'lr': 0.0003}, 'val_macro_f1': 0.6814906926988318, 'best_epoch': 10, 'epochs_run': 21, 'train_seconds': 97.2439364999882, 'sec_per_epoch': 4.630663642856581, 'loss_first_last': [1.3540035786244693, 0.3138670150515617], 'grad_norm_max': 16.637588500976562, 'frac_steps_clipped': 1.0, 'gpu_peak_mib': 2071.9, 'ram_peak_mib': 6641.1}
+[E3] CREMA-D: done. GPU peak 2071.9 MiB, RAM {'current': 3064.3, 'peak': 6641.1}

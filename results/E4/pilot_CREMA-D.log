@@ -1,0 +1,105 @@
+[E4] CREMA-D: device cuda, n_sa_blocks 4, RAM {'current': 625.9, 'peak': 625.9}
+    loaded HuBERT layer 7: (879279, 768) fp16 in 99s, RAM {'current': 2158.1, 'peak': 2275.5}
+    S concat_HMP d0.2 lr0.001   val F1 0.6925  best ep  10 run  21    24.3s  GPU 1596 MiB  RAM {'current': 3051.1, 'peak': 3051.1}
+    S concat_HMP d0.2 lr0.0003  val F1 0.6960  best ep   4 run  15    16.4s  GPU 1596 MiB  RAM {'current': 3051.0, 'peak': 3051.1}
+    S concat_HMP d0.4 lr0.001   val F1 0.6950  best ep  17 run  28    30.9s  GPU 1599 MiB  RAM {'current': 3051.0, 'peak': 3051.1}
+    S concat_HMP d0.4 lr0.0003  val F1 0.7054  best ep  16 run  27    30.5s  GPU 1599 MiB  RAM {'current': 3051.1, 'peak': 3051.1}
+    S sa_HMP     d0.2 lr0.001   val F1 0.6735  best ep   3 run  14    80.9s  GPU 2072 MiB  RAM {'current': 3060.5, 'peak': 3060.5}
+    S sa_HMP     d0.2 lr0.0003  val F1 0.6944  best ep  25 run  36   335.4s  GPU 2073 MiB  RAM {'current': 3060.3, 'peak': 3061.4}
+    S sa_HMP     d0.4 lr0.001   val F1 0.6659  best ep   9 run  20   155.7s  GPU 2072 MiB  RAM {'current': 3062.0, 'peak': 3062.0}
+    S sa_HMP     d0.4 lr0.0003  val F1 0.6815  best ep  10 run  21   177.7s  GPU 2072 MiB  RAM {'current': 3062.1, 'peak': 3062.1}
+    S xattn_HMP  d0.2 lr0.001   val F1 0.6810  best ep   4 run  15   169.8s  GPU 2096 MiB  RAM {'current': 3062.3, 'peak': 3062.3}
+    S xattn_HMP  d0.2 lr0.0003  val F1 0.6865  best ep   1 run  12   121.7s  GPU 2096 MiB  RAM {'current': 3060.2, 'peak': 3062.3}
+    S xattn_HMP  d0.2 lr0.0001  val F1 0.6859  best ep   8 run  19   199.9s  GPU 2096 MiB  RAM {'current': 3062.4, 'peak': 3062.4}
+    S xattn_HMP  d0.2 lr3e-05   val F1 0.6840  best ep  19 run  30   254.3s  GPU 2097 MiB  RAM {'current': 3062.6, 'peak': 3062.8}
+    S xattn_HMP  d0.4 lr0.001   val F1 0.6720  best ep   6 run  17    81.9s  GPU 2096 MiB  RAM {'current': 3060.4, 'peak': 3062.8}
+    S xattn_HMP  d0.4 lr0.0003  val F1 0.6735  best ep   1 run  12    60.8s  GPU 2096 MiB  RAM {'current': 3017.3, 'peak': 3062.8}
+    S xattn_HMP  d0.4 lr0.0001  val F1 0.6650  best ep   7 run  18    91.3s  GPU 2096 MiB  RAM {'current': 2561.8, 'peak': 3062.8}
+    S xattn_HMP  d0.4 lr3e-05   val F1 0.6693  best ep  19 run  30   151.0s  GPU 2097 MiB  RAM {'current': 2306.2, 'peak': 3062.8}
+    S sa_HMP     d0.2 lr0.0001  val F1 0.7005  best ep  10 run  21   105.8s  GPU 2072 MiB  RAM {'current': 2178.1, 'peak': 3062.8}
+    S sa_HMP     d0.2 lr3e-05   val F1 0.7058  best ep  28 run  39   189.0s  GPU 2073 MiB  RAM {'current': 1151.6, 'peak': 3062.8}
+    S sa_HMP     d0.4 lr0.0001  val F1 0.6904  best ep  16 run  27   126.9s  GPU 2073 MiB  RAM {'current': 1151.7, 'peak': 3062.8}
+    S sa_HMP     d0.4 lr3e-05   val F1 0.6941  best ep  38 run  49   217.3s  GPU 2073 MiB  RAM {'current': 856.2, 'peak': 3062.8}
+    S concat_HMP d0.2 lr0.0001  val F1 0.6956  best ep  28 run  39    38.8s  GPU 1606 MiB  RAM {'current': 822.6, 'peak': 3062.8}
+    S concat_HMP d0.2 lr3e-05   val F1 0.6959  best ep  37 run  48    46.5s  GPU 1606 MiB  RAM {'current': 821.9, 'peak': 3062.8}
+    S concat_HMP d0.4 lr0.0001  val F1 0.6957  best ep  35 run  46    42.2s  GPU 1606 MiB  RAM {'current': 702.6, 'peak': 3062.8}
+    S concat_HMP d0.4 lr3e-05   val F1 0.6928  best ep  46 run  57    52.5s  GPU 1606 MiB  RAM {'current': 702.8, 'peak': 3062.8}
+    S concat_H   d0.2 lr0.001   val F1 0.6912  best ep   8 run  19    14.1s  GPU 1594 MiB  RAM {'current': 702.6, 'peak': 3062.8}
+    S concat_H   d0.2 lr0.0003  val F1 0.6982  best ep   4 run  15    12.0s  GPU 1594 MiB  RAM {'current': 702.6, 'peak': 3062.8}
+    S concat_H   d0.2 lr0.0001  val F1 0.6977  best ep  12 run  23    18.2s  GPU 1594 MiB  RAM {'current': 702.6, 'peak': 3062.8}
+    S concat_H   d0.2 lr3e-05   val F1 0.6996  best ep  38 run  49    38.9s  GPU 1604 MiB  RAM {'current': 703.0, 'peak': 3062.8}
+    S concat_H   d0.4 lr0.001   val F1 0.6863  best ep   8 run  19    15.0s  GPU 1594 MiB  RAM {'current': 703.0, 'peak': 3062.8}
+    S concat_H   d0.4 lr0.0003  val F1 0.6881  best ep   4 run  15    11.8s  GPU 1594 MiB  RAM {'current': 703.1, 'peak': 3062.8}
+    S concat_H   d0.4 lr0.0001  val F1 0.6958  best ep  16 run  27    21.3s  GPU 1598 MiB  RAM {'current': 703.4, 'peak': 3062.8}
+    S concat_H   d0.4 lr3e-05   val F1 0.6961  best ep  41 run  52    38.1s  GPU 1604 MiB  RAM {'current': 703.3, 'peak': 3062.8}
+{
+ "layer_info": {
+  "layer": 7,
+  "val_macro_f1_per_layer": {
+   "0": 0.6231432215390756,
+   "1": 0.6503231115784656,
+   "2": 0.646828239286136,
+   "3": 0.6619629615214092,
+   "4": 0.6712400092869467,
+   "5": 0.6734345835314048,
+   "6": 0.6978369322459635,
+   "7": 0.7017072177856657,
+   "8": 0.6877424030999043,
+   "9": 0.6808698148032786,
+   "10": 0.69385117230672,
+   "11": 0.6849252906333841,
+   "12": 0.6745752795455432
+  },
+  "source": "results/E2/CREMA-D/fold0/selection.json",
+  "source_sha256": "f697bb21d74928e2b0c8561030e50bbb47d1a37fb8e61d3a8ea2e2d5547cf906"
+ },
+ "selected": {
+  "xattn_HMP": {
+   "dropout": 0.2,
+   "lr": 0.0003
+  },
+  "sa_HMP": {
+   "dropout": 0.2,
+   "lr": 3e-05
+  },
+  "concat_HMP": {
+   "dropout": 0.4,
+   "lr": 0.0003
+  },
+  "concat_H": {
+   "dropout": 0.2,
+   "lr": 3e-05
+  }
+ },
+ "selected_val_macro_f1": {
+  "xattn_HMP": 0.6865364895047743,
+  "sa_HMP": 0.7057724675652896,
+  "concat_HMP": 0.705411892477566,
+  "concat_H": 0.6995541380879211
+ },
+ "selected_at_lower_edge": {
+  "xattn_HMP": false,
+  "sa_HMP": true,
+  "concat_HMP": false,
+  "concat_H": true
+ },
+ "n_params": {
+  "xattn_HMP": 769286,
+  "sa_HMP": 751750,
+  "concat_HMP": 221574,
+  "concat_H": 182534
+ },
+ "e3_reproduction_all_exact": true,
+ "runs_hitting_max_epochs": [],
+ "estimate_from_fold0": {
+  "S_seconds_fold": 2970.921222699806,
+  "S_hours_all_folds": 4.126279475971953,
+  "D_seconds_fold": 1797.17511485985,
+  "D_hours_all_folds": 2.4960765484164584,
+  "note": "D = 3 seeds x selected-config time of each tuned model + 3 ablations x 3 seeds x 0.6 x E4 time (0.57-0.62 from the synthetic benchmark); folds differ"
+ },
+ "hubert_layer_load_seconds": {
+  "7": 99.04462060006335
+ }
+}
+[E4] CREMA-D: pilot done. GPU peak 1604.5 MiB, RAM {'current': 483.1, 'peak': 3062.8}

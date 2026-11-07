@@ -1,0 +1,112 @@
+{
+ "run_hash": "03f9a2be1292",
+ "dataset": "RAVDESS",
+ "fold": 3,
+ "layer": 5,
+ "layer_info": {
+  "layer": 5,
+  "val_macro_f1_per_layer": {
+   "0": 0.7057905869910099,
+   "1": 0.6829582895745409,
+   "2": 0.6979946223367275,
+   "3": 0.7110829723341688,
+   "4": 0.7715821715339555,
+   "5": 0.8013550944585427,
+   "6": 0.7774371964034676,
+   "7": 0.7954582530668532,
+   "8": 0.76522223696373,
+   "9": 0.7495464441219158,
+   "10": 0.7134773132726245,
+   "11": 0.7470162454033421,
+   "12": 0.7406941090295155
+  },
+  "source": "results/E2/RAVDESS/fold3/selection.json",
+  "source_sha256": "11373574804f3a2ac2df9bd8ec17cf80049a6a642fff64084c29b2e3482b6204"
+ },
+ "selected": {
+  "concat_HMP": {
+   "dropout": 0.4,
+   "lr": 0.001
+  },
+  "sa_HMP": {
+   "dropout": 0.2,
+   "lr": 0.0003
+  }
+ },
+ "selected_val_macro_f1": {
+  "concat_HMP": 0.7516603704061445,
+  "sa_HMP": 0.7106756418675922
+ },
+ "search": {
+  "concat_HMP": [
+   {
+    "dropout": 0.2,
+    "lr": 0.001,
+    "val_macro_f1": 0.7447546417729692,
+    "best_epoch": 15,
+    "train_seconds": 4.3959490999695845
+   },
+   {
+    "dropout": 0.2,
+    "lr": 0.0003,
+    "val_macro_f1": 0.7086697428802692,
+    "best_epoch": 4,
+    "train_seconds": 2.4414827000000514
+   },
+   {
+    "dropout": 0.4,
+    "lr": 0.001,
+    "val_macro_f1": 0.7516603704061445,
+    "best_epoch": 32,
+    "train_seconds": 6.618758199969307
+   },
+   {
+    "dropout": 0.4,
+    "lr": 0.0003,
+    "val_macro_f1": 0.7176656698715522,
+    "best_epoch": 24,
+    "train_seconds": 5.649803899985272
+   }
+  ],
+  "sa_HMP": [
+   {
+    "dropout": 0.2,
+    "lr": 0.001,
+    "val_macro_f1": 0.678959067157825,
+    "best_epoch": 9,
+    "train_seconds": 11.535493700008374
+   },
+   {
+    "dropout": 0.2,
+    "lr": 0.0003,
+    "val_macro_f1": 0.7106756418675922,
+    "best_epoch": 3,
+    "train_seconds": 8.214546700008214
+   },
+   {
+    "dropout": 0.4,
+    "lr": 0.001,
+    "val_macro_f1": 0.6903970450881206,
+    "best_epoch": 5,
+    "train_seconds": 9.310960299975704
+   },
+   {
+    "dropout": 0.4,
+    "lr": 0.0003,
+    "val_macro_f1": 0.6800652409877194,
+    "best_epoch": 8,
+    "train_seconds": 11.050585699966177
+   }
+  ]
+ },
+ "n_params": {
+  "concat_HMP": 221574,
+  "sa_HMP": 751750
+ },
+ "n_params_fusion": {
+  "concat_HMP": 49280,
+  "sa_HMP": 579456
+ },
+ "e4_reference_fusion_params": 596992,
+ "selection_seconds": 59.75483849999728
+}

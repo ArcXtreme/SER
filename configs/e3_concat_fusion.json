@@ -1,0 +1,44 @@
+{
+ "d_model": 128,
+ "n_heads": 4,
+ "d_ffn": 256,
+ "head_hidden": 256,
+ "n_sa_blocks": 4,
+ "grid_dropout": [
+  0.2,
+  0.4
+ ],
+ "grid_lr": [
+  0.001,
+  0.0003
+ ],
+ "weight_decay": 0.0001,
+ "batch_size": 32,
+ "max_epochs": 50,
+ "patience": 10,
+ "grad_clip": 1.0,
+ "bucket": 20,
+ "class_weighted": true,
+ "selection_seed": 0,
+ "final_seeds": [
+  0,
+  1,
+  2
+ ],
+ "tuned": [
+  "concat_HMP",
+  "sa_HMP"
+ ],
+ "ablations": [
+  "concat_H",
+  "concat_HM",
+  "concat_HP",
+  "concat_MP",
+  "concat_M",
+  "concat_P",
+  "concat_HMP_dv",
+  "concat_HMP_dvind"
+ ],
+ "layer_rule": "best single hidden state of the fold's own E2 phase-A validation macro-F1 (max over poolings; ties -> lower layer)",
+ "selection_metric": "validation macro-F1 (ties -> earlier candidate)"
+}

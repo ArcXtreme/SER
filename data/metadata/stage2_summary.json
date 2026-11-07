@@ -1,0 +1,100 @@
+{
+  "CREMA-D": {
+    "files_total": 7442,
+    "files_included_6class_ok": 7441,
+    "files_excluded_by_label": {},
+    "status_counts": {
+      "ok": 7441,
+      "silent": 1
+    },
+    "bad_files": [
+      {
+        "rel_path": "CREMA-D/AudioWAV/1076_MTI_SAD_XX.wav",
+        "status": "silent",
+        "error": ""
+      }
+    ],
+    "speakers": 91,
+    "speakers_by_gender": {
+      "M": 48,
+      "F": 43
+    },
+    "class_counts_included": {
+      "neutral": 1087,
+      "happy": 1271,
+      "sad": 1270,
+      "angry": 1271,
+      "fearful": 1271,
+      "disgust": 1271
+    },
+    "sample_rates": {
+      "16000": 7442
+    },
+    "channels": {
+      "1": 7442
+    },
+    "duration_s": {
+      "min": 0.662,
+      "p05": 1.835,
+      "median": 2.502,
+      "p95": 3.47,
+      "max": 5.005
+    },
+    "duration_total_h": 5.256,
+    "files_with_clipping_gt_0.1pct": 246,
+    "clips_per_speaker_included": {
+      "min": 76,
+      "max": 82
+    },
+    "age": {
+      "min": 20.0,
+      "median": 33.0,
+      "max": 74.0
+    }
+  },
+  "RAVDESS": {
+    "files_total": 1440,
+    "files_included_6class_ok": 1056,
+    "files_excluded_by_label": {
+      "calm": 192,
+      "surprised": 192
+    },
+    "status_counts": {
+      "ok": 1440
+    },
+    "bad_files": [],
+    "speakers": 24,
+    "speakers_by_gender": {
+      "M": 12,
+      "F": 12
+    },
+    "class_counts_included": {
+      "neutral": 96,
+      "happy": 192,
+      "sad": 192,
+      "angry": 192,
+      "fearful": 192,
+      "disgust": 192
+    },
+    "sample_rates": {
+      "48000": 1440
+    },
+    "channels": {
+      "1": 1435,
+      "2": 5
+    },
+    "duration_s": {
+      "min": 2.936,
+      "p05": 3.203,
+      "median": 3.67,
+      "p95": 4.306,
+      "max": 5.272
+    },
+    "duration_total_h": 1.48,
+    "files_with_clipping_gt_0.1pct": 0,
+    "clips_per_speaker_included": {
+      "min": 44,
+      "max": 44
+    }
+  }
+}

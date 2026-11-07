@@ -1,0 +1,221 @@
+{
+  "dataset": "RAVDESS",
+  "protocol": "within-corpus, speaker-independent",
+  "method": "StratifiedGroupKFold (groups=speaker, stratified by gender); validation = first of 5 inner group splits of non-test speakers",
+  "seed": 42,
+  "n_folds": 6,
+  "index_sha256": "b875a4f2e51caac96727cde5a8c36ffccb60bf6486829452f54193e0c75d5331",
+  "verification": {
+    "n_folds": 6,
+    "n_speakers": 24,
+    "n_files": 1056,
+    "checks_passed": [
+      "speaker_disjoint",
+      "file_disjoint",
+      "full_coverage",
+      "all_classes_present",
+      "both_genders_present",
+      "each_speaker_tested_once"
+    ]
+  },
+  "folds": [
+    {
+      "fold": 0,
+      "train": [
+        "RAV_01",
+        "RAV_02",
+        "RAV_05",
+        "RAV_06",
+        "RAV_07",
+        "RAV_08",
+        "RAV_10",
+        "RAV_15",
+        "RAV_16",
+        "RAV_17",
+        "RAV_18",
+        "RAV_19",
+        "RAV_20",
+        "RAV_21",
+        "RAV_23",
+        "RAV_24"
+      ],
+      "val": [
+        "RAV_03",
+        "RAV_12",
+        "RAV_13",
+        "RAV_22"
+      ],
+      "test": [
+        "RAV_04",
+        "RAV_09",
+        "RAV_11",
+        "RAV_14"
+      ]
+    },
+    {
+      "fold": 1,
+      "train": [
+        "RAV_03",
+        "RAV_04",
+        "RAV_06",
+        "RAV_07",
+        "RAV_08",
+        "RAV_09",
+        "RAV_11",
+        "RAV_12",
+        "RAV_13",
+        "RAV_15",
+        "RAV_16",
+        "RAV_18",
+        "RAV_20",
+        "RAV_21",
+        "RAV_22",
+        "RAV_23"
+      ],
+      "val": [
+        "RAV_01",
+        "RAV_10",
+        "RAV_14",
+        "RAV_19"
+      ],
+      "test": [
+        "RAV_02",
+        "RAV_05",
+        "RAV_17",
+        "RAV_24"
+      ]
+    },
+    {
+      "fold": 2,
+      "train": [
+        "RAV_02",
+        "RAV_03",
+        "RAV_04",
+        "RAV_05",
+        "RAV_09",
+        "RAV_10",
+        "RAV_11",
+        "RAV_12",
+        "RAV_13",
+        "RAV_14",
+        "RAV_16",
+        "RAV_17",
+        "RAV_18",
+        "RAV_19",
+        "RAV_21",
+        "RAV_24"
+      ],
+      "val": [
+        "RAV_06",
+        "RAV_07",
+        "RAV_15",
+        "RAV_20"
+      ],
+      "test": [
+        "RAV_01",
+        "RAV_08",
+        "RAV_22",
+        "RAV_23"
+      ]
+    },
+    {
+      "fold": 3,
+      "train": [
+        "RAV_01",
+        "RAV_03",
+        "RAV_04",
+        "RAV_05",
+        "RAV_07",
+        "RAV_08",
+        "RAV_10",
+        "RAV_11",
+        "RAV_12",
+        "RAV_13",
+        "RAV_14",
+        "RAV_17",
+        "RAV_18",
+        "RAV_22",
+        "RAV_23",
+        "RAV_24"
+      ],
+      "val": [
+        "RAV_02",
+        "RAV_09",
+        "RAV_20",
+        "RAV_21"
+      ],
+      "test": [
+        "RAV_06",
+        "RAV_15",
+        "RAV_16",
+        "RAV_19"
+      ]
+    },
+    {
+      "fold": 4,
+      "train": [
+        "RAV_01",
+        "RAV_02",
+        "RAV_04",
+        "RAV_05",
+        "RAV_06",
+        "RAV_09",
+        "RAV_10",
+        "RAV_11",
+        "RAV_13",
+        "RAV_15",
+        "RAV_16",
+        "RAV_19",
+        "RAV_20",
+        "RAV_22",
+        "RAV_23",
+        "RAV_24"
+      ],
+      "val": [
+        "RAV_08",
+        "RAV_14",
+        "RAV_17",
+        "RAV_21"
+      ],
+      "test": [
+        "RAV_03",
+        "RAV_07",
+        "RAV_12",
+        "RAV_18"
+      ]
+    },
+    {
+      "fold": 5,
+      "train": [
+        "RAV_01",
+        "RAV_03",
+        "RAV_04",
+        "RAV_05",
+        "RAV_06",
+        "RAV_07",
+        "RAV_08",
+        "RAV_09",
+        "RAV_11",
+        "RAV_12",
+        "RAV_14",
+        "RAV_17",
+        "RAV_18",
+        "RAV_22",
+        "RAV_23",
+        "RAV_24"
+      ],
+      "val": [
+        "RAV_02",
+        "RAV_15",
+        "RAV_16",
+        "RAV_19"
+      ],
+      "test": [
+        "RAV_10",
+        "RAV_13",
+        "RAV_20",
+        "RAV_21"
+      ]
+    }
+  ]
+}

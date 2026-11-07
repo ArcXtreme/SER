@@ -1,0 +1,523 @@
+{
+ "RAVDESS": {
+  "checks": {
+   "RAVDESS: every fold complete (32 S + selection + 21 D files + checkpoints)": true,
+   "RAVDESS: one run hash per fold across S, selection and D": true,
+   "RAVDESS: S (selection) files contain validation metrics only": true,
+   "RAVDESS: selected hyper-parameters re-derivable from S validation F1 alone": true,
+   "RAVDESS: all S files and selection.json older than every D file and checkpoint": true,
+   "RAVDESS: D test rows == the fold's test rows": true,
+   "RAVDESS: HuBERT layer == rule on the fold's own E2 phase-A file (SHA-256 unchanged)": true,
+   "RAVDESS: D hyper-parameters == selection (ablations use xattn_HMP's)": true,
+   "RAVDESS: seed-0 finals reproduce the selection validation F1": true,
+   "RAVDESS: class weights == recomputed from training labels": true,
+   "RAVDESS: checkpoint metadata matches D files": true,
+   "RAVDESS: standardiser statistics == TRAIN-row statistics (all streams, all checkpoints)": true,
+   "RAVDESS: every reloaded checkpoint re-predicts its saved test predictions exactly": true,
+   "RAVDESS: E3-comparable S cells (concat/control x lr {1e-3,3e-4}) reproduce E3 exactly in every fold": true,
+   "RAVDESS: where a re-searched model selected E3's setting, its D test predictions equal E3's": true,
+   "RAVDESS: fold-0 S runs are the pilot's (same run hash, not rewritten after the pilot)": true,
+   "RAVDESS: E4 has 769,286 parameters; control within 5 %": true,
+   "RAVDESS: Stage 3 split file unchanged (SHA-256)": true,
+   "RAVDESS: Stage 4 audio/manifest/HuBERT/pooled/MFCC unchanged since adoption (SHA-256)": true,
+   "RAVDESS: prosody arrays unchanged since the E2 audit (SHA-256)": true
+  },
+  "details": {
+   "per_fold": {
+    "0": {
+     "std_max_abs_diff": {
+      "hubert": 0.0,
+      "mfcc": 0.0,
+      "prosody": 0.0
+     },
+     "repredict_mismatch": [],
+     "e3_S_mismatch": [],
+     "e3_D": [
+      {
+       "variant": "concat_HMP",
+       "comparable": true,
+       "test_predictions_identical": true
+      },
+      {
+       "variant": "sa_HMP",
+       "comparable": false
+      },
+      {
+       "variant": "concat_H",
+       "comparable": false
+      }
+     ],
+     "cap_hits": [],
+     "order": {
+      "last_selection_artifact": 1793974137.4540834,
+      "first_test_artifact": 1793977940.0410976
+     }
+    },
+    "1": {
+     "std_max_abs_diff": {
+      "hubert": 0.0,
+      "mfcc": 0.0,
+      "prosody": 0.0
+     },
+     "repredict_mismatch": [],
+     "e3_S_mismatch": [],
+     "e3_D": [
+      {
+       "variant": "concat_HMP",
+       "comparable": true,
+       "test_predictions_identical": true
+      },
+      {
+       "variant": "sa_HMP",
+       "comparable": true,
+       "test_predictions_identical": true
+      },
+      {
+       "variant": "concat_H",
+       "comparable": false
+      }
+     ],
+     "cap_hits": [],
+     "order": {
+      "last_selection_artifact": 1793978553.3486264,
+      "first_test_artifact": 1793978574.591863
+     }
+    },
+    "2": {
+     "std_max_abs_diff": {
+      "hubert": 0.0,
+      "mfcc": 0.0,
+      "prosody": 0.0
+     },
+     "repredict_mismatch": [],
+     "e3_S_mismatch": [],
+     "e3_D": [
+      {
+       "variant": "concat_HMP",
+       "comparable": false
+      },
+      {
+       "variant": "sa_HMP",
+       "comparable": true,
+       "test_predictions_identical": true
+      },
+      {
+       "variant": "concat_H",
+       "comparable": false
+      }
+     ],
+     "cap_hits": [],
+     "order": {
+      "last_selection_artifact": 1793979123.0932918,
+      "first_test_artifact": 1793979148.8954546
+     }
+    },
+    "3": {
+     "std_max_abs_diff": {
+      "hubert": 0.0,
+      "mfcc": 0.0,
+      "prosody": 0.0
+     },
+     "repredict_mismatch": [],
+     "e3_S_mismatch": [],
+     "e3_D": [
+      {
+       "variant": "concat_HMP",
+       "comparable": true,
+       "test_predictions_identical": true
+      },
+      {
+       "variant": "sa_HMP",
+       "comparable": false
+      },
+      {
+       "variant": "concat_H",
+       "comparable": false
+      }
+     ],
+     "cap_hits": [],
+     "order": {
+      "last_selection_artifact": 1793979813.306499,
+      "first_test_artifact": 1793979823.582945
+     }
+    },
+    "4": {
+     "std_max_abs_diff": {
+      "hubert": 0.0,
+      "mfcc": 0.0,
+      "prosody": 0.0
+     },
+     "repredict_mismatch": [],
+     "e3_S_mismatch": [],
+     "e3_D": [
+      {
+       "variant": "concat_HMP",
+       "comparable": true,
+       "test_predictions_identical": true
+      },
+      {
+       "variant": "sa_HMP",
+       "comparable": false
+      },
+      {
+       "variant": "concat_H",
+       "comparable": false
+      }
+     ],
+     "cap_hits": [],
+     "order": {
+      "last_selection_artifact": 1793980407.9861443,
+      "first_test_artifact": 1793980418.5283384
+     }
+    },
+    "5": {
+     "std_max_abs_diff": {
+      "hubert": 0.0,
+      "mfcc": 0.0,
+      "prosody": 0.0
+     },
+     "repredict_mismatch": [],
+     "e3_S_mismatch": [],
+     "e3_D": [
+      {
+       "variant": "concat_HMP",
+       "comparable": false
+      },
+      {
+       "variant": "sa_HMP",
+       "comparable": true,
+       "test_predictions_identical": true
+      },
+      {
+       "variant": "concat_H",
+       "comparable": true,
+       "test_predictions_identical": true
+      }
+     ],
+     "cap_hits": [],
+     "order": {
+      "last_selection_artifact": 1793980969.9905663,
+      "first_test_artifact": 1793980984.6954222
+     }
+    }
+   },
+   "RAVDESS: E4 has 769,286 parameters; control within 5 %": {
+    "xattn_HMP": 769286,
+    "sa_HMP": 751750,
+    "rel_diff": -0.02279516330727454
+   },
+   "RAVDESS: Stage 3 split file unchanged (SHA-256)": "DDCFFCCF0AA9E23BF969FBB6757ACDEB68A2C5AD0884B70E044C5DDB8EA99BA5"
+  },
+  "info": {
+   "cap_hits": {
+    "0": [],
+    "1": [],
+    "2": [],
+    "3": [],
+    "4": [],
+    "5": []
+   },
+   "selection_edges": {
+    "xattn_HMP": {
+     "lower_edge_folds": 1,
+     "upper_edge_folds": 3,
+     "n_folds": 6,
+     "selected_lr_per_fold": [
+      0.0001,
+      0.001,
+      3e-05,
+      0.001,
+      0.0003,
+      0.001
+     ]
+    },
+    "sa_HMP": {
+     "lower_edge_folds": 1,
+     "upper_edge_folds": 0,
+     "n_folds": 6,
+     "selected_lr_per_fold": [
+      3e-05,
+      0.0003,
+      0.0003,
+      0.0001,
+      0.0001,
+      0.0003
+     ]
+    },
+    "concat_HMP": {
+     "lower_edge_folds": 0,
+     "upper_edge_folds": 2,
+     "n_folds": 6,
+     "selected_lr_per_fold": [
+      0.0003,
+      0.001,
+      0.0001,
+      0.001,
+      0.0003,
+      0.0001
+     ]
+    },
+    "concat_H": {
+     "lower_edge_folds": 0,
+     "upper_edge_folds": 5,
+     "n_folds": 6,
+     "selected_lr_per_fold": [
+      0.001,
+      0.001,
+      0.0001,
+      0.001,
+      0.001,
+      0.001
+     ]
+    }
+   }
+  }
+ },
+ "CREMA-D": {
+  "checks": {
+   "CREMA-D: every fold complete (32 S + selection + 21 D files + checkpoints)": true,
+   "CREMA-D: one run hash per fold across S, selection and D": true,
+   "CREMA-D: S (selection) files contain validation metrics only": true,
+   "CREMA-D: selected hyper-parameters re-derivable from S validation F1 alone": true,
+   "CREMA-D: all S files and selection.json older than every D file and checkpoint": true,
+   "CREMA-D: D test rows == the fold's test rows": true,
+   "CREMA-D: HuBERT layer == rule on the fold's own E2 phase-A file (SHA-256 unchanged)": true,
+   "CREMA-D: D hyper-parameters == selection (ablations use xattn_HMP's)": true,
+   "CREMA-D: seed-0 finals reproduce the selection validation F1": true,
+   "CREMA-D: class weights == recomputed from training labels": true,
+   "CREMA-D: checkpoint metadata matches D files": true,
+   "CREMA-D: standardiser statistics == TRAIN-row statistics (all streams, all checkpoints)": true,
+   "CREMA-D: every reloaded checkpoint re-predicts its saved test predictions exactly": true,
+   "CREMA-D: E3-comparable S cells (concat/control x lr {1e-3,3e-4}) reproduce E3 exactly in every fold": true,
+   "CREMA-D: where a re-searched model selected E3's setting, its D test predictions equal E3's": true,
+   "CREMA-D: fold-0 S runs are the pilot's (same run hash, not rewritten after the pilot)": true,
+   "CREMA-D: E4 has 769,286 parameters; control within 5 %": true,
+   "CREMA-D: Stage 3 split file unchanged (SHA-256)": true,
+   "CREMA-D: Stage 4 audio/manifest/HuBERT/pooled/MFCC unchanged since adoption (SHA-256)": true,
+   "CREMA-D: prosody arrays unchanged since the E2 audit (SHA-256)": true
+  },
+  "details": {
+   "per_fold": {
+    "0": {
+     "std_max_abs_diff": {
+      "hubert": 0.0,
+      "mfcc": 0.0,
+      "prosody": 0.0
+     },
+     "repredict_mismatch": [],
+     "e3_S_mismatch": [],
+     "e3_D": [
+      {
+       "variant": "concat_HMP",
+       "comparable": true,
+       "test_predictions_identical": true
+      },
+      {
+       "variant": "sa_HMP",
+       "comparable": false
+      },
+      {
+       "variant": "concat_H",
+       "comparable": false
+      }
+     ],
+     "cap_hits": [],
+     "order": {
+      "last_selection_artifact": 1793977228.5236216,
+      "first_test_artifact": 1793982627.8196328
+     }
+    },
+    "1": {
+     "std_max_abs_diff": {
+      "hubert": 0.0,
+      "mfcc": 0.0,
+      "prosody": 0.0
+     },
+     "repredict_mismatch": [],
+     "e3_S_mismatch": [],
+     "e3_D": [
+      {
+       "variant": "concat_HMP",
+       "comparable": true,
+       "test_predictions_identical": true
+      },
+      {
+       "variant": "sa_HMP",
+       "comparable": false
+      },
+      {
+       "variant": "concat_H",
+       "comparable": false
+      }
+     ],
+     "cap_hits": [],
+     "order": {
+      "last_selection_artifact": 1793986300.6120274,
+      "first_test_artifact": 1793986385.9869452
+     }
+    },
+    "2": {
+     "std_max_abs_diff": {
+      "hubert": 0.0,
+      "mfcc": 0.0,
+      "prosody": 0.0
+     },
+     "repredict_mismatch": [],
+     "e3_S_mismatch": [],
+     "e3_D": [
+      {
+       "variant": "concat_HMP",
+       "comparable": false
+      },
+      {
+       "variant": "sa_HMP",
+       "comparable": true,
+       "test_predictions_identical": true
+      },
+      {
+       "variant": "concat_H",
+       "comparable": true,
+       "test_predictions_identical": true
+      }
+     ],
+     "cap_hits": [],
+     "order": {
+      "last_selection_artifact": 1793990398.402808,
+      "first_test_artifact": 1793990489.4931624
+     }
+    },
+    "3": {
+     "std_max_abs_diff": {
+      "hubert": 0.0,
+      "mfcc": 0.0,
+      "prosody": 0.0
+     },
+     "repredict_mismatch": [],
+     "e3_S_mismatch": [],
+     "e3_D": [
+      {
+       "variant": "concat_HMP",
+       "comparable": true,
+       "test_predictions_identical": true
+      },
+      {
+       "variant": "sa_HMP",
+       "comparable": false
+      },
+      {
+       "variant": "concat_H",
+       "comparable": false
+      }
+     ],
+     "cap_hits": [],
+     "order": {
+      "last_selection_artifact": 1793994217.256715,
+      "first_test_artifact": 1793994391.6206386
+     }
+    },
+    "4": {
+     "std_max_abs_diff": {
+      "hubert": 0.0,
+      "mfcc": 0.0,
+      "prosody": 0.0
+     },
+     "repredict_mismatch": [],
+     "e3_S_mismatch": [],
+     "e3_D": [
+      {
+       "variant": "concat_HMP",
+       "comparable": false
+      },
+      {
+       "variant": "sa_HMP",
+       "comparable": false
+      },
+      {
+       "variant": "concat_H",
+       "comparable": false
+      }
+     ],
+     "cap_hits": [],
+     "order": {
+      "last_selection_artifact": 1793998764.0298405,
+      "first_test_artifact": 1793998826.654814
+     }
+    }
+   },
+   "CREMA-D: E4 has 769,286 parameters; control within 5 %": {
+    "xattn_HMP": 769286,
+    "sa_HMP": 751750,
+    "rel_diff": -0.02279516330727454
+   },
+   "CREMA-D: Stage 3 split file unchanged (SHA-256)": "A64882199275F58C1C34322E5B1A797609C261D183ACC216C8C3FF7510868EDC"
+  },
+  "info": {
+   "cap_hits": {
+    "0": [],
+    "1": [],
+    "2": [],
+    "3": [],
+    "4": []
+   },
+   "selection_edges": {
+    "xattn_HMP": {
+     "lower_edge_folds": 1,
+     "upper_edge_folds": 0,
+     "n_folds": 5,
+     "selected_lr_per_fold": [
+      0.0003,
+      0.0001,
+      0.0001,
+      3e-05,
+      0.0003
+     ]
+    },
+    "sa_HMP": {
+     "lower_edge_folds": 2,
+     "upper_edge_folds": 0,
+     "n_folds": 5,
+     "selected_lr_per_fold": [
+      3e-05,
+      3e-05,
+      0.0003,
+      0.0001,
+      0.0001
+     ]
+    },
+    "concat_HMP": {
+     "lower_edge_folds": 0,
+     "upper_edge_folds": 0,
+     "n_folds": 5,
+     "selected_lr_per_fold": [
+      0.0003,
+      0.0003,
+      0.0001,
+      0.0003,
+      0.0001
+     ]
+    },
+    "concat_H": {
+     "lower_edge_folds": 1,
+     "upper_edge_folds": 2,
+     "n_folds": 5,
+     "selected_lr_per_fold": [
+      3e-05,
+      0.0001,
+      0.001,
+      0.0001,
+      0.001
+     ]
+    }
+   }
+  }
+ },
+ "integrity": {
+  "checks": {
+   "E1-E3 results/checkpoints/configs/splits unchanged (1432-file snapshot)": true
+  },
+  "details": {
+   "E1-E3 results/checkpoints/configs/splits unchanged (1432-file snapshot)": []
+  }
+ },
+ "all_checks_passed": true
+}

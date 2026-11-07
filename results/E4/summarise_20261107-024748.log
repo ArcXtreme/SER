@@ -1,0 +1,17 @@
+RAVDESS xattn_HMP      macro_f1 0.723±0.061  UA 0.729±0.058  accuracy 0.733±0.067  macro_precision 0.743±0.057
+RAVDESS sa_HMP         macro_f1 0.730±0.043  UA 0.739±0.037  accuracy 0.743±0.052  macro_precision 0.747±0.045
+RAVDESS concat_HMP     macro_f1 0.726±0.061  UA 0.733±0.056  accuracy 0.735±0.065  macro_precision 0.748±0.064
+RAVDESS concat_H       macro_f1 0.736±0.046  UA 0.740±0.047  accuracy 0.745±0.056  macro_precision 0.759±0.055
+RAVDESS xattn_HM       macro_f1 0.734±0.053  UA 0.740±0.050  accuracy 0.743±0.059  macro_precision 0.746±0.055
+RAVDESS xattn_HP       macro_f1 0.721±0.045  UA 0.726±0.045  accuracy 0.732±0.052  macro_precision 0.746±0.053
+RAVDESS xattn_H_MPcat  macro_f1 0.730±0.052  UA 0.737±0.047  accuracy 0.741±0.059  macro_precision 0.746±0.057
+CREMA-D xattn_HMP      macro_f1 0.674±0.023  UA 0.676±0.024  accuracy 0.674±0.023  macro_precision 0.680±0.021
+CREMA-D sa_HMP         macro_f1 0.686±0.026  UA 0.689±0.026  accuracy 0.686±0.026  macro_precision 0.691±0.024
+CREMA-D concat_HMP     macro_f1 0.694±0.028  UA 0.696±0.027  accuracy 0.693±0.028  macro_precision 0.699±0.026
+CREMA-D concat_H       macro_f1 0.688±0.028  UA 0.691±0.026  accuracy 0.688±0.027  macro_precision 0.691±0.025
+CREMA-D xattn_HM       macro_f1 0.680±0.029  UA 0.683±0.029  accuracy 0.681±0.029  macro_precision 0.685±0.028
+CREMA-D xattn_HP       macro_f1 0.674±0.024  UA 0.678±0.023  accuracy 0.675±0.023  macro_precision 0.681±0.021
+CREMA-D xattn_H_MPcat  macro_f1 0.672±0.025  UA 0.675±0.026  accuracy 0.673±0.026  macro_precision 0.679±0.022
+DECISION E4 - concat (primary): no consistent improvement  RAVDESS -0.0029 (3/6, p 0.750, Holm 1.000); CREMA-D -0.0196 (0/5, p 0.062, Holm 0.188)
+DECISION E4 - control: no consistent improvement  RAVDESS -0.0071 (1/6, p 0.625, Holm 1.000); CREMA-D -0.0115 (1/5, p 0.188, Holm 0.375)
+DECISION E4 - HuBERT-only: no consistent improvement  RAVDESS -0.0132 (1/6, p 0.188, Holm 0.562); CREMA-D -0.0135 (1/5, p 0.188, Holm 0.375)

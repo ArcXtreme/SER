@@ -1,0 +1,11 @@
+﻿time,worker_ws_gb,system_free_gb,system_available_gb,stage,last_line
+2026-11-07T10:49:28.994,0.146,6.284,6.284,"starting",""
+2026-11-07T10:49:30.599,0.461,5.958,5.958,"starting",""
+2026-11-07T10:49:31.816,0.505,5.917,5.917,"starting",""
+2026-11-07T10:49:33.036,0.572,5.837,5.837,"starting",""
+2026-11-07T10:49:34.260,0.608,5.811,5.811,"[stage] RAVDESS fold 0 pooled: opening feature store","[stage] RAVDESS fold 0 pooled: opening feature store"
+2026-11-07T10:49:35.423,0.780,5.624,5.624,"[stage] RAVDESS fold 0 pooled: phase S P0 {'hidden': 256, 'class_weighted': True, 'dropout': 0.2, 'lr': 0.001} (training)","[stage] RAVDESS fold 0 pooled: phase S P0 {'hidden': 256, 'class_weighted': True, 'dropout': 0.2, 'lr': 0.001} (training)"
+2026-11-07T10:49:40.570,1.122,5.278,5.278,"[stage] RAVDESS fold 0 pooled: phase S P0 {'hidden': 256, 'class_weighted': True, 'dropout': 0.2, 'lr': 3e-05} (training)","[stage] RAVDESS fold 0 pooled: phase S P0 {'hidden': 256, 'class_weighted': True, 'dropout': 0.2, 'lr': 3e-05} (training)"
+2026-11-07T10:49:45.710,1.122,5.257,5.257,"[stage] RAVDESS fold 0 pooled: phase S P0 {'hidden': 256, 'class_weighted': True, 'dropout': 0.4, 'lr': 3e-05} (training)","[stage] RAVDESS fold 0 pooled: phase S P0 {'hidden': 256, 'class_weighted': True, 'dropout': 0.4, 'lr': 3e-05} (training)"
+2026-11-07T10:49:50.857,1.162,5.176,5.176,"[stage] RAVDESS fold 0 pooled: phase S P0B32 {'hidden': 512, 'class_weighted': False, 'dropout': 0.4, 'lr': 0.001} (training)","[stage] RAVDESS fold 0 pooled: phase S P0B32 {'hidden': 512, 'class_weighted': False, 'dropout': 0.4, 'lr': 0.001} (training)"
+2026-11-07T10:49:56.095,0.000,6.385,6.385,"[stage] RAVDESS fold 0 pooled: done in 0.3 min","[stage] RAVDESS fold 0 pooled: done in 0.3 min"

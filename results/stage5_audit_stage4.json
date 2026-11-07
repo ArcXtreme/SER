@@ -1,0 +1,693 @@
+{
+  "config_cache_id": "v1_efe9081789",
+  "RAVDESS": {
+    "A1_cache": {
+      "cache_id": "v1_efe9081789",
+      "config_hash": "efe90817898b980c1e5508089aedba6c8972d92df7b06d8f1ae4e744a6ecc0cd",
+      "f0_tracker": "praat_ac",
+      "praat": {
+        "max_candidates": 15,
+        "very_accurate": false,
+        "silence_threshold": 0.03,
+        "voicing_threshold": 0.45,
+        "octave_cost": 0.01,
+        "octave_jump_cost": 0.7,
+        "voiced_unvoiced_cost": 0.14
+      },
+      "f0_range_frames_and_wide": [
+        60.0,
+        800.0
+      ],
+      "f0_range_disvoice_variant": [
+        60.0,
+        350.0
+      ],
+      "adopted_from": "v1_f9418feedb",
+      "unchanged_stream_verification": {
+        "mfcc_identical_to_source": true,
+        "manifest.csv_unchanged": true,
+        "wav16k.npy_unchanged": true,
+        "hubert.npy_unchanged": true,
+        "hubert_pooled.npy_unchanged": true,
+        "progress_hubert.npy_unchanged": true
+      },
+      "versions": {
+        "parselmouth": "0.4.7",
+        "praat": "6.1.38",
+        "torch": "2.14.1+cu126",
+        "transformers": "5.22.1",
+        "librosa": "1.0.0"
+      },
+      "validation_all_checks_passed": true
+    },
+    "A2_frame_channels": {
+      "names": [
+        "f0_st",
+        "voiced",
+        "periodicity",
+        "energy_db"
+      ],
+      "per_channel_min_max": {
+        "f0_st": [
+          -8.879192352294922,
+          35.981483459472656
+        ],
+        "voiced": [
+          0.0,
+          1.0
+        ],
+        "periodicity": [
+          0.0,
+          0.9999980926513672
+        ],
+        "energy_db": [
+          -98.56713104248047,
+          -0.7415717840194702
+        ]
+      },
+      "per_channel_mean_std": {
+        "f0_st": [
+          13.159337078257614,
+          8.36157811357482
+        ],
+        "voiced": [
+          0.6538786165744122,
+          0.4757324577545084
+        ],
+        "periodicity": [
+          0.7451567783981301,
+          0.22269650871653637
+        ],
+        "energy_db": [
+          -24.814195221310246,
+          12.956570986957093
+        ]
+      },
+      "unvoiced_frames_with_periodicity_ge_voicing_threshold": 0.6569314089658888,
+      "voiced_frames_with_periodicity_lt_voicing_threshold": 0.0022063789868667916,
+      "energy_db_floor_frames(-100dB)": 0,
+      "note": "f0_st is linearly interpolated through unvoiced frames; the 'voiced' channel tells the model which values were measured. periodicity is an autocorrelation strength, not P(voiced)."
+    },
+    "A3_A4_prosody103_disvoice": {
+      "recordings_with_any_imputation": 0.32196969696969696,
+      "recordings_with_any_imputation_by_label": {
+        "angry": 0.297,
+        "disgust": 0.354,
+        "fearful": 0.328,
+        "happy": 0.349,
+        "neutral": 0.365,
+        "sad": 0.26
+      },
+      "features_with_any_imputation": 34,
+      "features_imputed_gt_20pct": {},
+      "top_imputed_features_rate_by_label": {
+        "kurtosislastEunvoiced": {
+          "angry": 0.156,
+          "disgust": 0.156,
+          "fearful": 0.234,
+          "happy": 0.198,
+          "neutral": 0.302,
+          "sad": 0.13
+        },
+        "skwlastEunvoiced": {
+          "angry": 0.156,
+          "disgust": 0.156,
+          "fearful": 0.234,
+          "happy": 0.198,
+          "neutral": 0.302,
+          "sad": 0.13
+        },
+        "skwtiltEunvoiced": {
+          "angry": 0.021,
+          "disgust": 0.099,
+          "fearful": 0.073,
+          "happy": 0.083,
+          "neutral": 0.042,
+          "sad": 0.052
+        },
+        "kurtosistiltEunvoiced": {
+          "angry": 0.021,
+          "disgust": 0.099,
+          "fearful": 0.073,
+          "happy": 0.083,
+          "neutral": 0.042,
+          "sad": 0.052
+        },
+        "kurtosismseEunvoiced": {
+          "angry": 0.021,
+          "disgust": 0.099,
+          "fearful": 0.073,
+          "happy": 0.083,
+          "neutral": 0.042,
+          "sad": 0.052
+        },
+        "skwmseEunvoiced": {
+          "angry": 0.021,
+          "disgust": 0.099,
+          "fearful": 0.073,
+          "happy": 0.083,
+          "neutral": 0.042,
+          "sad": 0.052
+        }
+      },
+      "constant_or_empty_features": [],
+      "n_features_abs_skew_gt_2": 25,
+      "n_features_abs_skew_gt_10": 0,
+      "most_skewed": {
+        "F0msemin": 7.0,
+        "F0kurt": 6.9,
+        "lastF0ku": 5.0,
+        "stddurpause": 4.5,
+        "PU": 3.8,
+        "PVU": 3.6,
+        "F0msemax": 3.4,
+        "F0msestd": 3.3
+      },
+      "n_features_with_negative_values": 55,
+      "max_robust_z": 73.7,
+      "share_values_robust_z_gt_10": 0.0005148573109738158
+    },
+    "A3_A4_prosody103_wide": {
+      "recordings_with_any_imputation": 0.2859848484848485,
+      "recordings_with_any_imputation_by_label": {
+        "angry": 0.255,
+        "disgust": 0.312,
+        "fearful": 0.292,
+        "happy": 0.307,
+        "neutral": 0.302,
+        "sad": 0.255
+      },
+      "features_with_any_imputation": 34,
+      "features_imputed_gt_20pct": {},
+      "top_imputed_features_rate_by_label": {
+        "kurtosislastEunvoiced": {
+          "angry": 0.141,
+          "disgust": 0.141,
+          "fearful": 0.177,
+          "happy": 0.172,
+          "neutral": 0.26,
+          "sad": 0.141
+        },
+        "skwlastEunvoiced": {
+          "angry": 0.141,
+          "disgust": 0.141,
+          "fearful": 0.177,
+          "happy": 0.172,
+          "neutral": 0.26,
+          "sad": 0.141
+        },
+        "skwtiltEunvoiced": {
+          "angry": 0.031,
+          "disgust": 0.089,
+          "fearful": 0.078,
+          "happy": 0.094,
+          "neutral": 0.021,
+          "sad": 0.047
+        },
+        "kurtosistiltEunvoiced": {
+          "angry": 0.031,
+          "disgust": 0.089,
+          "fearful": 0.078,
+          "happy": 0.094,
+          "neutral": 0.021,
+          "sad": 0.047
+        },
+        "kurtosismseEunvoiced": {
+          "angry": 0.031,
+          "disgust": 0.089,
+          "fearful": 0.078,
+          "happy": 0.094,
+          "neutral": 0.021,
+          "sad": 0.047
+        },
+        "skwmseEunvoiced": {
+          "angry": 0.031,
+          "disgust": 0.089,
+          "fearful": 0.078,
+          "happy": 0.094,
+          "neutral": 0.021,
+          "sad": 0.047
+        }
+      },
+      "constant_or_empty_features": [],
+      "n_features_abs_skew_gt_2": 26,
+      "n_features_abs_skew_gt_10": 1,
+      "most_skewed": {
+        "F0msemin": 12.6,
+        "F0msestd": 4.8,
+        "F0msemax": 4.6,
+        "stddurpause": 4.6,
+        "PVU": 4.5,
+        "lastF0ku": 4.2,
+        "PU": 4.1,
+        "skwdurpause": 3.9
+      },
+      "n_features_with_negative_values": 55,
+      "max_robust_z": 192.0,
+      "share_values_robust_z_gt_10": 0.0008090614886731392
+    },
+    "A5_hubert": {
+      "frame_cache_shape": [
+        101892,
+        13,
+        768
+      ],
+      "frame_dtype": "float16",
+      "pooled_shape": [
+        1056,
+        13,
+        1536
+      ],
+      "pooled_dtype": "float32",
+      "pooled_layout": "[:, layer, 0:768] = mean over frames, [:, layer, 768:1536] = std over frames (fp32, before fp16 storage)",
+      "pooled_vs_recomputed_from_fp16_frames_max_rel_diff": 0.00015956952120177448,
+      "hidden_state_semantics": "index 0 = Transformer input (after conv + projection + pos. emb.), i = output of layer i (1..12)",
+      "paper_layers": "layer 1 = hidden_states[1], layer 9 = hidden_states[9], final = hidden_states[12]"
+    },
+    "A6_alignment_masks": {
+      "all_streams_share_frame_offsets": true,
+      "frames_per_recording": {
+        "min": 61,
+        "median": 91,
+        "p95": 138,
+        "max": 215
+      },
+      "padding_waste_if_padding_to_max_in_batch_of_32(expected_share)": 0.367
+    },
+    "A7_splits": [
+      {
+        "fold": 0,
+        "train": 704,
+        "val": 176,
+        "test": 176,
+        "speakers": {
+          "train": 16,
+          "val": 4,
+          "test": 4
+        }
+      },
+      {
+        "fold": 1,
+        "train": 704,
+        "val": 176,
+        "test": 176,
+        "speakers": {
+          "train": 16,
+          "val": 4,
+          "test": 4
+        }
+      },
+      {
+        "fold": 2,
+        "train": 704,
+        "val": 176,
+        "test": 176,
+        "speakers": {
+          "train": 16,
+          "val": 4,
+          "test": 4
+        }
+      },
+      {
+        "fold": 3,
+        "train": 704,
+        "val": 176,
+        "test": 176,
+        "speakers": {
+          "train": 16,
+          "val": 4,
+          "test": 4
+        }
+      },
+      {
+        "fold": 4,
+        "train": 704,
+        "val": 176,
+        "test": 176,
+        "speakers": {
+          "train": 16,
+          "val": 4,
+          "test": 4
+        }
+      },
+      {
+        "fold": 5,
+        "train": 704,
+        "val": 176,
+        "test": 176,
+        "speakers": {
+          "train": 16,
+          "val": 4,
+          "test": 4
+        }
+      }
+    ],
+    "A7_mfcc_std_by_block": {
+      "static_c1_c12": 3.441,
+      "logE": 2.934,
+      "delta": 0.878,
+      "delta_delta": 0.365
+    }
+  },
+  "CREMA-D": {
+    "A1_cache": {
+      "cache_id": "v1_efe9081789",
+      "config_hash": "efe90817898b980c1e5508089aedba6c8972d92df7b06d8f1ae4e744a6ecc0cd",
+      "f0_tracker": "praat_ac",
+      "praat": {
+        "max_candidates": 15,
+        "very_accurate": false,
+        "silence_threshold": 0.03,
+        "voicing_threshold": 0.45,
+        "octave_cost": 0.01,
+        "octave_jump_cost": 0.7,
+        "voiced_unvoiced_cost": 0.14
+      },
+      "f0_range_frames_and_wide": [
+        60.0,
+        800.0
+      ],
+      "f0_range_disvoice_variant": [
+        60.0,
+        350.0
+      ],
+      "adopted_from": "v1_f9418feedb",
+      "unchanged_stream_verification": {
+        "mfcc_identical_to_source": true,
+        "manifest.csv_unchanged": true,
+        "wav16k.npy_unchanged": true,
+        "hubert.npy_unchanged": true,
+        "hubert_pooled.npy_unchanged": true,
+        "progress_hubert.npy_unchanged": true
+      },
+      "versions": {
+        "parselmouth": "0.4.7",
+        "praat": "6.1.38",
+        "torch": "2.14.1+cu126",
+        "transformers": "5.22.1",
+        "librosa": "1.0.0"
+      },
+      "validation_all_checks_passed": true
+    },
+    "A2_frame_channels": {
+      "names": [
+        "f0_st",
+        "voiced",
+        "periodicity",
+        "energy_db"
+      ],
+      "per_channel_min_max": {
+        "f0_st": [
+          -8.904945373535156,
+          35.996280670166016
+        ],
+        "voiced": [
+          0.0,
+          1.0
+        ],
+        "periodicity": [
+          0.0,
+          0.9999890327453613
+        ],
+        "energy_db": [
+          -100.0,
+          -2.159893274307251
+        ]
+      },
+      "per_channel_mean_std": {
+        "f0_st": [
+          8.575988328648062,
+          8.05254593901439
+        ],
+        "voiced": [
+          0.455003474437579,
+          0.497971196644254
+        ],
+        "periodicity": [
+          0.5938787524400452,
+          0.23282405774642634
+        ],
+        "energy_db": [
+          -23.859407477899353,
+          8.363698673660226
+        ]
+      },
+      "unvoiced_frames_with_periodicity_ge_voicing_threshold": 0.45643817664293285,
+      "voiced_frames_with_periodicity_lt_voicing_threshold": 0.005319002686996188,
+      "energy_db_floor_frames(-100dB)": 1,
+      "note": "f0_st is linearly interpolated through unvoiced frames; the 'voiced' channel tells the model which values were measured. periodicity is an autocorrelation strength, not P(voiced)."
+    },
+    "A3_A4_prosody103_disvoice": {
+      "recordings_with_any_imputation": 0.5433409487972046,
+      "recordings_with_any_imputation_by_label": {
+        "angry": 0.349,
+        "disgust": 0.58,
+        "fearful": 0.579,
+        "happy": 0.551,
+        "neutral": 0.59,
+        "sad": 0.619
+      },
+      "features_with_any_imputation": 46,
+      "features_imputed_gt_20pct": {
+        "skw1Evoiced": 0.204,
+        "kurtosis1Evoiced": 0.204
+      },
+      "top_imputed_features_rate_by_label": {
+        "skw1Evoiced": {
+          "angry": 0.064,
+          "disgust": 0.246,
+          "fearful": 0.238,
+          "happy": 0.149,
+          "neutral": 0.249,
+          "sad": 0.286
+        },
+        "kurtosis1Evoiced": {
+          "angry": 0.064,
+          "disgust": 0.246,
+          "fearful": 0.238,
+          "happy": 0.149,
+          "neutral": 0.249,
+          "sad": 0.286
+        },
+        "kurtosislastEvoiced": {
+          "angry": 0.089,
+          "disgust": 0.222,
+          "fearful": 0.18,
+          "happy": 0.159,
+          "neutral": 0.211,
+          "sad": 0.249
+        },
+        "skwlastEvoiced": {
+          "angry": 0.089,
+          "disgust": 0.222,
+          "fearful": 0.18,
+          "happy": 0.159,
+          "neutral": 0.211,
+          "sad": 0.249
+        },
+        "kurtosislastEunvoiced": {
+          "angry": 0.109,
+          "disgust": 0.124,
+          "fearful": 0.129,
+          "happy": 0.135,
+          "neutral": 0.12,
+          "sad": 0.121
+        },
+        "skwlastEunvoiced": {
+          "angry": 0.109,
+          "disgust": 0.124,
+          "fearful": 0.129,
+          "happy": 0.135,
+          "neutral": 0.12,
+          "sad": 0.121
+        }
+      },
+      "constant_or_empty_features": [],
+      "n_features_abs_skew_gt_2": 21,
+      "n_features_abs_skew_gt_10": 1,
+      "most_skewed": {
+        "F0msemin": 19.1,
+        "PU": 9.5,
+        "F0mseavg": 7.3,
+        "stdmseEunvoiced": 7.3,
+        "F0msestd": 6.9,
+        "avgmseEunvoiced": 5.8,
+        "F0msemax": 5.6,
+        "mindurvoiced": 5.2
+      },
+      "n_features_with_negative_values": 55,
+      "max_robust_z": 11387.1,
+      "share_values_robust_z_gt_10": 0.0018371056192207176
+    },
+    "A3_A4_prosody103_wide": {
+      "recordings_with_any_imputation": 0.5293643327509744,
+      "recordings_with_any_imputation_by_label": {
+        "angry": 0.351,
+        "disgust": 0.577,
+        "fearful": 0.576,
+        "happy": 0.522,
+        "neutral": 0.55,
+        "sad": 0.604
+      },
+      "features_with_any_imputation": 46,
+      "features_imputed_gt_20pct": {},
+      "top_imputed_features_rate_by_label": {
+        "skw1Evoiced": {
+          "angry": 0.059,
+          "disgust": 0.238,
+          "fearful": 0.231,
+          "happy": 0.157,
+          "neutral": 0.235,
+          "sad": 0.275
+        },
+        "kurtosis1Evoiced": {
+          "angry": 0.059,
+          "disgust": 0.238,
+          "fearful": 0.231,
+          "happy": 0.157,
+          "neutral": 0.235,
+          "sad": 0.275
+        },
+        "kurtosislastEvoiced": {
+          "angry": 0.09,
+          "disgust": 0.212,
+          "fearful": 0.154,
+          "happy": 0.14,
+          "neutral": 0.19,
+          "sad": 0.231
+        },
+        "skwlastEvoiced": {
+          "angry": 0.09,
+          "disgust": 0.212,
+          "fearful": 0.154,
+          "happy": 0.14,
+          "neutral": 0.19,
+          "sad": 0.231
+        },
+        "kurtosislastEunvoiced": {
+          "angry": 0.12,
+          "disgust": 0.128,
+          "fearful": 0.12,
+          "happy": 0.127,
+          "neutral": 0.111,
+          "sad": 0.113
+        },
+        "skwlastEunvoiced": {
+          "angry": 0.12,
+          "disgust": 0.128,
+          "fearful": 0.12,
+          "happy": 0.127,
+          "neutral": 0.111,
+          "sad": 0.113
+        }
+      },
+      "constant_or_empty_features": [],
+      "n_features_abs_skew_gt_2": 25,
+      "n_features_abs_skew_gt_10": 1,
+      "most_skewed": {
+        "F0msemin": 15.5,
+        "F0mseavg": 7.5,
+        "stdmseEunvoiced": 7.5,
+        "F0msestd": 6.8,
+        "F0msemax": 6.7,
+        "avgmseEunvoiced": 5.9,
+        "PU": 5.9,
+        "mindurvoiced": 4.8
+      },
+      "n_features_with_negative_values": 55,
+      "max_robust_z": 7988.1,
+      "share_values_robust_z_gt_10": 0.0021071914595464907
+    },
+    "A5_hubert": {
+      "frame_cache_shape": [
+        879279,
+        13,
+        768
+      ],
+      "frame_dtype": "float16",
+      "pooled_shape": [
+        7441,
+        13,
+        1536
+      ],
+      "pooled_dtype": "float32",
+      "pooled_layout": "[:, layer, 0:768] = mean over frames, [:, layer, 768:1536] = std over frames (fp32, before fp16 storage)",
+      "pooled_vs_recomputed_from_fp16_frames_max_rel_diff": 7.244932930916548e-05,
+      "hidden_state_semantics": "index 0 = Transformer input (after conv + projection + pos. emb.), i = output of layer i (1..12)",
+      "paper_layers": "layer 1 = hidden_states[1], layer 9 = hidden_states[9], final = hidden_states[12]"
+    },
+    "A6_alignment_masks": {
+      "all_streams_share_frame_offsets": true,
+      "frames_per_recording": {
+        "min": 32,
+        "median": 118,
+        "p95": 169,
+        "max": 250
+      },
+      "padding_waste_if_padding_to_max_in_batch_of_32(expected_share)": 0.37
+    },
+    "A7_splits": [
+      {
+        "fold": 0,
+        "train": 4741,
+        "val": 1224,
+        "test": 1476,
+        "speakers": {
+          "train": 58,
+          "val": 15,
+          "test": 18
+        }
+      },
+      {
+        "fold": 1,
+        "train": 4743,
+        "val": 1228,
+        "test": 1470,
+        "speakers": {
+          "train": 58,
+          "val": 15,
+          "test": 18
+        }
+      },
+      {
+        "fold": 2,
+        "train": 4743,
+        "val": 1228,
+        "test": 1470,
+        "speakers": {
+          "train": 58,
+          "val": 15,
+          "test": 18
+        }
+      },
+      {
+        "fold": 3,
+        "train": 4823,
+        "val": 1148,
+        "test": 1470,
+        "speakers": {
+          "train": 59,
+          "val": 14,
+          "test": 18
+        }
+      },
+      {
+        "fold": 4,
+        "train": 4738,
+        "val": 1148,
+        "test": 1555,
+        "speakers": {
+          "train": 58,
+          "val": 14,
+          "test": 19
+        }
+      }
+    ],
+    "A7_mfcc_std_by_block": {
+      "static_c1_c12": 2.244,
+      "logE": 1.931,
+      "delta": 0.567,
+      "delta_delta": 0.244
+    }
+  }
+}

@@ -1,0 +1,105 @@
+[E4] RAVDESS: device cuda, n_sa_blocks 4, RAM {'current': 624.2, 'peak': 624.2}
+    loaded HuBERT layer 6: (101892, 768) fp16 in 2s, RAM {'current': 890.0, 'peak': 1137.7}
+    S concat_HMP d0.2 lr0.001   val F1 0.8214  best ep  22 run  33     4.9s  GPU 301 MiB  RAM {'current': 1785.4, 'peak': 1785.4}
+    S concat_HMP d0.2 lr0.0003  val F1 0.8262  best ep  30 run  41     5.9s  GPU 305 MiB  RAM {'current': 1785.9, 'peak': 1785.9}
+    S concat_HMP d0.4 lr0.001   val F1 0.7980  best ep  19 run  30     4.4s  GPU 301 MiB  RAM {'current': 1785.9, 'peak': 1785.9}
+    S concat_HMP d0.4 lr0.0003  val F1 0.8246  best ep  29 run  40     6.2s  GPU 302 MiB  RAM {'current': 1786.0, 'peak': 1786.0}
+    S sa_HMP     d0.2 lr0.001   val F1 0.7522  best ep   6 run  17    12.1s  GPU 694 MiB  RAM {'current': 1796.5, 'peak': 1796.5}
+    S sa_HMP     d0.2 lr0.0003  val F1 0.7932  best ep   6 run  17    12.1s  GPU 694 MiB  RAM {'current': 1795.2, 'peak': 1796.5}
+    S sa_HMP     d0.4 lr0.001   val F1 0.7827  best ep  16 run  27    19.1s  GPU 694 MiB  RAM {'current': 1794.3, 'peak': 1796.5}
+    S sa_HMP     d0.4 lr0.0003  val F1 0.8040  best ep  32 run  43    30.9s  GPU 694 MiB  RAM {'current': 1669.1, 'peak': 1796.7}
+    S xattn_HMP  d0.2 lr0.001   val F1 0.8069  best ep  18 run  29   462.4s  GPU 716 MiB  RAM {'current': 1669.0, 'peak': 1796.7}
+    S xattn_HMP  d0.2 lr0.0003  val F1 0.8004  best ep   5 run  16    14.1s  GPU 715 MiB  RAM {'current': 1661.5, 'peak': 1796.7}
+    S xattn_HMP  d0.2 lr0.0001  val F1 0.8126  best ep  10 run  21    17.1s  GPU 715 MiB  RAM {'current': 1670.0, 'peak': 1796.7}
+    S xattn_HMP  d0.2 lr3e-05   val F1 0.8106  best ep  27 run  38    29.9s  GPU 716 MiB  RAM {'current': 1669.9, 'peak': 1796.7}
+    S xattn_HMP  d0.4 lr0.001   val F1 0.8101  best ep  22 run  33    25.3s  GPU 716 MiB  RAM {'current': 1667.7, 'peak': 1796.7}
+    S xattn_HMP  d0.4 lr0.0003  val F1 0.8011  best ep   5 run  16    12.4s  GPU 715 MiB  RAM {'current': 1669.4, 'peak': 1796.7}
+    S xattn_HMP  d0.4 lr0.0001  val F1 0.7763  best ep  15 run  26    20.3s  GPU 715 MiB  RAM {'current': 1668.2, 'peak': 1796.7}
+    S xattn_HMP  d0.4 lr3e-05   val F1 0.7597  best ep  39 run  50    39.5s  GPU 716 MiB  RAM {'current': 1669.9, 'peak': 1796.7}
+    S sa_HMP     d0.2 lr0.0001  val F1 0.8217  best ep  13 run  24    18.0s  GPU 694 MiB  RAM {'current': 1669.4, 'peak': 1796.7}
+    S sa_HMP     d0.2 lr3e-05   val F1 0.8307  best ep  38 run  49    36.5s  GPU 694 MiB  RAM {'current': 1670.5, 'peak': 1796.7}
+    S sa_HMP     d0.4 lr0.0001  val F1 0.7927  best ep  20 run  31    22.9s  GPU 694 MiB  RAM {'current': 1669.2, 'peak': 1796.7}
+    S sa_HMP     d0.4 lr3e-05   val F1 0.7778  best ep  27 run  38    28.3s  GPU 694 MiB  RAM {'current': 1670.2, 'peak': 1796.7}
+    S concat_HMP d0.2 lr0.0001  val F1 0.8179  best ep  30 run  41     7.3s  GPU 305 MiB  RAM {'current': 1665.6, 'peak': 1796.7}
+    S concat_HMP d0.2 lr3e-05   val F1 0.8175  best ep  73 run  84    14.7s  GPU 311 MiB  RAM {'current': 1662.6, 'peak': 1796.7}
+    S concat_HMP d0.4 lr0.0001  val F1 0.8117  best ep  27 run  38     6.8s  GPU 303 MiB  RAM {'current': 1662.6, 'peak': 1796.7}
+    S concat_HMP d0.4 lr3e-05   val F1 0.7863  best ep  54 run  65    12.7s  GPU 311 MiB  RAM {'current': 1662.7, 'peak': 1796.7}
+    S concat_H   d0.2 lr0.001   val F1 0.8274  best ep   9 run  20     3.3s  GPU 300 MiB  RAM {'current': 1662.3, 'peak': 1796.7}
+    S concat_H   d0.2 lr0.0003  val F1 0.8180  best ep  30 run  41     5.9s  GPU 305 MiB  RAM {'current': 1662.3, 'peak': 1796.7}
+    S concat_H   d0.2 lr0.0001  val F1 0.8120  best ep  37 run  48     7.6s  GPU 310 MiB  RAM {'current': 1662.3, 'peak': 1796.7}
+    S concat_H   d0.2 lr3e-05   val F1 0.7982  best ep  63 run  74    11.9s  GPU 310 MiB  RAM {'current': 1662.4, 'peak': 1796.7}
+    S concat_H   d0.4 lr0.001   val F1 0.8123  best ep   9 run  20     3.0s  GPU 300 MiB  RAM {'current': 1662.4, 'peak': 1796.7}
+    S concat_H   d0.4 lr0.0003  val F1 0.8113  best ep  21 run  32     5.0s  GPU 300 MiB  RAM {'current': 1662.4, 'peak': 1796.7}
+    S concat_H   d0.4 lr0.0001  val F1 0.8167  best ep  34 run  45     7.3s  GPU 310 MiB  RAM {'current': 1662.4, 'peak': 1796.7}
+    S concat_H   d0.4 lr3e-05   val F1 0.7917  best ep  77 run  88    14.0s  GPU 310 MiB  RAM {'current': 1662.5, 'peak': 1796.7}
+{
+ "layer_info": {
+  "layer": 6,
+  "val_macro_f1_per_layer": {
+   "0": 0.6861909151372491,
+   "1": 0.7298344374666738,
+   "2": 0.7413345152975092,
+   "3": 0.7763221615556867,
+   "4": 0.7679535249972593,
+   "5": 0.78652557037422,
+   "6": 0.7938711530667043,
+   "7": 0.7895732234106744,
+   "8": 0.7381000204970617,
+   "9": 0.7295549729434665,
+   "10": 0.7420112283809565,
+   "11": 0.7157981441681941,
+   "12": 0.7094443459766041
+  },
+  "source": "results/E2/RAVDESS/fold0/selection.json",
+  "source_sha256": "810fb5603a650f0d9170247c379c18cab3f1fb65e35089f8620dc43ce1be835a"
+ },
+ "selected": {
+  "xattn_HMP": {
+   "dropout": 0.2,
+   "lr": 0.0001
+  },
+  "sa_HMP": {
+   "dropout": 0.2,
+   "lr": 3e-05
+  },
+  "concat_HMP": {
+   "dropout": 0.2,
+   "lr": 0.0003
+  },
+  "concat_H": {
+   "dropout": 0.2,
+   "lr": 0.001
+  }
+ },
+ "selected_val_macro_f1": {
+  "xattn_HMP": 0.8125638265045585,
+  "sa_HMP": 0.8307387481411251,
+  "concat_HMP": 0.8261560366053513,
+  "concat_H": 0.8273785752088548
+ },
+ "selected_at_lower_edge": {
+  "xattn_HMP": false,
+  "sa_HMP": true,
+  "concat_HMP": false,
+  "concat_H": false
+ },
+ "n_params": {
+  "xattn_HMP": 769286,
+  "sa_HMP": 751750,
+  "concat_HMP": 221574,
+  "concat_H": 182534
+ },
+ "e3_reproduction_all_exact": true,
+ "runs_hitting_max_epochs": [],
+ "estimate_from_fold0": {
+  "S_seconds_fold": 921.9760578001151,
+  "S_hours_all_folds": 1.5366267630001917,
+  "D_seconds_fold": 280.6446162593784,
+  "D_hours_all_folds": 0.467741027098964,
+  "note": "D = 3 seeds x selected-config time of each tuned model + 3 ablations x 3 seeds x 0.6 x E4 time (0.57-0.62 from the synthetic benchmark); folds differ"
+ },
+ "hubert_layer_load_seconds": {
+  "6": 2.3085713000036776
+ }
+}
+[E4] RAVDESS: pilot done. GPU peak 310.1 MiB, RAM {'current': 1530.6, 'peak': 1796.7}

@@ -1,0 +1,2127 @@
+﻿[
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold0\\D_concat_HMP_dvind_seed0.json",
+        "sha256":  "333A86B743E29979BE670E64E2CEBFAD21446052EF43643ECDC18433C921C97A",
+        "mtime":  "2026-11-06T09:05:41.3811542Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold0\\D_concat_HMP_dvind_seed1.json",
+        "sha256":  "3D258735E4AC7370CA3683A09E3908CE6B8F80C57EA94F40A3F79E24F03AAE19",
+        "mtime":  "2026-11-06T09:05:47.0874241Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold0\\D_concat_HMP_dvind_seed2.json",
+        "sha256":  "1D0B32C7887EC50980325B054DF1D40CF3C92FB85E535FFBEB0F4149F7613B7E",
+        "mtime":  "2026-11-06T09:05:50.8414799Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold0\\D_concat_HMP_dv_seed0.json",
+        "sha256":  "33A19F96800F0D965E3D9FA4E156520483A674E79A344A84BC905F62F2CFB137",
+        "mtime":  "2026-11-06T09:05:25.3505228Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold0\\D_concat_HMP_dv_seed1.json",
+        "sha256":  "3655E4C5CC88B7D2542EAA6EB900CC48843660BBA0E9D61D168CFB8E8EA96C35",
+        "mtime":  "2026-11-06T09:05:30.5895377Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold0\\D_concat_HMP_dv_seed2.json",
+        "sha256":  "0508A165C8D9FAA166108FEC1476032457ECC7EF0794EBF57BF5E0112899C4FD",
+        "mtime":  "2026-11-06T09:05:34.5382840Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold0\\D_concat_HMP_seed0.json",
+        "sha256":  "42776A9C9B2CBCDC41FACD247B8D44500646B00B40F983BD4A3D9D2DA634CAA6",
+        "mtime":  "2026-11-06T09:02:32.0652631Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold0\\D_concat_HMP_seed1.json",
+        "sha256":  "F8299AF90F7E057E5E1B7CD1C1E59A43BECE186B3095AF9B314D54731F48669E",
+        "mtime":  "2026-11-06T09:02:35.7627690Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold0\\D_concat_HMP_seed2.json",
+        "sha256":  "4E1D9EBBDADD46DB411B29029CBD3F235463858DEF21120606884CE751465059",
+        "mtime":  "2026-11-06T09:02:42.6600495Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold0\\D_concat_HM_seed0.json",
+        "sha256":  "0426C058684A3B842727D7A2C98BF5C716D311EE77343AD541674CB5848733F6",
+        "mtime":  "2026-11-06T09:04:14.3311730Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold0\\D_concat_HM_seed1.json",
+        "sha256":  "72D291CB59100A54F4D198E0DBFB46401621C6E022785AE77B95B0BA243FD3A2",
+        "mtime":  "2026-11-06T09:04:19.1670138Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold0\\D_concat_HM_seed2.json",
+        "sha256":  "7BBB10E08C348F74D9F1337631C9311CFC6DA7E01E1C3626EC1A04D3B2D8C3B3",
+        "mtime":  "2026-11-06T09:04:25.0115440Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold0\\D_concat_HP_seed0.json",
+        "sha256":  "E66B3A1D7AABD3D3ABC36BF3909BC295EECE62C9050EBC04CD4B6B7964F95BBA",
+        "mtime":  "2026-11-06T09:04:29.1133249Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold0\\D_concat_HP_seed1.json",
+        "sha256":  "0E82D9A9BC2DEECF6559BD3D4F9010514BEEE20786C8052037E8B866C94BE5CB",
+        "mtime":  "2026-11-06T09:04:32.3158166Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold0\\D_concat_HP_seed2.json",
+        "sha256":  "2545EBC37A635C1F6F1E23FF40293A3FE419B7CB868C8054CDDF07094BD3CCA5",
+        "mtime":  "2026-11-06T09:04:36.6756275Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold0\\D_concat_H_seed0.json",
+        "sha256":  "1022D45242A00DBD3A880C2AC60607A13524FFEB952CCEA4E5DD8B10B398A269",
+        "mtime":  "2026-11-06T09:04:02.4421195Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold0\\D_concat_H_seed1.json",
+        "sha256":  "62AAB346E80FA8E92CA3D91B6501FC0A1EE9FC26FE09D4BCC699747F2FA594EC",
+        "mtime":  "2026-11-06T09:04:05.3330576Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold0\\D_concat_H_seed2.json",
+        "sha256":  "E28CB6149CBE6393DD70F63522382542F86C1B323BE365EBCE28945E5BE0ADF7",
+        "mtime":  "2026-11-06T09:04:09.9674769Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold0\\D_concat_MP_seed0.json",
+        "sha256":  "ED06A6898855B063840E89B1DC27E1AE6C78C82CC95A40C2DED340BD7295F0EB",
+        "mtime":  "2026-11-06T09:04:41.1918938Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold0\\D_concat_MP_seed1.json",
+        "sha256":  "5B51A09F753B702EFECF54989440454BF65843DD988B75F590739E403C47913A",
+        "mtime":  "2026-11-06T09:04:47.6428814Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold0\\D_concat_MP_seed2.json",
+        "sha256":  "210CE2FC73C6A47F1D4065ED24FE141BFEF2B918EC1627E5749550A02F30C90C",
+        "mtime":  "2026-11-06T09:04:54.2444047Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold0\\D_concat_M_seed0.json",
+        "sha256":  "BCE54040F032628B1B6E9DA706445027E15614294F7CAB98E297D0C1335AC817",
+        "mtime":  "2026-11-06T09:05:01.1076351Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold0\\D_concat_M_seed1.json",
+        "sha256":  "D5A9BDFB05E41279DA9ABF9A42849BE2A15C91264E70F4F021DF632DE76F8128",
+        "mtime":  "2026-11-06T09:05:03.9283399Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold0\\D_concat_M_seed2.json",
+        "sha256":  "4E2A0216E23056BE40320CEB901254818D18292813EF61D63340342BBA7A9693",
+        "mtime":  "2026-11-06T09:05:07.6179033Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold0\\D_concat_P_seed0.json",
+        "sha256":  "4BADAA90147DB85E01F4B3E3515F2448B234C26561567CFDDC47F2F8800FECE1",
+        "mtime":  "2026-11-06T09:05:13.4385205Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold0\\D_concat_P_seed1.json",
+        "sha256":  "0A6EBD4BC0F6BFA2491148A4D4169ABF78150285B9FC5FB7E1DA0FB10BB0C005",
+        "mtime":  "2026-11-06T09:05:17.2931241Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold0\\D_concat_P_seed2.json",
+        "sha256":  "DF5B66B50131ABD75C35B91FB4435BEF8DC0A2DB30DAA854CE066C65494D2905",
+        "mtime":  "2026-11-06T09:05:21.5869237Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold0\\D_sa_HMP_seed0.json",
+        "sha256":  "5E00D306E2B8F16A8F8A10173D08CB963E7837904FAC30F1ACC9E325C972990A",
+        "mtime":  "2026-11-06T09:03:09.0620456Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold0\\D_sa_HMP_seed1.json",
+        "sha256":  "74055EDC1BE5B81132ED5F414916DCDDE36D762A3BA4CB23CBED9C7E5C5C5208",
+        "mtime":  "2026-11-06T09:03:35.5996836Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold0\\D_sa_HMP_seed2.json",
+        "sha256":  "9930E154DF61C3AAECF966E61021C4B6ACA21FC6F3805F39C80E4F5C0F293B38",
+        "mtime":  "2026-11-06T09:03:56.8465736Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold0\\selection.json",
+        "sha256":  "F65037B3F83B7C0FDA99B3DC08200608DB4DDE90DF8EA671161C81BE98A457AD",
+        "mtime":  "2026-11-06T08:51:40.0156028Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold0\\S_concat_HMP_d0.2_lr0.0003.json",
+        "sha256":  "B3D7C8E956120C67D3C4CE59381D3507A4803DEDA0ED793C47BA58A85D58881B",
+        "mtime":  "2026-11-06T08:50:25.1399221Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold0\\S_concat_HMP_d0.2_lr0.001.json",
+        "sha256":  "686F94FCEDB7C0CFD9F4375324CD34C8318B0F78820FF01AA0CB776957997D24",
+        "mtime":  "2026-11-06T08:50:18.6212610Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold0\\S_concat_HMP_d0.4_lr0.0003.json",
+        "sha256":  "C2235786A8D081B03C5E4A99E2B9A278A1D3758AA5732453D66F6029C352E7CB",
+        "mtime":  "2026-11-06T08:50:35.7618873Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold0\\S_concat_HMP_d0.4_lr0.001.json",
+        "sha256":  "CB302E5FA68C1769DFD1B77EE139570E6FAAECEADBD5105A8C14D5D223472E67",
+        "mtime":  "2026-11-06T08:50:29.5961573Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold0\\S_sa_HMP_d0.2_lr0.0003.json",
+        "sha256":  "7AE79EBBABCF961781A8EDCCB4A68F84055F6DB196053A5618597278FA5BA73B",
+        "mtime":  "2026-11-06T08:50:56.6707409Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold0\\S_sa_HMP_d0.2_lr0.001.json",
+        "sha256":  "ABBA182784CEC5B07F7A59070BA3F405B94BD67697C1757D2AFD75229D21D34E",
+        "mtime":  "2026-11-06T08:50:46.2835090Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold0\\S_sa_HMP_d0.4_lr0.0003.json",
+        "sha256":  "15C8BF2EF547018BF1993CE46D7292D6DC21E58B13734348FBC3715909AAF24F",
+        "mtime":  "2026-11-06T08:51:40.0088067Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold0\\S_sa_HMP_d0.4_lr0.001.json",
+        "sha256":  "A51E1346B6A54A74C156D9A91B26B63B00C0D6E151CF1BECF5C42E0AA4294432",
+        "mtime":  "2026-11-06T08:51:13.4615121Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold1\\D_concat_HMP_dvind_seed0.json",
+        "sha256":  "C691FBC5C81353192F76C4DB07787F5EC5CCABA5882CE2A0A7C79C89943578B7",
+        "mtime":  "2026-11-06T09:09:43.1504679Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold1\\D_concat_HMP_dvind_seed1.json",
+        "sha256":  "5EA9399C7C6ED3456A3839E57912B28E4AAB24EBB28C1A453B54F77339A1114E",
+        "mtime":  "2026-11-06T09:09:45.9110656Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold1\\D_concat_HMP_dvind_seed2.json",
+        "sha256":  "88842D0E8C39DF71FC2E8A0B0730A964DF9C39AD3B75D934EC103D222D166064",
+        "mtime":  "2026-11-06T09:09:49.4255621Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold1\\D_concat_HMP_dv_seed0.json",
+        "sha256":  "D311D007A69EA67C232D5F0F6736CECC8BC733931152BF58312243EC695705CA",
+        "mtime":  "2026-11-06T09:09:32.5269374Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold1\\D_concat_HMP_dv_seed1.json",
+        "sha256":  "6505C6A1E91CB27BD05382308EDD62B24F775D3E1239C14AE58D2340CB1431C5",
+        "mtime":  "2026-11-06T09:09:37.1290213Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold1\\D_concat_HMP_dv_seed2.json",
+        "sha256":  "8B655AED325D39D03D5DC2A4221B424A840E30CAB498AF4E759E6FA3B91A9CFA",
+        "mtime":  "2026-11-06T09:09:40.0167339Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold1\\D_concat_HMP_seed0.json",
+        "sha256":  "2E11044017B0C53329E4EF40B774B759293A0A4C06B2BF5855AA6C099733C751",
+        "mtime":  "2026-11-06T09:07:17.5182175Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold1\\D_concat_HMP_seed1.json",
+        "sha256":  "A0F25C9CFD097F73C95160B386856F461DFCA78C3402A6D244C88A08A07F5A24",
+        "mtime":  "2026-11-06T09:07:21.1263233Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold1\\D_concat_HMP_seed2.json",
+        "sha256":  "2577B4C5693B5E79E9666BB79DCDF842EC10BCB77C160DAED63204FD82F9C12E",
+        "mtime":  "2026-11-06T09:07:25.5724097Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold1\\D_concat_HM_seed0.json",
+        "sha256":  "6D507AFE51AA7788B42A68517CCA4C7EDE0A268197BEFD9589E6A5F0A57A9EFB",
+        "mtime":  "2026-11-06T09:08:31.5788136Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold1\\D_concat_HM_seed1.json",
+        "sha256":  "056E1355B6C256330B19FC8E43ECDA4A1E6CEE4FD57771E105C78CF9B46860D4",
+        "mtime":  "2026-11-06T09:08:37.2283591Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold1\\D_concat_HM_seed2.json",
+        "sha256":  "C07929D2F60E3E68849681D08EE92BCC31800159ACE95071686F9751F1952C0A",
+        "mtime":  "2026-11-06T09:08:40.4914381Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold1\\D_concat_HP_seed0.json",
+        "sha256":  "85FD451A781EC14D287040D90DD04EB6FD1937812B4D351E0F5ACCAEEAE353AB",
+        "mtime":  "2026-11-06T09:08:43.4712552Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold1\\D_concat_HP_seed1.json",
+        "sha256":  "1E63371E06A3C0B85F0D1784638BB2B5A7E6C5874F25C57D9F9C16ECFB65AA53",
+        "mtime":  "2026-11-06T09:08:47.2304646Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold1\\D_concat_HP_seed2.json",
+        "sha256":  "A58F67FB0F49AA3A06C1D7B39C54F758DD0AA2400646E4255766D624F9CC3B92",
+        "mtime":  "2026-11-06T09:08:50.8581828Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold1\\D_concat_H_seed0.json",
+        "sha256":  "B3AFD81278E53D58274B64639A2A5D62F141846CDCF7819979400386EB21D3DA",
+        "mtime":  "2026-11-06T09:08:21.8025179Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold1\\D_concat_H_seed1.json",
+        "sha256":  "A8F89CB91203302DBF1615F590820169D5DE7B5DAA22771684B76C569851EA36",
+        "mtime":  "2026-11-06T09:08:23.8884714Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold1\\D_concat_H_seed2.json",
+        "sha256":  "B572BB2D7BE3B6FEC0A615C08E0CB15833133A3EAD8D0F60D2EB97E9F42B2797",
+        "mtime":  "2026-11-06T09:08:28.9407425Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold1\\D_concat_MP_seed0.json",
+        "sha256":  "B10A334DF15F996633822827DFECF8C58926A6ECEAA86C153DA733F712943D2F",
+        "mtime":  "2026-11-06T09:08:56.9395965Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold1\\D_concat_MP_seed1.json",
+        "sha256":  "988E37EC53D446E9FA0B43E80858FEC501845B1C155E235A9AF43D0AA1BBA059",
+        "mtime":  "2026-11-06T09:09:00.0974600Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold1\\D_concat_MP_seed2.json",
+        "sha256":  "9BCE700DAE7CB964ED0F00E9FCF31EC69A45BB9001C14E744CCEB018778A868C",
+        "mtime":  "2026-11-06T09:09:05.6493884Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold1\\D_concat_M_seed0.json",
+        "sha256":  "9BEB892FEEBCC4081ECB5C2FE07610B3003461CBC0307BB36DA443F11726F0F6",
+        "mtime":  "2026-11-06T09:09:08.6381229Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold1\\D_concat_M_seed1.json",
+        "sha256":  "4ADB8535DEA6C99D7E508841DE61A1CCC15A9F2B99C309CCE2F7278763EB9B68",
+        "mtime":  "2026-11-06T09:09:11.3127837Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold1\\D_concat_M_seed2.json",
+        "sha256":  "4648DCABB53EC888167E65C287A1C5DF5E49D51B7A678B60DE4A407FE8E13066",
+        "mtime":  "2026-11-06T09:09:16.3936108Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold1\\D_concat_P_seed0.json",
+        "sha256":  "9F2A4CE2AFA2FD4EFD53916D8713A8847B8F30EA1C95ABDB77335F041C7FE975",
+        "mtime":  "2026-11-06T09:09:20.3125732Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold1\\D_concat_P_seed1.json",
+        "sha256":  "0857CEFA4D77629DAC1FD6EA73422E6E02781FDAA26D6A82FFCE593BE94C870E",
+        "mtime":  "2026-11-06T09:09:23.9297025Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold1\\D_concat_P_seed2.json",
+        "sha256":  "92E44F56806DCCD929962272EA7E60F323569B636019906B9B805E62B3714167",
+        "mtime":  "2026-11-06T09:09:27.5976774Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold1\\D_sa_HMP_seed0.json",
+        "sha256":  "FC9F70D3F194F1E46885A2ACAF680D97D3B826815049A564E0CCA7A84E86A9A6",
+        "mtime":  "2026-11-06T09:07:42.8387155Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold1\\D_sa_HMP_seed1.json",
+        "sha256":  "7178CF59FE2589281760426CDDFA49CA66B33A21FF85A2A560C3A6A90CB6FEBB",
+        "mtime":  "2026-11-06T09:08:02.1050436Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold1\\D_sa_HMP_seed2.json",
+        "sha256":  "15B22E2A6D33E0FBFE0449DCDBBB17967A299FD5D7F98A9F67389149AD82C3BB",
+        "mtime":  "2026-11-06T09:08:17.2362247Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold1\\selection.json",
+        "sha256":  "79C9016B6CE46E56EDB59BBC4085A79E75BC99A36159488439E1C570360C6DBE",
+        "mtime":  "2026-11-06T09:07:13.8709412Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold1\\S_concat_HMP_d0.2_lr0.0003.json",
+        "sha256":  "D0E243B086CF89FD25C75574072B9D21ED0923C336D45F4748B697310D3D2E92",
+        "mtime":  "2026-11-06T09:06:04.2393908Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold1\\S_concat_HMP_d0.2_lr0.001.json",
+        "sha256":  "9920E4F06E4580F7AAC509085F2CB1E2E2059221DFC00BBEF91AAE380B118F78",
+        "mtime":  "2026-11-06T09:05:59.5842792Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold1\\S_concat_HMP_d0.4_lr0.0003.json",
+        "sha256":  "7811040AFFF874EDDB744C764D6B586029AAD44FDAAF20FA93DACC4039D15D73",
+        "mtime":  "2026-11-06T09:06:12.7509298Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold1\\S_concat_HMP_d0.4_lr0.001.json",
+        "sha256":  "B52AEAD24A8EA371E594F0A2771F125BAC79EF6F3491714D0353A568FB6D96D7",
+        "mtime":  "2026-11-06T09:06:07.7018170Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold1\\S_sa_HMP_d0.2_lr0.0003.json",
+        "sha256":  "C7BE6F558B0DC0D5B15FF3561B9491D3D3DC1C84362585279AA476525B5932C9",
+        "mtime":  "2026-11-06T09:06:41.7609149Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold1\\S_sa_HMP_d0.2_lr0.001.json",
+        "sha256":  "AED9BD69ED7FFC689FAE72DA35FD010554DAF9099625AC83653D0BE68D92BF8B",
+        "mtime":  "2026-11-06T09:06:24.8645735Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold1\\S_sa_HMP_d0.4_lr0.0003.json",
+        "sha256":  "DE92CB08743B167AE9C336A8720A8769F46959499E7ED1BAF4710C39FC9E9AE5",
+        "mtime":  "2026-11-06T09:07:13.8709412Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold1\\S_sa_HMP_d0.4_lr0.001.json",
+        "sha256":  "D92C0720A5B9F5F961A53E5459281F2E184D83AC333AB3C713417333AB758FD8",
+        "mtime":  "2026-11-06T09:07:04.7277118Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold2\\D_concat_HMP_dvind_seed0.json",
+        "sha256":  "59BB060A52F6880E7519A449EDF04B97020390110AA2291A55A03279E9E1FFC3",
+        "mtime":  "2026-11-06T09:13:34.8222815Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold2\\D_concat_HMP_dvind_seed1.json",
+        "sha256":  "C216D78BC7401ED2C32D986713FF446B8211F87D27B517E1FED925F3B4815BAC",
+        "mtime":  "2026-11-06T09:13:38.4708775Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold2\\D_concat_HMP_dvind_seed2.json",
+        "sha256":  "93FF18EF0E7211DF52DC0D8895FD0C6DF1A00DDB629B956889B56A3E58CC40D3",
+        "mtime":  "2026-11-06T09:13:42.9309064Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold2\\D_concat_HMP_dv_seed0.json",
+        "sha256":  "D707CCED0FBAEFA3C409D84C0CF0908522023870D7714344E331B0A83E44B80C",
+        "mtime":  "2026-11-06T09:13:23.8402363Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold2\\D_concat_HMP_dv_seed1.json",
+        "sha256":  "C533E209D14552E5EB111480ABE471DD234F4CD8E40B04A91C8E3407912AAA72",
+        "mtime":  "2026-11-06T09:13:26.6999165Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold2\\D_concat_HMP_dv_seed2.json",
+        "sha256":  "9E8A7AF6BD9CC58FAE629BBF1A0315533B82EFC7A670571232B02E70BDA6F6E7",
+        "mtime":  "2026-11-06T09:13:29.9714980Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold2\\D_concat_HMP_seed0.json",
+        "sha256":  "BEFC047B1938ED74CBD302B3A5353382B5AAEC760F8BDF205255D3D911E7AF7B",
+        "mtime":  "2026-11-06T09:11:14.7287168Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold2\\D_concat_HMP_seed1.json",
+        "sha256":  "7AAE90E52E569615770F41E791B949A7DF8366BBF4AB84259B726A9EA16238EF",
+        "mtime":  "2026-11-06T09:11:19.4270333Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold2\\D_concat_HMP_seed2.json",
+        "sha256":  "691023DB407C6247F1F3BDD9C7C5F184772BFFC9D9FF8C2F57A07E3CF84F0BA5",
+        "mtime":  "2026-11-06T09:11:22.9940631Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold2\\D_concat_HM_seed0.json",
+        "sha256":  "41A8FF18ADE355E06671780AD650C9EB91941E39AD0BA9F1CCD4863EFDC419CF",
+        "mtime":  "2026-11-06T09:12:12.8840284Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold2\\D_concat_HM_seed1.json",
+        "sha256":  "6AACC77CE8DBD72F9E14795C363075BC5308E9F2F4F2600BFCF66B1AA405889B",
+        "mtime":  "2026-11-06T09:12:17.4254379Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold2\\D_concat_HM_seed2.json",
+        "sha256":  "9B086BEA80BA53C3A9488DAB5FECA588666B0F5C83CF212E5F15B38A20B02058",
+        "mtime":  "2026-11-06T09:12:19.9812201Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold2\\D_concat_HP_seed0.json",
+        "sha256":  "22C75348EA452F30911A82C4F7153C5D3380DB9E62BC56E7FD3672CACD6CC557",
+        "mtime":  "2026-11-06T09:12:23.7935746Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold2\\D_concat_HP_seed1.json",
+        "sha256":  "79D16184BF6A879A1F7DB0BAB40E378AD82ED7E4039152DB0656515E3C71C8A4",
+        "mtime":  "2026-11-06T09:12:26.1498170Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold2\\D_concat_HP_seed2.json",
+        "sha256":  "950F4E19898CBE493B43D6872EF7E852841877AE4B12037E63C633D31F5D8EE1",
+        "mtime":  "2026-11-06T09:12:28.5449710Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold2\\D_concat_H_seed0.json",
+        "sha256":  "8CD6BCEB16B3B940F379648E23025608CF75A116CC80BD4A5FD486FC073D46DA",
+        "mtime":  "2026-11-06T09:12:04.1122908Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold2\\D_concat_H_seed1.json",
+        "sha256":  "12F5BE67B505CB512B656A8C066A14E97908CEF1A30E7810783FE30976B2FEE2",
+        "mtime":  "2026-11-06T09:12:06.0238317Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold2\\D_concat_H_seed2.json",
+        "sha256":  "D92FCE5A17FEA2B1D17AE3DD4B210C5BD191C760B284F2096E21390CAA7B148D",
+        "mtime":  "2026-11-06T09:12:08.7539417Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold2\\D_concat_MP_seed0.json",
+        "sha256":  "2E850388ECB418C25DAB086FF9F160598FDD3C4A12BC3EAECBDF9A0A4278CC7A",
+        "mtime":  "2026-11-06T09:12:33.5322143Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold2\\D_concat_MP_seed1.json",
+        "sha256":  "61D31FC5D9FC9C4F5B2DDD85BB4774CE9C924CF1A2DD391BD60EC0211D412DFF",
+        "mtime":  "2026-11-06T09:12:39.3559802Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold2\\D_concat_MP_seed2.json",
+        "sha256":  "812A42CD9D9CDA921E085868F2CEDE2D294616F34AFB06401EAF366CAB686DCE",
+        "mtime":  "2026-11-06T09:12:46.4413765Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold2\\D_concat_M_seed0.json",
+        "sha256":  "8C0FCC33BE88A650CFA872282F662DE4C120D79D224731EDFAB4215FD99F468A",
+        "mtime":  "2026-11-06T09:12:51.6931504Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold2\\D_concat_M_seed1.json",
+        "sha256":  "C6AA993D91C8911341FEEFC8FB6F4DFEDCE6065925A6A7BD823743458F387490",
+        "mtime":  "2026-11-06T09:12:55.7261713Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold2\\D_concat_M_seed2.json",
+        "sha256":  "1E412484665BAFE03193861AE9C1FD0C9733A028DAB9B2395C44F32042361CB9",
+        "mtime":  "2026-11-06T09:13:02.2184014Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold2\\D_concat_P_seed0.json",
+        "sha256":  "04566EABCDE5A1DE35549660CE50FCD0AB05F59A7EF54A374DF3622A0683E7C4",
+        "mtime":  "2026-11-06T09:13:08.8709474Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold2\\D_concat_P_seed1.json",
+        "sha256":  "6057B2FE757997C9BCA97C52DB1AFE1AEB641A3013027DC95DA6751818C8E6AE",
+        "mtime":  "2026-11-06T09:13:13.3783575Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold2\\D_concat_P_seed2.json",
+        "sha256":  "9785B8125A5EF0FED9D79B0B317A19F777B95F20999B7AEC512893D442A376D3",
+        "mtime":  "2026-11-06T09:13:19.8602299Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold2\\D_sa_HMP_seed0.json",
+        "sha256":  "FE280C0E923A62087B549820444275D28387F9C070060A87744AAD0BFEA6F757",
+        "mtime":  "2026-11-06T09:11:39.0425092Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold2\\D_sa_HMP_seed1.json",
+        "sha256":  "F4C7835E8A73D9B4F462FD8799E1C93F7AA22E6D66E4AB0E4EE52D09936DA477",
+        "mtime":  "2026-11-06T09:11:49.0654751Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold2\\D_sa_HMP_seed2.json",
+        "sha256":  "763D59ABC5FCD14C7AA973A0CAD08B7273E4656F7643356062B7ACC14B2AB86F",
+        "mtime":  "2026-11-06T09:12:01.1116378Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold2\\selection.json",
+        "sha256":  "2183DAB631A2B373AFFDB9E23C9FABB0A56D9FF4F219550F150497CCA723704D",
+        "mtime":  "2026-11-06T09:11:07.6536490Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold2\\S_concat_HMP_d0.2_lr0.0003.json",
+        "sha256":  "F74A19F97AFED5C07FDE1FC834F64D2B6CD6C403F21759625543DC807638BF81",
+        "mtime":  "2026-11-06T09:10:00.2320021Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold2\\S_concat_HMP_d0.2_lr0.001.json",
+        "sha256":  "BA37A8BF1EDD049BFF5E932FEBD68E6A10DE12D41072A4B5AA91D1D1F4A4E6EF",
+        "mtime":  "2026-11-06T09:09:55.8018584Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold2\\S_concat_HMP_d0.4_lr0.0003.json",
+        "sha256":  "115D2C0EBDAD3E7AD4EF40F6CE90525D7DA5850315FAD78B488F4CE2EE242E1E",
+        "mtime":  "2026-11-06T09:10:12.8912974Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold2\\S_concat_HMP_d0.4_lr0.001.json",
+        "sha256":  "8C245922F909B2E6CAA58DE47D98187BE6E857FBC28B8B84913981D114F69C85",
+        "mtime":  "2026-11-06T09:10:07.3639254Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold2\\S_sa_HMP_d0.2_lr0.0003.json",
+        "sha256":  "B2C396A95225311916847312185B54DDC890F34E04732DF55B93BB6752CD05FD",
+        "mtime":  "2026-11-06T09:10:45.5374092Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold2\\S_sa_HMP_d0.2_lr0.001.json",
+        "sha256":  "43B3757D0D328E6D47277AE50EE12A2ABC07ED561E567BA43B47956D33256818",
+        "mtime":  "2026-11-06T09:10:29.6966791Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold2\\S_sa_HMP_d0.4_lr0.0003.json",
+        "sha256":  "CE8E810BD370FF4913CB02DEC001BFE588A60B780343D6F57CB34DC08D4CD466",
+        "mtime":  "2026-11-06T09:11:07.6516426Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold2\\S_sa_HMP_d0.4_lr0.001.json",
+        "sha256":  "9364AC91A5ED7B847E57B08682D0AEC0D71D20B89EED408818EC4C5D14292D6B",
+        "mtime":  "2026-11-06T09:10:57.2064824Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold3\\D_concat_HMP_dvind_seed0.json",
+        "sha256":  "D91CF34125B6626C68C267169436BB0ED97C33C09C5A477BCA441D5C7D1B525B",
+        "mtime":  "2026-11-06T09:16:57.5817885Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold3\\D_concat_HMP_dvind_seed1.json",
+        "sha256":  "D5BC1E5E9658BB94856FB2DF277F0EF2BBFD0242AF54E8D2F3E9790C69724775",
+        "mtime":  "2026-11-06T09:17:02.5181096Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold3\\D_concat_HMP_dvind_seed2.json",
+        "sha256":  "8609637AA7853915E8C1E1546328EEC5034BA6F7F95EE58C6756008C8B1C214D",
+        "mtime":  "2026-11-06T09:17:05.9045311Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold3\\D_concat_HMP_dv_seed0.json",
+        "sha256":  "75CC2D1DCA4B9B76B76858A75A22EBE1D3BAA3865CBA720C47193F144E7E323B",
+        "mtime":  "2026-11-06T09:16:46.6548511Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold3\\D_concat_HMP_dv_seed1.json",
+        "sha256":  "7FDB8A4C0CBBC81BD292DAB6BE3D2715D983F773922166B5D9BB20529ED5C358",
+        "mtime":  "2026-11-06T09:16:49.9724988Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold3\\D_concat_HMP_dv_seed2.json",
+        "sha256":  "B6D598B3998DD971325F342CAAD23D373D51CEE99FDAF46703A77D62CC255975",
+        "mtime":  "2026-11-06T09:16:53.9635793Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold3\\D_concat_HMP_seed0.json",
+        "sha256":  "EE4810481D3CC02D172424DBED7CECA35DD3D781EA3A314F03E1422BA306FBCD",
+        "mtime":  "2026-11-06T09:14:49.7140331Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold3\\D_concat_HMP_seed1.json",
+        "sha256":  "E24A63C80DAAE5E5CEAC05B2D913D2203E103FCD886920A4DA4A04CFCFFDADF9",
+        "mtime":  "2026-11-06T09:14:53.7116537Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold3\\D_concat_HMP_seed2.json",
+        "sha256":  "DFCACFAE1C9E432983A3701192C3DB1DFE6F5A3B1B7C261C5239FF6EE7C50D7C",
+        "mtime":  "2026-11-06T09:14:58.0986874Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold3\\D_concat_HM_seed0.json",
+        "sha256":  "A3654C47D8A265507BD1AC436822E3669FBDE3D0D687E7EB895009A442603DB7",
+        "mtime":  "2026-11-06T09:15:42.9918575Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold3\\D_concat_HM_seed1.json",
+        "sha256":  "EA5D7640EF2CC52FBEF4CCC701D04F3E35B6CF42D9A88BD00CACD69BAB83B834",
+        "mtime":  "2026-11-06T09:15:45.2827899Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold3\\D_concat_HM_seed2.json",
+        "sha256":  "B6E27C7D4FA65787359F353328F11E7AC1BBFC039CF6E08B4E45592ED7B0C60C",
+        "mtime":  "2026-11-06T09:15:48.0654301Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold3\\D_concat_HP_seed0.json",
+        "sha256":  "CD7A9756A00E5D8EEC6D89A0B6D7F47035DCCF87D4FA4EBBB84CE4A3F7E82A77",
+        "mtime":  "2026-11-06T09:15:50.8888551Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold3\\D_concat_HP_seed1.json",
+        "sha256":  "840FF10F02B6D7FB4697FF1BF349BB16C9568C91932D6F23D129145E36443D46",
+        "mtime":  "2026-11-06T09:15:54.0034014Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold3\\D_concat_HP_seed2.json",
+        "sha256":  "A789D9E0856ED426810BF3F0789DAF23A4CDA778D2A5741F2C254FED15264790",
+        "mtime":  "2026-11-06T09:15:58.8230430Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold3\\D_concat_H_seed0.json",
+        "sha256":  "CC660743AA5907DC2C07430163F0D4B2AE3FD2B9F1CB2CA460513A88F70CAE2E",
+        "mtime":  "2026-11-06T09:15:33.9468599Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold3\\D_concat_H_seed1.json",
+        "sha256":  "575E276C0B2B453C2D11EFECCBE592DEC85DAA8B7EDF020577622DF7A3FC5CB2",
+        "mtime":  "2026-11-06T09:15:36.8345384Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold3\\D_concat_H_seed2.json",
+        "sha256":  "29497A3376DC1BDFD29CDD320231EF580E0EC870AB6D821E60F998CF37DFEC27",
+        "mtime":  "2026-11-06T09:15:39.4564829Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold3\\D_concat_MP_seed0.json",
+        "sha256":  "F1BAE04017F82F3367DB6B3E40D4A47F3D8FFB11255CDCDCEB745A1D66253C67",
+        "mtime":  "2026-11-06T09:16:03.6072107Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold3\\D_concat_MP_seed1.json",
+        "sha256":  "39C30205055E01262191D2D04E7316666AC988664A58BAF5DD949C981AB54A5D",
+        "mtime":  "2026-11-06T09:16:08.5884064Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold3\\D_concat_MP_seed2.json",
+        "sha256":  "94D415583233699613E85711254C99B58AD7F6C212C3A948F5A8232C74327439",
+        "mtime":  "2026-11-06T09:16:15.8017138Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold3\\D_concat_M_seed0.json",
+        "sha256":  "57F6C1D89E42A98DD5AFCA54169384799A5E20CEC52C18EB5070A81E435F2501",
+        "mtime":  "2026-11-06T09:16:19.9444555Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold3\\D_concat_M_seed1.json",
+        "sha256":  "27CB493823FB903259BD3F7EAF2950898724A6408C30DABA7CC189F3D923ADAD",
+        "mtime":  "2026-11-06T09:16:24.8774806Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold3\\D_concat_M_seed2.json",
+        "sha256":  "4243A576CD3DF91CC755C0B49A6D7E9F02AE8BF0CA3910A697FF69AE4680DD81",
+        "mtime":  "2026-11-06T09:16:29.7084320Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold3\\D_concat_P_seed0.json",
+        "sha256":  "96FA358E07E3FBDCED48224E7B5848447D00984A3596AE2834BBE45F66696958",
+        "mtime":  "2026-11-06T09:16:34.5434839Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold3\\D_concat_P_seed1.json",
+        "sha256":  "C47ACA72EEB7A13B9762F18781FE259DB52421F0BC272C9C5290FE0F4BD77982",
+        "mtime":  "2026-11-06T09:16:38.3003320Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold3\\D_concat_P_seed2.json",
+        "sha256":  "F4CD4A6809F4F17948FBF11FD950FFBAA13B4830CA4B9E174354285C24B644CB",
+        "mtime":  "2026-11-06T09:16:42.5648987Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold3\\D_sa_HMP_seed0.json",
+        "sha256":  "E2DADADE334307AA0B7BD068357ED37FE79FBE306A02FDCB6A9A532E1B7BE9BE",
+        "mtime":  "2026-11-06T09:15:06.7435672Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold3\\D_sa_HMP_seed1.json",
+        "sha256":  "157E92B20165D6A04B6CC2555D9776901991C1ACC214AB76B1FFEC9C89D6BAF9",
+        "mtime":  "2026-11-06T09:15:18.2290063Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold3\\D_sa_HMP_seed2.json",
+        "sha256":  "12CA0D8E824F96752C03FD281BC472B5693ED0D49164DAB7C71FB13063842D0C",
+        "mtime":  "2026-11-06T09:15:30.4610335Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold3\\selection.json",
+        "sha256":  "E303BE7A7F6B8505C77406C5AF1593DE7862DE11EC6A7BE8F41A290118478BD5",
+        "mtime":  "2026-11-06T09:14:42.7503428Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold3\\S_concat_HMP_d0.2_lr0.0003.json",
+        "sha256":  "A4134E09CC33244751FC4F29E68F271B5B36FAAB81034748A2F6DC8CE757BDE0",
+        "mtime":  "2026-11-06T09:13:50.0449529Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold3\\S_concat_HMP_d0.2_lr0.001.json",
+        "sha256":  "7F179E41EBB23CE91D21B8E1CAD76397C30D6FED51A56D0253E9E0595B8BE733",
+        "mtime":  "2026-11-06T09:13:47.5843537Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold3\\S_concat_HMP_d0.4_lr0.0003.json",
+        "sha256":  "641D1873CFFD0EFD1853B8BC8D485030674E28E4AC96272901E13BC01397E5DB",
+        "mtime":  "2026-11-06T09:14:02.3782615Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold3\\S_concat_HMP_d0.4_lr0.001.json",
+        "sha256":  "0B6DE1DC2E3883B0F87F26CDDD7978196304293064462F2D1611866672BA55AA",
+        "mtime":  "2026-11-06T09:13:56.6982150Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold3\\S_sa_HMP_d0.2_lr0.0003.json",
+        "sha256":  "DA69BFD1B3669E9E9774972D1642ADC75A680826E67203B93F96A0E7F71987E3",
+        "mtime":  "2026-11-06T09:14:22.2540534Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold3\\S_sa_HMP_d0.2_lr0.001.json",
+        "sha256":  "0BEDCD55CD0A2C536A789B2D76DDFD7C85F341388D5747E7643DC0AEE8D52CD1",
+        "mtime":  "2026-11-06T09:14:13.9712374Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold3\\S_sa_HMP_d0.4_lr0.0003.json",
+        "sha256":  "F2330248D6C52FE65C3490853AF485E847EB6B41266E3772F74AC672E0507AFE",
+        "mtime":  "2026-11-06T09:14:42.7477360Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold3\\S_sa_HMP_d0.4_lr0.001.json",
+        "sha256":  "F3E6A0409A5B91893AA96C0F9CC3E9E1D01A4965E5FB6D50D3F4CBB49E59E288",
+        "mtime":  "2026-11-06T09:14:31.6189710Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold4\\D_concat_HMP_dvind_seed0.json",
+        "sha256":  "E150629E0A8C89658B262C6570A0D7343F45B66459CF172C916177E80EFAEE75",
+        "mtime":  "2026-11-06T09:22:06.6866469Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold4\\D_concat_HMP_dvind_seed1.json",
+        "sha256":  "C41931B243EB021CF7DA147CCA784EBA17206D49FDC09944EF7C7464C84AAD23",
+        "mtime":  "2026-11-06T09:22:13.1665712Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold4\\D_concat_HMP_dvind_seed2.json",
+        "sha256":  "3D78E1D82C87A3D21553F0E818FED86187ECB451185F026287D99DA2B18D69CC",
+        "mtime":  "2026-11-06T09:22:18.0890059Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold4\\D_concat_HMP_dv_seed0.json",
+        "sha256":  "B3FC2FAF9BF02AE9572F0B206E22A2DB179A889CF88015C642187697CD40F4C9",
+        "mtime":  "2026-11-06T09:21:47.1113875Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold4\\D_concat_HMP_dv_seed1.json",
+        "sha256":  "304E1AC59812B04921DFA9641C31334CF4E47FD6858349308FAF577C42347834",
+        "mtime":  "2026-11-06T09:21:53.5487714Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold4\\D_concat_HMP_dv_seed2.json",
+        "sha256":  "BB69A66CC328E73CF32B0DB268663CCA99209057904FCE49A9911DF39D00AC85",
+        "mtime":  "2026-11-06T09:21:58.4281610Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold4\\D_concat_HMP_seed0.json",
+        "sha256":  "AF4375B6A509B2744BB08CC6845010848030655C336070A3B6E650015886CEA6",
+        "mtime":  "2026-11-06T09:18:54.2668667Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold4\\D_concat_HMP_seed1.json",
+        "sha256":  "8DC0438CD0735AD4E399419214532754C443D143D9360B2F6CCD314C3487CC02",
+        "mtime":  "2026-11-06T09:19:00.0700720Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold4\\D_concat_HMP_seed2.json",
+        "sha256":  "CBB1254F7C4DFBD2BB296432DEDD5593CD563494A81E9FB1F3E90EDEEB48EB7B",
+        "mtime":  "2026-11-06T09:19:05.5296465Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold4\\D_concat_HM_seed0.json",
+        "sha256":  "8FEC2D1309103EB2DDC579C6C9CCC4D5FE56C4D7F6830984A971954EC41D8836",
+        "mtime":  "2026-11-06T09:20:24.6566276Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold4\\D_concat_HM_seed1.json",
+        "sha256":  "32A59D8B8C3D7FC01A281BF7F4071E1E426FDD566DDF611AE7F09622B33CE2BA",
+        "mtime":  "2026-11-06T09:20:30.1050702Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold4\\D_concat_HM_seed2.json",
+        "sha256":  "BACCD4626EB8BB2CC8B8BBF1554E5D574DA55A777084290083721D76849F3048",
+        "mtime":  "2026-11-06T09:20:35.8091063Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold4\\D_concat_HP_seed0.json",
+        "sha256":  "89F86D39871C456C8F72853E62BE2C4D44F8B809BA6D722620E9B8BC647BE715",
+        "mtime":  "2026-11-06T09:20:41.2532056Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold4\\D_concat_HP_seed1.json",
+        "sha256":  "A4A8C5E98D1A21CF278E33E7B3A56AFCF951F391E7884BE52D038F66544E2E6A",
+        "mtime":  "2026-11-06T09:20:45.5662924Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold4\\D_concat_HP_seed2.json",
+        "sha256":  "8B6B665E15BE200FA577A62C8E2EBB46461573ABA8F21A766080E1D8D86EA9FF",
+        "mtime":  "2026-11-06T09:20:51.3126169Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold4\\D_concat_H_seed0.json",
+        "sha256":  "07EB475850929BAEC8163682D8EE91477536698C0D16E65C795F15C47230A983",
+        "mtime":  "2026-11-06T09:20:12.8256148Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold4\\D_concat_H_seed1.json",
+        "sha256":  "2A29AF8D7E4AD7E577788A4C64C2C943CB2E25D2311BA57AD12B6CFB6C8D8922",
+        "mtime":  "2026-11-06T09:20:16.3609662Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold4\\D_concat_H_seed2.json",
+        "sha256":  "5CEAC72FA647E560F89C19618BE1CE932319689145F79C9A254CBB54080664CA",
+        "mtime":  "2026-11-06T09:20:20.5291171Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold4\\D_concat_MP_seed0.json",
+        "sha256":  "31D9F48CA24EBD9CB357A8C681E3F74835C5A13035A36D108CB54F552C5F1E8F",
+        "mtime":  "2026-11-06T09:20:59.2722195Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold4\\D_concat_MP_seed1.json",
+        "sha256":  "34F085C385F393860683AB7FB468056AA884E8D96A0AA5427AC447A9C095282A",
+        "mtime":  "2026-11-06T09:21:06.5789870Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold4\\D_concat_MP_seed2.json",
+        "sha256":  "49E47F347C6BEBA5B0C1F08EE713EFF91275F6CD2F435303863A3AC3145570AD",
+        "mtime":  "2026-11-06T09:21:13.9599669Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold4\\D_concat_M_seed0.json",
+        "sha256":  "2233E86A937376A3472338CBF4309A5749B5805757D04D6546CFD0C1D18B21E1",
+        "mtime":  "2026-11-06T09:21:17.5434643Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold4\\D_concat_M_seed1.json",
+        "sha256":  "EC68740BB4009CF2F6AF7D4E58D77DDCBA4DD49FB210437A34BDF99893BADF91",
+        "mtime":  "2026-11-06T09:21:20.4222559Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold4\\D_concat_M_seed2.json",
+        "sha256":  "AFB14459FF4E3ED2476E82C02EEA27D71832FDE630608C31FD400EAC6989F483",
+        "mtime":  "2026-11-06T09:21:24.0781525Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold4\\D_concat_P_seed0.json",
+        "sha256":  "5532642CD0A067A3992F4D2C73BDA4D5C426D03F92303E056D41D3196F290AC2",
+        "mtime":  "2026-11-06T09:21:30.0703999Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold4\\D_concat_P_seed1.json",
+        "sha256":  "18A7D8DF2A21C7851BD36850FA65DC53E0EF3F6E6BFB811E7BEBB61DEE89D067",
+        "mtime":  "2026-11-06T09:21:33.4826497Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold4\\D_concat_P_seed2.json",
+        "sha256":  "7344ABE6C7C58D30A472464885DB35B532D8BAFBB75BE0EB83922E819716148A",
+        "mtime":  "2026-11-06T09:21:39.4943525Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold4\\D_sa_HMP_seed0.json",
+        "sha256":  "29D9C3090FD01E129D1CB330DE39965A5B4FD6B2D5635939A787A2039AF31FE5",
+        "mtime":  "2026-11-06T09:19:26.3866749Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold4\\D_sa_HMP_seed1.json",
+        "sha256":  "9B755147371C818899160095FF5889F92BFBC472DA8699EBD3EF021F4E7F7FCD",
+        "mtime":  "2026-11-06T09:19:52.7252699Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold4\\D_sa_HMP_seed2.json",
+        "sha256":  "47FFCD8921312B2F7DBDB9285F0E62518BD6647FD342AAB3E5832855C70F8CA9",
+        "mtime":  "2026-11-06T09:20:09.2317010Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold4\\selection.json",
+        "sha256":  "A7ABFEC554A9FE721A94CCF16224E13D3E786C81EC751B11609EAE35C19CC03A",
+        "mtime":  "2026-11-06T09:18:47.3481608Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold4\\S_concat_HMP_d0.2_lr0.0003.json",
+        "sha256":  "B5026E065A8F4DF9FB86AE559E597C4A544B8DAFCB36F92C19467C572836D793",
+        "mtime":  "2026-11-06T09:17:18.6581966Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold4\\S_concat_HMP_d0.2_lr0.001.json",
+        "sha256":  "9659B7519C5066BE09C03798B1EDEDFD7B8B0E695D9B5DB19BFAC93F140F538B",
+        "mtime":  "2026-11-06T09:17:11.6707213Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold4\\S_concat_HMP_d0.4_lr0.0003.json",
+        "sha256":  "4636B393929645C84FBFED853213BFE0F476FA13C25C5B122980B06132746B98",
+        "mtime":  "2026-11-06T09:17:32.0128727Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold4\\S_concat_HMP_d0.4_lr0.001.json",
+        "sha256":  "AF009CCF5353CA524CFC96776F6E9CE5BBFB6B800C557EE8420744A48682AAF6",
+        "mtime":  "2026-11-06T09:17:25.3191340Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold4\\S_sa_HMP_d0.2_lr0.0003.json",
+        "sha256":  "B5EAC3B4CDB46068144B70C156208871A2F419578951BC1DCAE8BFE94AB42D34",
+        "mtime":  "2026-11-06T09:18:07.2974632Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold4\\S_sa_HMP_d0.2_lr0.001.json",
+        "sha256":  "EBD6E698ECCED4AE5AD873175F812BD6A7E196E7D0676948658737F64A8D147D",
+        "mtime":  "2026-11-06T09:17:46.6289097Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold4\\S_sa_HMP_d0.4_lr0.0003.json",
+        "sha256":  "BFF0ABC73147001EE1762BCBDAA9A9068D8DD2631C8BC7CFE615D644DA7D6B56",
+        "mtime":  "2026-11-06T09:18:47.3378534Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold4\\S_sa_HMP_d0.4_lr0.001.json",
+        "sha256":  "F2FDC10034DB970071226535B6DEF5C220F9D34E43BCCF476AF0917722203DBA",
+        "mtime":  "2026-11-06T09:18:30.0799020Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold5\\D_concat_HMP_dvind_seed0.json",
+        "sha256":  "7FEFBD0916DF059E50CE79EE04BB19905E22E732100F028414F2CE0E8BF050E5",
+        "mtime":  "2026-11-06T09:26:09.1784341Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold5\\D_concat_HMP_dvind_seed1.json",
+        "sha256":  "AE797C946D3B7CE873D44858A028AA78CCDF661FA65CBC0EC2B98C689D6E4ADA",
+        "mtime":  "2026-11-06T09:26:11.5394283Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold5\\D_concat_HMP_dvind_seed2.json",
+        "sha256":  "1C92515C6C50C88F307DB7ADAC11DA5B449D15E0626EEB41E0C1F539230A894E",
+        "mtime":  "2026-11-06T09:26:14.2682825Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold5\\D_concat_HMP_dv_seed0.json",
+        "sha256":  "9C71B4EDE6147EB35E3E8F34D995306E43DC89020054DA0C67DC83469246C1BF",
+        "mtime":  "2026-11-06T09:25:59.2828651Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold5\\D_concat_HMP_dv_seed1.json",
+        "sha256":  "17E982940161B3C0B8159978E98F4F5989268EF065FBEA47CE4C6FD0E3B0D76D",
+        "mtime":  "2026-11-06T09:26:01.7176558Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold5\\D_concat_HMP_dv_seed2.json",
+        "sha256":  "16E1C7045B10F853D03A0C9B854C991B9D6DE61AE5AE212FA78012B0DD9F32FE",
+        "mtime":  "2026-11-06T09:26:05.9924001Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold5\\D_concat_HMP_seed0.json",
+        "sha256":  "F73A6255FA6F35E78D22E16B5BEB3C814D8270ACE93AAE309D1C123E8700685C",
+        "mtime":  "2026-11-06T09:23:32.1356381Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold5\\D_concat_HMP_seed1.json",
+        "sha256":  "1B132A54848D3720B16F1F5F4AE18DF60063048A1175290A699A8E017DF71EE1",
+        "mtime":  "2026-11-06T09:23:35.4311484Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold5\\D_concat_HMP_seed2.json",
+        "sha256":  "4271DA7FCEBAEE3A7624D063B831B7D67CFA9B7B17C884D218D5FC092CAC81C9",
+        "mtime":  "2026-11-06T09:23:38.5061624Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold5\\D_concat_HM_seed0.json",
+        "sha256":  "9089A10A46F3E32CDFD8DECD63D9DB427B1176492111CF1EF228F0EF1A4F2E06",
+        "mtime":  "2026-11-06T09:24:52.9346367Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold5\\D_concat_HM_seed1.json",
+        "sha256":  "880448CA0C15212042B6CD7D8BDF8CCA7AF04AE7D78BCAA39DA479DE521D8C1D",
+        "mtime":  "2026-11-06T09:24:54.9276187Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold5\\D_concat_HM_seed2.json",
+        "sha256":  "E121BA452EB9246C082340FEA1D9C42FAF54C6F5C2BBBAA2D4FA3F30C657F408",
+        "mtime":  "2026-11-06T09:24:58.1661424Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold5\\D_concat_HP_seed0.json",
+        "sha256":  "7C4EE5E613D54B10A21591AB98E45B524DF903E3BCFA191366EECF3490014EF1",
+        "mtime":  "2026-11-06T09:25:03.3463689Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold5\\D_concat_HP_seed1.json",
+        "sha256":  "CE594F7E95E6A0833F8C1AD2BBAA8A68519E0B44EF11B93D3157516C2F82F2F5",
+        "mtime":  "2026-11-06T09:25:07.2245613Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold5\\D_concat_HP_seed2.json",
+        "sha256":  "8A09D8B5CA3629F23F9BD97C10530B218B4233A8F730FE8BEA25EE668376664F",
+        "mtime":  "2026-11-06T09:25:10.5024972Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold5\\D_concat_H_seed0.json",
+        "sha256":  "E5464B9BBF02068A63BAFE614435549AA96E427B592030550BBD483F8B84C4B6",
+        "mtime":  "2026-11-06T09:24:43.4910926Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold5\\D_concat_H_seed1.json",
+        "sha256":  "8C1CD227982895A1050714D56D527573778AFB019CC504552169EB40777B5100",
+        "mtime":  "2026-11-06T09:24:46.6520354Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold5\\D_concat_H_seed2.json",
+        "sha256":  "E3724258AC389F83161D987A2D6270D4FBDF042C058124201683072D5C589ECF",
+        "mtime":  "2026-11-06T09:24:49.2912045Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold5\\D_concat_MP_seed0.json",
+        "sha256":  "1F9A7016AC145D42CCB1204D17AA83598968ADE4586C7A4C12340A513106F9F7",
+        "mtime":  "2026-11-06T09:25:16.5059665Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold5\\D_concat_MP_seed1.json",
+        "sha256":  "63DD4FFFAD5E108A1A89EA5939F5C83E5E69DAEBF2EBF0E962271FE580B1FA89",
+        "mtime":  "2026-11-06T09:25:22.0561363Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold5\\D_concat_MP_seed2.json",
+        "sha256":  "7482B8685F2BD596D82A57239356D6261E5A080F7132ECB9FE6D959C49BD0451",
+        "mtime":  "2026-11-06T09:25:26.2529586Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold5\\D_concat_M_seed0.json",
+        "sha256":  "F8DA2FBCA7C5F0DACE09CD794B765A1FDDF9EC3317C305E662F09DFA320E94BB",
+        "mtime":  "2026-11-06T09:25:31.3202252Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold5\\D_concat_M_seed1.json",
+        "sha256":  "9C66801BC188B48DF4C12F9D263FBBAAD531451FEF88EB3C13404A5F68D93D43",
+        "mtime":  "2026-11-06T09:25:38.1381008Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold5\\D_concat_M_seed2.json",
+        "sha256":  "271AE60FD0A9174D244713C4C8801C827A639A71F88F85578EEC86C97AF8C78F",
+        "mtime":  "2026-11-06T09:25:41.6995029Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold5\\D_concat_P_seed0.json",
+        "sha256":  "F627772AA2B57EF88514E29E39833E9CD41C79CC0B6201D839D8E24AF139B4B6",
+        "mtime":  "2026-11-06T09:25:47.0669591Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold5\\D_concat_P_seed1.json",
+        "sha256":  "B8B9F12A6FA7F63D97295FF6E61DD3228D7FE9F5F1B5B078521D9930C1B64372",
+        "mtime":  "2026-11-06T09:25:50.9676572Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold5\\D_concat_P_seed2.json",
+        "sha256":  "2E7FFF28497B70C54A4951F8BDE936B37B9C4647FA2AE4BAB7F3761A89310526",
+        "mtime":  "2026-11-06T09:25:55.2113425Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold5\\D_sa_HMP_seed0.json",
+        "sha256":  "A205EDEE821921B0C228ACD9DE35B22D195B54499E7B2663AB9C277A87C9EC0D",
+        "mtime":  "2026-11-06T09:24:02.1541744Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold5\\D_sa_HMP_seed1.json",
+        "sha256":  "990F11E5F1AF3BCB9CEA39EE146D6A9A73189DE5DE882A193F72348DC393F339",
+        "mtime":  "2026-11-06T09:24:23.0455178Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold5\\D_sa_HMP_seed2.json",
+        "sha256":  "927585500D8907762D7E9EE48B10168B4D0CC8078DAF7D74F26073F29D4DEEDE",
+        "mtime":  "2026-11-06T09:24:41.3116867Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold5\\selection.json",
+        "sha256":  "A76DC11B19D18D2D9CEA5E4146971F5CCFACE9BD783FF01AF1CE2413472E52F0",
+        "mtime":  "2026-11-06T09:23:29.9414866Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold5\\S_concat_HMP_d0.2_lr0.0003.json",
+        "sha256":  "DB94AB7A083C90882AAF83FE572D0EE06C8CCEAFE077FD3A1D31B0FB694C39AF",
+        "mtime":  "2026-11-06T09:22:23.1679464Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold5\\S_concat_HMP_d0.2_lr0.001.json",
+        "sha256":  "2942124B5AA4273F75196C10338DEECF52531DDE3F20766C1EEA90625785B6C1",
+        "mtime":  "2026-11-06T09:22:20.4592589Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold5\\S_concat_HMP_d0.4_lr0.0003.json",
+        "sha256":  "9917C392D78A0F5BD255BDC6E4DB20BED99115A41DA7A67F12A52C0199F30E73",
+        "mtime":  "2026-11-06T09:22:29.1584858Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold5\\S_concat_HMP_d0.4_lr0.001.json",
+        "sha256":  "EC71C63F01A15350DBCA3A7A2E1682F83BA952200A609686DC64C6CFA8FAE5B9",
+        "mtime":  "2026-11-06T09:22:25.8798959Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold5\\S_sa_HMP_d0.2_lr0.0003.json",
+        "sha256":  "671D3C2F413892BDA78FE34641D965BA9245AC2F160F9C579A48833C7381C468",
+        "mtime":  "2026-11-06T09:23:03.1639977Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold5\\S_sa_HMP_d0.2_lr0.001.json",
+        "sha256":  "78CBACB92C7D5478093A6EEF52D1C0DB6D4184354F8512D309C2F8C75A24056B",
+        "mtime":  "2026-11-06T09:22:40.2043847Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold5\\S_sa_HMP_d0.4_lr0.0003.json",
+        "sha256":  "C557D8B316818873A100D19EEA059E076F0FAE3355A5FF3D6B77C2115346E202",
+        "mtime":  "2026-11-06T09:23:29.9314582Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\RAVDESS\\fold5\\S_sa_HMP_d0.4_lr0.001.json",
+        "sha256":  "B86C301FA983CCAB6ED469E8D64B7E616B24C653008E1ECB7E4E0BBB3F4518AE",
+        "mtime":  "2026-11-06T09:23:18.4141740Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold0_concat_HMP_dvind_seed0.pt",
+        "sha256":  "B83556909BEF58AE7C1EE584BE6D302CE566DE4A5D254B94B17735EE392C4A0D",
+        "mtime":  "2026-11-06T09:05:41.3193227Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold0_concat_HMP_dvind_seed1.pt",
+        "sha256":  "5B73362038081C040D97DC3E9315EC9B8CD5218F5472A81303F22D819F392FC0",
+        "mtime":  "2026-11-06T09:05:47.0198567Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold0_concat_HMP_dvind_seed2.pt",
+        "sha256":  "8F18BD33F079B7DE7EFAFE6FDCB8C8DB9AB66B83B0CB32CA4A9E6904AF6954D1",
+        "mtime":  "2026-11-06T09:05:50.7763569Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold0_concat_HMP_dv_seed0.pt",
+        "sha256":  "57EC54BF046947B15655D3B26672880C21043DDA46CF608E9FEBE5D559C801C7",
+        "mtime":  "2026-11-06T09:05:25.2836231Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold0_concat_HMP_dv_seed1.pt",
+        "sha256":  "C7CB75197FBCB424C9DC669664593BC6C171AD02757AE9FBA7D10176D2E61BC8",
+        "mtime":  "2026-11-06T09:05:30.5070951Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold0_concat_HMP_dv_seed2.pt",
+        "sha256":  "F1CD8DF1A94BDDCF3BFB27C76EF59FD9735C03DEBEB3C97FC3396C9693F8824C",
+        "mtime":  "2026-11-06T09:05:34.4834467Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold0_concat_HMP_seed0.pt",
+        "sha256":  "F3BCB34BA98EA2410FE36E2E4A6063AD6FF99BDD51519A9534F65DC4C9BACAB6",
+        "mtime":  "2026-11-06T09:02:32.0090747Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold0_concat_HMP_seed1.pt",
+        "sha256":  "EF04BD8C3CA56B2B76B80F65808303E5AA92EFEDD4BAA059CBB809E090D2C799",
+        "mtime":  "2026-11-06T09:02:35.7024747Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold0_concat_HMP_seed2.pt",
+        "sha256":  "882E03D05BF6063B318EF753983ED6F71376D495048FBD78EDD74DE4450FE024",
+        "mtime":  "2026-11-06T09:02:42.5954648Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold0_concat_HM_seed0.pt",
+        "sha256":  "68FF198DFCC0D210523F3DF5C624266699C70367B7033B5F6D8BD50C651E4965",
+        "mtime":  "2026-11-06T09:04:14.2762052Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold0_concat_HM_seed1.pt",
+        "sha256":  "2F3B8C5CC8AD7BE525191B8F025DB27F89D7C4C553908B0C3F37F4A375C5A2B2",
+        "mtime":  "2026-11-06T09:04:19.0921192Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold0_concat_HM_seed2.pt",
+        "sha256":  "EC7A035EAA47E83EC75B8269D0533EED06622E5F2D297778D49A8D60C1D567AD",
+        "mtime":  "2026-11-06T09:04:24.9574947Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold0_concat_HP_seed0.pt",
+        "sha256":  "62AEA35E8F893565CAFCFA6BD7180C82BE7459B3256970F9242340261F06211C",
+        "mtime":  "2026-11-06T09:04:29.0419227Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold0_concat_HP_seed1.pt",
+        "sha256":  "80B1635A7BF042C86121C9E51624A62602DFFBF1C080132482EA1E0A8105455C",
+        "mtime":  "2026-11-06T09:04:32.2491098Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold0_concat_HP_seed2.pt",
+        "sha256":  "14EA3328646326F43BE2602A33F6FDC5997CFC79EB79520A419949A4D803A67A",
+        "mtime":  "2026-11-06T09:04:36.6096010Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold0_concat_H_seed0.pt",
+        "sha256":  "D2130BCD49047D8B590FE44D7CBACCB4287F588965751A8B9C08384ADC53FD4F",
+        "mtime":  "2026-11-06T09:04:02.3819834Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold0_concat_H_seed1.pt",
+        "sha256":  "E9B8BF928276319D320105910029822563F99B8B952DFAD0793D3208BAD2A28E",
+        "mtime":  "2026-11-06T09:04:05.2734760Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold0_concat_H_seed2.pt",
+        "sha256":  "7E764A8C87ADD9ED901FB0E97756D5982477DB046EBD488934CC76B1784418E8",
+        "mtime":  "2026-11-06T09:04:09.9087660Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold0_concat_MP_seed0.pt",
+        "sha256":  "C979290339C0C91437C21F79538F8BDC854993F3743195B88EB3E3AFE5762720",
+        "mtime":  "2026-11-06T09:04:41.1337528Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold0_concat_MP_seed1.pt",
+        "sha256":  "47FF89AE9791846587D06D41F002C2FCCD8A3E3B3152D9188673E71D7AC3F146",
+        "mtime":  "2026-11-06T09:04:47.5869209Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold0_concat_MP_seed2.pt",
+        "sha256":  "78545D1653FB09024F76A8B92C0FDCE64EF9C12F2DD10A114DBD28B979FC781A",
+        "mtime":  "2026-11-06T09:04:54.1839473Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold0_concat_M_seed0.pt",
+        "sha256":  "406528018B10E84288A948290903238FE15ED383DC461415B8E90E4031366AE3",
+        "mtime":  "2026-11-06T09:05:01.0544036Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold0_concat_M_seed1.pt",
+        "sha256":  "0CCE9DA5B8954B5389E8848A4C59EF29913AF503F652C3522141796721A1368F",
+        "mtime":  "2026-11-06T09:05:03.8867215Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold0_concat_M_seed2.pt",
+        "sha256":  "597CBA9D77E94691BB5BC950817E704455EC4CA40A2BB4E597D30D1551864DD4",
+        "mtime":  "2026-11-06T09:05:07.5561726Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold0_concat_P_seed0.pt",
+        "sha256":  "525E79D0A477B022890B51C61872A56080A7DB27ADFC124A4013D43674A59094",
+        "mtime":  "2026-11-06T09:05:13.3867628Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold0_concat_P_seed1.pt",
+        "sha256":  "8A011F1EAD460263F8D3C77D3647A7DE6C5FD388EF1C08FB4552E377F80F96CA",
+        "mtime":  "2026-11-06T09:05:17.2414294Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold0_concat_P_seed2.pt",
+        "sha256":  "D3F8959F619D688A2A47C68C53434611B6738F3B4FBAA3C091A76F8A42C1B7F8",
+        "mtime":  "2026-11-06T09:05:21.5401938Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold0_sa_HMP_seed0.pt",
+        "sha256":  "7141B2B5B9A4DDA39EF30328600DB95F098CD958A411E2F3F34CB4885C49D4E2",
+        "mtime":  "2026-11-06T09:03:08.8734137Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold0_sa_HMP_seed1.pt",
+        "sha256":  "3B42E20BACF1A03D95C90B4C88A4103C1CC40768E6D8CE8417A5C4224DE81F46",
+        "mtime":  "2026-11-06T09:03:35.4250634Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold0_sa_HMP_seed2.pt",
+        "sha256":  "9321AE9322A1E5F00E80B282DBC41661E13230AE0513857783AE1A0F30F46DF3",
+        "mtime":  "2026-11-06T09:03:56.6631688Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold1_concat_HMP_dvind_seed0.pt",
+        "sha256":  "2ECAEA395F22E28F72A0AC444425DC6A4E5CF34761C542E324CCF2254F3175EC",
+        "mtime":  "2026-11-06T09:09:43.0815273Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold1_concat_HMP_dvind_seed1.pt",
+        "sha256":  "7A918E95DC552D8C11F28465F66869926D0F3F4839CC099F4A9CB9B69620D095",
+        "mtime":  "2026-11-06T09:09:45.8363741Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold1_concat_HMP_dvind_seed2.pt",
+        "sha256":  "5F7FE97E148F59EB667B2B1FCC10F02D27AC400F9C9CECABDC738891413BA3AA",
+        "mtime":  "2026-11-06T09:09:49.3569372Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold1_concat_HMP_dv_seed0.pt",
+        "sha256":  "3C0FFC9F4F222A1978827DCACD258F08CC39C61957FC57EE76A17FBF03EC56BD",
+        "mtime":  "2026-11-06T09:09:32.4548082Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold1_concat_HMP_dv_seed1.pt",
+        "sha256":  "2AC9984CEF061836046C42667D539F9FF19E2E0F9A1404A6CF92983958576E0C",
+        "mtime":  "2026-11-06T09:09:37.0623540Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold1_concat_HMP_dv_seed2.pt",
+        "sha256":  "0FC6F331907298F9BD201A443A386E6414A8A1DC5987A819833B1CC94D0745B9",
+        "mtime":  "2026-11-06T09:09:39.9480269Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold1_concat_HMP_seed0.pt",
+        "sha256":  "801E11705F5E109EDB4550EF2D52967C5C79CF2CE4F20CD95F406786266356D3",
+        "mtime":  "2026-11-06T09:07:17.4503732Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold1_concat_HMP_seed1.pt",
+        "sha256":  "410CEDDFF193C8DC776F79D7657B5AEC694A5EA114AD3DCF01F10D08E707B30A",
+        "mtime":  "2026-11-06T09:07:21.0616137Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold1_concat_HMP_seed2.pt",
+        "sha256":  "15FCED303CB613CD9756B015A793E1438FDCA11B5B65D11FCDA1AD2F2A5C0344",
+        "mtime":  "2026-11-06T09:07:25.4984525Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold1_concat_HM_seed0.pt",
+        "sha256":  "EB259A26DDBC1F6C807C8B9867D3AE396A242F43758CC59A059A20E7D58F3694",
+        "mtime":  "2026-11-06T09:08:31.5331535Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold1_concat_HM_seed1.pt",
+        "sha256":  "5ECE41DD564FF23140F746B0162946FD81F24D64E8BD6E078F40BE87BDA4752E",
+        "mtime":  "2026-11-06T09:08:37.1632170Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold1_concat_HM_seed2.pt",
+        "sha256":  "171CBE1D568B14B3A618B613572DC35CDD991F4C4E5EC5842FBB7D94DEB726F0",
+        "mtime":  "2026-11-06T09:08:40.4304323Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold1_concat_HP_seed0.pt",
+        "sha256":  "73D7A60BBB9614E945CA260DD47B2C392AEF1D5CCAB7E9F1258C8D41EDA37019",
+        "mtime":  "2026-11-06T09:08:43.4102152Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold1_concat_HP_seed1.pt",
+        "sha256":  "542BFEB78A88CAF6DDFF474D112CCD19388C752B6870BC75D3145F4114BDE531",
+        "mtime":  "2026-11-06T09:08:47.1732346Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold1_concat_HP_seed2.pt",
+        "sha256":  "1633BB9B3299A875C129C2B597CCA446A8D0F33CDCCE886BA9FD958DF15B8F54",
+        "mtime":  "2026-11-06T09:08:50.7826923Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold1_concat_H_seed0.pt",
+        "sha256":  "EDC1DB7C45D4EF0D9211B4DA9404DA9F9EB21C9EBCCBE4ECE22DFCD9B2E88B7F",
+        "mtime":  "2026-11-06T09:08:21.7413897Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold1_concat_H_seed1.pt",
+        "sha256":  "53C6741F34608191901317B44E55801AB5E59B39217A89091C030E1BD56A5002",
+        "mtime":  "2026-11-06T09:08:23.8337801Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold1_concat_H_seed2.pt",
+        "sha256":  "2E44446031D5389463EEAAA2ED70368441AC2F88CC70874F137A0A6C05EEE913",
+        "mtime":  "2026-11-06T09:08:28.8853907Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold1_concat_MP_seed0.pt",
+        "sha256":  "3AADF41DD90DB7F0B462B4F56099D3F5AB75FF02110052F66F3DA69115597A99",
+        "mtime":  "2026-11-06T09:08:56.8782978Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold1_concat_MP_seed1.pt",
+        "sha256":  "87526321D42254694D8FF2BE0C6ACFEB1714033A236AF05996C4CC8C3BFE73E7",
+        "mtime":  "2026-11-06T09:09:00.0296099Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold1_concat_MP_seed2.pt",
+        "sha256":  "805758CB16ACB2032187B9AA11CBB7490D72A2371ADF51EEDF75CBB7EFCD8DC6",
+        "mtime":  "2026-11-06T09:09:05.5883551Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold1_concat_M_seed0.pt",
+        "sha256":  "DD3030729A5C640DF110A8B34ABD6C5E9422DB1D59C742A678DA83D71E2F36BE",
+        "mtime":  "2026-11-06T09:09:08.5846711Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold1_concat_M_seed1.pt",
+        "sha256":  "3C4B9C9363AEF198A7BDC878A2E9FF8F52FB99D2977A24674200D753727CD228",
+        "mtime":  "2026-11-06T09:09:11.2580576Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold1_concat_M_seed2.pt",
+        "sha256":  "0F497BBA5607B72F3C1B0B1F19EE11919599C7578B85C14CDCF37B530F943389",
+        "mtime":  "2026-11-06T09:09:16.3378044Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold1_concat_P_seed0.pt",
+        "sha256":  "CC81FA6B7F747E5414F2D9624D0040FC0E00451C9650A57ECCCC8805780877D5",
+        "mtime":  "2026-11-06T09:09:20.2549622Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold1_concat_P_seed1.pt",
+        "sha256":  "6F1B2A104EE9C59B7D4E482677167AFE0FBDCBC62C348592B1CBF5B419D11CAF",
+        "mtime":  "2026-11-06T09:09:23.8771661Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold1_concat_P_seed2.pt",
+        "sha256":  "38E5D7076233F0B7CE28A729988FB18995C6660D0638AED58F556164F68D4E41",
+        "mtime":  "2026-11-06T09:09:27.5329989Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold1_sa_HMP_seed0.pt",
+        "sha256":  "B19B091B222C681BB8A5BBE2054D32BA5AADFCAC25E5A43ACCE876D0BDDF6D5A",
+        "mtime":  "2026-11-06T09:07:42.6560152Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold1_sa_HMP_seed1.pt",
+        "sha256":  "F7D463E1DE6E87E948E11B4405643D2F100E15B5E2EC2AA54B91C7734CDC91FE",
+        "mtime":  "2026-11-06T09:08:01.9095446Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold1_sa_HMP_seed2.pt",
+        "sha256":  "117A5441E2A115246C96D9F3F33B0DD1C929524C37C0658B9CC4839ADDFCF188",
+        "mtime":  "2026-11-06T09:08:17.0277342Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold2_concat_HMP_dvind_seed0.pt",
+        "sha256":  "9D0783DD483C047F0EF26940536AC65F9082D1640F21C9D7B76F1DDE1A47BBE9",
+        "mtime":  "2026-11-06T09:13:34.7500571Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold2_concat_HMP_dvind_seed1.pt",
+        "sha256":  "FC33107A51548E36842FD0F0D97A979F0D6063868AC0C94FBD4A83299F3FC591",
+        "mtime":  "2026-11-06T09:13:38.3992519Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold2_concat_HMP_dvind_seed2.pt",
+        "sha256":  "74D4BB436D7DBFFA150611FB238E5D6A2B093DE3BDF08FEB515EC27469B6F753",
+        "mtime":  "2026-11-06T09:13:42.8633783Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold2_concat_HMP_dv_seed0.pt",
+        "sha256":  "7A2976F0DE5178F47C702D7789A78D9ECAC437A1FAD99B80FE233B894D323E96",
+        "mtime":  "2026-11-06T09:13:23.7810014Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold2_concat_HMP_dv_seed1.pt",
+        "sha256":  "012057DC691B2992CEC6C6D9BADC391E4D1A1083832A3502237BB70A128A8F6D",
+        "mtime":  "2026-11-06T09:13:26.6299707Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold2_concat_HMP_dv_seed2.pt",
+        "sha256":  "BF0747E6B9067F5BC1E7341500143252AC16A8883F37A13A82952708C5F21D2C",
+        "mtime":  "2026-11-06T09:13:29.9014325Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold2_concat_HMP_seed0.pt",
+        "sha256":  "7FF20E64019BB325C09AAFA09B7D92FC879784FE3BFBA5ABF5CB5B1385D0F52C",
+        "mtime":  "2026-11-06T09:11:14.6535454Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold2_concat_HMP_seed1.pt",
+        "sha256":  "32D7EA69211FC7BA382803AD5C5F0C9AEB40AD4E467412DA71F5D36359965EA5",
+        "mtime":  "2026-11-06T09:11:19.3652195Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold2_concat_HMP_seed2.pt",
+        "sha256":  "5EBB218A841F39C3B2542836E36A3B648245E413FDDAB7FE507559F2C7562532",
+        "mtime":  "2026-11-06T09:11:22.9376088Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold2_concat_HM_seed0.pt",
+        "sha256":  "DDE0F3817932C6560C8427E9318E16D378D6CC97BA6092668897B87365E71289",
+        "mtime":  "2026-11-06T09:12:12.8082147Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold2_concat_HM_seed1.pt",
+        "sha256":  "31E20306F602A14980B34E4E0DDBD2F89071079FC45948CFCAE2DE69A8ED90DC",
+        "mtime":  "2026-11-06T09:12:17.3648973Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold2_concat_HM_seed2.pt",
+        "sha256":  "A3CF1CFD716DD5CC99084FE154787BD1AD4A73D88395189616DB6621D14D150E",
+        "mtime":  "2026-11-06T09:12:19.9098499Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold2_concat_HP_seed0.pt",
+        "sha256":  "3503818AE31830A6861BB2088C508AD2E3AF2B00FBD5D921B842F5B88E12D144",
+        "mtime":  "2026-11-06T09:12:23.7325050Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold2_concat_HP_seed1.pt",
+        "sha256":  "90E7E1E2533910D84E084935CF19AA13E745D69123C9B87F5F5DFC5A83081CA2",
+        "mtime":  "2026-11-06T09:12:26.0787061Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold2_concat_HP_seed2.pt",
+        "sha256":  "287D25268A3DEA33CBE0AE5476D742F754D9F48EDF690F69F82218551DCB0FB4",
+        "mtime":  "2026-11-06T09:12:28.4934923Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold2_concat_H_seed0.pt",
+        "sha256":  "EC47FEDE1138EA40F928277C6DAEB0E3FCD1FD2CA7296FED47A71A6CCD6B6CF8",
+        "mtime":  "2026-11-06T09:12:04.0552124Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold2_concat_H_seed1.pt",
+        "sha256":  "0DC1B06AA979DA8B0A9804FCB1E026E37B13FEC53B7062E1A3DB703B5DA7CDFE",
+        "mtime":  "2026-11-06T09:12:05.9533151Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold2_concat_H_seed2.pt",
+        "sha256":  "427D21DFAEC0DE8271EAB381E545A00161494E2FF47A9111F62346B6EDED5851",
+        "mtime":  "2026-11-06T09:12:08.6990077Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold2_concat_MP_seed0.pt",
+        "sha256":  "01AF14AA13E6F9EA49EFE851A9009D5F49540E06FBB768E53EFE9E397D7C2E57",
+        "mtime":  "2026-11-06T09:12:33.4534121Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold2_concat_MP_seed1.pt",
+        "sha256":  "7EF5ABE55C1C2EF6153187FF2C9B5B159BACC8339F9CB1445E9DB57B26267CEA",
+        "mtime":  "2026-11-06T09:12:39.2889605Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold2_concat_MP_seed2.pt",
+        "sha256":  "7536DA93BE62C8CCF6120385B782A6ABE3822A91E99CD824CEC7A51102755725",
+        "mtime":  "2026-11-06T09:12:46.3687799Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold2_concat_M_seed0.pt",
+        "sha256":  "0A7A1B56355171174632C361E7F14533C6F83C88B0E50D6194527B9244940C00",
+        "mtime":  "2026-11-06T09:12:51.6429255Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold2_concat_M_seed1.pt",
+        "sha256":  "E8C59F0A3ABD2D4F102703C01D608D1B136BC4F8A99DA16555C8E91750A56026",
+        "mtime":  "2026-11-06T09:12:55.6647794Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold2_concat_M_seed2.pt",
+        "sha256":  "503D13725D67BF24B9033F1E6B3B8E154FC8B35FFF3ED03441937672D0F724E7",
+        "mtime":  "2026-11-06T09:13:02.1664910Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold2_concat_P_seed0.pt",
+        "sha256":  "CBA9E5A3D95947B024363254410BB5DC59ADA98EBEBF82A5137943D2FCFB44ED",
+        "mtime":  "2026-11-06T09:13:08.8177254Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold2_concat_P_seed1.pt",
+        "sha256":  "7429D644C9314E79B1B0889B8F978E91247106C4973B1B6144BE11AB28CAF043",
+        "mtime":  "2026-11-06T09:13:13.3260901Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold2_concat_P_seed2.pt",
+        "sha256":  "DDC7E05C357F79CF7293F7F25B2A95511A1B32D974DBFBC2690D046DA5B1E25A",
+        "mtime":  "2026-11-06T09:13:19.8024517Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold2_sa_HMP_seed0.pt",
+        "sha256":  "5AAB3FFA3BF3AA474C4BD31A9AB4AE33979229E0AD070DFECEFDF96F26CB6077",
+        "mtime":  "2026-11-06T09:11:38.8530768Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold2_sa_HMP_seed1.pt",
+        "sha256":  "681862E9CECD6C2C47828B334AF6C2813E60E1C1FACB2247B8BA851985BDA393",
+        "mtime":  "2026-11-06T09:11:48.8723546Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold2_sa_HMP_seed2.pt",
+        "sha256":  "189470B33366F4CEB63DE66665EE5B1E9EC62A533F835C6C930CF7DCD68C9E63",
+        "mtime":  "2026-11-06T09:12:00.9204806Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold3_concat_HMP_dvind_seed0.pt",
+        "sha256":  "A83CBD22E4B94FF816897F3C7CF6804ADB78A16C0F882A45EF32BE35A9718735",
+        "mtime":  "2026-11-06T09:16:57.5171108Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold3_concat_HMP_dvind_seed1.pt",
+        "sha256":  "9FD6FFBD93A83FBD9EE6733C2DF06F18F294A538B9DFF27FE4DAD0385086B24F",
+        "mtime":  "2026-11-06T09:17:02.4437093Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold3_concat_HMP_dvind_seed2.pt",
+        "sha256":  "FDAB715D4B9BF563B9B83174531D225F5E711DBF5B40868C62EE9BE2D46BA7BB",
+        "mtime":  "2026-11-06T09:17:05.8308617Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold3_concat_HMP_dv_seed0.pt",
+        "sha256":  "A57DFAF4AA8E9A6BF361A2CFD6B3BFD70E074EDDCBA1B169EACC6344E8F4A02F",
+        "mtime":  "2026-11-06T09:16:46.5856146Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold3_concat_HMP_dv_seed1.pt",
+        "sha256":  "D225C0A4EA70F3220DB0B806020A8E0EF4F51DDEEBAEB9C28819D3C7813C7EFF",
+        "mtime":  "2026-11-06T09:16:49.8968889Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold3_concat_HMP_dv_seed2.pt",
+        "sha256":  "E440391FEE220E7A5CD988C875225AFC45F55F1478792F24AC842663791C666D",
+        "mtime":  "2026-11-06T09:16:53.9011222Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold3_concat_HMP_seed0.pt",
+        "sha256":  "713358CF8CE56ABEA55A2F7F12AF667D957445BC5A16974129A43E06D0724AAC",
+        "mtime":  "2026-11-06T09:14:49.6359220Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold3_concat_HMP_seed1.pt",
+        "sha256":  "7F800C99B90098C6F1BB15EE1DE6732C3BDA7D7B351DA5B722A0EC9283B35A18",
+        "mtime":  "2026-11-06T09:14:53.6571900Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold3_concat_HMP_seed2.pt",
+        "sha256":  "50E3561D773731BCEC5FA0C241D4673BCF65B339036BAB144E3DE6568036E920",
+        "mtime":  "2026-11-06T09:14:58.0166457Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold3_concat_HM_seed0.pt",
+        "sha256":  "5FA1BCD32053E88DE0601654DA2169710BAA2FE5C2121E3E552A9B3C7872BEE5",
+        "mtime":  "2026-11-06T09:15:42.9189822Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold3_concat_HM_seed1.pt",
+        "sha256":  "6B94E9644C144470771F1A80415A26ADA496E51746D3D61857AA4D37E3F8E63B",
+        "mtime":  "2026-11-06T09:15:45.2288997Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold3_concat_HM_seed2.pt",
+        "sha256":  "F18B3F6E06EE3FF7A77AB1CA4120268D62C320CABE04F6D8BAA9ECEF747AFF06",
+        "mtime":  "2026-11-06T09:15:48.0055431Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold3_concat_HP_seed0.pt",
+        "sha256":  "B2929BD0FC830F8275F5AD0A657F8F9EDE1817240BF6D21C6FA70A003F02BFD3",
+        "mtime":  "2026-11-06T09:15:50.8302958Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold3_concat_HP_seed1.pt",
+        "sha256":  "E630A8D239DD110F5A0E7DBB6BBB5A8B4ABA2DD82D6701082B81C66E38B36A02",
+        "mtime":  "2026-11-06T09:15:53.9467966Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold3_concat_HP_seed2.pt",
+        "sha256":  "2D1EA6BFA14DB6B4F8967F05A9E058C4662001BA0DCC8E409850A28F081E06EF",
+        "mtime":  "2026-11-06T09:15:58.7672221Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold3_concat_H_seed0.pt",
+        "sha256":  "3CB1C85D98427CDB1C4D09F7861CD7EDC3A137414DED4440FBB6D3CC6B06146B",
+        "mtime":  "2026-11-06T09:15:33.8892901Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold3_concat_H_seed1.pt",
+        "sha256":  "A0B8C25C8A23F54E6CFE25E2F795E99F1DB889408C14DA84B7034F6307B7B40E",
+        "mtime":  "2026-11-06T09:15:36.7842601Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold3_concat_H_seed2.pt",
+        "sha256":  "908D6ADD2DBE7FBB8A286698556FAFF461D2F1DC5FA382EECF3D4058D0E558CE",
+        "mtime":  "2026-11-06T09:15:39.3947467Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold3_concat_MP_seed0.pt",
+        "sha256":  "684979A637469A1671DD67FC34E879EF57478151BB89B0FEC0CAD2F5425B4711",
+        "mtime":  "2026-11-06T09:16:03.5416200Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold3_concat_MP_seed1.pt",
+        "sha256":  "D61B0C94D9A83C669944397B72F2273D94EF26E5059B2F5D7F77AC35D116E73E",
+        "mtime":  "2026-11-06T09:16:08.5377544Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold3_concat_MP_seed2.pt",
+        "sha256":  "1EE5526DD9575F5B4F326D76AF60B4EAE24089EC2D130FCB7B1CB19676608577",
+        "mtime":  "2026-11-06T09:16:15.7451385Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold3_concat_M_seed0.pt",
+        "sha256":  "1C621255D2BBDF4DE146E304E5F927F427A3195FD34DAEA89148E8D11C4AF649",
+        "mtime":  "2026-11-06T09:16:19.8810181Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold3_concat_M_seed1.pt",
+        "sha256":  "5D4D828BA0195F95F55F6727404D74F0051C4F7E6F37C445CF098E8BDD66157D",
+        "mtime":  "2026-11-06T09:16:24.8327398Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold3_concat_M_seed2.pt",
+        "sha256":  "3C0E1AE7D8B1CF61A329A3114A7A4025BBBA31E93B38BEC0F01AF9D180D836B6",
+        "mtime":  "2026-11-06T09:16:29.6508749Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold3_concat_P_seed0.pt",
+        "sha256":  "E382394EC945DCA06592B08457E8D9DFBD69560338DAC8D9630E85D8712C9016",
+        "mtime":  "2026-11-06T09:16:34.4780873Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold3_concat_P_seed1.pt",
+        "sha256":  "5EA332A6EE91463A4FAC85D1998CE282F85CEAC798D52BD5DE6663708F3FC374",
+        "mtime":  "2026-11-06T09:16:38.2502304Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold3_concat_P_seed2.pt",
+        "sha256":  "E812D8E8552E8AAD23A2DD0FD8F6ABD9077E3611790BF16E26BEDAE708F28BC1",
+        "mtime":  "2026-11-06T09:16:42.5083081Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold3_sa_HMP_seed0.pt",
+        "sha256":  "794C88D619ADBEE6347636E3903A92FF8E4494B01FE73A3158A4FC9DACAC457A",
+        "mtime":  "2026-11-06T09:15:06.5670243Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold3_sa_HMP_seed1.pt",
+        "sha256":  "CDD1B2DD14F2903B6EC8002DBE54BEE086D19ABF07F46EFB3ABCDF69B271136D",
+        "mtime":  "2026-11-06T09:15:18.0534193Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold3_sa_HMP_seed2.pt",
+        "sha256":  "5CD26D528E58BD5AD57493F2D2F6373A162DC79B3539F849880A13AE46E737E6",
+        "mtime":  "2026-11-06T09:15:30.2844004Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold4_concat_HMP_dvind_seed0.pt",
+        "sha256":  "53290CC20156CF6388A589AAED71A20FA21DD0644C4801B618E9463D652AED8F",
+        "mtime":  "2026-11-06T09:22:06.6168467Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold4_concat_HMP_dvind_seed1.pt",
+        "sha256":  "987EB827D08C4EA348FD7268C4D58B38D192DADC4346DB0DCA43EA5D6DF216FD",
+        "mtime":  "2026-11-06T09:22:13.0965613Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold4_concat_HMP_dvind_seed2.pt",
+        "sha256":  "17B73AB46FEBD7E0564984139AD806143C9AF6AB34AFF21C4AA5874BF32EF5A9",
+        "mtime":  "2026-11-06T09:22:18.0053599Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold4_concat_HMP_dv_seed0.pt",
+        "sha256":  "2A110AF1D6B506F636189E3A2B71877A1E0D1F77C14BB8EEE2DB75D84C2F10F5",
+        "mtime":  "2026-11-06T09:21:47.0469979Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold4_concat_HMP_dv_seed1.pt",
+        "sha256":  "DFD30861F9094DE4B2CD906781C75DBEBE4FB2EE2B5A0A7132866527A6E41368",
+        "mtime":  "2026-11-06T09:21:53.4630111Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold4_concat_HMP_dv_seed2.pt",
+        "sha256":  "A0E4ED1FC7EEFDF93535833981765142F4CA34A719CFF4907BA6C2E691CA6031",
+        "mtime":  "2026-11-06T09:21:58.3654174Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold4_concat_HMP_seed0.pt",
+        "sha256":  "F312258A2B71F02373332515C9226FFD7C92A5EA4DFFCCCCBBB36A98AB65AFD3",
+        "mtime":  "2026-11-06T09:18:54.1938527Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold4_concat_HMP_seed1.pt",
+        "sha256":  "1744D9FC34EC95B07F2F2D4E7E6966BBDD9A49C1C52B3FB7B2CB6BA66406B02E",
+        "mtime":  "2026-11-06T09:19:00.0108369Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold4_concat_HMP_seed2.pt",
+        "sha256":  "7FFD6B7CC9051AD95074CD0213B3EC600C198E20EB0E701320401575C4B1D14E",
+        "mtime":  "2026-11-06T09:19:05.4718175Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold4_concat_HM_seed0.pt",
+        "sha256":  "B0607C154F4BAB28865A87A9CC85195681521B0B508FD08698F98E0AC9A906B4",
+        "mtime":  "2026-11-06T09:20:24.5821308Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold4_concat_HM_seed1.pt",
+        "sha256":  "E8D99B35836B6ED4278C52C89148C1F02EAA6406F81E63292E1F746A754CD64F",
+        "mtime":  "2026-11-06T09:20:30.0333422Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold4_concat_HM_seed2.pt",
+        "sha256":  "495E2F3C7F64BA3CDAF967AD8D4AA8C85071E3CE20DF80AF11DF7C962B6285B4",
+        "mtime":  "2026-11-06T09:20:35.7501417Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold4_concat_HP_seed0.pt",
+        "sha256":  "BAAE6BB9D71A08F9D62185ADF374ABF4B03BEA13643EFC036CD9BA86271BC547",
+        "mtime":  "2026-11-06T09:20:41.1914087Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold4_concat_HP_seed1.pt",
+        "sha256":  "6D0E0ED439F758C37C043443C64ACC018993600CDAF0597F1F7C22607BFFC308",
+        "mtime":  "2026-11-06T09:20:45.5027703Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold4_concat_HP_seed2.pt",
+        "sha256":  "62BFB262F36074E6DD7A8C489A8CC5D83F695ABD593E32CCBDB9BDE71610F837",
+        "mtime":  "2026-11-06T09:20:51.2471336Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold4_concat_H_seed0.pt",
+        "sha256":  "EA4E6363ADBEF15058DE5D24B13DD92A60A96300CBA70C694C47369AC10E1E03",
+        "mtime":  "2026-11-06T09:20:12.7519637Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold4_concat_H_seed1.pt",
+        "sha256":  "036F65DB14397F39AF70A0BD37068834488EB746DD1EAA775B253B91A5F153E0",
+        "mtime":  "2026-11-06T09:20:16.3016737Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold4_concat_H_seed2.pt",
+        "sha256":  "9ED1107F7DAB777FF5146AB4972CDF24E05AD9ED0C8C84EB90FE11BE6FDE5058",
+        "mtime":  "2026-11-06T09:20:20.4694027Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold4_concat_MP_seed0.pt",
+        "sha256":  "57E2DC73C08E8182E26354E857E81B257B63EDEAA1428BB8087FD6DA9D41A95B",
+        "mtime":  "2026-11-06T09:20:59.2117651Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold4_concat_MP_seed1.pt",
+        "sha256":  "1D3F18FC56E9D9506811685B94C40D959D004446806A039DF2E1F3B1B7F369FA",
+        "mtime":  "2026-11-06T09:21:06.5108381Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold4_concat_MP_seed2.pt",
+        "sha256":  "EBA22376989850862C3A7DABA6FBCA8C861C613AD65470B3BEBF71FB6915E1F6",
+        "mtime":  "2026-11-06T09:21:13.9031542Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold4_concat_M_seed0.pt",
+        "sha256":  "0F6D1FCBACDD5967FC245BE22AF44F7762E176B7873306EB4400D0F58D68B571",
+        "mtime":  "2026-11-06T09:21:17.4842025Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold4_concat_M_seed1.pt",
+        "sha256":  "1D1ECAB0E26746112DC2BF2B4F19900B0BD13F5C3303ACA2437BC90326C15B7A",
+        "mtime":  "2026-11-06T09:21:20.3713012Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold4_concat_M_seed2.pt",
+        "sha256":  "54D1F13BB963AF01F54F9584A624905CC63A612B6F40891E39C3B004FFF26FC1",
+        "mtime":  "2026-11-06T09:21:24.0205610Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold4_concat_P_seed0.pt",
+        "sha256":  "00CEEC875645914AC88FE3A281C0AC9B5FD0D5AB15F1E21C4FFBABE3D19498E6",
+        "mtime":  "2026-11-06T09:21:30.0197302Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold4_concat_P_seed1.pt",
+        "sha256":  "B7D4A54CD7AD345DB1230DE289D3DECB5815181A29DCB90CC950DCD281318830",
+        "mtime":  "2026-11-06T09:21:33.4286770Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold4_concat_P_seed2.pt",
+        "sha256":  "DA6B4B4B4B08639440E228B4F12AC914C12BA81F34A41B2E11E1B7650EC87DB9",
+        "mtime":  "2026-11-06T09:21:39.4522859Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold4_sa_HMP_seed0.pt",
+        "sha256":  "986B752C4B10815F2A9A5496A21D39CDBA7FA32982DB5C8FE31AB847FDFB5F24",
+        "mtime":  "2026-11-06T09:19:26.1872058Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold4_sa_HMP_seed1.pt",
+        "sha256":  "4F864BD790C4234251599FE3CFA610228BCCA9DF209D534B523CAAE13BE9A9B8",
+        "mtime":  "2026-11-06T09:19:52.5310602Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold4_sa_HMP_seed2.pt",
+        "sha256":  "5D406F6821669CD8280B581A65ABDB0B92224123966143309046F482D92076A5",
+        "mtime":  "2026-11-06T09:20:09.0691119Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold5_concat_HMP_dvind_seed0.pt",
+        "sha256":  "ED1BF7208EE319816B62A53FCBD0671576E3A7B4B3D5DD21DFC3DA773E53B8F0",
+        "mtime":  "2026-11-06T09:26:09.1099788Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold5_concat_HMP_dvind_seed1.pt",
+        "sha256":  "C78208C123D0BDA38E5DA61E7C02C3920025C537B3A1C3DDA51724B494F5FF3A",
+        "mtime":  "2026-11-06T09:26:11.4751098Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold5_concat_HMP_dvind_seed2.pt",
+        "sha256":  "780D8AD695D00E1BA9D4B28429FB1EC043F378C7FC30D5F69D0F63EADB57BB0E",
+        "mtime":  "2026-11-06T09:26:14.1942994Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold5_concat_HMP_dv_seed0.pt",
+        "sha256":  "3EF04737672374F987D6847D07EEA4EE51C7B466D4014367CED1E55E43C98559",
+        "mtime":  "2026-11-06T09:25:59.2140682Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold5_concat_HMP_dv_seed1.pt",
+        "sha256":  "C8895F358E7448E89CB867B2E604DDA3461FA50B7DAFF4EF59D0DE12B7759E68",
+        "mtime":  "2026-11-06T09:26:01.6486143Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold5_concat_HMP_dv_seed2.pt",
+        "sha256":  "7E4D212F264079A93BF118915FA6341241A6F50B1DF0047A654625703405C570",
+        "mtime":  "2026-11-06T09:26:05.9328441Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold5_concat_HMP_seed0.pt",
+        "sha256":  "21E143DAFEF95E8C3EE2E0199044774533C481730B0F5BAC9E2BCBABB62C049C",
+        "mtime":  "2026-11-06T09:23:32.0631891Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold5_concat_HMP_seed1.pt",
+        "sha256":  "B1DFBB7430389F06DD010699E4582018410F4B1F8BD5286F1369C74660073BA3",
+        "mtime":  "2026-11-06T09:23:35.3595366Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold5_concat_HMP_seed2.pt",
+        "sha256":  "03ACE4A2FDA90D9FEF022E9E300815E10C08FB9774D0573130D07156D12E6AD7",
+        "mtime":  "2026-11-06T09:23:38.4362515Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold5_concat_HM_seed0.pt",
+        "sha256":  "B42869DCC7F2DE58D3DBE28C39549CF4324544268B3D6DF0A5D5E6FE7FD2F329",
+        "mtime":  "2026-11-06T09:24:52.8700670Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold5_concat_HM_seed1.pt",
+        "sha256":  "D3AE606520C24D05485F5BFDE239F65CED3FB61DD11666A514D13F49AF49E450",
+        "mtime":  "2026-11-06T09:24:54.8542949Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold5_concat_HM_seed2.pt",
+        "sha256":  "DFD10529DA644357F7EE6FC26DA90BA7928E7EC80D772EC8565CAC5F28E546FA",
+        "mtime":  "2026-11-06T09:24:58.1054936Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold5_concat_HP_seed0.pt",
+        "sha256":  "96F3922AC00202D22DA423982096AD1F7E8DE361457C74B367389B18CB93CDC8",
+        "mtime":  "2026-11-06T09:25:03.2795971Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold5_concat_HP_seed1.pt",
+        "sha256":  "462B949D4866916C3A9556E57785713DF28FD5A9FBAB4381D18D2EAFA2359422",
+        "mtime":  "2026-11-06T09:25:07.1511249Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold5_concat_HP_seed2.pt",
+        "sha256":  "335205AEE29EFF2818956C93EDD6FF1375217B44371709BAFFDF7C8B4BF4DCBE",
+        "mtime":  "2026-11-06T09:25:10.4384684Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold5_concat_H_seed0.pt",
+        "sha256":  "0BA44FC6D5ECE985C06137D0824ACB93AE5C8B463E407CA3809F66C9D471BB6F",
+        "mtime":  "2026-11-06T09:24:43.4378797Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold5_concat_H_seed1.pt",
+        "sha256":  "7EE930A6210A6F6EB5D7A73FAB990062D2D9F01C3392893CDE00EFC1706A3D59",
+        "mtime":  "2026-11-06T09:24:46.5843280Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold5_concat_H_seed2.pt",
+        "sha256":  "8EA8157DDADEA1F895D9FEC96F26A646CCA2EFCE3EF11007FC112850D701DA5D",
+        "mtime":  "2026-11-06T09:24:49.2331253Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold5_concat_MP_seed0.pt",
+        "sha256":  "9DCBFAFC0F6662A733BE42BCE90EE0CEA7FE6B19BDD9C4747DEF394707F23DDF",
+        "mtime":  "2026-11-06T09:25:16.4307303Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold5_concat_MP_seed1.pt",
+        "sha256":  "CCA1276F07975EEEA5165C6A870AAF409EC4DE6C23599E0FB58D8B1AFED8B8E6",
+        "mtime":  "2026-11-06T09:25:21.9893646Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold5_concat_MP_seed2.pt",
+        "sha256":  "7EB425CA324ECEA8ACE51D493D4977EB7F467DEB8BF0B83BB072869362427609",
+        "mtime":  "2026-11-06T09:25:26.1970793Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold5_concat_M_seed0.pt",
+        "sha256":  "64622538A2C81F61809FB53E27B1AF6DA4A01233BEDA5D73B63D0FEC0F803FB5",
+        "mtime":  "2026-11-06T09:25:31.2651014Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold5_concat_M_seed1.pt",
+        "sha256":  "15AF12CDBADA9AA0BAB90B7736CF44881799D82C7F6CEFC361BE5865D348F117",
+        "mtime":  "2026-11-06T09:25:38.0926888Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold5_concat_M_seed2.pt",
+        "sha256":  "7BBD4634F69B65F626DEFC1DA81B43F0941BF52217ACDC346CA6F4C942F56B64",
+        "mtime":  "2026-11-06T09:25:41.6490842Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold5_concat_P_seed0.pt",
+        "sha256":  "5EB84992FFB44D727EBE1B9B139C3EB04096C679176CC7D9A23BC729ECD42EC1",
+        "mtime":  "2026-11-06T09:25:46.9992023Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold5_concat_P_seed1.pt",
+        "sha256":  "1FEBC19B0050964C2048E7D45A071E4853803EB03BBE52833B0A0576DC7543FF",
+        "mtime":  "2026-11-06T09:25:50.9163186Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold5_concat_P_seed2.pt",
+        "sha256":  "CBEE266E17DFB933B2960C2ADB00230373D3E5074E71CCA702DD9A6892CF5CDA",
+        "mtime":  "2026-11-06T09:25:55.1688116Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold5_sa_HMP_seed0.pt",
+        "sha256":  "6F8A6A2FB36E8FDDC49E41059D4690EFD963EBFBCE1E3A37A86D90A2213FAEFA",
+        "mtime":  "2026-11-06T09:24:01.9499408Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold5_sa_HMP_seed1.pt",
+        "sha256":  "26F1AE493BA8B39573592653AB01C372B7E2F2844395EFBD6D5E22E6915CDEEE",
+        "mtime":  "2026-11-06T09:24:22.8438925Z"
+    },
+    {
+        "path":  "C:\\SER_data\\checkpoints\\E3\\RAVDESS\\fold5_sa_HMP_seed2.pt",
+        "sha256":  "7DD04CB95F786D9B355FB850383B172B290CEBFE6DAB7FB3EB4921EA1ABCFCD2",
+        "mtime":  "2026-11-06T09:24:41.1117920Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\CREMA-D\\fold0\\selection.json",
+        "sha256":  "C1161ED6EC6D0B3E0D828E65859481C6DBBB217261F441AE3D0831439AAD75F7",
+        "mtime":  "2026-11-06T09:01:25.8860892Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\CREMA-D\\fold0\\S_concat_HMP_d0.2_lr0.0003.json",
+        "sha256":  "35ED9A009FF6E1420542C179D6EE094629DCC25B4DAAD18B697BB7975CB93B73",
+        "mtime":  "2026-11-06T08:53:30.1330647Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\CREMA-D\\fold0\\S_concat_HMP_d0.2_lr0.001.json",
+        "sha256":  "2A4CB0EB572EC4965D28E7424F3DAC850BC7245DC37F338A103CE80E933A9C1F",
+        "mtime":  "2026-11-06T08:53:14.4871384Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\CREMA-D\\fold0\\S_concat_HMP_d0.4_lr0.0003.json",
+        "sha256":  "D6FAFB9E7541FB39A59FC049F6EFE145FBA7FF7BF3D85E81DEE03F84820FA1F6",
+        "mtime":  "2026-11-06T08:54:26.9861882Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\CREMA-D\\fold0\\S_concat_HMP_d0.4_lr0.001.json",
+        "sha256":  "4159E9A7452DB1C7D90F1282CE64490E21224A55BF4547A69FB05792DBD4DDD8",
+        "mtime":  "2026-11-06T08:53:59.4039027Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\CREMA-D\\fold0\\S_sa_HMP_d0.2_lr0.0003.json",
+        "sha256":  "B36A3B616782B8A342F7FC0F99379C4CE0F13641B4D8D0B85DA2ACD622F17C8C",
+        "mtime":  "2026-11-06T08:58:16.8224837Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\CREMA-D\\fold0\\S_sa_HMP_d0.2_lr0.001.json",
+        "sha256":  "E9C01D75BCB0E929DB9E3EE3677766B4D2579A157029321BB578D0893F116440",
+        "mtime":  "2026-11-06T08:55:31.4867435Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\CREMA-D\\fold0\\S_sa_HMP_d0.4_lr0.0003.json",
+        "sha256":  "CF48052AB12CC23B0ACBC0E557576A4AF5FAF2C0579B1BF7595BD2EE0E90400F",
+        "mtime":  "2026-11-06T09:01:25.8860892Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\CREMA-D\\fold0\\S_sa_HMP_d0.4_lr0.001.json",
+        "sha256":  "6B64BC4845BDF642F03E3627B67D3B937EA0AF759230071B01B6066016E0D9ED",
+        "mtime":  "2026-11-06T08:59:48.3002816Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\pilot_CREMA-D.json",
+        "sha256":  "14A04901C43EAACC5B7FC7A1B77BC61FC20350DB7A263DD6D529FCE48E48EDDB",
+        "mtime":  "2026-11-06T09:01:29.5059693Z"
+    },
+    {
+        "path":  "C:\\Users\\prana\\OneDrive\\persona\\!SER\\results\\E3\\pilot_RAVDESS.json",
+        "sha256":  "54864CD048D7ADAC1B49DB1432692C9BE2D923B2261203F92608C99F9B669C5C",
+        "mtime":  "2026-11-06T08:51:40.8047741Z"
+    }
+]

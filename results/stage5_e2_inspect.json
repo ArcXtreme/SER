@@ -1,0 +1,105 @@
+{
+ "C2_hidden_state_semantics_max_abs_err": {
+  "cnn_shape": [
+   1,
+   93,
+   512
+  ],
+  "hs0_vs_encoder_input": 0.0,
+  "hs1_vs_layer1_output": 0.0,
+  "hs2_vs_layer2_output": 0.0,
+  "hs3_vs_layer3_output": 0.0,
+  "hs4_vs_layer4_output": 0.0,
+  "hs5_vs_layer5_output": 0.0,
+  "hs6_vs_layer6_output": 0.0,
+  "hs7_vs_layer7_output": 0.0,
+  "hs8_vs_layer8_output": 0.0,
+  "hs9_vs_layer9_output": 0.0,
+  "hs10_vs_layer10_output": 0.0,
+  "hs11_vs_layer11_output": 0.0,
+  "hs12_vs_layer12_output": 0.0
+ },
+ "C2_ok": true,
+ "RAVDESS": {
+  "C1_cache_shape": [
+   101892,
+   13,
+   768
+  ],
+  "C1_dtype": "float16",
+  "C1_per_recording_shapes_ok": true,
+  "C3_frame_counts_equal_across_streams": true,
+  "C3_masked_pooling_vs_pooled_cache_max_rel_diff(fp16 frames)": {
+   "1": 9.786659211385995e-05,
+   "9": 5.342410076991655e-05,
+   "12": 8.323195652337745e-05
+  },
+  "C3_padding_invariance": true,
+  "C3_padded_batch_sizes": {
+   "lengths": [
+    95,
+    84,
+    67,
+    124,
+    83,
+    79,
+    161,
+    89,
+    95,
+    81,
+    110,
+    144,
+    61,
+    87,
+    105,
+    99
+   ],
+   "mask_true": 1564
+  },
+  "C4_cache_id": "v1_efe9081789",
+  "C4_matches_approved_praat_record": true,
+  "C4_octave_jump_cost": 0.7,
+  "C5_layer_slice_ok": true
+ },
+ "CREMA-D": {
+  "C1_cache_shape": [
+   879279,
+   13,
+   768
+  ],
+  "C1_dtype": "float16",
+  "C1_per_recording_shapes_ok": true,
+  "C3_frame_counts_equal_across_streams": true,
+  "C3_masked_pooling_vs_pooled_cache_max_rel_diff(fp16 frames)": {
+   "1": 6.967109948163852e-05,
+   "9": 4.514815373113379e-05,
+   "12": 6.512711115647107e-05
+  },
+  "C3_padding_invariance": true,
+  "C3_padded_batch_sizes": {
+   "lengths": [
+    83,
+    61,
+    71,
+    163,
+    113,
+    133,
+    84,
+    121,
+    128,
+    131,
+    189,
+    104,
+    158,
+    141,
+    161,
+    154
+   ],
+   "mask_true": 1995
+  },
+  "C4_cache_id": "v1_efe9081789",
+  "C4_matches_approved_praat_record": true,
+  "C4_octave_jump_cost": 0.7,
+  "C5_layer_slice_ok": true
+ }
+}

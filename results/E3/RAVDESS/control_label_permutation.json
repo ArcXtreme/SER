@@ -1,0 +1,69 @@
+{
+ "dataset": "RAVDESS",
+ "control": "training labels permuted (seed 1000+fold), selected concat_HMP config, seed 0",
+ "folds": [
+  {
+   "fold": 0,
+   "layer": 6,
+   "test_macro_f1": 0.14368357045778657,
+   "test_UA": 0.171875,
+   "test_accuracy": 0.1875,
+   "val_macro_f1": 0.1914749095685637,
+   "best_epoch": 6,
+   "share_train_labels_unchanged": 0.19318181818181818
+  },
+  {
+   "fold": 1,
+   "layer": 10,
+   "test_macro_f1": 0.1917272526988323,
+   "test_UA": 0.20833333333333334,
+   "test_accuracy": 0.19886363636363635,
+   "val_macro_f1": 0.20370099052222126,
+   "best_epoch": 7,
+   "share_train_labels_unchanged": 0.203125
+  },
+  {
+   "fold": 2,
+   "layer": 5,
+   "test_macro_f1": 0.13159063159063158,
+   "test_UA": 0.19270833333333334,
+   "test_accuracy": 0.16477272727272727,
+   "val_macro_f1": 0.15762658780478608,
+   "best_epoch": 3,
+   "share_train_labels_unchanged": 0.1875
+  },
+  {
+   "fold": 3,
+   "layer": 5,
+   "test_macro_f1": 0.10659041394335511,
+   "test_UA": 0.11979166666666667,
+   "test_accuracy": 0.13068181818181818,
+   "val_macro_f1": 0.10458857872650977,
+   "best_epoch": 1,
+   "share_train_labels_unchanged": 0.17613636363636365
+  },
+  {
+   "fold": 4,
+   "layer": 5,
+   "test_macro_f1": 0.1991671100006962,
+   "test_UA": 0.19270833333333334,
+   "test_accuracy": 0.21022727272727273,
+   "val_macro_f1": 0.22850577737499414,
+   "best_epoch": 16,
+   "share_train_labels_unchanged": 0.18607954545454544
+  },
+  {
+   "fold": 5,
+   "layer": 5,
+   "test_macro_f1": 0.17419937972933364,
+   "test_UA": 0.22916666666666666,
+   "test_accuracy": 0.22727272727272727,
+   "val_macro_f1": 0.16168280288110617,
+   "best_epoch": 4,
+   "share_train_labels_unchanged": 0.16619318181818182
+  }
+ ],
+ "test_macro_f1_mean": 0.1578263930701059,
+ "test_macro_f1_std": 0.0364413447089245,
+ "chance_level": 0.16666666666666666
+}

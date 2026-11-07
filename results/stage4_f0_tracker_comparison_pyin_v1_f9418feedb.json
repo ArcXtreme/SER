@@ -1,0 +1,102 @@
+{
+  "RAVDESS": {
+    "n": 300,
+    "voiced_fraction_mean": {
+      "pyin": 0.742628268898806,
+      "praat": 0.6764419564704156
+    },
+    "recordings_without_voicing": {
+      "pyin": 1,
+      "praat": 0
+    },
+    "voicing_agreement_mean": 0.8179313430826848,
+    "f0_median_abs_semitone_diff_on_frames_voiced_in_both": 0.14034520689364935,
+    "share_of_both_voiced_frames_differing_gt_half_octave_mean": 0.005652383261543683,
+    "voiced_fraction_by_label": {
+      "vfrac_pyin": {
+        "angry": 0.707,
+        "disgust": 0.66,
+        "fearful": 0.76,
+        "happy": 0.828,
+        "neutral": 0.833,
+        "sad": 0.736
+      },
+      "vfrac_praat": {
+        "angry": 0.669,
+        "disgust": 0.612,
+        "fearful": 0.677,
+        "happy": 0.749,
+        "neutral": 0.724,
+        "sad": 0.669
+      }
+    },
+    "no_voicing_by_label": {
+      "zero_pyin": {
+        "angry": 0,
+        "disgust": 0,
+        "fearful": 0,
+        "happy": 0,
+        "neutral": 0,
+        "sad": 1
+      },
+      "zero_praat": {
+        "angry": 0,
+        "disgust": 0,
+        "fearful": 0,
+        "happy": 0,
+        "neutral": 0,
+        "sad": 0
+      }
+    }
+  },
+  "CREMA-D": {
+    "n": 300,
+    "voiced_fraction_mean": {
+      "pyin": 0.3974599320083561,
+      "praat": 0.4939439420791172
+    },
+    "recordings_without_voicing": {
+      "pyin": 34,
+      "praat": 0
+    },
+    "voicing_agreement_mean": 0.7823733026765886,
+    "f0_median_abs_semitone_diff_on_frames_voiced_in_both": 0.10264839687257171,
+    "share_of_both_voiced_frames_differing_gt_half_octave_mean": 0.011823506867839131,
+    "voiced_fraction_by_label": {
+      "vfrac_pyin": {
+        "angry": 0.549,
+        "disgust": 0.305,
+        "fearful": 0.429,
+        "happy": 0.46,
+        "neutral": 0.367,
+        "sad": 0.286
+      },
+      "vfrac_praat": {
+        "angry": 0.611,
+        "disgust": 0.418,
+        "fearful": 0.523,
+        "happy": 0.526,
+        "neutral": 0.477,
+        "sad": 0.416
+      }
+    },
+    "no_voicing_by_label": {
+      "zero_pyin": {
+        "angry": 3,
+        "disgust": 10,
+        "fearful": 3,
+        "happy": 2,
+        "neutral": 5,
+        "sad": 11
+      },
+      "zero_praat": {
+        "angry": 0,
+        "disgust": 0,
+        "fearful": 0,
+        "happy": 0,
+        "neutral": 0,
+        "sad": 0
+      }
+    }
+  }
+}
